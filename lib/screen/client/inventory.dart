@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class InventoryPage extends StatelessWidget {
-  const InventoryPage({super.key});
+class InventoryScreen extends StatelessWidget {
+  const InventoryScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

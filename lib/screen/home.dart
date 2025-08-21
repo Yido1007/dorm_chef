@@ -13,7 +13,7 @@ class HomeScreen extends StatefulWidget {
 class HomeScreenState extends State<HomeScreen> {
   int _index = 0;
 
-  final _pages = const [InventoryPage(), ScanPage(), RecipesPage()];
+  final _pages = const [InventoryScreen(), ScanScreen(), RecipesScreen()];
 
   @override
   Widget build(BuildContext context) {
