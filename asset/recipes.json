@@ -1,0 +1,40 @@
+[
+  {
+    "id": "r1",
+    "title": "Menemen",
+    "ingredients": ["Yumurta", "Domates", "Biber", "Tuz"],
+    "steps": [
+      "Domates ve biberi kavur.",
+      "Yumurtayı ekle ve karıştır.",
+      "Tuzla tatlandır."
+    ]
+  },
+  {
+    "id": "r2",
+    "title": "Makarna Napoli",
+    "ingredients": ["Makarna", "Domates", "Sarımsak", "Zeytinyağı", "Tuz"],
+    "steps": [
+      "Makarnayı haşla.",
+      "Sarımsak ve domatesi zeytinyağında çevir.",
+      "Makarnayla sosu birleştir, tuz ekle."
+    ]
+  },
+  {
+    "id": "r3",
+    "title": "Pancake",
+    "ingredients": ["Un", "Süt", "Yumurta", "Şeker"],
+    "steps": [
+      "Tüm malzemeleri çırp.",
+      "Tavada arkalı önlü pişir."
+    ]
+  },
+  {
+    "id": "r4",
+    "title": "Ton Balıklı Salata",
+    "ingredients": ["Ton balığı", "Marul", "Mısır", "Zeytinyağı", "Limon", "Tuz"],
+    "steps": [
+      "Malzemeleri doğra ve karıştır.",
+      "Zeytinyağı, limon ve tuz ekle."
+    ]
+  }
+]
