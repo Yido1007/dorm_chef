@@ -1,33 +1,35 @@
-import 'package:dorm_chef/provider/ingredient.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../model/ingredient.dart';
+import '../provider/ingredient.dart';
 
-class IngredientTile extends StatelessWidget {
-  final Ingredient item;
-  const IngredientTile({super.key, required this.item});
+class PantryItemTile extends StatelessWidget {
+  final PantryItem data;
+  const PantryItemTile({super.key, required this.data});
 
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      onTap: () => _openAmountSheet(context, item),
+      onTap: () => _openAmountSheet(context, data),
       leading: const Icon(Icons.kitchen),
-      title: Text(item.name),
-      subtitle: Text('Miktar: ${item.quantity}'),
+      title: Text(data.label),
+      subtitle: Text('Miktar: ${data.amount}'),
       trailing: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
           IconButton(
             tooltip: 'Azalt',
             icon: const Icon(Icons.remove_circle_outline),
-            onPressed:
-                () => context.read<InventoryProvider>().decrement(item.id),
+            onPressed: () async {
+              await context.read<PantryStore>().decrease(data.id);
+            },
           ),
           IconButton(
             tooltip: 'Arttır',
             icon: const Icon(Icons.add_circle_outline),
-            onPressed:
-                () => context.read<InventoryProvider>().increment(item.id),
+            onPressed: () async {
+              await context.read<PantryStore>().increase(data.id);
+            },
           ),
           const SizedBox(width: 4),
           IconButton(
@@ -39,9 +41,7 @@ class IngredientTile extends StatelessWidget {
                 builder:
                     (ctx) => AlertDialog(
                       title: const Text('Malzemeyi sil?'),
-                      content: Text(
-                        '"${item.name}" envanterden kaldırılsın mı?',
-                      ),
+                      content: Text('"${data.label}" kaldırılsın mı?'),
                       actions: [
                         TextButton(
                           onPressed: () => Navigator.pop(ctx, false),
@@ -55,7 +55,7 @@ class IngredientTile extends StatelessWidget {
                     ),
               );
               if (ok == true) {
-                context.read<InventoryProvider>().remove(item.id);
+                await context.read<PantryStore>().deleteById(data.id);
               }
             },
           ),
@@ -64,9 +64,9 @@ class IngredientTile extends StatelessWidget {
     );
   }
 
-  void _openAmountSheet(BuildContext context, Ingredient item) {
-    final provider = context.read<InventoryProvider>();
-    double value = item.quantity.toDouble();
+  void _openAmountSheet(BuildContext context, PantryItem data) {
+    final store = context.read<PantryStore>();
+    double value = data.amount.toDouble();
 
     showModalBottomSheet(
       context: context,
@@ -79,7 +79,7 @@ class IngredientTile extends StatelessWidget {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Text(item.name, style: Theme.of(ctx).textTheme.titleLarge),
+                  Text(data.label, style: Theme.of(ctx).textTheme.titleLarge),
                   const SizedBox(height: 8),
                   Text('Miktar: ${value.toInt()}'),
                   Slider(
@@ -92,8 +92,8 @@ class IngredientTile extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   FilledButton(
-                    onPressed: () {
-                      provider.setQuantity(item.id, value.toInt());
+                    onPressed: () async {
+                      await store.setAmount(data.id, value.toInt());
                       Navigator.pop(ctx);
                     },
                     child: const Text('Kaydet'),
