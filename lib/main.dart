@@ -1,3 +1,4 @@
+import 'package:dorm_chef/provider/grocery.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:dorm_chef/screen/home.dart';
@@ -9,7 +10,10 @@ Future<void> main() async {
   await PantryLocal.boot(); // Hive init + box açılışı
   runApp(
     MultiProvider(
-      providers: [ChangeNotifierProvider(create: (_) => PantryStore())],
+      providers: [
+        ChangeNotifierProvider(create: (_) => PantryStore()),
+        ChangeNotifierProvider(create: (_) => GroceryBag()),
+      ],
       child: const DormChefApp(),
     ),
   );
