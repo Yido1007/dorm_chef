@@ -1,4 +1,6 @@
+import 'package:dorm_chef/widget/badge.dart';
 import 'package:flutter/material.dart';
+
 import '../model/recipes.dart';
 import '../screen/static/recipe_detail.dart';
 
@@ -21,6 +23,18 @@ class RecipeCard extends StatelessWidget {
     final percent = (ratio * 100).round();
     final cs = Theme.of(context).colorScheme;
     final radius = BorderRadius.circular(16);
+    final metaParts = <String>[];
+    if (recipe.prepMinutes != null && recipe.prepMinutes! > 0) {
+      metaParts.add('${recipe.prepMinutes} dk hazırlık');
+    }
+    if (recipe.cookMinutes != null && recipe.cookMinutes! > 0) {
+      metaParts.add('${recipe.cookMinutes} dk pişirme');
+    }
+    if (recipe.servings != null && recipe.servings! > 0) {
+      metaParts.add('${recipe.servings} porsiyon');
+    }
+    final metaText = metaParts.join(' · ');
+    final tagList = (recipe.tags).take(4).toList();
 
     return Card(
       elevation: 0,
@@ -41,7 +55,6 @@ class RecipeCard extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Başlık + yüzde rozeti
               Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -56,12 +69,54 @@ class RecipeCard extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 8),
-                  _PercentBadge(percent: percent),
+                  PercentBadge(percent: percent),
                 ],
               ),
+              if (metaText.isNotEmpty) ...[
+                const SizedBox(height: 6),
+                Row(
+                  children: [
+                    const Icon(Icons.schedule, size: 16),
+                    const SizedBox(width: 6),
+                    Expanded(
+                      child: Text(
+                        metaText,
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: cs.onSurfaceVariant,
+                        ),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+              if (tagList.isNotEmpty) ...[
+                const SizedBox(height: 8),
+                Wrap(
+                  spacing: 6,
+                  runSpacing: 6,
+                  children:
+                      tagList.map((t) {
+                        return Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 10,
+                            vertical: 6,
+                          ),
+                          decoration: BoxDecoration(
+                            color: cs.secondaryContainer,
+                            borderRadius: BorderRadius.circular(999),
+                          ),
+                          child: Text(
+                            t,
+                            style: Theme.of(context).textTheme.labelSmall
+                                ?.copyWith(color: cs.onSecondaryContainer),
+                          ),
+                        );
+                      }).toList(),
+                ),
+              ],
               const SizedBox(height: 10),
-
-              // İlerleme barı (kalın ve yuvarlatılmış)
               ClipRRect(
                 borderRadius: BorderRadius.circular(99),
                 child: SizedBox(
@@ -85,8 +140,6 @@ class RecipeCard extends StatelessWidget {
                 ).textTheme.labelLarge?.copyWith(color: cs.onSurface),
               ),
               const SizedBox(height: 8),
-
-              // CHIP’LER — ferah boşluklar
               Wrap(
                 spacing: 8,
                 runSpacing: 8,
@@ -108,30 +161,6 @@ class RecipeCard extends StatelessWidget {
             ],
           ),
         ),
-      ),
-    );
-  }
-}
-
-class _PercentBadge extends StatelessWidget {
-  final int percent;
-  const _PercentBadge({required this.percent});
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-      decoration: BoxDecoration(
-        color: cs.primaryContainer,
-        borderRadius: BorderRadius.circular(999),
-        border: Border.all(color: cs.primary.withOpacity(.25)),
-      ),
-      child: Text(
-        '%$percent',
-        style: Theme.of(
-          context,
-        ).textTheme.labelLarge?.copyWith(color: cs.onPrimaryContainer),
       ),
     );
   }
