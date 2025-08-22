@@ -10,24 +10,29 @@ import '../../widget/recipes_card.dart';
 
 class RecipesScreen extends StatefulWidget {
   const RecipesScreen({super.key});
+
   @override
   State<RecipesScreen> createState() => _RecipesScreenState();
 }
 
 class _RecipesScreenState extends State<RecipesScreen> {
   final _searchCtrl = TextEditingController();
+  final _searchFocus = FocusNode();
   late Future<void> _warmFuture;
+  late Future<List<Recipe>> _recipesFuture;
   RecipeFilter _filter = RecipeFilter();
 
   @override
   void initState() {
     super.initState();
     _warmFuture = context.read<PantryStore>().warmUp();
+    _recipesFuture = RecipeSource.load();
   }
 
   @override
   void dispose() {
     _searchCtrl.dispose();
+    _searchFocus.dispose();
     super.dispose();
   }
 
@@ -50,7 +55,7 @@ class _RecipesScreenState extends State<RecipesScreen> {
                     .map((e) => norm(e.label))
                     .toList();
             return FutureBuilder<List<Recipe>>(
-              future: RecipeSource.load(),
+              future: _recipesFuture,
               builder: (context, snap) {
                 if (snap.connectionState != ConnectionState.done) {
                   return Scaffold(
@@ -103,6 +108,8 @@ class _RecipesScreenState extends State<RecipesScreen> {
                         padding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
                         child: TextField(
                           controller: _searchCtrl,
+                          focusNode: _searchFocus, // <- odak korunur
+                          textInputAction: TextInputAction.search,
                           onChanged: (v) => setState(() => _filter.query = v),
                           decoration: InputDecoration(
                             hintText: 'Başlık, malzeme, etiket ara…',
@@ -118,7 +125,6 @@ class _RecipesScreenState extends State<RecipesScreen> {
                       ),
                     ),
                   ),
-
                   body: Builder(
                     builder: (context) {
                       final afterFilter = _applyFilter(all, _filter);
