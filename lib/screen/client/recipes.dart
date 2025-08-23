@@ -5,6 +5,7 @@ import '../../model/scored.dart';
 import '../../provider/ingredient.dart';
 import '../../service/norm.dart';
 import '../../service/recipes.dart';
+import '../../widget/grocery_button.dart';
 import '../../widget/recipe_filter.dart';
 import '../../widget/recipes_card.dart';
 
@@ -79,6 +80,7 @@ class _RecipesScreenState extends State<RecipesScreen> {
                   appBar: AppBar(
                     title: const Text('Tarifler'),
                     actions: [
+                      const GroceryQuickButton(),
                       if (!_filter.isEmpty)
                         IconButton(
                           tooltip: 'Filtreyi temizle',
