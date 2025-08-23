@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../provider/ingredient.dart';
-import '../../widget/grocery_button.dart';
 import '../../widget/ingredient_tile.dart';
 
 class InventoryScreen extends StatelessWidget {
@@ -12,12 +11,10 @@ class InventoryScreen extends StatelessWidget {
     // Consumer dışında, dinlemeden store'u alıyoruz:
     final store = context.read<PantryStore>();
     final bootFuture = store.warmUp();
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Envanter'),
         actions: [
-          const GroceryQuickButton(),
           IconButton(
             tooltip: 'Tümünü sil',
             onPressed: () async {
