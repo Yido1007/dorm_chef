@@ -7,9 +7,7 @@ class HomeTabScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Ana Sayfa')),
-      body: const Center(
-        child: Text('Hoş geldin!'),
-      ),
+      body: const Center(child: Text('Hoş geldin!')),
     );
   }
 }

@@ -46,11 +46,9 @@ class _HomeScreenState extends State<HomeScreen> {
         width: 64,
         height: 64,
         child: FloatingActionButton(
+          heroTag: 'scanFab',
           onPressed: () => setState(() => _stackIndex = 2),
           shape: const CircleBorder(),
-          backgroundColor: cs.surface,
-          foregroundColor: cs.primary,
-          elevation: 4,
           child: const Icon(Icons.qr_code_scanner, size: 28),
         ),
       ),

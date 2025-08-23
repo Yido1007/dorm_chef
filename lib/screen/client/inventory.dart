@@ -16,6 +16,11 @@ class InventoryScreen extends StatelessWidget {
         title: const Text('Envanter'),
         actions: [
           IconButton(
+            tooltip: 'Ürün ekle',
+            icon: const Icon(Icons.add),
+            onPressed: () => _addDialog(context),
+          ),
+          IconButton(
             tooltip: 'Tümünü sil',
             onPressed: () async {
               if (store.list.isEmpty) return;
@@ -68,6 +73,7 @@ class InventoryScreen extends StatelessWidget {
         },
       ),
       floatingActionButton: FloatingActionButton.extended(
+        heroTag: 'invAddFab',
         onPressed: () => _addDialog(context),
         icon: const Icon(Icons.add),
         label: const Text('Malzeme ekle'),
