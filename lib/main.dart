@@ -1,10 +1,13 @@
 import 'package:dorm_chef/firebase_options.dart';
 import 'package:dorm_chef/provider/grocery.dart';
+import 'package:dorm_chef/screen/static/auth.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:dorm_chef/screen/home.dart';
 import 'provider/ingredient.dart';
+import 'service/auth.dart';
 import 'service/inventory.dart';
 
 Future<void> main() async {
@@ -27,15 +30,20 @@ class DormChefApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final auth = AuthService();
     return MaterialApp(
-      title: 'Dorm Chef',
-      theme: ThemeData(
-        useMaterial3: true,
-        colorSchemeSeed: const Color(0xFF5E9E5E),
-        brightness: Brightness.light,
-      ),
-      home: const HomeScreen(),
       debugShowCheckedModeBanner: false,
+      home: StreamBuilder<User?>(
+        stream: auth.authState(),
+        builder: (context, snap) {
+          if (snap.connectionState == ConnectionState.waiting) {
+            return const Scaffold(
+              body: Center(child: CircularProgressIndicator()),
+            );
+          }
+          return snap.data == null ? const AuthScreen() : const HomeScreen();
+        },
+      ),
     );
   }
 }
