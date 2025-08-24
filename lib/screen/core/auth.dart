@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import '../../service/auth.dart';
 
@@ -36,6 +37,72 @@ class _AuthScreenState extends State<AuthScreen> {
       ScaffoldMessenger.of(
         context,
       ).showSnackBar(SnackBar(content: Text(e.toString())));
+    } finally {
+      if (mounted) setState(() => _loading = false);
+    }
+  }
+
+  Future<void> _forgotPassword() async {
+    String email = _email.text.trim();
+
+    if (email.isEmpty || !email.contains('@')) {
+      final ctrl = TextEditingController(text: email);
+      final ok = await showDialog<bool>(
+        context: context,
+        builder:
+            (ctx) => AlertDialog(
+              title: const Text('Şifre sıfırlama'),
+              content: TextField(
+                controller: ctrl,
+                keyboardType: TextInputType.emailAddress,
+                decoration: const InputDecoration(
+                  labelText: 'E-posta adresiniz',
+                  border: OutlineInputBorder(),
+                ),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(ctx, false),
+                  child: const Text('İptal'),
+                ),
+                FilledButton(
+                  onPressed: () => Navigator.pop(ctx, true),
+                  child: const Text('Gönder'),
+                ),
+              ],
+            ),
+      );
+      if (ok != true) return;
+      email = ctrl.text.trim();
+    }
+
+    if (!mounted) return;
+    setState(() => _loading = true);
+    try {
+      // Sadece gönder — e-posta var/yok ayırt etme (enumeration yok)
+      await _auth.sendPasswordResetEmail(email: email);
+
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text(
+            'Eğer bu e-posta kayıtlıysa, sıfırlama bağlantısı gönderildi.',
+          ),
+        ),
+      );
+    } on FirebaseAuthException catch (e) {
+      final msg = switch (e.code) {
+        'invalid-email' => 'Geçerli bir e-posta girin.',
+        'missing-email' => 'E-posta adresi gerekli.',
+        'too-many-requests' =>
+          'Çok fazla deneme. Bir süre sonra tekrar deneyin.',
+        _ => 'İşlem tamamlanamadı. Lütfen tekrar deneyin.',
+      };
+      if (mounted) {
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text(msg)));
+      }
     } finally {
       if (mounted) setState(() => _loading = false);
     }
@@ -97,6 +164,14 @@ class _AuthScreenState extends State<AuthScreen> {
                           : 'Hesabın var mı? Giriş yap',
                     ),
                   ),
+                  if (_isLogin)
+                    Align(
+                      alignment: Alignment.centerRight,
+                      child: TextButton(
+                        onPressed: _loading ? null : _forgotPassword,
+                        child: const Text('Şifremi unuttum?'),
+                      ),
+                    ),
                 ],
               ),
             ),

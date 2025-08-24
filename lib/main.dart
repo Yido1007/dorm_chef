@@ -1,6 +1,6 @@
 import 'package:dorm_chef/firebase_options.dart';
 import 'package:dorm_chef/provider/grocery.dart';
-import 'package:dorm_chef/screen/static/auth.dart';
+import 'package:dorm_chef/screen/core/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
