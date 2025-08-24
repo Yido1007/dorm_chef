@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "318643443437",
+    "project_id": "dorm-chef-8bb66",
+    "storage_bucket": "dorm-chef-8bb66.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318643443437:android:3eaa77068f7af30d415ee4",
+        "android_client_info": {
+          "package_name": "com.example.dorm_chef"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkqjqgRmOwXbZ8pW_TvZ7iV-MhFSFHA3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
