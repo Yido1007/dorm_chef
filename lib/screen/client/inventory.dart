@@ -72,12 +72,6 @@ class InventoryScreen extends StatelessWidget {
           );
         },
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        heroTag: 'invAddFab',
-        onPressed: () => _addDialog(context),
-        icon: const Icon(Icons.add),
-        label: const Text('Malzeme ekle'),
-      ),
     );
   }
 
