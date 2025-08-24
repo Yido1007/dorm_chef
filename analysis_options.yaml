@@ -2,6 +2,6 @@ include: package:flutter_lints/flutter.yaml
 analyzer:
   errors:
     use_build_context_synchronously: ignore
+    unused_local_variable: ignore
     deprecated_member_use: ignore
     no_leading_underscores_for_local_identifiers: ignore
-    unused_local_variable: ignore
