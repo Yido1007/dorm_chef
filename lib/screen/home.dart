@@ -1,4 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../provider/ingredient.dart';
 import 'client/inventory.dart';
 import 'client/recipes.dart';
 import 'client/scan.dart';
@@ -31,6 +34,16 @@ class _HomeScreenState extends State<HomeScreen> {
       // navIndex: 0->0, 1->1, 2->3, 3->4  (2 Tara olmadığı için bir kaydırma var)
       _stackIndex = navIndex < 2 ? navIndex : navIndex + 1;
     });
+  }
+
+  @override
+  void initState() {
+    final uid = FirebaseAuth.instance.currentUser!.uid;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      context.read<PantryStore>().bind(uid);
+    });
+
+    super.initState();
   }
 
   @override

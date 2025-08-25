@@ -1,4 +1,6 @@
+import 'package:dorm_chef/provider/ingredient.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../../service/auth.dart';
 
@@ -14,7 +16,10 @@ class HomeTabScreen extends StatelessWidget {
           const Center(child: Text('Hoş geldin!')),
           IconButton(
             icon: const Icon(Icons.logout),
-            onPressed: () => AuthService().signOut(),
+            onPressed: () async {
+              AuthService().signOut();
+              await context.read<PantryStore>().unbind();
+            },
           ),
         ],
       ),
