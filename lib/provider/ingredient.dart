@@ -1,104 +1,155 @@
 import 'dart:collection';
+import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import '../model/ingredient.dart';
-import '../service/inventory.dart';
+import '../service/norm.dart';
 
-/// Uygulama durumu: malzeme listesi + Hive ile kalıcılık
+/// Kullanıcıya bağlı envanter (Firestore)
+///
+/// Firestore yolu: users/{uid}/pantry/{docId}
+/// docId = norm(label) (aynı üründen tek kayıt, miktar atomik artar)
 class PantryStore extends ChangeNotifier {
-  Box<PantryItem>? _bin; // Hive kutusu
-  final List<PantryItem> _catalog = []; // Bellekteki veri
+  final FirebaseFirestore _db = FirebaseFirestore.instance;
 
+  String? _uid;
+  StreamSubscription<QuerySnapshot<Map<String, dynamic>>>? _sub;
+
+  final List<PantryItem> _catalog = [];
   UnmodifiableListView<PantryItem> get list => UnmodifiableListView(_catalog);
 
-  bool _booted = false;
-  Future<void>? _bootJob;
+  /// Uyum için bırakıldı (Hive’dan taşıma). Artık bir şey yapmıyor.
+  Future<void> warmUp() async => Future.value();
 
-  /// Ekrandan güvenle çağır: yalnız ilk çağrıda Hive’dan yükler.
-  Future<void> warmUp() {
-    _bootJob ??= _loadOnce();
-    return _bootJob!;
+  /// Oturum açan kullanıcıya bağlan; canlı dinleme başlat.
+  Future<void> bind(String uid) async {
+    if (_uid == uid) return;
+    await unbind();
+    _uid = uid;
+
+    _sub = _db
+        .collection('users')
+        .doc(uid)
+        .collection('pantry')
+        .orderBy('label')
+        .snapshots()
+        .listen((snap) {
+          _catalog
+            ..clear()
+            ..addAll(
+              snap.docs.map((d) {
+                final m = d.data();
+                return PantryItem(
+                  id: d.id,
+                  label: (m['label'] as String?) ?? d.id,
+                  amount: (m['amount'] as int?) ?? 0,
+                );
+              }),
+            );
+          notifyListeners();
+        });
   }
 
-  Future<void> _loadOnce() async {
-    if (_booted) return;
-
-    // Build aşaması tamamlandıktan sonra çalışsın:
-    await Future<void>.delayed(Duration.zero);
-
-    _bin = PantryLocal.bin;
-    _catalog
-      ..clear()
-      ..addAll(_bin!.values);
-
-    _booted = true;
-    notifyListeners(); // artık build bittikten sonra çağrılır
+  /// Kullanıcıdan ayrıl; dinlemeyi kapat ve belleği temizle.
+  Future<void> unbind() async {
+    await _sub?.cancel();
+    _sub = null;
+    _uid = null;
+    _catalog.clear();
+    notifyListeners();
   }
 
-  Future<void> _upsert(PantryItem m) async {
-    await _bin!.put(m.id, m);
-  }
-
-  Future<void> _purge(String id) async {
-    await _bin!.delete(id);
-  }
-
-  Future<void> _wipe() async {
-    await _bin!.clear();
-  }
+  CollectionReference<Map<String, dynamic>> _col(String uid) =>
+      _db.collection('users').doc(uid).collection('pantry');
 
   // ----------------- Mutasyonlar (tamamı kalıcı) -----------------
 
-  /// Ada göre ekle/varsa miktar arttır.
-  Future<void> addByLabel(String label, {int start = 1}) async {
-    final ix = _catalog.indexWhere(
-      (e) => e.label.toLowerCase() == label.toLowerCase().trim(),
-    );
+  /// Ada göre ekle/varsa miktar arttır (uyum için yedek).
+  Future<void> addByLabel(String label, {int start = 1}) =>
+      addOrIncrease(label, by: start);
 
-    if (ix >= 0) {
-      _catalog[ix].amount += start;
-      await _upsert(_catalog[ix]);
-    } else {
-      final n = PantryItem.fromLabel(label, start: start);
-      _catalog.add(n);
-      await _upsert(n);
+  /// Ada göre ekle veya miktarı atomik olarak artır.
+  Future<void> addOrIncrease(String label, {int by = 1}) async {
+    final uid = _uid;
+    if (uid == null) {
+      throw StateError(
+        'PantryStore is not bound to a user. Call bind(uid) first.',
+      );
     }
-    notifyListeners();
+    final id = norm(label);
+    await _col(uid).doc(id).set({
+      'label': label,
+      'norm': id,
+      'amount': FieldValue.increment(by),
+    }, SetOptions(merge: true));
   }
 
+  /// Miktarı doğrudan ayarla (0..1000 arası kısılır).
   Future<void> setAmount(String id, int value) async {
-    final ix = _catalog.indexWhere((e) => e.id == id);
-    if (ix < 0) return;
-    _catalog[ix].amount = value.clamp(0, 1000);
-    await _upsert(_catalog[ix]);
-    notifyListeners();
+    final uid = _uid;
+    if (uid == null) {
+      throw StateError(
+        'PantryStore is not bound to a user. Call bind(uid) first.',
+      );
+    }
+    final v = value.clamp(0, 1000);
+    await _col(uid).doc(id).set({'amount': v}, SetOptions(merge: true));
   }
 
   Future<void> increase(String id, [int step = 1]) async {
-    final ix = _catalog.indexWhere((e) => e.id == id);
-    if (ix < 0) return;
-    _catalog[ix].amount += step;
-    await _upsert(_catalog[ix]);
-    notifyListeners();
+    final uid = _uid;
+    if (uid == null) {
+      throw StateError(
+        'PantryStore is not bound to a user. Call bind(uid) first.',
+      );
+    }
+    await _col(uid).doc(id).update({'amount': FieldValue.increment(step)});
   }
 
   Future<void> decrease(String id, [int step = 1]) async {
-    final ix = _catalog.indexWhere((e) => e.id == id);
-    if (ix < 0) return;
-    _catalog[ix].amount = (_catalog[ix].amount - step).clamp(0, 1000);
-    await _upsert(_catalog[ix]);
-    notifyListeners();
+    final uid = _uid;
+    if (uid == null) {
+      throw StateError(
+        'PantryStore is not bound to a user. Call bind(uid) first.',
+      );
+    }
+    final ref = _col(uid).doc(id);
+    await _db.runTransaction((tx) async {
+      final snap = await tx.get(ref);
+      if (!snap.exists) return;
+      final current = (snap.data()?['amount'] as int?) ?? 0;
+      final next = current - step;
+      if (next <= 0) {
+        tx.delete(ref);
+      } else {
+        tx.update(ref, {'amount': next});
+      }
+    });
   }
 
   Future<void> deleteById(String id) async {
-    _catalog.removeWhere((e) => e.id == id);
-    await _purge(id);
-    notifyListeners();
+    final uid = _uid;
+    if (uid == null) {
+      throw StateError(
+        'PantryStore is not bound to a user. Call bind(uid) first.',
+      );
+    }
+    await _col(uid).doc(id).delete();
   }
 
   Future<void> clearEverything() async {
-    _catalog.clear();
-    await _wipe();
-    notifyListeners();
+    final uid = _uid;
+    if (uid == null) {
+      throw StateError(
+        'PantryStore is not bound to a user. Call bind(uid) first.',
+      );
+    }
+    final col = _col(uid);
+    final batch = _db.batch();
+    final docs = await col.get();
+    for (final d in docs.docs) {
+      batch.delete(d.reference);
+    }
+    await batch.commit();
   }
 }
