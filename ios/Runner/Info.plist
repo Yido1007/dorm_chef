@@ -47,5 +47,15 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>Ürün barkodlarını taramak için kamera erişimi gerekir.</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+	<dict>
+		<key>CFBundleURLSchemes</key>
+		<array>
+		<string>com.googleusercontent.apps.318643443437-6du1dckvbka3vlsqke9j8v08ftgh6tac</string>
+		</array>
+	</dict>
+	</array>
+
 </dict>
 </plist>

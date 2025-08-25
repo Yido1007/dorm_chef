@@ -172,6 +172,30 @@ class _AuthScreenState extends State<AuthScreen> {
                         child: const Text('Şifremi unuttum?'),
                       ),
                     ),
+                  SizedBox(height: 12),
+                  SizedBox(
+                    width: double.infinity,
+                    child: OutlinedButton.icon(
+                      icon: const Icon(Icons.login),
+                      label: const Text('Google ile devam et'),
+                      onPressed:
+                          _loading
+                              ? null
+                              : () async {
+                                setState(() => _loading = true);
+                                try {
+                                  await AuthService().signInWithGoogle();
+                                } catch (e) {
+                                  if (!mounted) return;
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    SnackBar(content: Text(e.toString())),
+                                  );
+                                } finally {
+                                  if (mounted) setState(() => _loading = false);
+                                }
+                              },
+                    ),
+                  ),
                 ],
               ),
             ),
