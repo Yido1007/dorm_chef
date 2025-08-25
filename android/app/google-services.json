@@ -12,7 +12,20 @@
           "package_name": "com.example.dorm_chef"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "318643443437-94ho5iopnsuh5g6drkmgfdpm61iln1c2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dorm_chef",
+            "certificate_hash": "4ba76ab04c5a4e394edff7c3c18e4f836e487a1e"
+          }
+        },
+        {
+          "client_id": "318643443437-m6b4hdplov8bj5sigoqu76t30ff5qb7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDkqjqgRmOwXbZ8pW_TvZ7iV-MhFSFHA3o"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318643443437-m6b4hdplov8bj5sigoqu76t30ff5qb7u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318643443437-6du1dckvbka3vlsqke9j8v08ftgh6tac.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dormChef"
+              }
+            }
+          ]
         }
       }
     }
