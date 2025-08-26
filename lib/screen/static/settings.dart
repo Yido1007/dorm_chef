@@ -1,3 +1,4 @@
+import 'package:dorm_chef/provider/ingredient.dart';
 import 'package:dorm_chef/screen/core/change_pass.dart';
 import 'package:dorm_chef/screen/core/language.dart';
 import 'package:dorm_chef/screen/core/notification.dart';
@@ -5,8 +6,8 @@ import 'package:dorm_chef/screen/core/profile.dart';
 import 'package:dorm_chef/screen/core/theme.dart';
 import 'package:dorm_chef/widget/setting_tile.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:dorm_chef/service/auth.dart';
+import 'package:provider/provider.dart';
 
 class SettingScreen extends StatelessWidget {
   const SettingScreen({super.key});
@@ -104,11 +105,13 @@ class SettingScreen extends StatelessWidget {
                 subtitle: 'Uygulamadan çıkış yapabilirsiniz',
                 trailing: const Icon(Icons.arrow_forward_ios, size: 16),
                 onTap: () async {
-                  try {
-                    await AuthService().signOut();
-                  } catch (_) {
-                    await FirebaseAuth.instance.signOut();
-                  }
+                  await context.read<PantryStore>().unbind();
+                  await AuthService().signOut();
+                  if (!context.mounted) return;
+                  Navigator.of(
+                    context,
+                    rootNavigator: true,
+                  ).popUntil((route) => route.isFirst);
                 },
               ),
             ],
