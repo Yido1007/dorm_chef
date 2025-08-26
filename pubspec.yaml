@@ -16,6 +16,7 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   http: ^1.5.0
+  lottie: ^3.3.1
   mobile_scanner: ^7.0.1
   provider: ^6.1.5+1
 
@@ -28,3 +29,4 @@ flutter:
   uses-material-design: true
   assets:
     - asset/recipes.json
+    - asset/lottie/
