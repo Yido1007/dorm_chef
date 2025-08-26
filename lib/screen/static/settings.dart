@@ -1,9 +1,9 @@
 import 'package:dorm_chef/provider/ingredient.dart';
+import 'package:dorm_chef/provider/theme.dart';
 import 'package:dorm_chef/screen/core/change_pass.dart';
 import 'package:dorm_chef/screen/core/language.dart';
 import 'package:dorm_chef/screen/core/notification.dart';
 import 'package:dorm_chef/screen/core/profile.dart';
-import 'package:dorm_chef/screen/core/theme.dart';
 import 'package:dorm_chef/widget/section_card.dart';
 import 'package:dorm_chef/widget/setting_tile.dart';
 import 'package:flutter/material.dart';
@@ -66,11 +66,7 @@ class SettingScreen extends StatelessWidget {
                 title: 'Tema Görünümü',
                 subtitle: 'Uygulama görünümünü değiştirebilirsiniz',
                 onTap: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (_) => const ThemeChangeScreen(),
-                    ),
-                  );
+                  showThemePicker(context);
                 },
               ),
               _Divider(cs),
@@ -135,4 +131,66 @@ class _Divider extends StatelessWidget {
       color: cs.outlineVariant.withOpacity(.3),
     );
   }
+}
+
+void showThemePicker(BuildContext context) {
+  final ctrl = context.read<ThemeController>();
+  ThemeMode selected = context.read<ThemeController>().mode;
+
+  showModalBottomSheet(
+    context: context,
+    showDragHandle: true,
+    shape: const RoundedRectangleBorder(
+      borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+    ),
+    builder:
+        (ctx) => StatefulBuilder(
+          builder:
+              (ctx, setState) => Padding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const ListTile(
+                      title: Text(
+                        'Tema Görünümü',
+                        style: TextStyle(fontWeight: FontWeight.w700),
+                      ),
+                      subtitle: Text('Uygulama temasını seçin'),
+                    ),
+                    RadioListTile<ThemeMode>(
+                      value: ThemeMode.system,
+                      groupValue: selected,
+                      onChanged: (v) => setState(() => selected = v!),
+                      title: const Text('Sistem (Otomatik)'),
+                    ),
+                    RadioListTile<ThemeMode>(
+                      value: ThemeMode.light,
+                      groupValue: selected,
+                      onChanged: (v) => setState(() => selected = v!),
+                      title: const Text('Açık Tema'),
+                    ),
+                    RadioListTile<ThemeMode>(
+                      value: ThemeMode.dark,
+                      groupValue: selected,
+                      onChanged: (v) => setState(() => selected = v!),
+                      title: const Text('Koyu Tema'),
+                    ),
+                    const SizedBox(height: 8),
+                    SizedBox(
+                      width: double.infinity,
+                      child: FilledButton(
+                        onPressed: () async {
+                          await ctrl.setMode(selected);
+                          if (ctx.mounted) Navigator.pop(ctx);
+                        },
+                        child: const Text('Uygula'),
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                  ],
+                ),
+              ),
+        ),
+  );
 }

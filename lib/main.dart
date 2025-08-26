@@ -1,7 +1,9 @@
 import 'package:dorm_chef/firebase_options.dart';
 import 'package:dorm_chef/provider/grocery.dart';
+import 'package:dorm_chef/provider/theme.dart';
 import 'package:dorm_chef/screen/core/auth.dart';
 import 'package:dorm_chef/screen/core/splash.dart';
+import 'package:dorm_chef/service/theme.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -25,6 +27,7 @@ Future<void> main() async {
       providers: [
         ChangeNotifierProvider(create: (_) => PantryStore()),
         ChangeNotifierProvider(create: (_) => GroceryBag()),
+        ChangeNotifierProvider(create: (_) => ThemeController()..load()),
       ],
       child: const DormChefApp(),
     ),
@@ -36,9 +39,13 @@ class DormChefApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = context.watch<ThemeController>();
     final auth = AuthService();
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: AppTheme.light(),
+      darkTheme: AppTheme.dark(),
+      themeMode: context.watch<ThemeController>().mode,
       home: FutureBuilder<void>(
         future: Future.delayed(const Duration(milliseconds: 200)),
         builder: (context, splashHold) {
