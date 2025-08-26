@@ -4,6 +4,7 @@ import 'package:dorm_chef/screen/core/language.dart';
 import 'package:dorm_chef/screen/core/notification.dart';
 import 'package:dorm_chef/screen/core/profile.dart';
 import 'package:dorm_chef/screen/core/theme.dart';
+import 'package:dorm_chef/widget/section_card.dart';
 import 'package:dorm_chef/widget/setting_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:dorm_chef/service/auth.dart';
@@ -118,23 +119,6 @@ class SettingScreen extends StatelessWidget {
           ),
         ],
       ),
-    );
-  }
-}
-
-class SectionCard extends StatelessWidget {
-  const SectionCard({required this.children});
-  final List<Widget> children;
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-    return Container(
-      decoration: BoxDecoration(
-        color: cs.surfaceContainerHighest,
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Column(children: children),
     );
   }
 }
