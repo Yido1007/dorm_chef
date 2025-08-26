@@ -1,8 +1,5 @@
-import 'package:dorm_chef/provider/ingredient.dart';
+import 'package:dorm_chef/screen/static/settings.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-
-import '../../service/auth.dart';
 
 class HomeTabScreen extends StatelessWidget {
   const HomeTabScreen({super.key});
@@ -10,17 +7,34 @@ class HomeTabScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Ana Sayfa')),
-      body: Column(
-        children: [
-          const Center(child: Text('Hoş geldin!')),
-          IconButton(
-            icon: const Icon(Icons.logout),
-            onPressed: () async {
-              AuthService().signOut();
-              await context.read<PantryStore>().unbind();
-            },
+      appBar: AppBar(
+        title: const Text('DormChef'),
+        centerTitle: false,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 12),
+            child: Container(
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                border: Border.all(color: Colors.black45, width: 1.2),
+              ),
+              child: IconButton(
+                onPressed: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const SettingScreen()),
+                  );
+                },
+                icon: const Icon(Icons.person),
+                iconSize: 20,
+                padding: const EdgeInsets.all(8),
+                constraints: const BoxConstraints(),
+                splashRadius: 22,
+              ),
+            ),
           ),
+        ],
+      ),
+      body: ListView(padding: const EdgeInsets.all(16), children: const [
         ],
       ),
     );

@@ -40,7 +40,7 @@ class DormChefApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: FutureBuilder<void>(
-        future: Future.delayed(const Duration(milliseconds: 1800)),
+        future: Future.delayed(const Duration(milliseconds: 200)),
         builder: (context, splashHold) {
           return StreamBuilder<User?>(
             stream: auth.authState().distinct(
