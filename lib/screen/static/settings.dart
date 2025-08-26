@@ -1,7 +1,12 @@
+import 'package:dorm_chef/screen/core/change_pass.dart';
+import 'package:dorm_chef/screen/core/language.dart';
+import 'package:dorm_chef/screen/core/notification.dart';
+import 'package:dorm_chef/screen/core/profile.dart';
+import 'package:dorm_chef/screen/core/theme.dart';
 import 'package:dorm_chef/widget/setting_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:dorm_chef/service/auth.dart'; // varsa kullanacağız
+import 'package:dorm_chef/service/auth.dart';
 
 class SettingScreen extends StatelessWidget {
   const SettingScreen({super.key});
@@ -24,7 +29,9 @@ class SettingScreen extends StatelessWidget {
                 title: 'Kişisel Bilgiler',
                 subtitle: 'Bilgilerinizi değiştirebilirsiniz',
                 onTap: () {
-                  // TODO: Kişisel bilgiler ekranına git
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const ProfileScreen()),
+                  );
                 },
               ),
               _Divider(cs),
@@ -33,7 +40,9 @@ class SettingScreen extends StatelessWidget {
                 title: 'Uygulama Dili',
                 subtitle: 'Uygulama dilini değiştirebilirsiniz',
                 onTap: () {
-                  // TODO: Dil seçimi
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const LanguageScreen()),
+                  );
                 },
               ),
               _Divider(cs),
@@ -42,7 +51,11 @@ class SettingScreen extends StatelessWidget {
                 title: 'Şifre İşlemleri',
                 subtitle: 'Şifrenizi güncelleyebilirsiniz',
                 onTap: () {
-                  // TODO: Şifre güncelleme ekranı
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const ChangePasswordScreen(),
+                    ),
+                  );
                 },
               ),
               _Divider(cs),
@@ -51,7 +64,11 @@ class SettingScreen extends StatelessWidget {
                 title: 'Tema Görünümü',
                 subtitle: 'Uygulama görünümünü değiştirebilirsiniz',
                 onTap: () {
-                  // TODO: Tema seçim sayfası / bottom sheet
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const ThemeChangeScreen(),
+                    ),
+                  );
                 },
               ),
               _Divider(cs),
@@ -60,7 +77,11 @@ class SettingScreen extends StatelessWidget {
                 title: 'Bildirim Ayarları',
                 subtitle: 'Bildirim ayarlarınızı değiştirebilirsiniz',
                 onTap: () {
-                  // TODO: Bildirim ayarları
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const NotificationScreen(),
+                    ),
+                  );
                 },
               ),
               _Divider(cs),
