@@ -19,12 +19,25 @@ class SplashScreen extends StatelessWidget {
           ),
         ),
         child: SafeArea(
-          child: Center(
-            child: Lottie.asset(
-              'asset/lottie/Chef.json',
-              frameRate: FrameRate.max,
-              repeat: true,
-            ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Lottie.asset(
+                'asset/lottie/Chef.json',
+                frameRate: FrameRate.max,
+                repeat: true,
+              ),
+              const Text(
+                "Dorm Chef",
+                style: TextStyle(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 32,
+                  fontStyle: FontStyle.italic,
+                  letterSpacing: 1.2,
+                ),
+              ),
+            ],
           ),
         ),
       ),
