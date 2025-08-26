@@ -9,6 +9,9 @@ import 'package:dorm_chef/widget/setting_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:dorm_chef/service/auth.dart';
 import 'package:provider/provider.dart';
+import 'dart:io' show Platform;
+import 'package:url_launcher/url_launcher.dart';
+import 'package:android_intent_plus/android_intent.dart';
 
 class SettingScreen extends StatelessWidget {
   const SettingScreen({super.key});
@@ -88,7 +91,7 @@ class SettingScreen extends StatelessWidget {
                 title: 'Bize Ulaşın',
                 subtitle: 'Soru, öneri ve şikayetlerinizi iletin',
                 onTap: () {
-                  // TODO: İletişim
+                  contactUs(context);
                 },
               ),
             ],
@@ -130,6 +133,44 @@ class _Divider extends StatelessWidget {
       thickness: 1,
       color: cs.outlineVariant.withOpacity(.3),
     );
+  }
+}
+
+Uri _buildMailTo({
+  required String to,
+  required String subject,
+  required String body,
+}) {
+  final q =
+      'subject=${Uri.encodeComponent(subject)}'
+      '&body=${Uri.encodeComponent(body)}';
+  return Uri(scheme: 'mailto', path: to, query: q);
+}
+
+// Ayarlar > "Bize Ulaşın" onTap:
+Future<void> contactUs(BuildContext context) async {
+  const to = 'topcuyigithan@gmail.com';
+  const subject = 'Dorm Chef';
+  const body = 'Hi Chef Team';
+
+  final mailto = _buildMailTo(to: to, subject: subject, body: body);
+
+  if (Platform.isAndroid) {
+    try {
+      await AndroidIntent(
+        action: 'android.intent.action.SENDTO',
+        data:
+            mailto
+                .toString(),
+      ).launch();
+      return;
+    } catch (_) {
+      await launchUrl(mailto, mode: LaunchMode.externalApplication);
+      return;
+    }
+  }
+  if (await canLaunchUrl(mailto)) {
+    await launchUrl(mailto, mode: LaunchMode.externalApplication);
   }
 }
 
