@@ -1,6 +1,7 @@
 import 'package:dorm_chef/firebase_options.dart';
 import 'package:dorm_chef/provider/grocery.dart';
 import 'package:dorm_chef/screen/core/auth.dart';
+import 'package:dorm_chef/screen/core/splash.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -38,15 +39,33 @@ class DormChefApp extends StatelessWidget {
     final auth = AuthService();
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: StreamBuilder<User?>(
-        stream: auth.authState(),
-        builder: (context, snap) {
-          if (snap.connectionState == ConnectionState.waiting) {
-            return const Scaffold(
-              body: Center(child: CircularProgressIndicator()),
-            );
-          }
-          return snap.data == null ? const AuthScreen() : const HomeScreen();
+      home: FutureBuilder<void>(
+        future: Future.delayed(const Duration(milliseconds: 1800)),
+        builder: (context, splashHold) {
+          return StreamBuilder<User?>(
+            stream: auth.authState().distinct(
+              (prev, next) => prev?.uid == next?.uid,
+            ), // stabilite
+            builder: (context, snap) {
+              final stillHolding =
+                  splashHold.connectionState != ConnectionState.done;
+              final waitingAuth =
+                  snap.connectionState == ConnectionState.waiting;
+
+              if (stillHolding || waitingAuth) {
+                return const SplashScreen();
+              }
+              return AnimatedSwitcher(
+                duration: const Duration(milliseconds: 300),
+                switchInCurve: Curves.easeOut,
+                switchOutCurve: Curves.easeIn,
+                child:
+                    (snap.data == null)
+                        ? const AuthScreen(key: ValueKey('auth'))
+                        : const HomeScreen(key: ValueKey('home')),
+              );
+            },
+          );
         },
       ),
     );
