@@ -17,6 +17,9 @@ class _AuthScreenState extends State<AuthScreen> {
 
   bool _isLogin = true;
   bool _loading = false;
+  bool _obPass = true; 
+  bool _obConfirm = true; 
+
   final _auth = AuthService();
 
   @override
@@ -24,7 +27,7 @@ class _AuthScreenState extends State<AuthScreen> {
     _email.dispose();
     _pass.dispose();
     _name.dispose();
-    _confirm.dispose(); 
+    _confirm.dispose();
     super.dispose();
   }
 
@@ -139,128 +142,230 @@ class _AuthScreenState extends State<AuthScreen> {
     final cs = Theme.of(context).colorScheme;
 
     return Scaffold(
-      appBar: AppBar(title: Text(_isLogin ? 'Giriş yap' : 'Kayıt ol')),
+      appBar: AppBar(
+        title: Text(_isLogin ? 'Giriş yap' : 'Kayıt ol'),
+        centerTitle: false,
+      ),
       body: Center(
         child: ConstrainedBox(
-          constraints: const BoxConstraints(maxWidth: 420),
-          child: Padding(
+          constraints: const BoxConstraints(maxWidth: 460),
+          child: SingleChildScrollView(
             padding: const EdgeInsets.all(16),
             child: Form(
               key: _form,
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  if (!_isLogin) ...[
-                    TextFormField(
-                      controller: _name,
-                      textInputAction: TextInputAction.next,
-                      decoration: const InputDecoration(labelText: 'İsim'),
-                      validator: (v) {
-                        final t = v?.trim() ?? '';
-                        if (t.isEmpty) return 'İsim gerekli';
-                        if (t.length < 2) return 'En az 2 karakter';
-                        return null;
-                      },
-                    ),
-                    const SizedBox(height: 12),
-                  ],
-                  TextFormField(
-                    controller: _email,
-                    decoration: const InputDecoration(labelText: 'E-posta'),
-                    keyboardType: TextInputType.emailAddress,
-                    validator:
-                        (v) =>
-                            (v == null || !v.contains('@'))
-                                ? 'Geçerli e-posta girin'
-                                : null,
-                  ),
-                  const SizedBox(height: 12),
-                  TextFormField(
-                    controller: _pass,
-                    decoration: const InputDecoration(labelText: 'Şifre'),
-                    obscureText: true,
-                    onChanged:
-                        (_) => setState(() {}),
-                    validator: (v) {
-                      final s = v ?? '';
-                      if (s.isEmpty) return 'Şifre gerekli';
-                      return null;
-                    },
-                  ),
-                  if (!_isLogin) ...[
-                    const SizedBox(height: 10),
-                    _PasswordStrengthBar(password: _pass.text),
-                    const SizedBox(height: 8),
-                    _PasswordRulesChecklist(password: _pass.text),
-                    const SizedBox(height: 12),
-                    TextFormField(
-                      controller: _confirm,
-                      decoration: const InputDecoration(
-                        labelText: 'Şifre (Tekrar)',
+              child: Card(
+                color: cs.surfaceContainerHighest,
+                elevation: 0,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 14, 16, 16),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Row(
+                        children: [
+                          CircleAvatar(
+                            radius: 18,
+                            backgroundColor: cs.primary.withOpacity(.12),
+                            child: Icon(
+                              _isLogin ? Icons.login : Icons.person_add,
+                              color: cs.primary,
+                            ),
+                          ),
+                          const SizedBox(width: 12),
+                          Expanded(
+                            child: Text(
+                              _isLogin
+                                  ? 'Hoş geldin! Giriş yap'
+                                  : 'Aramıza katıl! Kayıt ol',
+                              style: Theme.of(context).textTheme.titleMedium,
+                            ),
+                          ),
+                        ],
                       ),
-                      obscureText: true,
-                      validator: (v) {
-                        if (v == null || v.isEmpty) {
-                          return 'Şifreyi tekrar girin';
-                        }
-                        if (v != _pass.text) return 'Şifreler eşleşmiyor';
-                        return null;
-                      },
-                    ),
-                  ],
+                      const SizedBox(height: 12),
 
-                  const SizedBox(height: 16),
-                  SizedBox(
-                    width: double.infinity,
-                    child: FilledButton(
-                      onPressed: _loading ? null : _submit,
-                      child: Text(_isLogin ? 'Giriş' : 'Kayıt'),
-                    ),
-                  ),
-                  TextButton(
-                    onPressed:
-                        _loading
-                            ? null
-                            : () => setState(() => _isLogin = !_isLogin),
-                    child: Text(
-                      _isLogin
-                          ? 'Hesabın yok mu? Kayıt ol'
-                          : 'Hesabın var mı? Giriş yap',
-                    ),
-                  ),
-                  if (_isLogin)
-                    Align(
-                      alignment: Alignment.centerRight,
-                      child: TextButton(
-                        onPressed: _loading ? null : _forgotPassword,
-                        child: const Text('Şifremi unuttum?'),
+                      if (!_isLogin) ...[
+                        TextFormField(
+                          controller: _name,
+                          textInputAction: TextInputAction.next,
+                          decoration: const InputDecoration(
+                            labelText: 'İsim',
+                            hintText: 'Ad Soyad',
+                            prefixIcon: Icon(Icons.person),
+                          ),
+                          validator: (v) {
+                            final t = v?.trim() ?? '';
+                            if (t.isEmpty) return 'İsim gerekli';
+                            if (t.length < 2) return 'En az 2 karakter';
+                            return null;
+                          },
+                        ),
+                        const SizedBox(height: 12),
+                      ],
+                      TextFormField(
+                        controller: _email,
+                        decoration: const InputDecoration(
+                          labelText: 'E-posta',
+                          hintText: 'mail@ornek.com',
+                          prefixIcon: Icon(Icons.alternate_email),
+                        ),
+                        keyboardType: TextInputType.emailAddress,
+                        textInputAction: TextInputAction.next,
+                        validator:
+                            (v) =>
+                                (v == null || !v.contains('@'))
+                                    ? 'Geçerli e-posta girin'
+                                    : null,
                       ),
-                    ),
-                  const SizedBox(height: 12),
-                  SizedBox(
-                    width: double.infinity,
-                    child: OutlinedButton.icon(
-                      icon: const Icon(Icons.login),
-                      label: const Text('Google ile devam et'),
-                      onPressed:
-                          _loading
-                              ? null
-                              : () async {
-                                setState(() => _loading = true);
-                                try {
-                                  await AuthService().signInWithGoogle();
-                                } catch (e) {
-                                  if (!mounted) return;
-                                  ScaffoldMessenger.of(context).showSnackBar(
-                                    SnackBar(content: Text(e.toString())),
-                                  );
-                                } finally {
-                                  if (mounted) setState(() => _loading = false);
-                                }
-                              },
-                    ),
+                      const SizedBox(height: 12),
+                      TextFormField(
+                        controller: _pass,
+                        decoration: InputDecoration(
+                          labelText: 'Şifre',
+                          prefixIcon: const Icon(Icons.lock_outline),
+                          suffixIcon: IconButton(
+                            onPressed: () => setState(() => _obPass = !_obPass),
+                            icon: Icon(
+                              _obPass ? Icons.visibility : Icons.visibility_off,
+                            ),
+                          ),
+                        ),
+                        obscureText: _obPass,
+                        onChanged:
+                            (_) =>
+                                setState(() {}),
+                        validator: (v) {
+                          final s = v ?? '';
+                          if (s.isEmpty) return 'Şifre gerekli';
+                          return null;
+                        },
+                      ),
+                      if (!_isLogin) ...[
+                        const SizedBox(height: 10),
+                        _PasswordStrengthBar(password: _pass.text),
+                        const SizedBox(height: 8),
+                        _PasswordRulesChecklist(password: _pass.text),
+                        const SizedBox(height: 12),
+                        TextFormField(
+                          controller: _confirm,
+                          decoration: InputDecoration(
+                            labelText: 'Şifre (Tekrar)',
+                            prefixIcon: const Icon(Icons.check),
+                            suffixIcon: IconButton(
+                              onPressed:
+                                  () =>
+                                      setState(() => _obConfirm = !_obConfirm),
+                              icon: Icon(
+                                _obConfirm
+                                    ? Icons.visibility
+                                    : Icons.visibility_off,
+                              ),
+                            ),
+                          ),
+                          obscureText: _obConfirm,
+                          validator: (v) {
+                            if (v == null || v.isEmpty) {
+                              return 'Şifreyi tekrar girin';
+                            }
+                            if (v != _pass.text) return 'Şifreler eşleşmiyor';
+                            return null;
+                          },
+                        ),
+                      ],
+                      const SizedBox(height: 16),
+                      SizedBox(
+                        width: double.infinity,
+                        child: FilledButton(
+                          onPressed: _loading ? null : _submit,
+                          child:
+                              _loading
+                                  ? const SizedBox(
+                                    width: 20,
+                                    height: 20,
+                                    child: CircularProgressIndicator(
+                                      strokeWidth: 2,
+                                    ),
+                                  )
+                                  : Text(_isLogin ? 'Giriş' : 'Kayıt'),
+                        ),
+                      ),
+
+                      const SizedBox(height: 8),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            _isLogin ? 'Hesabın yok mu?' : 'Hesabın var mı?',
+                          ),
+                          TextButton(
+                            onPressed:
+                                _loading
+                                    ? null
+                                    : () =>
+                                        setState(() => _isLogin = !_isLogin),
+                            child: Text(_isLogin ? 'Kayıt ol' : 'Giriş yap'),
+                          ),
+                        ],
+                      ),
+
+                      if (_isLogin)
+                        Align(
+                          alignment: Alignment.centerRight,
+                          child: TextButton(
+                            onPressed: _loading ? null : _forgotPassword,
+                            child: const Text('Şifremi unuttum?'),
+                          ),
+                        ),
+
+                      const SizedBox(height: 10),
+                      Row(
+                        children: [
+                          Expanded(child: Divider(color: cs.outlineVariant)),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 8),
+                            child: Text(
+                              'ya da',
+                              style: TextStyle(color: cs.onSurfaceVariant),
+                            ),
+                          ),
+                          Expanded(child: Divider(color: cs.outlineVariant)),
+                        ],
+                      ),
+                      const SizedBox(height: 10),
+
+                      SizedBox(
+                        width: double.infinity,
+                        child: OutlinedButton.icon(
+                          icon: const Icon(Icons.login),
+                          label: const Text('Google ile devam et'),
+                          onPressed:
+                              _loading
+                                  ? null
+                                  : () async {
+                                    setState(() => _loading = true);
+                                    try {
+                                      await AuthService().signInWithGoogle();
+                                    } catch (e) {
+                                      if (!mounted) return;
+                                      ScaffoldMessenger.of(
+                                        context,
+                                      ).showSnackBar(
+                                        SnackBar(content: Text(e.toString())),
+                                      );
+                                    } finally {
+                                      if (mounted) {
+                                        setState(() => _loading = false);
+                                      }
+                                    }
+                                  },
+                        ),
+                      ),
+                    ],
                   ),
-                ],
+                ),
               ),
             ),
           ),
@@ -269,6 +374,7 @@ class _AuthScreenState extends State<AuthScreen> {
     );
   }
 }
+
 class _PasswordStrengthBar extends StatelessWidget {
   const _PasswordStrengthBar({required this.password});
   final String password;
@@ -278,6 +384,7 @@ class _PasswordStrengthBar extends StatelessWidget {
     final cs = Theme.of(context).colorScheme;
     final score = _score(password);
     final frac = (score / 5).clamp(0.0, 1.0);
+
     String label;
     if (score <= 1) {
       label = 'Çok zayıf';
@@ -290,6 +397,7 @@ class _PasswordStrengthBar extends StatelessWidget {
     } else {
       label = 'Çok güçlü';
     }
+
     Color barColor;
     if (score <= 2) {
       barColor = cs.error;
@@ -298,6 +406,7 @@ class _PasswordStrengthBar extends StatelessWidget {
     } else {
       barColor = cs.primary;
     }
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
