@@ -13,6 +13,8 @@ class _AuthScreenState extends State<AuthScreen> {
   final _email = TextEditingController();
   final _pass = TextEditingController();
   final _name = TextEditingController();
+  final _confirm = TextEditingController();
+
   bool _isLogin = true;
   bool _loading = false;
   final _auth = AuthService();
@@ -22,6 +24,7 @@ class _AuthScreenState extends State<AuthScreen> {
     _email.dispose();
     _pass.dispose();
     _name.dispose();
+    _confirm.dispose(); 
     super.dispose();
   }
 
@@ -30,19 +33,23 @@ class _AuthScreenState extends State<AuthScreen> {
     setState(() => _loading = true);
     try {
       if (_isLogin) {
-        await _auth.signIn(email: _email.text, password: _pass.text);
+        await _auth.signIn(email: _email.text.trim(), password: _pass.text);
       } else {
         await _auth.signUpWithName(
           name: _name.text.trim(),
-          email: _email.text,
+          email: _email.text.trim(),
           password: _pass.text,
         );
       }
+    } on FirebaseAuthException catch (e) {
+      if (!mounted) return;
+      final msg = e.message ?? _mapAuthError(e);
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(msg)));
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(
         context,
-      ).showSnackBar(SnackBar(content: Text(e.toString())));
+      ).showSnackBar(SnackBar(content: Text('Bir hata oluştu: $e')));
     } finally {
       if (mounted) setState(() => _loading = false);
     }
@@ -85,9 +92,7 @@ class _AuthScreenState extends State<AuthScreen> {
     if (!mounted) return;
     setState(() => _loading = true);
     try {
-      // Sadece gönder — e-posta var/yok ayırt etme (enumeration yok)
       await _auth.sendPasswordResetEmail(email: email);
-
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
@@ -102,7 +107,7 @@ class _AuthScreenState extends State<AuthScreen> {
         'missing-email' => 'E-posta adresi gerekli.',
         'too-many-requests' =>
           'Çok fazla deneme. Bir süre sonra tekrar deneyin.',
-        _ => 'İşlem tamamlanamadı. Lütfen tekrar deneyin.',
+        _ => e.message ?? 'İşlem tamamlanamadı. Lütfen tekrar deneyin.',
       };
       if (mounted) {
         ScaffoldMessenger.of(
@@ -114,8 +119,25 @@ class _AuthScreenState extends State<AuthScreen> {
     }
   }
 
+  String _mapAuthError(FirebaseAuthException e) {
+    switch (e.code) {
+      case 'weak-password':
+        return 'Şifre Firebase politikasını karşılamıyor.';
+      case 'email-already-in-use':
+        return 'Bu e-posta zaten kayıtlı.';
+      case 'invalid-email':
+        return 'Geçersiz e-posta.';
+      case 'wrong-password':
+        return 'Hatalı şifre.';
+      default:
+        return 'Hata: ${e.code}';
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+
     return Scaffold(
       appBar: AppBar(title: Text(_isLogin ? 'Giriş yap' : 'Kayıt ol')),
       body: Center(
@@ -140,7 +162,7 @@ class _AuthScreenState extends State<AuthScreen> {
                         return null;
                       },
                     ),
-                    SizedBox(height: 12),
+                    const SizedBox(height: 12),
                   ],
                   TextFormField(
                     controller: _email,
@@ -155,16 +177,37 @@ class _AuthScreenState extends State<AuthScreen> {
                   const SizedBox(height: 12),
                   TextFormField(
                     controller: _pass,
-                    decoration: const InputDecoration(
-                      labelText: 'Şifre (min 6)',
-                    ),
+                    decoration: const InputDecoration(labelText: 'Şifre'),
                     obscureText: true,
-                    validator:
-                        (v) =>
-                            (v != null && v.length >= 6)
-                                ? null
-                                : 'En az 6 karakter',
+                    onChanged:
+                        (_) => setState(() {}),
+                    validator: (v) {
+                      final s = v ?? '';
+                      if (s.isEmpty) return 'Şifre gerekli';
+                      return null;
+                    },
                   ),
+                  if (!_isLogin) ...[
+                    const SizedBox(height: 10),
+                    _PasswordStrengthBar(password: _pass.text),
+                    const SizedBox(height: 8),
+                    _PasswordRulesChecklist(password: _pass.text),
+                    const SizedBox(height: 12),
+                    TextFormField(
+                      controller: _confirm,
+                      decoration: const InputDecoration(
+                        labelText: 'Şifre (Tekrar)',
+                      ),
+                      obscureText: true,
+                      validator: (v) {
+                        if (v == null || v.isEmpty)
+                          return 'Şifreyi tekrar girin';
+                        if (v != _pass.text) return 'Şifreler eşleşmiyor';
+                        return null;
+                      },
+                    ),
+                  ],
+
                   const SizedBox(height: 16),
                   SizedBox(
                     width: double.infinity,
@@ -192,7 +235,7 @@ class _AuthScreenState extends State<AuthScreen> {
                         child: const Text('Şifremi unuttum?'),
                       ),
                     ),
-                  SizedBox(height: 12),
+                  const SizedBox(height: 12),
                   SizedBox(
                     width: double.infinity,
                     child: OutlinedButton.icon(
@@ -222,6 +265,115 @@ class _AuthScreenState extends State<AuthScreen> {
           ),
         ),
       ),
+    );
+  }
+}
+class _PasswordStrengthBar extends StatelessWidget {
+  const _PasswordStrengthBar({required this.password});
+  final String password;
+
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    final score = _score(password);
+    final frac = (score / 5).clamp(0.0, 1.0);
+    String label;
+    if (score <= 1) {
+      label = 'Çok zayıf';
+    } else if (score == 2) {
+      label = 'Zayıf';
+    } else if (score == 3) {
+      label = 'Orta';
+    } else if (score == 4) {
+      label = 'Güçlü';
+    } else {
+      label = 'Çok güçlü';
+    }
+    Color barColor;
+    if (score <= 2) {
+      barColor = cs.error;
+    } else if (score == 3) {
+      barColor = cs.tertiary;
+    } else {
+      barColor = cs.primary;
+    }
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        ClipRRect(
+          borderRadius: BorderRadius.circular(8),
+          child: LinearProgressIndicator(
+            value: frac,
+            minHeight: 8,
+            color: barColor,
+            backgroundColor: cs.surfaceContainerHigh,
+          ),
+        ),
+        const SizedBox(height: 6),
+        Text(
+          'Şifre gücü: $label',
+          style: Theme.of(context).textTheme.bodySmall?.copyWith(
+            color: Theme.of(context).colorScheme.onSurfaceVariant,
+          ),
+        ),
+      ],
+    );
+  }
+
+  static int _score(String s) {
+    if (s.isEmpty) return 0;
+    var pts = 0;
+    if (s.length >= 8) pts++;
+    if (RegExp(r'[A-Z]').hasMatch(s)) pts++;
+    if (RegExp(r'[a-z]').hasMatch(s)) pts++;
+    if (RegExp(r'\d').hasMatch(s)) pts++;
+    if (RegExp(r'[!@#\$%\^&\*\(\)_\+\-=\[\]{};:"\\|,.<>\/?`~]').hasMatch(s))
+      pts++;
+    return pts;
+  }
+}
+
+class _PasswordRulesChecklist extends StatelessWidget {
+  const _PasswordRulesChecklist({required this.password});
+  final String password;
+
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+
+    final hasLen = password.length >= 8;
+    final hasUp = RegExp(r'[A-Z]').hasMatch(password);
+    final hasLow = RegExp(r'[a-z]').hasMatch(password);
+    final hasNum = RegExp(r'\d').hasMatch(password);
+    final hasSpec = RegExp(
+      r'[!@#\$%\^&\*\(\)_\+\-=\[\]{};:"\\|,.<>\/?`~]',
+    ).hasMatch(password);
+
+    Widget row(bool ok, String text) => Row(
+      children: [
+        Icon(
+          ok ? Icons.check_circle : Icons.cancel,
+          size: 18,
+          color: ok ? cs.primary : cs.error,
+        ),
+        const SizedBox(width: 8),
+        Expanded(child: Text(text)),
+      ],
+    );
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        row(hasLen, 'En az 8 karakter'),
+        const SizedBox(height: 4),
+        row(hasUp, 'En az 1 büyük harf (A-Z)'),
+        const SizedBox(height: 4),
+        row(hasLow, 'En az 1 küçük harf (a-z)'),
+        const SizedBox(height: 4),
+        row(hasNum, 'En az 1 rakam (0-9)'),
+        const SizedBox(height: 4),
+        row(hasSpec, 'En az 1 özel karakter (!, @, #, …)'),
+      ],
     );
   }
 }
