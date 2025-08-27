@@ -17,8 +17,8 @@ class _AuthScreenState extends State<AuthScreen> {
 
   bool _isLogin = true;
   bool _loading = false;
-  bool _obPass = true; 
-  bool _obConfirm = true; 
+  bool _obPass = true;
+  bool _obConfirm = true;
 
   final _auth = AuthService();
 
@@ -234,9 +234,7 @@ class _AuthScreenState extends State<AuthScreen> {
                           ),
                         ),
                         obscureText: _obPass,
-                        onChanged:
-                            (_) =>
-                                setState(() {}),
+                        onChanged: (_) => setState(() {}),
                         validator: (v) {
                           final s = v ?? '';
                           if (s.isEmpty) return 'Şifre gerekli';
@@ -338,9 +336,17 @@ class _AuthScreenState extends State<AuthScreen> {
 
                       SizedBox(
                         width: double.infinity,
-                        child: OutlinedButton.icon(
-                          icon: const Icon(Icons.login),
-                          label: const Text('Google ile devam et'),
+                        child: OutlinedButton(
+                          style: OutlinedButton.styleFrom(
+                            padding: const EdgeInsets.symmetric(vertical: 12),
+                            side: BorderSide(
+                              color:
+                                  Theme.of(context).colorScheme.outlineVariant,
+                            ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          ),
                           onPressed:
                               _loading
                                   ? null
@@ -361,6 +367,23 @@ class _AuthScreenState extends State<AuthScreen> {
                                       }
                                     }
                                   },
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Image.asset(
+                                'asset/brand/google.png',
+                                width: 24,
+                                height: 24,
+                                fit: BoxFit.contain,
+                                errorBuilder:
+                                    (_, __, ___) =>
+                                        const Icon(Icons.g_mobiledata),
+                              ),
+                              const SizedBox(width: 10),
+                              const Text('Google ile devam et'),
+                            ],
+                          ),
                         ),
                       ),
                     ],

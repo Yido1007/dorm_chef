@@ -34,3 +34,4 @@ flutter:
   assets:
     - asset/recipes.json
     - asset/lottie/
+    - asset/brand/
