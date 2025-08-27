@@ -1,1 +1,41 @@
-{"":""}
+{
+  "app_title": "DormChef",
+  "login": "Giriş yap",
+  "register": "Kayıt ol",
+  "name": "İsim",
+  "email": "E-posta",
+  "password": "Şifre",
+  "password_repeat": "Şifre (Tekrar)",
+  "forgot_password_q": "Şifremi unuttum?",
+  "continue_with_google": "Google ile devam et",
+  "have_account_q": "Hesabın var mı?",
+  "no_account_q": "Hesabın yok mu?",
+  "or": "ya da",
+  "reset_email_sent": "Eğer bu e-posta kayıtlıysa, sıfırlama bağlantısı gönderildi.",
+  "password_required": "Şifre gerekli",
+  "password_again_required": "Şifreyi tekrar girin",
+  "password_mismatch": "Şifreler eşleşmiyor",
+  "valid_email_required": "Geçerli e-posta girin",
+  "name_required": "İsim gerekli",
+  "name_min": "En az 2 karakter",
+
+  "pwd_strength": "Şifre gücü: {level}",
+  "pwd_level_very_weak": "Çok zayıf",
+  "pwd_level_weak": "Zayıf",
+  "pwd_level_medium": "Orta",
+  "pwd_level_strong": "Güçlü",
+  "pwd_level_very_strong": "Çok güçlü",
+
+  "rule_min_len": "En az 8 karakter",
+  "rule_upper": "En az 1 büyük harf (A-Z)",
+  "rule_lower": "En az 1 küçük harf (a-z)",
+  "rule_digit": "En az 1 rakam (0-9)",
+  "rule_special": "En az 1 özel karakter (!, @, #, …)",
+
+  "signup_google_error": "Google ile giriş başarısız.",
+
+  "weak_password_policy": "Şifre Firebase politikasını karşılamıyor.",
+  "email_in_use": "Bu e-posta zaten kayıtlı.",
+  "invalid_email": "Geçersiz e-posta.",
+  "wrong_password": "Hatalı şifre."
+}

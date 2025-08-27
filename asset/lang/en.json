@@ -1,1 +1,41 @@
-{"":""}
+{
+  "app_title": "DormChef",
+  "login": "Sign in",
+  "register": "Sign up",
+  "name": "Name",
+  "email": "Email",
+  "password": "Password",
+  "password_repeat": "Password (again)",
+  "forgot_password_q": "Forgot password?",
+  "continue_with_google": "Continue with Google",
+  "have_account_q": "Already have an account?",
+  "no_account_q": "Don't have an account?",
+  "or": "or",
+  "reset_email_sent": "If this email exists, a reset link has been sent.",
+  "password_required": "Password is required",
+  "password_again_required": "Please re-enter the password",
+  "password_mismatch": "Passwords do not match",
+  "valid_email_required": "Please enter a valid email",
+  "name_required": "Name is required",
+  "name_min": "At least 2 characters",
+
+  "pwd_strength": "Password strength: {level}",
+  "pwd_level_very_weak": "Very weak",
+  "pwd_level_weak": "Weak",
+  "pwd_level_medium": "Medium",
+  "pwd_level_strong": "Strong",
+  "pwd_level_very_strong": "Very strong",
+
+  "rule_min_len": "At least 8 characters",
+  "rule_upper": "At least 1 uppercase (A-Z)",
+  "rule_lower": "At least 1 lowercase (a-z)",
+  "rule_digit": "At least 1 number (0-9)",
+  "rule_special": "At least 1 special (!, @, #, …)",
+
+  "signup_google_error": "Google sign-in failed.",
+
+  "weak_password_policy": "Password does not meet Firebase policy.",
+  "email_in_use": "This email is already registered.",
+  "invalid_email": "Invalid email.",
+  "wrong_password": "Wrong password."
+}
