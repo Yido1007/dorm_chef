@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:dorm_chef/service/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -35,7 +36,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
         user?.providerData.any((p) => p.providerId == 'password') ?? false;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Şifre Güncelle')),
+      appBar: AppBar(title: const Text('Şifre Güncelle'), centerTitle: true),
       body: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 560),
@@ -197,19 +198,23 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
       await user
           .reauthenticateWithCredential(cred)
           .timeout(const Duration(seconds: 8));
-
-      // 2) Yeni şifreyi yaz
       await user
           .updatePassword(_newCtrl.text)
           .timeout(const Duration(seconds: 8));
+      try {
+        await AuthService().signOut();
+      } catch (_) {
+        await FirebaseAuth.instance.signOut();
+      }
 
       if (!_isMounted) return;
       setState(() => _loading = false);
-
-      // 3) Başarılı → ekrandan çık
-      Navigator.of(context).pop(true);
-      // İstersen geri ekranda SnackBar göster:
-      // ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Şifre güncellendi.')));
+      Navigator.of(context, rootNavigator: true).popUntil((r) => r.isFirst);
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Şifre güncellendi. Lütfen tekrar giriş yapın.'),
+        ),
+      );
     } on TimeoutException {
       if (_isMounted) {
         setState(() => _loading = false);
