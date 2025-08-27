@@ -200,8 +200,9 @@ class _AuthScreenState extends State<AuthScreen> {
                       ),
                       obscureText: true,
                       validator: (v) {
-                        if (v == null || v.isEmpty)
+                        if (v == null || v.isEmpty) {
                           return 'Şifreyi tekrar girin';
+                        }
                         if (v != _pass.text) return 'Şifreler eşleşmiyor';
                         return null;
                       },
@@ -327,8 +328,9 @@ class _PasswordStrengthBar extends StatelessWidget {
     if (RegExp(r'[A-Z]').hasMatch(s)) pts++;
     if (RegExp(r'[a-z]').hasMatch(s)) pts++;
     if (RegExp(r'\d').hasMatch(s)) pts++;
-    if (RegExp(r'[!@#\$%\^&\*\(\)_\+\-=\[\]{};:"\\|,.<>\/?`~]').hasMatch(s))
+    if (RegExp(r'[!@#\$%\^&\*\(\)_\+\-=\[\]{};:"\\|,.<>\/?`~]').hasMatch(s)) {
       pts++;
+    }
     return pts;
   }
 }
