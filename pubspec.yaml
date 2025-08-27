@@ -9,6 +9,7 @@ environment:
 dependencies:
   android_intent_plus: ^5.3.1
   cloud_firestore: ^6.0.0
+  easy_localization: ^3.0.8
   firebase_auth: ^6.0.1
   firebase_core: ^4.0.0
   flex_color_scheme: ^8.2.0
@@ -35,3 +36,4 @@ flutter:
     - asset/recipes.json
     - asset/lottie/
     - asset/brand/
+    - asset/lang/
