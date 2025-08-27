@@ -22,7 +22,7 @@ class SettingScreen extends StatelessWidget {
     final text = Theme.of(context).textTheme;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Ayarlar')),
+      appBar: AppBar(title: const Text('Ayarlar'), centerTitle: true),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
@@ -159,9 +159,7 @@ Future<void> contactUs(BuildContext context) async {
     try {
       await AndroidIntent(
         action: 'android.intent.action.SENDTO',
-        data:
-            mailto
-                .toString(),
+        data: mailto.toString(),
       ).launch();
       return;
     } catch (_) {
