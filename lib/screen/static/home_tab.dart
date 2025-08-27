@@ -1,4 +1,5 @@
 import 'package:dorm_chef/screen/static/settings.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class HomeTabScreen extends StatelessWidget {
@@ -6,6 +7,10 @@ class HomeTabScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final user = FirebaseAuth.instance.currentUser;
+    final firstName = (user?.displayName ?? '')
+        .split(' ')
+        .firstWhere((e) => e.isNotEmpty, orElse: () => '');
     return Scaffold(
       appBar: AppBar(
         title: const Text('DormChef'),
@@ -34,7 +39,10 @@ class HomeTabScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: ListView(padding: const EdgeInsets.all(16), children: const [
+      body: ListView(
+        padding: const EdgeInsets.all(16),
+        children: [
+          Text(firstName.isEmpty ? 'DormChef' : 'Merhaba, $firstName'),
         ],
       ),
     );

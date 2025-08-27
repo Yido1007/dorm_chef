@@ -12,6 +12,7 @@ class _AuthScreenState extends State<AuthScreen> {
   final _form = GlobalKey<FormState>();
   final _email = TextEditingController();
   final _pass = TextEditingController();
+  final _name = TextEditingController();
   bool _isLogin = true;
   bool _loading = false;
   final _auth = AuthService();
@@ -20,6 +21,7 @@ class _AuthScreenState extends State<AuthScreen> {
   void dispose() {
     _email.dispose();
     _pass.dispose();
+    _name.dispose();
     super.dispose();
   }
 
@@ -30,7 +32,11 @@ class _AuthScreenState extends State<AuthScreen> {
       if (_isLogin) {
         await _auth.signIn(email: _email.text, password: _pass.text);
       } else {
-        await _auth.signUp(email: _email.text, password: _pass.text);
+        await _auth.signUpWithName(
+          name: _name.text.trim(),
+          email: _email.text,
+          password: _pass.text,
+        );
       }
     } catch (e) {
       if (!mounted) return;
@@ -122,6 +128,20 @@ class _AuthScreenState extends State<AuthScreen> {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
+                  if (!_isLogin) ...[
+                    TextFormField(
+                      controller: _name,
+                      textInputAction: TextInputAction.next,
+                      decoration: const InputDecoration(labelText: 'İsim'),
+                      validator: (v) {
+                        final t = v?.trim() ?? '';
+                        if (t.isEmpty) return 'İsim gerekli';
+                        if (t.length < 2) return 'En az 2 karakter';
+                        return null;
+                      },
+                    ),
+                    SizedBox(height: 12),
+                  ],
                   TextFormField(
                     controller: _email,
                     decoration: const InputDecoration(labelText: 'E-posta'),
