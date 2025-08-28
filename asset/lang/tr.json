@@ -108,6 +108,8 @@
   "cook_n_min": "{n} {min} Pişirme",
   "servings_n": "{n} Porsiyon",
   "ingredients_have_need_p": "{have} / {need} Malzeme var (%{p})",
-  "required_ingredients": "Gerekli malzemeler"
-
+  "required_ingredients": "Gerekli malzemeler",
+  "shopping_list":"Alışveriş Listesi",
+  "clear":"Temizle",
+  "empty_list":"Liste boş. Tarif detayından eksikleri ekleyebilirsin."
 }

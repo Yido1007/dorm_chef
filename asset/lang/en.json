@@ -108,5 +108,8 @@
   "cook_n_min": "{n} {min} Cook",
   "servings_n": "{n} Servings",
   "ingredients_have_need_p": "{have} / {need} Ingredients available (%{p})",
-  "required_ingredients": "Required ingredients"
+  "required_ingredients": "Required ingredients",
+  "shopping_list":"Shopping List",
+  "clear":"Clear",
+  "empty_list":"The list is empty. You can add the missing items from the recipe details."
 }

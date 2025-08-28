@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../provider/grocery.dart';
@@ -27,7 +28,7 @@ class _GroceryQuickButtonState extends State<GroceryQuickButton> {
           clipBehavior: Clip.none,
           children: [
             IconButton(
-              tooltip: 'Alışveriş Listesi',
+              tooltip: 'shopping_list'.tr(),
               icon: const Icon(Icons.shopping_cart_outlined),
               onPressed: () => showGrocerySheet(context),
             ),

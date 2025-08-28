@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -26,7 +27,7 @@ Future<void> showGrocerySheet(BuildContext context) async {
                   const Icon(Icons.shopping_cart_outlined),
                   const SizedBox(width: 8),
                   Text(
-                    'Alışveriş Listesi',
+                    'shopping_list',
                     style: Theme.of(ctx).textTheme.titleMedium,
                   ),
                   const Spacer(),
@@ -35,7 +36,7 @@ Future<void> showGrocerySheet(BuildContext context) async {
                       await bag.clear();
                     },
                     icon: const Icon(Icons.delete_sweep_outlined),
-                    label: const Text('Temizle'),
+                    label: Text('clear'.tr()),
                   ),
                 ],
               ),
@@ -44,11 +45,9 @@ Future<void> showGrocerySheet(BuildContext context) async {
                 child: Consumer<GroceryBag>(
                   builder: (ctx, gb, _) {
                     if (gb.items.isEmpty) {
-                      return const Padding(
+                      return Padding(
                         padding: EdgeInsets.all(24.0),
-                        child: Text(
-                          'Liste boş. Tarif detayından eksikleri ekleyebilirsin.',
-                        ),
+                        child: Text('empty_list'.tr()),
                       );
                     }
                     return ListView.separated(
@@ -69,7 +68,7 @@ Future<void> showGrocerySheet(BuildContext context) async {
                             ),
                           ),
                           secondary: IconButton(
-                            tooltip: 'Kaldır',
+                            tooltip: 'remove'.tr(),
                             icon: const Icon(Icons.close),
                             onPressed: () => gb.remove(it.id),
                           ),
