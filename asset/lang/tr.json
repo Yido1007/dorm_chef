@@ -55,7 +55,7 @@
   "exit":"Çıkış Yap",
   "exit_alt":"Uygulamadan çıkış yapabilirsiniz.",
 
-  "hi":"Merhaba",
+  "hi":"Merhaba, {name}",
   "main_screen":"Ana Sayfa",
   "inventory":"Envanter",
   "cart":"Sepet",

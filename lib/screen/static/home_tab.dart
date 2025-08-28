@@ -1,4 +1,5 @@
 import 'package:dorm_chef/screen/static/settings.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -57,6 +58,7 @@ class HomeTabScreen extends StatelessWidget {
     final name = capFirstTr(
       firstName(bestDisplayName(FirebaseAuth.instance.currentUser)),
     );
+    final safeName = (name.isEmpty) ? 'Chef' : name;
     return StreamBuilder<User?>(
       stream: FirebaseAuth.instance.userChanges(),
       initialData: FirebaseAuth.instance.currentUser,
@@ -65,7 +67,7 @@ class HomeTabScreen extends StatelessWidget {
         final name = capFirstTr(firstName(bestDisplayName(user)));
         return Scaffold(
           appBar: AppBar(
-            title: Text('Merhaba, $name'),
+            title: Text('hi'.tr(namedArgs: {'name': safeName})),
             actions: [
               Padding(
                 padding: const EdgeInsets.only(right: 12),
