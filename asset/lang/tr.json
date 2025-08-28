@@ -85,5 +85,11 @@
   "ingredients":"Malzemeler",
   "what_you_have":"Elinde Olanlar",
   "missing":"Eksik Olanlar",
-  "add_to_cart":"Eksikleri Alışveriş Listesine Ekle"
+  "add_to_cart":"Eksikleri Alışveriş Listesine Ekle",
+  "save":"Kaydet",
+  "reduce":"Azalt",
+  "increase":"Arttır",
+  "delete_ing":"Malzemeyi Sil",
+  "amount_n": "Miktar: {n}",
+  "confirm_remove_label_q": "\"{label}\" kaldırılsın mı?"
 }

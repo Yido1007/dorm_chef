@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../model/ingredient.dart';
@@ -9,23 +10,27 @@ class PantryItemTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    String fmtNum(BuildContext context, num v) =>
+        NumberFormat.decimalPattern(context.locale.toString()).format(v);
     return ListTile(
       onTap: () => _openAmountSheet(context, data),
       leading: const Icon(Icons.kitchen),
       title: Text(data.label),
-      subtitle: Text('Miktar: ${data.amount}'),
+      subtitle: Text(
+        'amount_n'.tr(namedArgs: {'n': fmtNum(context, data.amount)}),
+      ),
       trailing: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
           IconButton(
-            tooltip: 'Azalt',
+            tooltip: 'reduce'.tr(),
             icon: const Icon(Icons.remove_circle_outline),
             onPressed: () async {
               await context.read<PantryStore>().decrease(data.id);
             },
           ),
           IconButton(
-            tooltip: 'Arttır',
+            tooltip: 'increase'.tr(),
             icon: const Icon(Icons.add_circle_outline),
             onPressed: () async {
               await context.read<PantryStore>().increase(data.id);
@@ -33,23 +38,27 @@ class PantryItemTile extends StatelessWidget {
           ),
           const SizedBox(width: 4),
           IconButton(
-            tooltip: 'Sil',
+            tooltip: 'delete'.tr(),
             icon: const Icon(Icons.delete_outline),
             onPressed: () async {
               final ok = await showDialog<bool>(
                 context: context,
                 builder:
                     (ctx) => AlertDialog(
-                      title: const Text('Malzemeyi sil?'),
-                      content: Text('"${data.label}" kaldırılsın mı?'),
+                      title: Text('delete_ing'.tr()),
+                      content: Text(
+                        'confirm_remove_label_q'.tr(
+                          namedArgs: {'label': data.label},
+                        ),
+                      ),
                       actions: [
                         TextButton(
                           onPressed: () => Navigator.pop(ctx, false),
-                          child: const Text('Vazgeç'),
+                          child: Text('cancel'.tr()),
                         ),
                         FilledButton(
                           onPressed: () => Navigator.pop(ctx, true),
-                          child: const Text('Sil'),
+                          child: Text('delete'.tr()),
                         ),
                       ],
                     ),
@@ -67,7 +76,8 @@ class PantryItemTile extends StatelessWidget {
   void _openAmountSheet(BuildContext context, PantryItem data) {
     final store = context.read<PantryStore>();
     double value = data.amount.toDouble();
-
+    String fmtNum(BuildContext context, num v) =>
+        NumberFormat.decimalPattern(context.locale.toString()).format(v);
     showModalBottomSheet(
       context: context,
       showDragHandle: true,
@@ -81,7 +91,11 @@ class PantryItemTile extends StatelessWidget {
                 children: [
                   Text(data.label, style: Theme.of(ctx).textTheme.titleLarge),
                   const SizedBox(height: 8),
-                  Text('Miktar: ${value.toInt()}'),
+                  Text(
+                    'amount_n'.tr(
+                      namedArgs: {'n': fmtNum(context, value.toInt())},
+                    ),
+                  ),
                   Slider(
                     min: 0,
                     max: 100,
@@ -96,7 +110,7 @@ class PantryItemTile extends StatelessWidget {
                       await store.setAmount(data.id, value.toInt());
                       Navigator.pop(ctx);
                     },
-                    child: const Text('Kaydet'),
+                    child: Text('save'.tr()),
                   ),
                 ],
               ),

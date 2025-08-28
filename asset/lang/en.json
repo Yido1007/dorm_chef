@@ -85,5 +85,11 @@
   "ingredients": "Ingredients",
   "what_you_have": "What You Have",
   "missing": "Missing Items",
-  "add_to_cart": "Add Missing Items to Cart"
+  "add_to_cart": "Add Missing Items to Cart",
+  "save":"Save",
+  "reduce":"Reduce",
+  "increase":"Increase",
+  "delete_ing":"Delete Ingredients",
+  "amount_n": "Amount: {n}",
+  "confirm_remove_label_q": "Remove \"{label}\"?"
 }
