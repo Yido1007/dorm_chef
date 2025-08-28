@@ -88,41 +88,6 @@ class _GroceryScreenState extends State<GroceryScreen> {
           );
         },
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: () async {
-          final ctrl = TextEditingController();
-          final added = await showDialog<bool>(
-            context: context,
-            builder:
-                (ctx) => AlertDialog(
-                  title: Text('add_ing'.tr()),
-                  content: TextField(
-                    controller: ctrl,
-                    autofocus: true,
-                    textInputAction: TextInputAction.done,
-                    decoration: InputDecoration(hintText: 'example'.tr()),
-                    onSubmitted: (_) => Navigator.pop(ctx, true),
-                  ),
-                  actions: [
-                    TextButton(
-                      onPressed: () => Navigator.pop(ctx, false),
-                      child: Text('cancel'.tr()),
-                    ),
-                    FilledButton(
-                      onPressed: () => Navigator.pop(ctx, true),
-                      child: Text('add'.tr()),
-                    ),
-                  ],
-                ),
-          );
-          final text = ctrl.text.trim();
-          if (added == true && text.isNotEmpty) {
-            await context.read<GroceryBag>().addAllIfMissing([text]);
-          }
-        },
-        icon: const Icon(Icons.add_shopping_cart),
-        label: Text('add'.tr()),
-      ),
     );
   }
 }
