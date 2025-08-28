@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../provider/ingredient.dart';
@@ -13,33 +14,31 @@ class InventoryScreen extends StatelessWidget {
     final bootFuture = store.warmUp();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Envanter'),
+        title: Text('inventory'.tr()),
         actions: [
           IconButton(
-            tooltip: 'Ürün ekle',
+            tooltip: 'add_ing'.tr(),
             icon: const Icon(Icons.add),
             onPressed: () => _addDialog(context),
           ),
           IconButton(
-            tooltip: 'Tümünü sil',
+            tooltip: 'delete_all'.tr(),
             onPressed: () async {
               if (store.list.isEmpty) return;
               final ok = await showDialog<bool>(
                 context: context,
                 builder:
                     (ctx) => AlertDialog(
-                      title: const Text('Tümünü sil?'),
-                      content: const Text(
-                        'Envanterdeki tüm malzemeler silinsin mi?',
-                      ),
+                      title: Text('delete_all'.tr()),
+                      content: Text('inventory_delete'.tr()),
                       actions: [
                         TextButton(
                           onPressed: () => Navigator.pop(ctx, false),
-                          child: const Text('Vazgeç'),
+                          child: Text('cancel'.tr()),
                         ),
                         FilledButton(
                           onPressed: () => Navigator.pop(ctx, true),
-                          child: const Text('Sil'),
+                          child: Text('delete'.tr()),
                         ),
                       ],
                     ),
@@ -86,21 +85,19 @@ class InventoryScreen extends StatelessWidget {
             // <-- markNeedsBuild yerine
             builder: (ctx, setLocalState) {
               return AlertDialog(
-                title: const Text('Malzeme ekle'),
+                title: Text('add_ing'.tr()),
                 content: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     TextField(
                       controller: ctrl,
-                      decoration: const InputDecoration(
-                        labelText: 'Ad (ör. Domates)',
-                      ),
+                      decoration: InputDecoration(labelText: 'example_2'.tr()),
                       textInputAction: TextInputAction.done,
                     ),
                     const SizedBox(height: 12),
                     Row(
                       children: [
-                        const Text('Miktar:'),
+                        Text('amount'.tr()),
                         const SizedBox(width: 8),
                         Expanded(
                           child: Slider(
@@ -120,11 +117,11 @@ class InventoryScreen extends StatelessWidget {
                 actions: [
                   TextButton(
                     onPressed: () => Navigator.pop(ctx, false),
-                    child: const Text('Vazgeç'),
+                    child: Text('cancel'.tr()),
                   ),
                   FilledButton(
                     onPressed: () => Navigator.pop(ctx, true),
-                    child: const Text('Ekle'),
+                    child: Text('add'.tr()),
                   ),
                 ],
               );
@@ -151,10 +148,10 @@ class _Empty extends StatelessWidget {
           children: [
             const Icon(Icons.inventory_2_outlined, size: 64),
             const SizedBox(height: 12),
-            const Text('Henüz malzeme yok', style: TextStyle(fontSize: 18)),
+            Text('inventory_main'.tr(), style: TextStyle(fontSize: 18)),
             const SizedBox(height: 6),
             Text(
-              'Sağ alttaki “Malzeme ekle” butonuyla başlamayı deneyebilirsin.',
+              'inventory_alt'.tr(),
               style: Theme.of(context).textTheme.bodyMedium,
               textAlign: TextAlign.center,
             ),
