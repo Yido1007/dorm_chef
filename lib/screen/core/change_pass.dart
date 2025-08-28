@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:dorm_chef/service/auth.dart' show AuthService;
+import 'package:easy_localization/easy_localization.dart';
 
 class ChangePasswordScreen extends StatefulWidget {
   const ChangePasswordScreen({super.key});
@@ -36,7 +37,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
         user?.providerData.any((p) => p.providerId == 'password') ?? false;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Şifre Güncelle')),
+      appBar: AppBar(title: Text('change_password_title'.tr())),
       body: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 560),
@@ -71,7 +72,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
                 obscureText: _obCur,
                 textInputAction: TextInputAction.next,
                 decoration: InputDecoration(
-                  labelText: 'Mevcut Şifre',
+                  labelText: 'current_password'.tr(),
                   prefixIcon: const Icon(Icons.lock_outline),
                   suffixIcon: IconButton(
                     onPressed: () => setState(() => _obCur = !_obCur),
@@ -83,7 +84,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
                 validator:
                     (v) =>
                         (v == null || v.isEmpty)
-                            ? 'Mevcut şifre gerekli'
+                            ? 'current_password_required'.tr()
                             : null,
               ),
 
@@ -93,7 +94,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
                 obscureText: _obNew,
                 textInputAction: TextInputAction.next,
                 decoration: InputDecoration(
-                  labelText: 'Yeni Şifre',
+                  labelText: 'new_password'.tr(),
                   prefixIcon: const Icon(Icons.lock),
                   suffixIcon: IconButton(
                     onPressed: () => setState(() => _obNew = !_obNew),
@@ -105,11 +106,11 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
                 onChanged: (_) => setState(() {}),
                 validator: (v) {
                   final s = v ?? '';
-                  if (s.isEmpty) return 'Yeni şifre gerekli';
+                  if (s.isEmpty) return 'new_password_required'.tr();
                   if (s == _currentCtrl.text) {
-                    return 'Yeni şifre mevcut şifreyle aynı olamaz';
+                    return 'new_password_same_as_current'.tr();
                   }
-                  return null;
+                  return null; // kuralları Firebase enforce edecek
                 },
               ),
 
@@ -123,7 +124,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
                 obscureText: _obCon,
                 textInputAction: TextInputAction.done,
                 decoration: InputDecoration(
-                  labelText: 'Yeni Şifre (Tekrar)',
+                  labelText: 'new_password_again'.tr(),
                   prefixIcon: const Icon(Icons.check),
                   suffixIcon: IconButton(
                     onPressed: () => setState(() => _obCon = !_obCon),
@@ -134,9 +135,9 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
                 ),
                 validator: (v) {
                   if (v == null || v.isEmpty) {
-                    return 'Yeni şifreyi tekrar girin';
+                    return 'reenter_new_password'.tr();
                   }
-                  if (v != _newCtrl.text) return 'Şifreler eşleşmiyor';
+                  if (v != _newCtrl.text) return 'passwords_do_not_match'.tr();
                   return null;
                 },
               ),
@@ -144,9 +145,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
               const SizedBox(height: 16),
               _InfoHint(
                 icon: Icons.info_outline,
-                text:
-                    'Güvenlik gereği önce mevcut şifrenizle yeniden doğrulanacaksınız. '
-                    'Güncellemeden sonra oturumunuz kapatılacak ve tekrar giriş yapmanız gerekecek.',
+                text: 'change_password_info'.tr(),
               ),
 
               const SizedBox(height: 16),
@@ -162,7 +161,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
                             height: 20,
                             child: CircularProgressIndicator(strokeWidth: 2),
                           )
-                          : const Text('Şifreyi Güncelle'),
+                          : Text('update_password'.tr()),
                 ),
               ),
             ],
@@ -185,11 +184,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
           children: [
             const Icon(Icons.info_outline),
             const SizedBox(height: 12),
-            const Text(
-              'Bu hesap e-posta/şifre ile değil (ör. Google) ile giriş yapıyor.\n'
-              'Şifre güncellemek için önce hesaba şifre eklemelisiniz.',
-              textAlign: TextAlign.center,
-            ),
+            Text('account_uses_oauth_info'.tr(), textAlign: TextAlign.center),
             const SizedBox(height: 12),
             SizedBox(
               width: double.infinity,
@@ -205,9 +200,9 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
                             );
                             if (_isMounted) {
                               ScaffoldMessenger.of(context).showSnackBar(
-                                const SnackBar(
+                                SnackBar(
                                   content: Text(
-                                    'E-posta gönderildi (şifre oluşturabilirsiniz).',
+                                    'email_sent_create_password'.tr(),
                                   ),
                                 ),
                               );
@@ -220,7 +215,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
                             }
                           }
                         },
-                label: const Text('E-posta ile şifre oluştur / sıfırla'),
+                label: Text('email_create_reset_password'.tr()),
               ),
             ),
           ],
@@ -233,7 +228,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
     if (!_formKey.currentState!.validate()) return;
     final email = user.email;
     if (email == null || email.isEmpty) {
-      _showSnack('E-posta bulunamadı.');
+      _showSnack('email_not_found'.tr());
       return;
     }
     setState(() => _loading = true);
@@ -260,9 +255,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
     } on TimeoutException {
       if (_isMounted) {
         setState(() => _loading = false);
-        _showSnack(
-          'İşlem zaman aşımına uğradı. İnternet bağlantınızı kontrol edin.',
-        );
+        _showSnack('timeout_error'.tr());
       }
     } on FirebaseAuthException catch (e) {
       if (_isMounted) {
@@ -272,7 +265,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
     } catch (e) {
       if (_isMounted) {
         setState(() => _loading = false);
-        _showSnack('Beklenmeyen hata: $e');
+        _showSnack('unexpected_error_with_err'.tr(namedArgs: {'err': '$e'}));
       }
     }
   }
@@ -285,20 +278,19 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
   String _mapAuthError(FirebaseAuthException e) {
     final msg = e.message;
     if (msg != null && msg.trim().isNotEmpty) return msg;
-
     switch (e.code) {
       case 'wrong-password':
-        return 'Mevcut şifre yanlış.';
+        return 'error_wrong_password'.tr();
       case 'requires-recent-login':
-        return 'Güvenlik nedeniyle lütfen tekrar giriş yapın.';
+        return 'error_requires_recent_login'.tr();
       case 'weak-password':
-        return 'Yeni şifre Firebase kuralını karşılamıyor.';
+        return 'weak_password_policy'.tr(); // Firebase Password Policy
       case 'too-many-requests':
-        return 'Çok fazla deneme yapıldı. Bir süre sonra tekrar deneyin.';
+        return 'error_too_many_requests'.tr();
       case 'network-request-failed':
-        return 'Ağ hatası. Bağlantınızı kontrol edin.';
+        return 'error_network'.tr();
       default:
-        return 'Hata: ${e.code}';
+        return 'error_code_prefix'.tr(namedArgs: {'code': e.code});
     }
   }
 }
@@ -310,20 +302,20 @@ class _PasswordStrengthBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
-    final score = _score(password);
+    final score = _score(password); // 0..5
     final frac = (score / 5).clamp(0.0, 1.0);
 
-    String label;
+    String levelKey;
     if (score <= 1) {
-      label = 'Çok zayıf';
+      levelKey = 'pwd_level_very_weak';
     } else if (score == 2) {
-      label = 'Zayıf';
+      levelKey = 'pwd_level_weak';
     } else if (score == 3) {
-      label = 'Orta';
+      levelKey = 'pwd_level_medium';
     } else if (score == 4) {
-      label = 'Güçlü';
+      levelKey = 'pwd_level_strong';
     } else {
-      label = 'Çok güçlü';
+      levelKey = 'pwd_level_very_strong';
     }
 
     Color barColor;
@@ -349,7 +341,7 @@ class _PasswordStrengthBar extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         Text(
-          'Şifre gücü: $label',
+          'pwd_strength'.tr(namedArgs: {'level': levelKey.tr()}),
           style: Theme.of(context).textTheme.bodySmall?.copyWith(
             color: Theme.of(context).colorScheme.onSurfaceVariant,
           ),
@@ -380,15 +372,15 @@ class _PasswordRulesChecklist extends StatelessWidget {
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
 
-    bool hasLen = password.length >= 8;
-    bool hasUp = RegExp(r'[A-Z]').hasMatch(password);
-    bool hasLow = RegExp(r'[a-z]').hasMatch(password);
-    bool hasNum = RegExp(r'\d').hasMatch(password);
-    bool hasSpec = RegExp(
+    final hasLen = password.length >= 8;
+    final hasUp = RegExp(r'[A-Z]').hasMatch(password);
+    final hasLow = RegExp(r'[a-z]').hasMatch(password);
+    final hasNum = RegExp(r'\d').hasMatch(password);
+    final hasSpec = RegExp(
       r'[!@#\$%\^&\*\(\)_\+\-=\[\]{};:"\\|,.<>\/?`~]',
     ).hasMatch(password);
 
-    Widget row(bool ok, String text) => Row(
+    Widget row(bool ok, String key) => Row(
       children: [
         Icon(
           ok ? Icons.check_circle : Icons.cancel,
@@ -396,22 +388,22 @@ class _PasswordRulesChecklist extends StatelessWidget {
           color: ok ? cs.primary : cs.error,
         ),
         const SizedBox(width: 8),
-        Expanded(child: Text(text)),
+        Expanded(child: Text(key.tr())),
       ],
     );
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        row(hasLen, 'En az 8 karakter'),
+        row(hasLen, 'rule_min_len'),
         const SizedBox(height: 4),
-        row(hasUp, 'En az 1 büyük harf (A-Z)'),
+        row(hasUp, 'rule_upper'),
         const SizedBox(height: 4),
-        row(hasLow, 'En az 1 küçük harf (a-z)'),
+        row(hasLow, 'rule_lower'),
         const SizedBox(height: 4),
-        row(hasNum, 'En az 1 rakam (0-9)'),
+        row(hasNum, 'rule_digit'),
         const SizedBox(height: 4),
-        row(hasSpec, 'En az 1 özel karakter (!, @, #, …)'),
+        row(hasSpec, 'rule_special'),
       ],
     );
   }

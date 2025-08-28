@@ -18,27 +18,22 @@
   "valid_email_required": "Geçerli e-posta girin",
   "name_required": "İsim gerekli",
   "name_min": "En az 2 karakter",
-
   "pwd_strength": "Şifre gücü: {level}",
   "pwd_level_very_weak": "Çok zayıf",
   "pwd_level_weak": "Zayıf",
   "pwd_level_medium": "Orta",
   "pwd_level_strong": "Güçlü",
   "pwd_level_very_strong": "Çok güçlü",
-
   "rule_min_len": "En az 8 karakter",
   "rule_upper": "En az 1 büyük harf (A-Z)",
   "rule_lower": "En az 1 küçük harf (a-z)",
   "rule_digit": "En az 1 rakam (0-9)",
   "rule_special": "En az 1 özel karakter (!, @, #, …)",
-
   "signup_google_error": "Google ile giriş başarısız.",
-
   "weak_password_policy": "Şifre Firebase politikasını karşılamıyor.",
   "email_in_use": "Bu e-posta zaten kayıtlı.",
   "invalid_email": "Geçersiz e-posta.",
   "wrong_password": "Hatalı şifre.",
-
   "settings":"Ayarlar",
   "personal_info":"Kişisel Bilgiler",
   "personal_alt":"Bilgilerinizi değiştirebilirsiniz.",
@@ -54,7 +49,6 @@
   "contact_alt":"Soru, öneri ve şikayerlerinizi bildirin.",
   "exit":"Çıkış Yap",
   "exit_alt":"Uygulamadan çıkış yapabilirsiniz.",
-
   "hi":"Merhaba, {name}",
   "main_screen":"Ana Sayfa",
   "inventory":"Envanter",
@@ -117,6 +111,27 @@
   "ingredient_name": "Malzeme adı",
   "ingredient_hint_example": "Örn. Domates",  
   "add_to_inventory": "Envantere ekle",
-
-  "added_to_inventory_with_label": "\"{label}\" envantere eklendi"
+  "added_to_inventory_with_label": "\"{label}\" envantere eklendi",
+  "change_password_title": "Şifre Güncelle",
+  "current_password": "Mevcut Şifre",
+  "new_password": "Yeni Şifre",
+  "new_password_again": "Yeni Şifre (Tekrar)",
+  "current_password_required": "Mevcut şifre gerekli",
+  "new_password_required": "Yeni şifre gerekli",
+  "new_password_same_as_current": "Yeni şifre mevcut şifreyle aynı olamaz",
+  "reenter_new_password": "Yeni şifreyi tekrar girin",
+  "passwords_do_not_match": "Şifreler eşleşmiyor",
+  "change_password_info": "Güvenlik gereği önce mevcut şifrenizle yeniden doğrulanacaksınız. Güncellemeden sonra oturumunuz kapatılacak ve tekrar giriş yapmanız gerekecek.",
+  "update_password": "Şifreyi Güncelle",
+  "account_uses_oauth_info": "Bu hesap e-posta/şifre ile değil (ör. Google) ile giriş yapıyor.\nŞifre güncellemek için önce hesaba şifre eklemelisiniz.",
+  "email_create_reset_password": "E-posta ile şifre oluştur / sıfırla",
+  "email_sent_create_password": "E-posta gönderildi (şifre oluşturabilirsiniz).",
+  "email_not_found": "E-posta bulunamadı.",
+  "timeout_error": "İşlem zaman aşımına uğradı. İnternet bağlantınızı kontrol edin.",
+  "unexpected_error_with_err": "Beklenmeyen hata: {err}",
+  "error_wrong_password": "Mevcut şifre yanlış.",
+  "error_requires_recent_login": "Güvenlik nedeniyle lütfen tekrar giriş yapın.",
+  "error_too_many_requests": "Çok fazla deneme yapıldı. Bir süre sonra tekrar deneyin.",
+  "error_network": "Ağ hatası. Bağlantınızı kontrol edin.",
+  "error_code_prefix": "Hata: {code}"
 }

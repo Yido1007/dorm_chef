@@ -25,20 +25,16 @@
   "pwd_level_medium": "Medium",
   "pwd_level_strong": "Strong",
   "pwd_level_very_strong": "Very strong",
-
   "rule_min_len": "At least 8 characters",
   "rule_upper": "At least 1 uppercase (A-Z)",
   "rule_lower": "At least 1 lowercase (a-z)",
   "rule_digit": "At least 1 number (0-9)",
   "rule_special": "At least 1 special (!, @, #, …)",
-
   "signup_google_error": "Google sign-in failed.",
-
   "weak_password_policy": "Password does not meet Firebase policy.",
   "email_in_use": "This email is already registered.",
   "invalid_email": "Invalid email.",
   "wrong_password": "Wrong password.",
-
   "settings": "Settings",
   "personal_info": "Personal Information",
   "personal_alt": "You can edit your information.",
@@ -54,7 +50,6 @@
   "contact_alt": "Report your questions, suggestions, and complaints.",
   "exit": "Log Out",
   "exit_alt": "You can log out of the app.",
-
   "hi": "Hello, {name}",
   "main_screen": "Home",
   "inventory": "Inventory",
@@ -117,6 +112,27 @@
   "ingredient_name": "Ingredient name",
   "ingredient_hint_example": "e.g. Tomato",
   "add_to_inventory": "Add to inventory",
-
-  "added_to_inventory_with_label": "\"{label}\" added to inventory"
+  "added_to_inventory_with_label": "\"{label}\" added to inventory",
+  "change_password_title": "Change Password",
+  "current_password": "Current Password",
+  "new_password": "New Password",
+  "new_password_again": "New Password (Again)",
+  "current_password_required": "Current password is required",
+  "new_password_required": "New password is required",
+  "new_password_same_as_current": "New password cannot be the same as current",
+  "reenter_new_password": "Please re-enter the new password",
+  "passwords_do_not_match": "Passwords do not match",
+  "change_password_info": "For security, you'll be re-authenticated with your current password first. After updating, you'll be signed out and need to sign in again.",
+  "update_password": "Update Password",
+  "account_uses_oauth_info": "This account signs in with a provider (e.g., Google), not email/password.\nTo change password, first add a password to this account.",
+  "email_create_reset_password": "Create / reset password via email",
+  "email_sent_create_password": "Email sent (you can create a password).",
+  "email_not_found": "Email not found.",
+  "timeout_error": "Operation timed out. Please check your internet connection.",
+  "unexpected_error_with_err": "Unexpected error: {err}",
+  "error_wrong_password": "Current password is incorrect.",
+  "error_requires_recent_login": "For security reasons, please sign in again.",
+  "error_too_many_requests": "Too many attempts. Please try again later.",
+  "error_network": "Network error. Please check your connection.",
+  "error_code_prefix": "Error: {code}"
 }
