@@ -37,5 +37,7 @@
   "weak_password_policy": "Password does not meet Firebase policy.",
   "email_in_use": "This email is already registered.",
   "invalid_email": "Invalid email.",
-  "wrong_password": "Wrong password."
+  "wrong_password": "Wrong password.",
+
+    "settings":"Settings"
 }

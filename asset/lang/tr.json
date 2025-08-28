@@ -37,5 +37,7 @@
   "weak_password_policy": "Şifre Firebase politikasını karşılamıyor.",
   "email_in_use": "Bu e-posta zaten kayıtlı.",
   "invalid_email": "Geçersiz e-posta.",
-  "wrong_password": "Hatalı şifre."
+  "wrong_password": "Hatalı şifre.",
+
+  "settings":"Ayarlar"
 }

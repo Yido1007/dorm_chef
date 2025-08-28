@@ -11,7 +11,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text("Uygulama Dili")),
       body: Center(child: Text("Dil Seçim Ekranı")),
     );
   }

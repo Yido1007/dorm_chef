@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart';
 import '../../service/auth.dart';
 
 class AuthScreen extends StatefulWidget {
@@ -33,6 +34,9 @@ class _AuthScreenState extends State<AuthScreen> {
 
   Future<void> _submit() async {
     if (!_form.currentState!.validate()) return;
+    // Firebase e-postaları için UI dilini ayarla
+    FirebaseAuth.instance.setLanguageCode(context.locale.languageCode);
+
     setState(() => _loading = true);
     try {
       if (_isLogin) {
@@ -67,13 +71,13 @@ class _AuthScreenState extends State<AuthScreen> {
         context: context,
         builder:
             (ctx) => AlertDialog(
-              title: const Text('Şifre sıfırlama'),
+              title: Text('forgot_password_q'.tr()),
               content: TextField(
                 controller: ctrl,
                 keyboardType: TextInputType.emailAddress,
-                decoration: const InputDecoration(
-                  labelText: 'E-posta adresiniz',
-                  border: OutlineInputBorder(),
+                decoration: InputDecoration(
+                  labelText: 'email'.tr(),
+                  border: const OutlineInputBorder(),
                 ),
               ),
               actions: [
@@ -92,22 +96,21 @@ class _AuthScreenState extends State<AuthScreen> {
       email = ctrl.text.trim();
     }
 
+    // Firebase e-postaları için dil
+    FirebaseAuth.instance.setLanguageCode(context.locale.languageCode);
+
     if (!mounted) return;
     setState(() => _loading = true);
     try {
       await _auth.sendPasswordResetEmail(email: email);
       if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text(
-            'Eğer bu e-posta kayıtlıysa, sıfırlama bağlantısı gönderildi.',
-          ),
-        ),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('reset_email_sent'.tr())));
     } on FirebaseAuthException catch (e) {
       final msg = switch (e.code) {
-        'invalid-email' => 'Geçerli bir e-posta girin.',
-        'missing-email' => 'E-posta adresi gerekli.',
+        'invalid-email' => 'valid_email_required'.tr(),
+        'missing-email' => 'valid_email_required'.tr(),
         'too-many-requests' =>
           'Çok fazla deneme. Bir süre sonra tekrar deneyin.',
         _ => e.message ?? 'İşlem tamamlanamadı. Lütfen tekrar deneyin.',
@@ -125,13 +128,13 @@ class _AuthScreenState extends State<AuthScreen> {
   String _mapAuthError(FirebaseAuthException e) {
     switch (e.code) {
       case 'weak-password':
-        return 'Şifre Firebase politikasını karşılamıyor.';
+        return 'weak_password_policy'.tr();
       case 'email-already-in-use':
-        return 'Bu e-posta zaten kayıtlı.';
+        return 'email_in_use'.tr();
       case 'invalid-email':
-        return 'Geçersiz e-posta.';
+        return 'invalid_email'.tr();
       case 'wrong-password':
-        return 'Hatalı şifre.';
+        return 'wrong_password'.tr();
       default:
         return 'Hata: ${e.code}';
     }
@@ -143,7 +146,7 @@ class _AuthScreenState extends State<AuthScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(_isLogin ? 'Giriş yap' : 'Kayıt ol'),
+        title: Text(_isLogin ? 'login'.tr() : 'register'.tr()),
         centerTitle: false,
       ),
       body: Center(
@@ -177,9 +180,7 @@ class _AuthScreenState extends State<AuthScreen> {
                           const SizedBox(width: 12),
                           Expanded(
                             child: Text(
-                              _isLogin
-                                  ? 'Hoş geldin! Giriş yap'
-                                  : 'Aramıza katıl! Kayıt ol',
+                              _isLogin ? 'login'.tr() : 'register'.tr(),
                               style: Theme.of(context).textTheme.titleMedium,
                             ),
                           ),
@@ -191,40 +192,42 @@ class _AuthScreenState extends State<AuthScreen> {
                         TextFormField(
                           controller: _name,
                           textInputAction: TextInputAction.next,
-                          decoration: const InputDecoration(
-                            labelText: 'İsim',
-                            hintText: 'Ad Soyad',
-                            prefixIcon: Icon(Icons.person),
+                          decoration: InputDecoration(
+                            labelText: 'name'.tr(),
+                            hintText: 'name'.tr(),
+                            prefixIcon: const Icon(Icons.person),
                           ),
                           validator: (v) {
                             final t = v?.trim() ?? '';
-                            if (t.isEmpty) return 'İsim gerekli';
-                            if (t.length < 2) return 'En az 2 karakter';
+                            if (t.isEmpty) return 'name_required'.tr();
+                            if (t.length < 2) return 'name_min'.tr();
                             return null;
                           },
                         ),
                         const SizedBox(height: 12),
                       ],
+
                       TextFormField(
                         controller: _email,
-                        decoration: const InputDecoration(
-                          labelText: 'E-posta',
-                          hintText: 'mail@ornek.com',
-                          prefixIcon: Icon(Icons.alternate_email),
+                        decoration: InputDecoration(
+                          labelText: 'email'.tr(),
+                          hintText: 'email'.tr(),
+                          prefixIcon: const Icon(Icons.alternate_email),
                         ),
                         keyboardType: TextInputType.emailAddress,
                         textInputAction: TextInputAction.next,
                         validator:
                             (v) =>
                                 (v == null || !v.contains('@'))
-                                    ? 'Geçerli e-posta girin'
+                                    ? 'valid_email_required'.tr()
                                     : null,
                       ),
                       const SizedBox(height: 12),
+
                       TextFormField(
                         controller: _pass,
                         decoration: InputDecoration(
-                          labelText: 'Şifre',
+                          labelText: 'password'.tr(),
                           prefixIcon: const Icon(Icons.lock_outline),
                           suffixIcon: IconButton(
                             onPressed: () => setState(() => _obPass = !_obPass),
@@ -234,13 +237,15 @@ class _AuthScreenState extends State<AuthScreen> {
                           ),
                         ),
                         obscureText: _obPass,
-                        onChanged: (_) => setState(() {}),
+                        onChanged:
+                            (_) => setState(() {}), // güç çubuğu / checklist
                         validator: (v) {
                           final s = v ?? '';
-                          if (s.isEmpty) return 'Şifre gerekli';
-                          return null;
+                          if (s.isEmpty) return 'password_required'.tr();
+                          return null; // kuralları Firebase uygular
                         },
                       ),
+
                       if (!_isLogin) ...[
                         const SizedBox(height: 10),
                         _PasswordStrengthBar(password: _pass.text),
@@ -250,7 +255,7 @@ class _AuthScreenState extends State<AuthScreen> {
                         TextFormField(
                           controller: _confirm,
                           decoration: InputDecoration(
-                            labelText: 'Şifre (Tekrar)',
+                            labelText: 'password_repeat'.tr(),
                             prefixIcon: const Icon(Icons.check),
                             suffixIcon: IconButton(
                               onPressed:
@@ -265,14 +270,15 @@ class _AuthScreenState extends State<AuthScreen> {
                           ),
                           obscureText: _obConfirm,
                           validator: (v) {
-                            if (v == null || v.isEmpty) {
-                              return 'Şifreyi tekrar girin';
-                            }
-                            if (v != _pass.text) return 'Şifreler eşleşmiyor';
+                            if (v == null || v.isEmpty)
+                              return 'password_again_required'.tr();
+                            if (v != _pass.text)
+                              return 'password_mismatch'.tr();
                             return null;
                           },
                         ),
                       ],
+
                       const SizedBox(height: 16),
                       SizedBox(
                         width: double.infinity,
@@ -287,7 +293,9 @@ class _AuthScreenState extends State<AuthScreen> {
                                       strokeWidth: 2,
                                     ),
                                   )
-                                  : Text(_isLogin ? 'Giriş' : 'Kayıt'),
+                                  : Text(
+                                    _isLogin ? 'login'.tr() : 'register'.tr(),
+                                  ),
                         ),
                       ),
 
@@ -296,7 +304,9 @@ class _AuthScreenState extends State<AuthScreen> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            _isLogin ? 'Hesabın yok mu?' : 'Hesabın var mı?',
+                            _isLogin
+                                ? 'no_account_q'.tr()
+                                : 'have_account_q'.tr(),
                           ),
                           TextButton(
                             onPressed:
@@ -304,7 +314,9 @@ class _AuthScreenState extends State<AuthScreen> {
                                     ? null
                                     : () =>
                                         setState(() => _isLogin = !_isLogin),
-                            child: Text(_isLogin ? 'Kayıt ol' : 'Giriş yap'),
+                            child: Text(
+                              _isLogin ? 'register'.tr() : 'login'.tr(),
+                            ),
                           ),
                         ],
                       ),
@@ -314,7 +326,7 @@ class _AuthScreenState extends State<AuthScreen> {
                           alignment: Alignment.centerRight,
                           child: TextButton(
                             onPressed: _loading ? null : _forgotPassword,
-                            child: const Text('Şifremi unuttum?'),
+                            child: Text('forgot_password_q'.tr()),
                           ),
                         ),
 
@@ -325,7 +337,7 @@ class _AuthScreenState extends State<AuthScreen> {
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 8),
                             child: Text(
-                              'ya da',
+                              'or'.tr(),
                               style: TextStyle(color: cs.onSurfaceVariant),
                             ),
                           ),
@@ -339,10 +351,7 @@ class _AuthScreenState extends State<AuthScreen> {
                         child: OutlinedButton(
                           style: OutlinedButton.styleFrom(
                             padding: const EdgeInsets.symmetric(vertical: 12),
-                            side: BorderSide(
-                              color:
-                                  Theme.of(context).colorScheme.outlineVariant,
-                            ),
+                            side: BorderSide(color: cs.outlineVariant),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(12),
                             ),
@@ -359,12 +368,15 @@ class _AuthScreenState extends State<AuthScreen> {
                                       ScaffoldMessenger.of(
                                         context,
                                       ).showSnackBar(
-                                        SnackBar(content: Text(e.toString())),
+                                        SnackBar(
+                                          content: Text(
+                                            'signup_google_error'.tr(),
+                                          ),
+                                        ),
                                       );
                                     } finally {
-                                      if (mounted) {
+                                      if (mounted)
                                         setState(() => _loading = false);
-                                      }
                                     }
                                   },
                           child: Row(
@@ -372,16 +384,16 @@ class _AuthScreenState extends State<AuthScreen> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Image.asset(
-                                'asset/brand/google.png',
-                                width: 24,
-                                height: 24,
+                                'assets/brands/google_g.png',
+                                width: 18,
+                                height: 18,
                                 fit: BoxFit.contain,
                                 errorBuilder:
                                     (_, __, ___) =>
                                         const Icon(Icons.g_mobiledata),
                               ),
                               const SizedBox(width: 10),
-                              const Text('Google ile devam et'),
+                              Text('continue_with_google'.tr()),
                             ],
                           ),
                         ),
@@ -398,6 +410,8 @@ class _AuthScreenState extends State<AuthScreen> {
   }
 }
 
+/* ---------- Bilgilendirici şifre gücü & kurallar (i18n) ---------- */
+
 class _PasswordStrengthBar extends StatelessWidget {
   const _PasswordStrengthBar({required this.password});
   final String password;
@@ -405,20 +419,20 @@ class _PasswordStrengthBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
-    final score = _score(password);
+    final score = _score(password); // 0..5
     final frac = (score / 5).clamp(0.0, 1.0);
 
-    String label;
+    String levelKey;
     if (score <= 1) {
-      label = 'Çok zayıf';
+      levelKey = 'pwd_level_very_weak';
     } else if (score == 2) {
-      label = 'Zayıf';
+      levelKey = 'pwd_level_weak';
     } else if (score == 3) {
-      label = 'Orta';
+      levelKey = 'pwd_level_medium';
     } else if (score == 4) {
-      label = 'Güçlü';
+      levelKey = 'pwd_level_strong';
     } else {
-      label = 'Çok güçlü';
+      levelKey = 'pwd_level_very_strong';
     }
 
     Color barColor;
@@ -444,7 +458,7 @@ class _PasswordStrengthBar extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         Text(
-          'Şifre gücü: $label',
+          'pwd_strength'.tr(namedArgs: {'level': levelKey.tr()}),
           style: Theme.of(context).textTheme.bodySmall?.copyWith(
             color: Theme.of(context).colorScheme.onSurfaceVariant,
           ),
@@ -460,9 +474,8 @@ class _PasswordStrengthBar extends StatelessWidget {
     if (RegExp(r'[A-Z]').hasMatch(s)) pts++;
     if (RegExp(r'[a-z]').hasMatch(s)) pts++;
     if (RegExp(r'\d').hasMatch(s)) pts++;
-    if (RegExp(r'[!@#\$%\^&\*\(\)_\+\-=\[\]{};:"\\|,.<>\/?`~]').hasMatch(s)) {
+    if (RegExp(r'[!@#\$%\^&\*\(\)_\+\-=\[\]{};:"\\|,.<>\/?`~]').hasMatch(s))
       pts++;
-    }
     return pts;
   }
 }
@@ -483,7 +496,7 @@ class _PasswordRulesChecklist extends StatelessWidget {
       r'[!@#\$%\^&\*\(\)_\+\-=\[\]{};:"\\|,.<>\/?`~]',
     ).hasMatch(password);
 
-    Widget row(bool ok, String text) => Row(
+    Widget row(bool ok, String key) => Row(
       children: [
         Icon(
           ok ? Icons.check_circle : Icons.cancel,
@@ -491,22 +504,22 @@ class _PasswordRulesChecklist extends StatelessWidget {
           color: ok ? cs.primary : cs.error,
         ),
         const SizedBox(width: 8),
-        Expanded(child: Text(text)),
+        Expanded(child: Text(key.tr())),
       ],
     );
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        row(hasLen, 'En az 8 karakter'),
+        row(hasLen, 'rule_min_len'),
         const SizedBox(height: 4),
-        row(hasUp, 'En az 1 büyük harf (A-Z)'),
+        row(hasUp, 'rule_upper'),
         const SizedBox(height: 4),
-        row(hasLow, 'En az 1 küçük harf (a-z)'),
+        row(hasLow, 'rule_lower'),
+        SizedBox(height: 4),
+        row(hasNum, 'rule_digit'),
         const SizedBox(height: 4),
-        row(hasNum, 'En az 1 rakam (0-9)'),
-        const SizedBox(height: 4),
-        row(hasSpec, 'En az 1 özel karakter (!, @, #, …)'),
+        row(hasSpec, 'rule_special'),
       ],
     );
   }

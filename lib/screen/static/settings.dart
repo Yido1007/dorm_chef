@@ -1,11 +1,11 @@
 import 'package:dorm_chef/provider/ingredient.dart';
 import 'package:dorm_chef/provider/theme.dart';
 import 'package:dorm_chef/screen/core/change_pass.dart';
-import 'package:dorm_chef/screen/core/language.dart';
 import 'package:dorm_chef/screen/core/notification.dart';
 import 'package:dorm_chef/screen/core/profile.dart';
 import 'package:dorm_chef/widget/section_card.dart';
 import 'package:dorm_chef/widget/setting_tile.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:dorm_chef/service/auth.dart';
 import 'package:provider/provider.dart';
@@ -44,11 +44,7 @@ class SettingScreen extends StatelessWidget {
                 icon: Icons.language,
                 title: 'Uygulama Dili',
                 subtitle: 'Uygulama dilini değiştirebilirsiniz',
-                onTap: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(builder: (_) => const LanguageScreen()),
-                  );
-                },
+                onTap: () => _showLanguagePicker(context),
               ),
               _Divider(cs),
               SettingTile(
@@ -221,6 +217,58 @@ void showThemePicker(BuildContext context) {
                       child: FilledButton(
                         onPressed: () async {
                           await ctrl.setMode(selected);
+                          if (ctx.mounted) Navigator.pop(ctx);
+                        },
+                        child: const Text('Uygula'),
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                  ],
+                ),
+              ),
+        ),
+  );
+}
+
+void _showLanguagePicker(BuildContext context) {
+  Locale selected = context.locale;
+
+  showModalBottomSheet(
+    context: context,
+    showDragHandle: true,
+    shape: const RoundedRectangleBorder(
+      borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+    ),
+    builder:
+        (ctx) => StatefulBuilder(
+          builder:
+              (ctx, setState) => Padding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    ListTile(
+                      title: Text('language'.tr()),
+                      subtitle: const Text('Dil seçin'),
+                    ),
+                    RadioListTile<Locale>(
+                      value: const Locale('tr'),
+                      groupValue: selected,
+                      onChanged: (v) => setState(() => selected = v!),
+                      title: const Text('Türkçe'),
+                    ),
+                    RadioListTile<Locale>(
+                      value: const Locale('en'),
+                      groupValue: selected,
+                      onChanged: (v) => setState(() => selected = v!),
+                      title: const Text('English'),
+                    ),
+                    const SizedBox(height: 8),
+                    SizedBox(
+                      width: double.infinity,
+                      child: FilledButton(
+                        onPressed: () async {
+                          await context.setLocale(selected);
                           if (ctx.mounted) Navigator.pop(ctx);
                         },
                         child: const Text('Uygula'),

@@ -4,6 +4,7 @@ import 'package:dorm_chef/provider/theme.dart';
 import 'package:dorm_chef/screen/core/auth.dart';
 import 'package:dorm_chef/screen/core/splash.dart';
 import 'package:dorm_chef/service/theme.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +17,7 @@ import 'service/inventory.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await EasyLocalization.ensureInitialized();
   await PantryLocal.boot(); // Hive init + box açılışı
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await GoogleSignIn.instance.initialize(
@@ -23,13 +25,18 @@ Future<void> main() async {
         '318643443437-m6b4hdplov8bj5sigoqu76t30ff5qb7u.apps.googleusercontent.com',
   );
   runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => PantryStore()),
-        ChangeNotifierProvider(create: (_) => GroceryBag()),
-        ChangeNotifierProvider(create: (_) => ThemeController()..load()),
-      ],
-      child: const DormChefApp(),
+    EasyLocalization(
+      supportedLocales: const [Locale('tr'), Locale('en')],
+      path: 'asset/lang',
+      fallbackLocale: const Locale('tr'),
+      child: MultiProvider(
+        providers: [
+          ChangeNotifierProvider(create: (_) => PantryStore()),
+          ChangeNotifierProvider(create: (_) => GroceryBag()),
+          ChangeNotifierProvider(create: (_) => ThemeController()..load()),
+        ],
+        child: DormChefApp(),
+      ),
     ),
   );
 }
@@ -46,6 +53,9 @@ class DormChefApp extends StatelessWidget {
       theme: AppTheme.light(),
       darkTheme: AppTheme.dark(),
       themeMode: context.watch<ThemeController>().mode,
+      localizationsDelegates: context.localizationDelegates,
+      supportedLocales: context.supportedLocales,
+      locale: context.locale,
       home: FutureBuilder<void>(
         future: Future.delayed(const Duration(milliseconds: 200)),
         builder: (context, splashHold) {
