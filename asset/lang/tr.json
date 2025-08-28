@@ -133,5 +133,12 @@
   "error_requires_recent_login": "Güvenlik nedeniyle lütfen tekrar giriş yapın.",
   "error_too_many_requests": "Çok fazla deneme yapıldı. Bir süre sonra tekrar deneyin.",
   "error_network": "Ağ hatası. Bağlantınızı kontrol edin.",
-  "error_code_prefix": "Hata: {code}"
+  "error_code_prefix": "Hata: {code}",
+  "profile_title": "Profil",
+  "name_label": "İsim",
+  "name_hint": "Ad Soyad",
+  "name_min2": "En az 2 karakter",
+  "email_label": "E-posta",
+  "profile_name_hint": "İsim, profilinizde görünen ad olarak kullanılır.",
+  "session_not_found": "Oturum bulunamadı."
 }

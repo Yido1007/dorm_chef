@@ -134,5 +134,12 @@
   "error_requires_recent_login": "For security reasons, please sign in again.",
   "error_too_many_requests": "Too many attempts. Please try again later.",
   "error_network": "Network error. Please check your connection.",
-  "error_code_prefix": "Error: {code}"
+  "error_code_prefix": "Error: {code}",
+  "profile_title": "Profile",
+  "name_label": "Name",
+  "name_hint": "Full name",
+  "name_min2": "At least 2 characters",
+  "email_label": "Email",
+  "profile_name_hint": "Your name is shown on your profile.",
+  "session_not_found": "No active session."
 }

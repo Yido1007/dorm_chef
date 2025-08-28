@@ -2,6 +2,7 @@ import 'dart:async' show unawaited;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -49,7 +50,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     if (!_formKey.currentState!.validate()) return;
     final user = FirebaseAuth.instance.currentUser;
     if (user == null) {
-      _showSnack('Oturum bulunamadı.');
+      _showSnack('session_not_found'.tr());
       return;
     }
 
@@ -58,6 +59,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
     FocusScope.of(context).unfocus();
     setState(() => _saving = true);
+
     unawaited(
       FirebaseAuth.instance.currentUser!
           .updateDisplayName(newName)
@@ -74,6 +76,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           .catchError((_) {}),
     );
     unawaited(FirebaseAuth.instance.currentUser?.reload().catchError((_) {}));
+
     if (!mounted) return;
     setState(() => _saving = false);
     Navigator.of(context).pop(true);
@@ -90,7 +93,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     final user = FirebaseAuth.instance.currentUser;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Kişisel Bilgiler'), centerTitle: true),
+      appBar: AppBar(title: Text('profile_title'.tr()), centerTitle: true),
       body: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 560),
@@ -103,14 +106,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   TextFormField(
                     controller: _nameCtrl,
                     textInputAction: TextInputAction.done,
-                    decoration: const InputDecoration(
-                      labelText: 'İsim',
-                      hintText: 'Ad Soyad',
+                    decoration: InputDecoration(
+                      labelText: 'name_label'.tr(),
+                      hintText: 'name_hint'.tr(),
                     ),
                     validator: (v) {
                       final t = (v ?? '').trim();
-                      if (t.isEmpty) return 'İsim gerekli';
-                      if (t.length < 2) return 'En az 2 karakter';
+                      if (t.isEmpty) return 'name_required'.tr();
+                      if (t.length < 2) return 'name_min2'.tr();
                       return null;
                     },
                   ),
@@ -118,9 +121,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   TextFormField(
                     initialValue: user?.email ?? '',
                     readOnly: true,
-                    decoration: const InputDecoration(
-                      labelText: 'E-posta',
-                      suffixIcon: Icon(Icons.lock_outline),
+                    decoration: InputDecoration(
+                      labelText: 'email_label'.tr(),
+                      suffixIcon: const Icon(Icons.lock_outline),
                     ),
                   ),
                   const SizedBox(height: 24),
@@ -137,12 +140,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   strokeWidth: 2,
                                 ),
                               )
-                              : const Text('Kaydet'),
+                              : Text('save'.tr()),
                     ),
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'İsim, profilinizde görünen ad olarak kullanılır.',
+                    'profile_name_hint'.tr(),
                     style: Theme.of(
                       context,
                     ).textTheme.bodySmall?.copyWith(color: cs.onSurfaceVariant),
