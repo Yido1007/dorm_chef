@@ -53,6 +53,26 @@
   "contact": "Contact Us",
   "contact_alt": "Report your questions, suggestions, and complaints.",
   "exit": "Log Out",
-  "exit_alt": "You can log out of the app."
+  "exit_alt": "You can log out of the app.",
 
+  "hi": "Hello, {name}",
+  "main_screen": "Home",
+  "inventory": "Inventory",
+  "cart": "Cart",
+  "cart_main": "Your cart is empty. You can fill it from the recipe details via \"Add missing items.\"",
+  "recipe": "Recipes",
+  "filter": "Filter",
+  "clear_filter": "Clear Filters",
+  "recipe_search": "Search title, ingredient, tag…",
+  "add_product": "Add Product",
+  "delete_all": "Delete All",
+  "inventory_main": "No Items Yet",
+  "inventory_alt": "You can start with the 'Add Product' button at the top right.",
+  "scan": "Scan Barcode",
+  "flash": "Flashlight",
+  "camera": "Switch Camera",
+  "ingredients": "Ingredients",
+  "what_you_have": "What You Have",
+  "missing": "Missing Items",
+  "add_to_cart": "Add Missing Items to Cart"
 }

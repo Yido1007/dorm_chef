@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -5,7 +6,7 @@ import '../provider/ingredient.dart';
 import 'client/inventory.dart';
 import 'client/recipes.dart';
 import 'client/scan.dart';
-import 'static/grocery.dart';
+import 'client/grocery.dart';
 import 'static/home_tab.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -89,26 +90,26 @@ class _HomeScreenState extends State<HomeScreen> {
             child: NavigationBar(
               selectedIndex: _lastNavIndex,
               onDestinationSelected: _onNavSelected,
-              destinations: const [
+              destinations: [
                 NavigationDestination(
                   icon: Icon(Icons.home_outlined),
                   selectedIcon: Icon(Icons.home_filled),
-                  label: 'Ana',
+                  label: "main_screen".tr(),
                 ),
                 NavigationDestination(
                   icon: Icon(Icons.inventory_2_outlined),
                   selectedIcon: Icon(Icons.inventory_2),
-                  label: 'Envanter',
+                  label: 'inventory'.tr(),
                 ),
                 NavigationDestination(
                   icon: Icon(Icons.shopping_cart_outlined),
                   selectedIcon: Icon(Icons.shopping_cart),
-                  label: 'Sepet',
+                  label: 'cart'.tr(),
                 ),
                 NavigationDestination(
                   icon: Icon(Icons.restaurant_menu_outlined),
                   selectedIcon: Icon(Icons.restaurant_menu),
-                  label: 'Tarifler',
+                  label: 'recipe'.tr(),
                 ),
               ],
             ),

@@ -53,5 +53,27 @@
   "contact":"Bize Ulaşın",
   "contact_alt":"Soru, öneri ve şikayerlerinizi bildirin.",
   "exit":"Çıkış Yap",
-  "exit_alt":"Uygulamadan çıkış yapabilirsiniz."
+  "exit_alt":"Uygulamadan çıkış yapabilirsiniz.",
+
+  "hi":"Merhaba",
+  "main_screen":"Ana Sayfa",
+  "inventory":"Envanter",
+  "cart":"Sepet",
+  "cart_main":"Sepet boş. Tarif detayından “Eksikleri ekle” ile doldurabilirsin.",
+  "recipe":"Tarifler",
+  "filter":"Filtrele",
+  "clear_filter":"Filtreleri Temizle",
+  "recipe_search":"Başlık, malzeme, etiket ara…",
+  "add_product":"Ürün Ekle",
+  "delete_all":"Hepsini Sil",
+  "inventory_main":"Henüz Malzeme Yok",
+  "inventory_alt":"Sağ üstten 'Ürün Ekle' butonu ile başlayabilirsin.",
+  "scan":"Barkod Tara",
+  "flash":"Fener",
+  "camera":"Kamerayı Ters Çevirin",
+
+  "ingredients":"Malzemeler",
+  "what_you_have":"Elinde Olanlar",
+  "missing":"Eksik Olanlar",
+  "add_to_cart":"Eksikleri Alışveriş Listesine Ekle"
 }
