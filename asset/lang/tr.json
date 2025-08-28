@@ -39,5 +39,19 @@
   "invalid_email": "Geçersiz e-posta.",
   "wrong_password": "Hatalı şifre.",
 
-  "settings":"Ayarlar"
+  "settings":"Ayarlar",
+  "personal_info":"Kişisel Bilgiler",
+  "personal_alt":"Bilgilerinizi değiştirebilirsiniz.",
+  "app_lang":"Uygulama Dili",
+  "app_lang_alt":"Uygulama dilini değiştirebilirsiniz.",
+  "pass":"Şifre İşlemleri",
+  "pass_alt":"Şifrenizi güncelleyebilirsiniz.",
+  "theme":"Tema Görünümleri",
+  "theme_alt":"Uygulama görünümünüzü değiştirebilirsiniz.",
+  "notification":"Bildirim Ayarları",
+  "notification_alt":"Bildirim ayarlarınızı değiştirebilirsiniz.",
+  "contact":"Bize Ulaşın",
+  "contact_alt":"Soru, öneri ve şikayerlerinizi bildirin.",
+  "exit":"Çıkış Yap",
+  "exit_alt":"Uygulamadan çıkış yapabilirsiniz."
 }

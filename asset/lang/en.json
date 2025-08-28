@@ -39,5 +39,20 @@
   "invalid_email": "Invalid email.",
   "wrong_password": "Wrong password.",
 
-    "settings":"Settings"
+  "settings": "Settings",
+  "personal_info": "Personal Information",
+  "personal_alt": "You can edit your information.",
+  "app_lang": "App Language",
+  "app_lang_alt": "You can change the app language.",
+  "pass": "Password Settings",
+  "pass_alt": "You can update your password.",
+  "theme": "Theme Appearance",
+  "theme_alt": "You can change the app appearance.",
+  "notification": "Notification Settings",
+  "notification_alt": "You can change your notification settings.",
+  "contact": "Contact Us",
+  "contact_alt": "Report your questions, suggestions, and complaints.",
+  "exit": "Log Out",
+  "exit_alt": "You can log out of the app."
+
 }

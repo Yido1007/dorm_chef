@@ -22,7 +22,7 @@ class SettingScreen extends StatelessWidget {
     final text = Theme.of(context).textTheme;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Ayarlar'), centerTitle: true),
+      appBar: AppBar(title: Text('settings').tr(), centerTitle: true),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
@@ -31,8 +31,8 @@ class SettingScreen extends StatelessWidget {
             children: [
               SettingTile(
                 icon: Icons.person,
-                title: 'Kişisel Bilgiler',
-                subtitle: 'Bilgilerinizi değiştirebilirsiniz',
+                title: 'personal_info'.tr(),
+                subtitle: 'personal_alt'.tr(),
                 onTap: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(builder: (_) => const ProfileScreen()),
@@ -42,15 +42,15 @@ class SettingScreen extends StatelessWidget {
               _Divider(cs),
               SettingTile(
                 icon: Icons.language,
-                title: 'Uygulama Dili',
-                subtitle: 'Uygulama dilini değiştirebilirsiniz',
+                title: 'app_lang'.tr(),
+                subtitle: 'app_lang_alt'.tr(),
                 onTap: () => _showLanguagePicker(context),
               ),
               _Divider(cs),
               SettingTile(
                 icon: Icons.lock,
-                title: 'Şifre İşlemleri',
-                subtitle: 'Şifrenizi güncelleyebilirsiniz',
+                title: 'pass'.tr(),
+                subtitle: 'pass_alt'.tr(),
                 onTap: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(
@@ -62,8 +62,8 @@ class SettingScreen extends StatelessWidget {
               _Divider(cs),
               SettingTile(
                 icon: Icons.brightness_6,
-                title: 'Tema Görünümü',
-                subtitle: 'Uygulama görünümünü değiştirebilirsiniz',
+                title: 'theme'.tr(),
+                subtitle: 'theme_alt'.tr(),
                 onTap: () {
                   showThemePicker(context);
                 },
@@ -71,8 +71,8 @@ class SettingScreen extends StatelessWidget {
               _Divider(cs),
               SettingTile(
                 icon: Icons.notifications,
-                title: 'Bildirim Ayarları',
-                subtitle: 'Bildirim ayarlarınızı değiştirebilirsiniz',
+                title: 'notification'.tr(),
+                subtitle: 'notification_alt'.tr(),
                 onTap: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(
@@ -84,8 +84,8 @@ class SettingScreen extends StatelessWidget {
               _Divider(cs),
               SettingTile(
                 icon: Icons.support_agent,
-                title: 'Bize Ulaşın',
-                subtitle: 'Soru, öneri ve şikayetlerinizi iletin',
+                title: 'contact'.tr(),
+                subtitle: 'contact_alt'.tr(),
                 onTap: () {
                   contactUs(context);
                 },
@@ -97,8 +97,8 @@ class SettingScreen extends StatelessWidget {
             children: [
               SettingTile(
                 icon: Icons.logout,
-                title: 'Çıkış Yap',
-                subtitle: 'Uygulamadan çıkış yapabilirsiniz',
+                title: 'exit'.tr(),
+                subtitle: 'exit_alt'.tr(),
                 trailing: const Icon(Icons.arrow_forward_ios, size: 16),
                 onTap: () async {
                   await context.read<PantryStore>().unbind();
