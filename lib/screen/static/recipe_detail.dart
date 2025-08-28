@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../model/recipes.dart';
@@ -33,11 +34,14 @@ class RecipeDetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Malzemeler', style: Theme.of(context).textTheme.titleMedium),
+            Text(
+              'ingredients'.tr(),
+              style: Theme.of(context).textTheme.titleMedium,
+            ),
             const SizedBox(height: 10),
 
             if (have.isNotEmpty) ...[
-              _SectionLabel(text: 'Elinde olanlar'),
+              _SectionLabel(text: 'what_you_have'.tr()),
               const SizedBox(height: 8),
               Wrap(
                 spacing: 8,
@@ -55,7 +59,7 @@ class RecipeDetailScreen extends StatelessWidget {
             ],
 
             if (missing.isNotEmpty) ...[
-              _SectionLabel(text: 'Eksik olanlar'),
+              _SectionLabel(text: 'missing'.tr()),
               const SizedBox(height: 8),
               Wrap(
                 spacing: 8,
@@ -72,21 +76,22 @@ class RecipeDetailScreen extends StatelessWidget {
               const SizedBox(height: 12),
               FilledButton.icon(
                 icon: const Icon(Icons.add_shopping_cart),
-                label: const Text('Eksikleri alışveriş listesine ekle'),
+                label: Text('add_to_cart'.tr()),
                 onPressed: () async {
                   await context.read<GroceryBag>().addAllIfMissing(missing);
                   if (context.mounted) {
                     ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('Eksikler alışveriş listesine eklendi'),
-                      ),
+                      SnackBar(content: Text('added_to_cart'.tr())),
                     );
                   }
                 },
               ),
               const SizedBox(height: 16),
             ],
-            Text('Yapılışı', style: Theme.of(context).textTheme.titleMedium),
+            Text(
+              'how_to_make'.tr(),
+              style: Theme.of(context).textTheme.titleMedium,
+            ),
             const SizedBox(height: 10),
             Column(
               children: [

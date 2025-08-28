@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 import '../service/norm.dart';
@@ -38,7 +39,8 @@ Future<RecipeFilter?> showRecipeFilterSheet(
   final local = current.copy();
   bool limitTime = local.maxMinutes != null;
   double minutes = (local.maxMinutes ?? 45).toDouble();
-
+  String fmtNum(BuildContext context, num v) =>
+      NumberFormat.decimalPattern(context.locale.toString()).format(v);
   return await showModalBottomSheet<RecipeFilter>(
     context: context,
     isScrollControlled: true,
@@ -64,7 +66,7 @@ Future<RecipeFilter?> showRecipeFilterSheet(
                         const Icon(Icons.filter_list),
                         const SizedBox(width: 8),
                         Text(
-                          'Filtreler',
+                          'filters'.tr(),
                           style: Theme.of(ctx).textTheme.titleMedium,
                         ),
                         const Spacer(),
@@ -79,7 +81,7 @@ Future<RecipeFilter?> showRecipeFilterSheet(
                             setState(() {});
                           },
                           icon: const Icon(Icons.restore),
-                          label: const Text('Sıfırla'),
+                          label: Text('reset').tr(),
                         ),
                       ],
                     ),
@@ -91,7 +93,7 @@ Future<RecipeFilter?> showRecipeFilterSheet(
                       children: [
                         if (availableCuisines.isNotEmpty) ...[
                           Text(
-                            'Mutfak',
+                            'kitchen'.tr(),
                             style: Theme.of(ctx).textTheme.labelLarge,
                           ),
                           const SizedBox(height: 8),
@@ -100,7 +102,7 @@ Future<RecipeFilter?> showRecipeFilterSheet(
                             runSpacing: 8,
                             children: [
                               ChoiceChip(
-                                label: const Text('Hepsi'),
+                                label: Text('all'.tr()),
                                 selected: local.cuisine == null,
                                 onSelected:
                                     (_) => setState(() => local.cuisine = null),
@@ -120,7 +122,7 @@ Future<RecipeFilter?> showRecipeFilterSheet(
                         ],
                         if (availableTags.isNotEmpty) ...[
                           Text(
-                            'Etiketler',
+                            'label'.tr(),
                             style: Theme.of(ctx).textTheme.labelLarge,
                           ),
                           const SizedBox(height: 8),
@@ -158,10 +160,14 @@ Future<RecipeFilter?> showRecipeFilterSheet(
                           },
                           title: Text(
                             limitTime
-                                ? 'Toplam süre ≤ ${minutes.toInt()} dk'
-                                : 'Süre sınırlaması yok',
+                                ? 'total_time_n'.tr(
+                                  namedArgs: {
+                                    'n': fmtNum(context, minutes.toInt()),
+                                  },
+                                )
+                                : 'no_time_limit'.tr(),
                           ),
-                          subtitle: const Text('Hazırlık + pişirme süresi'),
+                          subtitle: Text('preparition'.tr()),
                         ),
                         if (limitTime) ...[
                           Slider(
@@ -198,7 +204,7 @@ Future<RecipeFilter?> showRecipeFilterSheet(
                         Expanded(
                           child: OutlinedButton(
                             onPressed: () => Navigator.pop(sheetCtx, null),
-                            child: const Text('Vazgeç'),
+                            child: Text('cancel'.tr()),
                           ),
                         ),
                         const SizedBox(width: 12),
@@ -206,7 +212,7 @@ Future<RecipeFilter?> showRecipeFilterSheet(
                           child: FilledButton.icon(
                             onPressed: () => Navigator.pop(sheetCtx, local),
                             icon: const Icon(Icons.check),
-                            label: const Text('Uygula'),
+                            label: Text('apply'.tr()),
                           ),
                         ),
                       ],

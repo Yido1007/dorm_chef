@@ -1,6 +1,9 @@
 import 'package:dorm_chef/widget/badge.dart';
 import 'package:flutter/material.dart';
 
+import 'package:easy_localization/easy_localization.dart';
+import 'package:intl/intl.dart';
+
 import '../model/recipes.dart';
 import '../screen/static/recipe_detail.dart';
 
@@ -18,22 +21,44 @@ class RecipeCard extends StatelessWidget {
     required this.ratio,
   });
 
+  String _fmtNum(BuildContext context, num v) =>
+      NumberFormat.decimalPattern(context.locale.toString()).format(v);
+
   @override
   Widget build(BuildContext context) {
     final percent = (ratio * 100).round();
     final cs = Theme.of(context).colorScheme;
     final radius = BorderRadius.circular(16);
+
+    // Meta bilgileri (hazırlık/pişirme/porsiyon) – i18n
     final metaParts = <String>[];
     if (recipe.prepMinutes != null && recipe.prepMinutes! > 0) {
-      metaParts.add('${recipe.prepMinutes} dk hazırlık');
+      metaParts.add(
+        'prep_n_min'.tr(
+          namedArgs: {
+            'n': _fmtNum(context, recipe.prepMinutes!),
+            'min': 'unit_min'.tr(),
+          },
+        ),
+      );
     }
     if (recipe.cookMinutes != null && recipe.cookMinutes! > 0) {
-      metaParts.add('${recipe.cookMinutes} dk pişirme');
+      metaParts.add(
+        'cook_n_min'.tr(
+          namedArgs: {
+            'n': _fmtNum(context, recipe.cookMinutes!),
+            'min': 'unit_min'.tr(),
+          },
+        ),
+      );
     }
     if (recipe.servings != null && recipe.servings! > 0) {
-      metaParts.add('${recipe.servings} porsiyon');
+      metaParts.add(
+        'servings_n'.tr(namedArgs: {'n': _fmtNum(context, recipe.servings!)}),
+      );
     }
     final metaText = metaParts.join(' · ');
+
     final tagList = (recipe.tags).take(4).toList();
 
     return Card(
@@ -62,7 +87,8 @@ class RecipeCard extends StatelessWidget {
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                      recipe.title,
+                      recipe
+                          .title, // tarif başlığı veriden geliyor (içerik çok dilliyse orada çözülür)
                       style: Theme.of(context).textTheme.titleMedium,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
@@ -108,7 +134,7 @@ class RecipeCard extends StatelessWidget {
                             borderRadius: BorderRadius.circular(999),
                           ),
                           child: Text(
-                            t,
+                            t, // etiket metinleri içerikten gelir (çok dilliyse orada çöz)
                             style: Theme.of(context).textTheme.labelSmall
                                 ?.copyWith(color: cs.onSecondaryContainer),
                           ),
@@ -126,7 +152,14 @@ class RecipeCard extends StatelessWidget {
               ),
               const SizedBox(height: 8),
               Text(
-                '$haveCount / $needCount malzeme var (%$percent)',
+                // "{have} / {need} malzeme var (%{p})"
+                'ingredients_have_need_p'.tr(
+                  namedArgs: {
+                    'have': _fmtNum(context, haveCount),
+                    'need': _fmtNum(context, needCount),
+                    'p': _fmtNum(context, percent),
+                  },
+                ),
                 style: Theme.of(
                   context,
                 ).textTheme.bodyMedium?.copyWith(color: cs.onSurfaceVariant),
@@ -134,7 +167,7 @@ class RecipeCard extends StatelessWidget {
 
               const SizedBox(height: 14),
               Text(
-                'Gerekli malzemeler',
+                'required_ingredients'.tr(), // "Gerekli malzemeler"
                 style: Theme.of(
                   context,
                 ).textTheme.labelLarge?.copyWith(color: cs.onSurface),
