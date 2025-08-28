@@ -1,12 +1,8 @@
 import 'package:dorm_chef/widget/badge.dart';
 import 'package:flutter/material.dart';
-
 import 'package:easy_localization/easy_localization.dart';
-import 'package:intl/intl.dart';
-
 import '../model/recipes.dart';
 import '../screen/static/recipe_detail.dart';
-
 class RecipeCard extends StatelessWidget {
   final Recipe recipe;
   final int haveCount;
@@ -29,8 +25,6 @@ class RecipeCard extends StatelessWidget {
     final percent = (ratio * 100).round();
     final cs = Theme.of(context).colorScheme;
     final radius = BorderRadius.circular(16);
-
-    // Meta bilgileri (hazırlık/pişirme/porsiyon) – i18n
     final metaParts = <String>[];
     if (recipe.prepMinutes != null && recipe.prepMinutes! > 0) {
       metaParts.add(
@@ -88,7 +82,7 @@ class RecipeCard extends StatelessWidget {
                   Expanded(
                     child: Text(
                       recipe
-                          .title, // tarif başlığı veriden geliyor (içerik çok dilliyse orada çözülür)
+                          .title,
                       style: Theme.of(context).textTheme.titleMedium,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
@@ -134,7 +128,7 @@ class RecipeCard extends StatelessWidget {
                             borderRadius: BorderRadius.circular(999),
                           ),
                           child: Text(
-                            t, // etiket metinleri içerikten gelir (çok dilliyse orada çöz)
+                            t,
                             style: Theme.of(context).textTheme.labelSmall
                                 ?.copyWith(color: cs.onSecondaryContainer),
                           ),
@@ -152,7 +146,6 @@ class RecipeCard extends StatelessWidget {
               ),
               const SizedBox(height: 8),
               Text(
-                // "{have} / {need} malzeme var (%{p})"
                 'ingredients_have_need_p'.tr(
                   namedArgs: {
                     'have': _fmtNum(context, haveCount),
@@ -167,7 +160,7 @@ class RecipeCard extends StatelessWidget {
 
               const SizedBox(height: 14),
               Text(
-                'required_ingredients'.tr(), // "Gerekli malzemeler"
+                'required_ingredients'.tr(),
                 style: Theme.of(
                   context,
                 ).textTheme.labelLarge?.copyWith(color: cs.onSurface),
