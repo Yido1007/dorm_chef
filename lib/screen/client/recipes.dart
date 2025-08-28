@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../model/recipes.dart';
@@ -43,7 +44,7 @@ class _RecipesScreenState extends State<RecipesScreen> {
       builder: (context, warmSnap) {
         if (warmSnap.connectionState != ConnectionState.done) {
           return Scaffold(
-            appBar: AppBar(title: Text('Tarifler')),
+            appBar: AppBar(title: Text('recipe').tr()),
             body: Center(child: CircularProgressIndicator()),
           );
         }
@@ -59,7 +60,7 @@ class _RecipesScreenState extends State<RecipesScreen> {
               builder: (context, snap) {
                 if (snap.connectionState != ConnectionState.done) {
                   return Scaffold(
-                    appBar: AppBar(title: Text('Tarifler')),
+                    appBar: AppBar(title: Text('recipes').tr()),
                     body: Center(child: CircularProgressIndicator()),
                   );
                 }
@@ -77,17 +78,17 @@ class _RecipesScreenState extends State<RecipesScreen> {
                       ..sort();
                 return Scaffold(
                   appBar: AppBar(
-                    title: const Text('Tarifler'),
+                    title: Text('recipe').tr(),
                     actions: [
                       if (!_filter.isEmpty)
                         IconButton(
-                          tooltip: 'Filtreyi temizle',
+                          tooltip: '',
                           onPressed:
                               () => setState(() => _filter = RecipeFilter()),
                           icon: const Icon(Icons.filter_alt_off),
                         ),
                       IconButton(
-                        tooltip: 'Filtrele',
+                        tooltip: 'clear_filter'.tr(),
                         onPressed: () async {
                           final updated = await showRecipeFilterSheet(
                             context,
@@ -112,7 +113,7 @@ class _RecipesScreenState extends State<RecipesScreen> {
                           textInputAction: TextInputAction.search,
                           onChanged: (v) => setState(() => _filter.query = v),
                           decoration: InputDecoration(
-                            hintText: 'Başlık, malzeme, etiket ara…',
+                            hintText: 'recipe_search'.tr(),
                             prefixIcon: const Icon(Icons.search),
                             filled: true,
                             border: OutlineInputBorder(
