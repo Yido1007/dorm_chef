@@ -111,5 +111,12 @@
   "required_ingredients": "Required ingredients",
   "shopping_list":"Shopping List",
   "clear":"Clear",
-  "empty_list":"The list is empty. You can add the missing items from the recipe details."
+  "empty_list":"The list is empty. You can add the missing items from the recipe details.",
+  "camera_start_failed_with_err": "Failed to start camera.\n{err}",
+  "barcode_n": "Barcode: {code}",
+  "ingredient_name": "Ingredient name",
+  "ingredient_hint_example": "e.g. Tomato",
+  "add_to_inventory": "Add to inventory",
+
+  "added_to_inventory_with_label": "\"{label}\" added to inventory"
 }

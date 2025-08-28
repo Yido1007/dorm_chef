@@ -111,5 +111,12 @@
   "required_ingredients": "Gerekli malzemeler",
   "shopping_list":"Alışveriş Listesi",
   "clear":"Temizle",
-  "empty_list":"Liste boş. Tarif detayından eksikleri ekleyebilirsin."
+  "empty_list":"Liste boş. Tarif detayından eksikleri ekleyebilirsin.",
+  "camera_start_failed_with_err": "Kamera başlatılamadı.\n{err}",
+  "barcode_n": "Barkod: {code}",
+  "ingredient_name": "Malzeme adı",
+  "ingredient_hint_example": "Örn. Domates",  
+  "add_to_inventory": "Envantere ekle",
+
+  "added_to_inventory_with_label": "\"{label}\" envantere eklendi"
 }

@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:provider/provider.dart';
@@ -39,10 +40,10 @@ class _ScanScreenState extends State<ScanScreen>
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Barkod Tara'),
+        title: Text('scan'.tr()),
         actions: [
           IconButton(
-            tooltip: 'Fener',
+            tooltip: 'flash'.tr(),
             icon: const Icon(Icons.flashlight_on_outlined),
             onPressed: () async {
               try {
@@ -53,7 +54,7 @@ class _ScanScreenState extends State<ScanScreen>
             },
           ),
           IconButton(
-            tooltip: 'Kamerayı çevir',
+            tooltip: 'camera'.tr(),
             icon: const Icon(Icons.cameraswitch_outlined),
             onPressed: () async {
               try {
@@ -94,14 +95,15 @@ class _ScanScreenState extends State<ScanScreen>
                 });
               }
             },
-            // mobile_scanner'ın yeni sürümlerinde 2 parametreli
             errorBuilder: (BuildContext context, MobileScannerException error) {
               debugPrint('MobileScanner error: $error');
               return Center(
                 child: Padding(
                   padding: const EdgeInsets.all(16),
                   child: Text(
-                    'Kamera başlatılamadı.\n$error',
+                    'camera_start_failed_with_err'.tr(
+                      namedArgs: {'err': '$error'},
+                    ),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -143,7 +145,13 @@ class _ScanScreenState extends State<ScanScreen>
       await store.addByLabel(labelFromApi.trim());
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('"$labelFromApi" envantere eklendi')),
+        SnackBar(
+          content: Text(
+            'added_to_inventory_with_label'.tr(
+              namedArgs: {'label': labelFromApi},
+            ),
+          ),
+        ),
       );
       return;
     }
@@ -167,7 +175,7 @@ class _ScanScreenState extends State<ScanScreen>
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  'Barkod: $code',
+                  'barcode_n'.tr(namedArgs: {'code': code}),
                   style: Theme.of(ctx).textTheme.labelSmall,
                 ),
                 const SizedBox(height: 8),
@@ -175,10 +183,10 @@ class _ScanScreenState extends State<ScanScreen>
                   controller: ctrl,
                   autofocus: true,
                   textInputAction: TextInputAction.done,
-                  decoration: const InputDecoration(
-                    labelText: 'Malzeme adı',
-                    hintText: 'Örn. Domates',
-                    border: OutlineInputBorder(),
+                  decoration: InputDecoration(
+                    labelText: 'ingredient_name'.tr(),
+                    hintText: 'ingredient_hint_example'.tr(),
+                    border: const OutlineInputBorder(),
                   ),
                   onSubmitted: (_) => Navigator.pop(ctx, true),
                 ),
@@ -188,7 +196,7 @@ class _ScanScreenState extends State<ScanScreen>
                     Expanded(
                       child: OutlinedButton(
                         onPressed: () => Navigator.pop(ctx, false),
-                        child: const Text('Vazgeç'),
+                        child: Text('cancel'.tr()),
                       ),
                     ),
                     const SizedBox(width: 12),
@@ -196,7 +204,7 @@ class _ScanScreenState extends State<ScanScreen>
                       child: FilledButton.icon(
                         onPressed: () => Navigator.pop(ctx, true),
                         icon: const Icon(Icons.add),
-                        label: const Text('Envantere ekle'),
+                        label: Text('add_to_inventory'.tr()),
                       ),
                     ),
                   ],
@@ -212,9 +220,13 @@ class _ScanScreenState extends State<ScanScreen>
       if (name.isNotEmpty) {
         await store.addByLabel(name);
         if (!mounted) return;
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(SnackBar(content: Text('"$name" envantere eklendi')));
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(
+              'added_to_inventory_with_label'.tr(namedArgs: {'label': name}),
+            ),
+          ),
+        );
       }
     }
   }
