@@ -270,10 +270,12 @@ class _AuthScreenState extends State<AuthScreen> {
                           ),
                           obscureText: _obConfirm,
                           validator: (v) {
-                            if (v == null || v.isEmpty)
+                            if (v == null || v.isEmpty) {
                               return 'password_again_required'.tr();
-                            if (v != _pass.text)
+                            }
+                            if (v != _pass.text) {
                               return 'password_mismatch'.tr();
+                            }
                             return null;
                           },
                         ),
@@ -375,8 +377,9 @@ class _AuthScreenState extends State<AuthScreen> {
                                         ),
                                       );
                                     } finally {
-                                      if (mounted)
+                                      if (mounted) {
                                         setState(() => _loading = false);
+                                      }
                                     }
                                   },
                           child: Row(
@@ -474,8 +477,9 @@ class _PasswordStrengthBar extends StatelessWidget {
     if (RegExp(r'[A-Z]').hasMatch(s)) pts++;
     if (RegExp(r'[a-z]').hasMatch(s)) pts++;
     if (RegExp(r'\d').hasMatch(s)) pts++;
-    if (RegExp(r'[!@#\$%\^&\*\(\)_\+\-=\[\]{};:"\\|,.<>\/?`~]').hasMatch(s))
+    if (RegExp(r'[!@#\$%\^&\*\(\)_\+\-=\[\]{};:"\\|,.<>\/?`~]').hasMatch(s)) {
       pts++;
+    }
     return pts;
   }
 }
