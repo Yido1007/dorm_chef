@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../provider/grocery.dart';
@@ -23,25 +24,25 @@ class _GroceryScreenState extends State<GroceryScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Alışveriş Sepeti'),
+        title: Text('cart'.tr()),
         actions: [
           IconButton(
-            tooltip: 'Sepeti temizle',
+            tooltip: 'clear_cart'.tr(),
             onPressed: () async {
               final ok = await showDialog<bool>(
                 context: context,
                 builder:
                     (ctx) => AlertDialog(
-                      title: const Text('Tümünü sil?'),
-                      content: const Text('Sepetteki tüm öğeler silinsin mi?'),
+                      title: Text('delete_all'.tr()),
+                      content: Text('cart_delete'.tr()),
                       actions: [
                         TextButton(
                           onPressed: () => Navigator.pop(ctx, false),
-                          child: const Text('Vazgeç'),
+                          child: Text('cancel'.tr()),
                         ),
                         FilledButton(
                           onPressed: () => Navigator.pop(ctx, true),
-                          child: const Text('Sil'),
+                          child: Text('delete'.tr()),
                         ),
                       ],
                     ),
@@ -55,12 +56,10 @@ class _GroceryScreenState extends State<GroceryScreen> {
       body: Consumer<GroceryBag>(
         builder: (context, bag, _) {
           if (bag.items.isEmpty) {
-            return const Center(
+            return Center(
               child: Padding(
                 padding: EdgeInsets.all(24.0),
-                child: Text(
-                  'Sepet boş. Tarif detayından “Eksikleri ekle” ile doldurabilirsin.',
-                ),
+                child: Text('cart_main'.tr()),
               ),
             );
           }
@@ -80,7 +79,7 @@ class _GroceryScreenState extends State<GroceryScreen> {
                   ),
                 ),
                 secondary: IconButton(
-                  tooltip: 'Kaldır',
+                  tooltip: 'remove'.tr(),
                   icon: const Icon(Icons.close),
                   onPressed: () => bag.remove(it.id),
                 ),
@@ -96,22 +95,22 @@ class _GroceryScreenState extends State<GroceryScreen> {
             context: context,
             builder:
                 (ctx) => AlertDialog(
-                  title: const Text('Öğe ekle'),
+                  title: Text('add_ing'.tr()),
                   content: TextField(
                     controller: ctrl,
                     autofocus: true,
                     textInputAction: TextInputAction.done,
-                    decoration: const InputDecoration(hintText: 'Örn. Süt'),
+                    decoration: InputDecoration(hintText: 'example'.tr()),
                     onSubmitted: (_) => Navigator.pop(ctx, true),
                   ),
                   actions: [
                     TextButton(
                       onPressed: () => Navigator.pop(ctx, false),
-                      child: const Text('Vazgeç'),
+                      child: Text('cancel'.tr()),
                     ),
                     FilledButton(
                       onPressed: () => Navigator.pop(ctx, true),
-                      child: const Text('Ekle'),
+                      child: Text('add'.tr()),
                     ),
                   ],
                 ),
@@ -122,7 +121,7 @@ class _GroceryScreenState extends State<GroceryScreen> {
           }
         },
         icon: const Icon(Icons.add_shopping_cart),
-        label: const Text('Ekle'),
+        label: Text('add'.tr()),
       ),
     );
   }
