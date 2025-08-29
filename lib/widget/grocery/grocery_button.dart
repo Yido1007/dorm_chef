@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../provider/grocery.dart';
+import '../../provider/grocery.dart';
 import 'grocery_cart.dart';
 
 class GroceryQuickButton extends StatefulWidget {

@@ -2,7 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../provider/ingredient.dart';
-import '../../widget/ingredient_tile.dart';
+import '../../widget/ingredient/ingredient_tile.dart';
 
 class InventoryScreen extends StatelessWidget {
   const InventoryScreen({super.key});

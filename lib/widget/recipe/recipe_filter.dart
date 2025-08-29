@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
-import '../service/norm.dart';
+import '../../service/norm.dart';
 
 class RecipeFilter {
   String query;

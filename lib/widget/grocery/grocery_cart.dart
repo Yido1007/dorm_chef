@@ -2,7 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../provider/grocery.dart';
+import '../../provider/grocery.dart';
 
 Future<void> showGrocerySheet(BuildContext context) async {
   final bag = context.read<GroceryBag>();

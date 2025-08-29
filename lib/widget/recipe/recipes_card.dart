@@ -1,8 +1,8 @@
-import 'package:dorm_chef/widget/badge.dart';
+import 'package:dorm_chef/widget/recipe/badge.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
-import '../model/recipes.dart';
-import '../screen/static/recipe_detail.dart';
+import '../../model/recipes.dart';
+import '../../screen/static/recipe_detail.dart';
 class RecipeCard extends StatelessWidget {
   final Recipe recipe;
   final int haveCount;

@@ -1,6 +1,6 @@
 import 'package:dorm_chef/screen/static/settings.dart';
-import 'package:dorm_chef/widget/daily_carrousel.dart';
-import 'package:dorm_chef/widget/title.dart';
+import 'package:dorm_chef/widget/home_tab/daily_carrousel.dart';
+import 'package:dorm_chef/widget/home_tab/title.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

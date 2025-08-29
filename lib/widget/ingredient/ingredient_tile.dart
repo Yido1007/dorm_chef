@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../model/ingredient.dart';
-import '../provider/ingredient.dart';
+import '../../model/ingredient.dart';
+import '../../provider/ingredient.dart';
 
 class PantryItemTile extends StatelessWidget {
   final PantryItem data;

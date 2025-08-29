@@ -6,8 +6,8 @@ import '../../model/scored.dart';
 import '../../provider/ingredient.dart';
 import '../../service/norm.dart';
 import '../../service/recipes.dart';
-import '../../widget/recipe_filter.dart';
-import '../../widget/recipes_card.dart';
+import '../../widget/recipe/recipe_filter.dart';
+import '../../widget/recipe/recipes_card.dart';
 
 class RecipesScreen extends StatefulWidget {
   const RecipesScreen({super.key});
