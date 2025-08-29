@@ -24,10 +24,9 @@ class FavoritesStrip extends StatelessWidget {
             height: height,
             child: Consumer<FavoriteStore>(
               builder: (context, fav, _) {
-                final favIds = fav.orderedIds; 
+                final favIds = fav.orderedIds;
                 return FutureBuilder<List<Recipe>>(
-                  future:
-                      RecipeSource.load(),
+                  future: RecipeSource.load(),
                   builder: (context, snap) {
                     if (snap.connectionState != ConnectionState.done) {
                       return const Center(child: CircularProgressIndicator());
@@ -75,14 +74,23 @@ class _FavCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
+    final radius = BorderRadius.circular(14);
+
+    // Güvenli tag listesi (null/karışık tiplere karşı korumalı)
+    final List<String> tags =
+        (recipe.tags as List?)
+            ?.whereType<String>()
+            .map((e) => e.trim())
+            .where((e) => e.isNotEmpty)
+            .toList() ??
+        const <String>[];
 
     return SizedBox(
       width: 240,
       child: Material(
-        color: cs.surfaceContainerHigh,
-        borderRadius: BorderRadius.circular(16),
-        clipBehavior: Clip.antiAlias,
+        color: Colors.transparent,
         child: InkWell(
+          borderRadius: radius,
           onTap: () {
             Navigator.push(
               context,
@@ -91,25 +99,17 @@ class _FavCard extends StatelessWidget {
               ),
             );
           },
-          child: Stack(
-            children: [
-              Positioned.fill(
-                child: DecoratedBox(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [cs.primaryContainer, cs.secondaryContainer],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                  ),
-                ),
-              ),
-              // Başlık
-              Positioned(
-                left: 12,
-                right: 48,
-                top: 12,
-                child: Text(
+          child: Container(
+            padding: const EdgeInsets.fromLTRB(12, 12, 12, 12),
+            decoration: BoxDecoration(
+              color: cs.surfaceContainerHigh,
+              borderRadius: radius, 
+            ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // Başlık
+                Text(
                   recipe.title,
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
@@ -117,26 +117,42 @@ class _FavCard extends StatelessWidget {
                     context,
                   ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w800),
                 ),
-              ),
-              // Süre + kalp
-              Positioned(
-                left: 12,
-                right: 12,
-                bottom: 12,
-                child: Row(
+
+                const SizedBox(height: 8),
+
+                // TAG ŞERİDİ (ilk 6 tag, max ~2 satır görünür)
+                if (tags.isNotEmpty)
+                  ConstrainedBox(
+                    constraints: const BoxConstraints(
+                      maxHeight: 56,
+                    ), // taşmayı önler (yaklaşık iki satır)
+                    child: Wrap(
+                      spacing: 6,
+                      runSpacing: 6,
+                      children: tags.take(6).map((t) => _TagPill(t)).toList(),
+                    ),
+                  ),
+
+                const Spacer(),
+
+                // Alt satır: süre + (opsiyonel) kalp
+                Row(
                   children: [
                     const Icon(Icons.schedule, size: 16),
                     const SizedBox(width: 6),
                     Text(
                       _totalMins(recipe),
-                      style: Theme.of(context).textTheme.labelMedium,
+                      style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                        color: cs.onSurfaceVariant,
+                      ),
                     ),
                     const Spacer(),
-                    FavoriteHeartButton(recipeId: recipe.id),
+                    // Favoriler kapalıysa bu satırı kaldırabilirsin:
+                    FavoriteHeartButton(recipeId: recipe.id ?? ''),
                   ],
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
@@ -146,5 +162,31 @@ class _FavCard extends StatelessWidget {
   String _totalMins(Recipe r) {
     final t = (r.prepMinutes ?? 0) + (r.cookMinutes ?? 0);
     return t > 0 ? '$t dk' : 'Tarif';
+  }
+}
+
+// Küçük "pill" etiketi
+class _TagPill extends StatelessWidget {
+  const _TagPill(this.text);
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      decoration: BoxDecoration(
+        color: cs.secondaryContainer,
+        borderRadius: BorderRadius.circular(999),
+        border: Border.all(color: cs.outlineVariant.withOpacity(.6)),
+      ),
+      child: Text(
+        text,
+        style: Theme.of(context).textTheme.labelSmall?.copyWith(
+          color: cs.onSecondaryContainer,
+          fontWeight: FontWeight.w600,
+        ),
+      ),
+    );
   }
 }
