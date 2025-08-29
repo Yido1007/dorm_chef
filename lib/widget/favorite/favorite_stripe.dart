@@ -8,8 +8,7 @@ import 'package:dorm_chef/model/recipes.dart';
 import 'package:dorm_chef/service/recipes.dart';
 
 class FavoritesStrip extends StatelessWidget {
-  const FavoritesStrip({super.key, this.height = 170});
-  final double height;
+  const FavoritesStrip({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,64 +18,69 @@ class FavoritesStrip extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.only(top: 8.0),
-          child: SizedBox(
-            height: height,
-            child: Consumer<FavoriteStore>(
-              builder: (context, fav, _) {
-                final favIds = fav.orderedIds;
-                return FutureBuilder<List<Recipe>>(
-                  future: RecipeSource.load(),
-                  builder: (context, snap) {
-                    if (snap.connectionState != ConnectionState.done) {
-                      return const Center(child: CircularProgressIndicator());
-                    }
-                    final all = snap.data ?? const <Recipe>[];
-                    final byId = {for (final r in all) r.id: r};
+          padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+          child: Text(
+            'Favoriler',
+            style: Theme.of(
+              context,
+            ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
+          ),
+        ),
+        Consumer<FavoriteStore>(
+          builder: (context, fav, _) {
+            final favIds = fav.orderedIds;
+            return FutureBuilder<List<Recipe>>(
+              future: RecipeSource.load(),
+              builder: (context, snap) {
+                if (snap.connectionState != ConnectionState.done) {
+                  return const Padding(
+                    padding: EdgeInsets.symmetric(vertical: 24),
+                    child: Center(child: CircularProgressIndicator()),
+                  );
+                }
 
-                    final items = <Recipe>[];
-                    for (final id in favIds) {
-                      final r = byId[id];
-                      if (r != null) items.add(r);
-                    }
+                final all = snap.data ?? const <Recipe>[];
+                final byId = {for (final r in all) r.id: r};
+                final items = <Recipe>[];
+                for (final id in favIds) {
+                  final r = byId[id];
+                  if (r != null) items.add(r);
+                }
 
-                    if (items.isEmpty) {
-                      return Center(
-                        child: Text(
-                          'Henüz favorin yok',
-                          style: TextStyle(color: cs.onSurfaceVariant),
-                        ),
-                      );
-                    }
+                if (items.isEmpty) {
+                  return Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+                    child: Text(
+                      'Henüz favorin yok',
+                      style: TextStyle(color: cs.onSurfaceVariant),
+                    ),
+                  );
+                }
 
-                    return ListView.separated(
-                      scrollDirection: Axis.horizontal,
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      itemCount: items.length,
-                      separatorBuilder: (_, __) => const SizedBox(width: 12),
-                      itemBuilder: (_, i) => _FavCard(recipe: items[i]),
-                    );
-                  },
+                return ListView.separated(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: items.length,
+                  padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+                  separatorBuilder: (_, __) => const SizedBox(height: 10),
+                  itemBuilder: (_, i) => _FavCardSmall(recipe: items[i]),
                 );
               },
-            ),
-          ),
+            );
+          },
         ),
       ],
     );
   }
 }
 
-class _FavCard extends StatelessWidget {
-  const _FavCard({required this.recipe});
+class _FavCardSmall extends StatelessWidget {
+  const _FavCardSmall({required this.recipe});
   final Recipe recipe;
-
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
-    final radius = BorderRadius.circular(14);
-
-    // Güvenli tag listesi (null/karışık tiplere karşı korumalı)
+    final radius = BorderRadius.circular(12);
     final List<String> tags =
         (recipe.tags as List?)
             ?.whereType<String>()
@@ -85,74 +89,83 @@ class _FavCard extends StatelessWidget {
             .toList() ??
         const <String>[];
 
-    return SizedBox(
-      width: 240,
-      child: Material(
-        color: Colors.transparent,
-        child: InkWell(
-          borderRadius: radius,
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (_) => RecipeDetailScreen(recipe: recipe),
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: radius,
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => RecipeDetailScreen(recipe: recipe),
+            ),
+          );
+        },
+        child: Container(
+          padding: const EdgeInsets.all(10),
+          decoration: BoxDecoration(
+            color: cs.surfaceContainerHigh,
+            borderRadius: radius,
+          ),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                width: 48,
+                height: 48,
+                decoration: BoxDecoration(
+                  color: cs.surfaceContainerHighest,
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(color: cs.outlineVariant),
+                ),
+                child: const Icon(Icons.restaurant_rounded, size: 22),
               ),
-            );
-          },
-          child: Container(
-            padding: const EdgeInsets.fromLTRB(12, 12, 12, 12),
-            decoration: BoxDecoration(
-              color: cs.surfaceContainerHigh,
-              borderRadius: radius, 
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                // Başlık
-                Text(
-                  recipe.title,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  style: Theme.of(
-                    context,
-                  ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w800),
-                ),
-
-                const SizedBox(height: 8),
-
-                // TAG ŞERİDİ (ilk 6 tag, max ~2 satır görünür)
-                if (tags.isNotEmpty)
-                  ConstrainedBox(
-                    constraints: const BoxConstraints(
-                      maxHeight: 56,
-                    ), // taşmayı önler (yaklaşık iki satır)
-                    child: Wrap(
-                      spacing: 6,
-                      runSpacing: 6,
-                      children: tags.take(6).map((t) => _TagPill(t)).toList(),
-                    ),
-                  ),
-
-                const Spacer(),
-
-                // Alt satır: süre + (opsiyonel) kalp
-                Row(
-                  children: [
-                    const Icon(Icons.schedule, size: 16),
-                    const SizedBox(width: 6),
-                    Text(
-                      _totalMins(recipe),
-                      style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                        color: cs.onSurfaceVariant,
+              const SizedBox(width: 10),
+              Expanded(
+                child: SizedBox(
+                  height: 68,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        recipe.title,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                          fontWeight: FontWeight.w800,
+                          height: 1.1,
+                        ),
                       ),
-                    ),
-                    const Spacer(),
-                    // Favoriler kapalıysa bu satırı kaldırabilirsin:
-                    FavoriteHeartButton(recipeId: recipe.id ?? ''),
-                  ],
+                      const SizedBox(height: 4),
+                      if (tags.isNotEmpty)
+                        Wrap(
+                          spacing: 6,
+                          runSpacing: 6,
+                          children:
+                              tags
+                                  .take(3)
+                                  .map((t) => _TagPillSmall(t))
+                                  .toList(),
+                        ),
+                      const Spacer(),
+                      Row(
+                        children: [
+                          const Icon(Icons.schedule, size: 14),
+                          const SizedBox(width: 4),
+                          Text(
+                            _totalMins(recipe),
+                            style: Theme.of(context).textTheme.labelSmall
+                                ?.copyWith(color: cs.onSurfaceVariant),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
-              ],
-            ),
+              ),
+              const SizedBox(width: 8),
+              FavoriteHeartButton(recipeId: recipe.id),
+            ],
           ),
         ),
       ),
@@ -165,16 +178,15 @@ class _FavCard extends StatelessWidget {
   }
 }
 
-// Küçük "pill" etiketi
-class _TagPill extends StatelessWidget {
-  const _TagPill(this.text);
+class _TagPillSmall extends StatelessWidget {
+  const _TagPillSmall(this.text);
   final String text;
 
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
       decoration: BoxDecoration(
         color: cs.secondaryContainer,
         borderRadius: BorderRadius.circular(999),

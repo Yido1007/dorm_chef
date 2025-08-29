@@ -106,7 +106,7 @@ class HomeTabScreen extends StatelessWidget {
               HomeTabTitle(text: "Günlük Tarif Önerisi 🍔🍕"),
               DailyRecipeCarousel(height: 230),
               HomeTabTitle(text: "Favori Tariflerim"),
-              FavoritesStrip(height: 170),
+              FavoritesStrip(),
             ],
           ),
         );
