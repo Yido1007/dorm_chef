@@ -1,5 +1,6 @@
 import 'package:dorm_chef/screen/static/settings.dart';
 import 'package:dorm_chef/widget/daily_carrousel.dart';
+import 'package:dorm_chef/widget/title.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -112,19 +113,3 @@ class HomeTabScreen extends StatelessWidget {
   }
 }
 
-class HomeTabTitle extends StatelessWidget {
-  final String text;
-  const HomeTabTitle({super.key, required this.text});
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.only(left: 16, bottom: 8, top: 8),
-      child: Text(
-        overflow: TextOverflow.ellipsis,
-        text,
-        style: Theme.of(context).textTheme.titleLarge,
-      ),
-    );
-  }
-}
