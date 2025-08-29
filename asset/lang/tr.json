@@ -140,5 +140,6 @@
   "name_min2": "En az 2 karakter",
   "email_label": "E-posta",
   "profile_name_hint": "İsim, profilinizde görünen ad olarak kullanılır.",
-  "session_not_found": "Oturum bulunamadı."
+  "session_not_found": "Oturum bulunamadı.",
+    "total_minutes": "{} dk"
 }

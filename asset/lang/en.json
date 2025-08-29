@@ -140,5 +140,6 @@
   "name_min2": "At least 2 characters",
   "email_label": "Email",
   "profile_name_hint": "Your name is shown on your profile.",
-  "session_not_found": "No active session."
+  "session_not_found": "No active session.",
+  "total_minutes": "{} min"
 }

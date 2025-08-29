@@ -1,4 +1,5 @@
 import 'package:dorm_chef/screen/static/settings.dart';
+import 'package:dorm_chef/widget/daily_carrousel.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -97,7 +98,12 @@ class HomeTabScreen extends StatelessWidget {
               ),
             ],
           ),
-          body: Center(child: Text("Home Tab")),
+          body: ListView(
+            padding: const EdgeInsets.only(top: 12),
+            children: const [
+              DailyRecipeCarousel(height: 230),
+            ],
+          ),
         );
       },
     );
