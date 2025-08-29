@@ -19,54 +19,48 @@ class FavoritesStrip extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-          child: Text(
-            'Favoriler',
-            style: Theme.of(
-              context,
-            ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
-          ),
-        ),
-        SizedBox(
-          height: height,
-          child: Consumer<FavoriteStore>(
-            builder: (context, fav, _) {
-              final favIds = fav.orderedIds; // createdAt'e göre sıralı
-              return FutureBuilder<List<Recipe>>(
-                future:
-                    RecipeSource.load(), // asset'ten; sende cache'li ise anında döner
-                builder: (context, snap) {
-                  if (snap.connectionState != ConnectionState.done) {
-                    return const Center(child: CircularProgressIndicator());
-                  }
-                  final all = snap.data ?? const <Recipe>[];
-                  final byId = {for (final r in all) r.id: r};
+          padding: const EdgeInsets.only(top: 8.0),
+          child: SizedBox(
+            height: height,
+            child: Consumer<FavoriteStore>(
+              builder: (context, fav, _) {
+                final favIds = fav.orderedIds; 
+                return FutureBuilder<List<Recipe>>(
+                  future:
+                      RecipeSource.load(),
+                  builder: (context, snap) {
+                    if (snap.connectionState != ConnectionState.done) {
+                      return const Center(child: CircularProgressIndicator());
+                    }
+                    final all = snap.data ?? const <Recipe>[];
+                    final byId = {for (final r in all) r.id: r};
 
-                  final items = <Recipe>[];
-                  for (final id in favIds) {
-                    final r = byId[id];
-                    if (r != null) items.add(r);
-                  }
+                    final items = <Recipe>[];
+                    for (final id in favIds) {
+                      final r = byId[id];
+                      if (r != null) items.add(r);
+                    }
 
-                  if (items.isEmpty) {
-                    return Center(
-                      child: Text(
-                        'Henüz favorin yok',
-                        style: TextStyle(color: cs.onSurfaceVariant),
-                      ),
+                    if (items.isEmpty) {
+                      return Center(
+                        child: Text(
+                          'Henüz favorin yok',
+                          style: TextStyle(color: cs.onSurfaceVariant),
+                        ),
+                      );
+                    }
+
+                    return ListView.separated(
+                      scrollDirection: Axis.horizontal,
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      itemCount: items.length,
+                      separatorBuilder: (_, __) => const SizedBox(width: 12),
+                      itemBuilder: (_, i) => _FavCard(recipe: items[i]),
                     );
-                  }
-
-                  return ListView.separated(
-                    scrollDirection: Axis.horizontal,
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
-                    itemCount: items.length,
-                    separatorBuilder: (_, __) => const SizedBox(width: 12),
-                    itemBuilder: (_, i) => _FavCard(recipe: items[i]),
-                  );
-                },
-              );
-            },
+                  },
+                );
+              },
+            ),
           ),
         ),
       ],

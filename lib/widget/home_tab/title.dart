@@ -7,7 +7,7 @@ class HomeTabTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(left: 16, bottom: 8, top: 8),
+      padding: EdgeInsets.only(left: 16, bottom: 8, top: 16),
       child: Text(
         overflow: TextOverflow.ellipsis,
         text,
