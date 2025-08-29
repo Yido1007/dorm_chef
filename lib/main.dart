@@ -1,4 +1,6 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dorm_chef/firebase_options.dart';
+import 'package:dorm_chef/provider/favorite.dart';
 import 'package:dorm_chef/provider/grocery.dart';
 import 'package:dorm_chef/provider/theme.dart';
 import 'package:dorm_chef/screen/core/auth.dart';
@@ -24,6 +26,10 @@ Future<void> main() async {
     serverClientId:
         '318643443437-m6b4hdplov8bj5sigoqu76t30ff5qb7u.apps.googleusercontent.com',
   );
+  // Offline cache açık
+  FirebaseFirestore.instance.settings = const Settings(
+    persistenceEnabled: true,
+  );
   runApp(
     EasyLocalization(
       supportedLocales: const [
@@ -43,6 +49,7 @@ Future<void> main() async {
           ChangeNotifierProvider(create: (_) => PantryStore()),
           ChangeNotifierProvider(create: (_) => GroceryBag()),
           ChangeNotifierProvider(create: (_) => ThemeController()..load()),
+          ChangeNotifierProvider(create: (_) => FavoriteStore()),
         ],
         child: DormChefApp(),
       ),
