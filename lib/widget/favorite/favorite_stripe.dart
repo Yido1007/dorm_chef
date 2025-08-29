@@ -1,6 +1,7 @@
 import 'package:dorm_chef/provider/favorite.dart';
 import 'package:dorm_chef/screen/static/recipe_detail.dart';
 import 'package:dorm_chef/widget/favorite/heart_button.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -18,9 +19,9 @@ class FavoritesStrip extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+          padding: EdgeInsets.fromLTRB(16, 8, 16, 8),
           child: Text(
-            'Favoriler',
+            'favorite'.tr(),
             style: Theme.of(
               context,
             ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
@@ -51,7 +52,7 @@ class FavoritesStrip extends StatelessWidget {
                   return Padding(
                     padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
                     child: Text(
-                      'Henüz favorin yok',
+                      'not_favorite'.tr(),
                       style: TextStyle(color: cs.onSurfaceVariant),
                     ),
                   );
@@ -174,7 +175,9 @@ class _FavCardSmall extends StatelessWidget {
 
   String _totalMins(Recipe r) {
     final t = (r.prepMinutes ?? 0) + (r.cookMinutes ?? 0);
-    return t > 0 ? '$t dk' : 'Tarif';
+    return t > 0
+        ? 'total_minutes'.tr(args: [t.toString()])
+        : 'recipe_label'.tr();
   }
 }
 

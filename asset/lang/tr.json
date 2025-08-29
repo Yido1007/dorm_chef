@@ -141,5 +141,11 @@
   "email_label": "E-posta",
   "profile_name_hint": "İsim, profilinizde görünen ad olarak kullanılır.",
   "session_not_found": "Oturum bulunamadı.",
-    "total_minutes": "{} dk"
+  "total_minutes": "{} dk",
+  "favorite":"Favoriler",
+  "not_favorite":"Henüz favorin yok",
+  "recipe_label": "Tarif",
+  "add_favorite":"Favorilere Ekle",
+  "remove_fav":"Favorilerden kaldır",
+  "sign_fav":"Favori eklemek için giriş yapın"
 }
