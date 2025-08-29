@@ -1,8 +1,10 @@
+import 'package:dorm_chef/widget/favorite/heart_button.dart';
 import 'package:dorm_chef/widget/recipe/badge.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import '../../model/recipes.dart';
 import '../../screen/static/recipe_detail.dart';
+
 class RecipeCard extends StatelessWidget {
   final Recipe recipe;
   final int haveCount;
@@ -81,15 +83,20 @@ class RecipeCard extends StatelessWidget {
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                      recipe
-                          .title,
+                      recipe.title,
                       style: Theme.of(context).textTheme.titleMedium,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
                   ),
-                  const SizedBox(width: 8),
+                  const SizedBox(width: 4),
                   PercentBadge(percent: percent),
+                  const SizedBox(width: 4),
+                  Positioned(
+                    top: 6,
+                    right: 6,
+                    child: FavoriteHeartButton(recipeId: recipe.id),
+                  ),
                 ],
               ),
               if (metaText.isNotEmpty) ...[

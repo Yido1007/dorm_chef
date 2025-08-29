@@ -138,7 +138,7 @@ class _FavCard extends StatelessWidget {
                       style: Theme.of(context).textTheme.labelMedium,
                     ),
                     const Spacer(),
-                    FavoriteHeartButton(recipeId: recipe.id ?? ''),
+                    FavoriteHeartButton(recipeId: recipe.id),
                   ],
                 ),
               ),

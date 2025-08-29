@@ -1,4 +1,5 @@
 import 'package:dorm_chef/screen/static/settings.dart';
+import 'package:dorm_chef/widget/favorite/favorite_stripe.dart';
 import 'package:dorm_chef/widget/home_tab/daily_carrousel.dart';
 import 'package:dorm_chef/widget/home_tab/title.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -105,6 +106,7 @@ class HomeTabScreen extends StatelessWidget {
               HomeTabTitle(text: "Günlük Tarif Önerisi 🍔🍕"),
               DailyRecipeCarousel(height: 230),
               HomeTabTitle(text: "Favori Tariflerim"),
+              FavoritesStrip(height: 170),
             ],
           ),
         );
@@ -112,4 +114,3 @@ class HomeTabScreen extends StatelessWidget {
     );
   }
 }
-
