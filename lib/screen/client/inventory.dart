@@ -140,13 +140,25 @@ class _Empty extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+
     return Center(
       child: Padding(
         padding: const EdgeInsets.all(24.0),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Icon(Icons.inventory_2_outlined, size: 64),
+            Image.asset(
+              'asset/icon/shopping-bag.png',
+              width: 140,
+              fit: BoxFit.contain,
+              semanticLabel: 'Boş entanver.',
+              errorBuilder:
+                  (_, __, ___) => Icon(
+                    Icons.image_not_supported_outlined,
+                    color: cs.onSurfaceVariant,
+                  ),
+            ),
             const SizedBox(height: 12),
             Text('inventory_main'.tr(), style: TextStyle(fontSize: 18)),
             const SizedBox(height: 6),
