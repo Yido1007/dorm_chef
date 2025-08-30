@@ -92,11 +92,7 @@ class RecipeCard extends StatelessWidget {
                   const SizedBox(width: 4),
                   PercentBadge(percent: percent),
                   const SizedBox(width: 4),
-                  Positioned(
-                    top: 6,
-                    right: 6,
-                    child: FavoriteHeartButton(recipeId: recipe.id),
-                  ),
+                  FavoriteHeartButton(recipeId: recipe.id),
                 ],
               ),
               if (metaText.isNotEmpty) ...[
