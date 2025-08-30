@@ -1,3 +1,4 @@
+import 'package:dorm_chef/widget/is_empty.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -60,7 +61,11 @@ class InventoryScreen extends StatelessWidget {
           return Consumer<PantryStore>(
             builder: (context, s, _) {
               if (s.list.isEmpty) {
-                return const _Empty();
+                return Empty(
+                  "asset/icon/shopping-bag.png",
+                  'inventory_main'.tr(),
+                  'inventory_alt'.tr(),
+                );
               }
               return ListView.separated(
                 itemCount: s.list.length,
@@ -132,44 +137,5 @@ class InventoryScreen extends StatelessWidget {
     if (ok == true && ctrl.text.trim().isNotEmpty) {
       await context.read<PantryStore>().addByLabel(ctrl.text, start: amt);
     }
-  }
-}
-
-class _Empty extends StatelessWidget {
-  const _Empty();
-
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(24.0),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Image.asset(
-              'asset/icon/shopping-bag.png',
-              width: 140,
-              fit: BoxFit.contain,
-              semanticLabel: 'Boş entanver.',
-              errorBuilder:
-                  (_, __, ___) => Icon(
-                    Icons.image_not_supported_outlined,
-                    color: cs.onSurfaceVariant,
-                  ),
-            ),
-            const SizedBox(height: 12),
-            Text('inventory_main'.tr(), style: TextStyle(fontSize: 18)),
-            const SizedBox(height: 6),
-            Text(
-              'inventory_alt'.tr(),
-              style: Theme.of(context).textTheme.bodyMedium,
-              textAlign: TextAlign.center,
-            ),
-          ],
-        ),
-      ),
-    );
   }
 }
