@@ -18,15 +18,6 @@ class FavoritesStrip extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Padding(
-          padding: EdgeInsets.fromLTRB(16, 8, 16, 8),
-          child: Text(
-            'favorite'.tr(),
-            style: Theme.of(
-              context,
-            ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800),
-          ),
-        ),
         Consumer<FavoriteStore>(
           builder: (context, fav, _) {
             final favIds = fav.orderedIds;
@@ -49,13 +40,7 @@ class FavoritesStrip extends StatelessWidget {
                 }
 
                 if (items.isEmpty) {
-                  return Padding(
-                    padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-                    child: Text(
-                      'not_favorite'.tr(),
-                      style: TextStyle(color: cs.onSurfaceVariant),
-                    ),
-                  );
+                  return const _EmptyFavoritesWidget();
                 }
 
                 return ListView.separated(
@@ -71,6 +56,44 @@ class FavoritesStrip extends StatelessWidget {
           },
         ),
       ],
+    );
+  }
+}
+
+class _EmptyFavoritesWidget extends StatelessWidget {
+  const _EmptyFavoritesWidget();
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
+      child: SizedBox(
+        height: 180,
+        child: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Image.asset(
+                'asset/icon/recipe.png',
+                width: 140,
+                fit: BoxFit.contain,
+                semanticLabel: 'Boş favoriler',
+                errorBuilder:
+                    (_, __, ___) => Icon(
+                      Icons.image_not_supported_outlined,
+                      color: cs.onSurfaceVariant,
+                    ),
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'Henüz favorin yok',
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
