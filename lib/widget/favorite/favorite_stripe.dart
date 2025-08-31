@@ -22,6 +22,36 @@ class FavoritesStrip extends StatelessWidget {
         Consumer<FavoriteStore>(
           builder: (context, fav, _) {
             final favIds = fav.orderedIds;
+
+            // ---------- HAZIRSA SENKRON ÇİZ ----------
+            if (RecipeSource.isReady) {
+              final all = RecipeSource.cached;
+              final byId = {for (final r in all) r.id: r};
+              final items = <Recipe>[];
+              for (final id in favIds) {
+                final r = byId[id];
+                if (r != null) items.add(r);
+              }
+
+              if (items.isEmpty) {
+                return Empty(
+                  "asset/icon/dinner.png",
+                  "favorite_main".tr(),
+                  "favorite_alt".tr(),
+                );
+              }
+
+              return ListView.separated(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                itemCount: items.length,
+                padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+                separatorBuilder: (_, __) => const SizedBox(height: 10),
+                itemBuilder: (_, i) => _FavCardSmall(recipe: items[i]),
+              );
+            }
+
+            // ---------- FALLBACK: HENÜZ YÜKLENMEDİYSE ----------
             return FutureBuilder<List<Recipe>>(
               future: RecipeSource.load(),
               builder: (context, snap) {
