@@ -58,7 +58,7 @@
   "cancel":"Vazgeç",
   "cart_delete":"Sepetteki tüm öğeler silinsin mi ?",
   "remove":"Kaldır",
-  "cart_main":"Sepet boş. Tarif detayından “Eksikleri ekle” ile doldurabilirsin.",
+  "cart_main":"Sepet boş",
   "recipe":"Tarifler",
   "filter":"Filtrele",
   "filters":"Filtreler",
@@ -143,9 +143,16 @@
   "session_not_found": "Oturum bulunamadı.",
   "total_minutes": "{} dk",
   "favorite":"Favoriler",
-  "not_favorite":"Henüz favorin yok",
+  "favorite_main":"Henüz favorin yok",
+  "favorite_alt":"Favorileri görüntülemek için 'Tarifler' sayfasından ekleyebilirsin",
   "recipe_label": "Tarif",
   "add_favorite":"Favorilere Ekle",
   "remove_fav":"Favorilerden kaldır",
-  "sign_fav":"Favori eklemek için giriş yapın"
+  "sign_fav":"Favori eklemek için giriş yapın",
+  "recipe_alt":"Tarifleri görüntülemek için 'Envanter' sayfasından malzeme ekleyiniz",
+  "recipe_main":"Henüz Tarif Yok",
+  "fav_recipe":"Favori Tariflerim 🍽️",
+  "daily_recipe":"Günlük Tarif Önerisi 🍲⭐️",
+  "cart_alt":"Tarif detayından “Eksikleri ekle” ile doldurabilirsin."
+
 }

@@ -1,6 +1,7 @@
 import 'package:dorm_chef/provider/favorite.dart';
 import 'package:dorm_chef/screen/static/recipe_detail.dart';
 import 'package:dorm_chef/widget/favorite/heart_button.dart';
+import 'package:dorm_chef/widget/is_empty.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -40,7 +41,11 @@ class FavoritesStrip extends StatelessWidget {
                 }
 
                 if (items.isEmpty) {
-                  return const _EmptyFavoritesWidget();
+                  return Empty(
+                    "asset/icon/dinner.png",
+                    "favorite_main".tr(),
+                    "favorite_alt".tr(),
+                  );
                 }
 
                 return ListView.separated(
@@ -56,44 +61,6 @@ class FavoritesStrip extends StatelessWidget {
           },
         ),
       ],
-    );
-  }
-}
-
-class _EmptyFavoritesWidget extends StatelessWidget {
-  const _EmptyFavoritesWidget();
-  @override
-  Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
-      child: SizedBox(
-        height: 180,
-        child: Center(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Image.asset(
-                'asset/icon/recipe.png',
-                width: 140,
-                fit: BoxFit.contain,
-                semanticLabel: 'Boş favoriler',
-                errorBuilder:
-                    (_, __, ___) => Icon(
-                      Icons.image_not_supported_outlined,
-                      color: cs.onSurfaceVariant,
-                    ),
-              ),
-              const SizedBox(height: 8),
-              Text(
-                'Henüz favorin yok',
-                style: Theme.of(context).textTheme.titleMedium,
-              ),
-            ],
-          ),
-        ),
-      ),
     );
   }
 }

@@ -1,3 +1,4 @@
+import 'package:dorm_chef/widget/is_empty.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -160,7 +161,13 @@ class _RecipesScreenState extends State<RecipesScreen> {
                               );
                             }).toList()
                             ..sort((a, b) => b.ratio.compareTo(a.ratio));
-                      if (scored.isEmpty) return const SizedBox.shrink();
+                      if (scored.isEmpty) {
+                        return Empty(
+                          "asset/icon/recipe (2).png",
+                          "recipe_main".tr(),
+                          "recipe_alt".tr(),
+                        );
+                      }
                       return ListView.builder(
                         itemCount: scored.length,
                         itemBuilder: (_, i) {

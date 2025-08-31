@@ -103,9 +103,9 @@ class HomeTabScreen extends StatelessWidget {
           body: ListView(
             padding: const EdgeInsets.only(top: 12),
             children: [
-              HomeTabTitle(text: "Günlük Tarif Önerisi 🍔🍕"),
+              HomeTabTitle(text: "daily_recipe".tr()),
               DailyRecipeCarousel(height: 230),
-              HomeTabTitle(text: "Favori Tariflerim"),
+              HomeTabTitle(text: "fav_recipe".tr()),
               FavoritesStrip(),
             ],
           ),
