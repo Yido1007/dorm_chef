@@ -14,23 +14,47 @@ class ScanScreen extends StatefulWidget {
 }
 
 class _ScanScreenState extends State<ScanScreen>
-    with AutomaticKeepAliveClientMixin {
+    with AutomaticKeepAliveClientMixin, WidgetsBindingObserver {
   final MobileScannerController _controller = MobileScannerController(
+    autoStart: false,
     facing: CameraFacing.back,
     torchEnabled: false,
     detectionSpeed: DetectionSpeed.normal,
   );
 
-  bool _handling = false; // Aynı anda birden fazla okuma olmasın
-  Timer? _cooldown; // Peş peşe tetiklemeyi yavaşlat
+  bool _handling = false;
+  Timer? _cooldown; 
   @override
   bool get wantKeepAlive => true;
 
   @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      if (!mounted) return;
+      try {
+        await _controller.start();
+      } catch (e) {
+        debugPrint('Camera start error: $e');
+      }
+    });
+  }
+
+  @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _cooldown?.cancel();
     _controller.dispose();
     super.dispose();
+  }
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.paused) {
+      _controller.stop();
+    } else if (state == AppLifecycleState.resumed) {
+      _controller.start();
+    }
   }
 
   @override

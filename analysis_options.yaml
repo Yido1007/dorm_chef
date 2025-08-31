@@ -6,3 +6,4 @@ analyzer:
     deprecated_member_use: ignore
     no_leading_underscores_for_local_identifiers: ignore
     await_only_futures: ignore
+    unused_field: ignore
