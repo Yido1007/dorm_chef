@@ -1,9 +1,9 @@
 import 'package:dorm_chef/provider/ingredient.dart';
 import 'package:dorm_chef/provider/theme.dart';
-import 'package:dorm_chef/screen/core/change_pass.dart';
-import 'package:dorm_chef/screen/core/language.dart';
-import 'package:dorm_chef/screen/core/notification.dart';
-import 'package:dorm_chef/screen/core/profile.dart';
+import 'package:dorm_chef/screen/settings/change_pass.dart';
+import 'package:dorm_chef/screen/settings/language.dart';
+import 'package:dorm_chef/screen/settings/notification.dart';
+import 'package:dorm_chef/screen/settings/profile.dart';
 import 'package:dorm_chef/widget/settings/section_card.dart';
 import 'package:dorm_chef/widget/settings/setting_tile.dart';
 import 'package:easy_localization/easy_localization.dart';
