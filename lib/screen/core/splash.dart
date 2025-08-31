@@ -8,16 +8,10 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: SizedBox(
         width: double.infinity,
         height: double.infinity,
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [Color(0xFFF8F8F8), Color(0xFFEFEFEF)],
-          ),
-        ),
+
         child: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
