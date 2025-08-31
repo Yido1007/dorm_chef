@@ -163,7 +163,7 @@ class _RecipesScreenState extends State<RecipesScreen> {
                             ..sort((a, b) => b.ratio.compareTo(a.ratio));
                       if (scored.isEmpty) {
                         return Empty(
-                          "asset/icon/recipe (2).png",
+                          "asset/icon/recipe.png",
                           "recipe_main".tr(),
                           "recipe_alt".tr(),
                         );
