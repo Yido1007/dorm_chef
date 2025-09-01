@@ -1,9 +1,12 @@
 import 'dart:async' show unawaited;
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:dorm_chef/service/avatar.dart';
+import 'package:dorm_chef/widget/settings/avatar.dart';
 import 'package:dorm_chef/widget/text.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
+import 'package:provider/provider.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -92,7 +95,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
     final user = FirebaseAuth.instance.currentUser;
-
+    final photoUrl = context.select<ProfileStore, String?>(
+      (s) => s.resolvedPhotoUrl,
+    );
     return Scaffold(
       appBar: AppBar(title: Text('profile_title'.tr()), centerTitle: true),
       body: Center(
@@ -104,6 +109,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
               key: _formKey,
               child: ListView(
                 children: [
+                  ProfileAvatar(
+                    photoUrl: context.select<ProfileStore, String?>(
+                      (s) => s.resolvedPhotoUrl,
+                    ),
+                    displayName:
+                        user?.displayName?.trim().isNotEmpty == true
+                            ? user!.displayName
+                            : (user?.email ?? ''),
+                    size: 96,
+                  ),
+                  const SizedBox(height: 24),
                   TextFormField(
                     controller: _nameCtrl,
                     textInputAction: TextInputAction.done,
