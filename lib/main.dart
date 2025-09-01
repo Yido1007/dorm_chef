@@ -1,4 +1,5 @@
 import 'package:dorm_chef/screen/core/entry.dart';
+import 'package:dorm_chef/service/avatar.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -32,6 +33,7 @@ Future<void> main() async {
           ChangeNotifierProvider(create: (_) => GroceryBag()),
           ChangeNotifierProvider(create: (_) => ThemeController()..load()),
           ChangeNotifierProvider(create: (_) => FavoriteStore()),
+          ChangeNotifierProvider(create: (_) => ProfileStore()),
         ],
         child: const DormChefApp(),
       ),
@@ -52,7 +54,7 @@ class DormChefApp extends StatelessWidget {
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
-      home: const AppEntry(), 
+      home: const AppEntry(),
     );
   }
 }
