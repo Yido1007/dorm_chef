@@ -1,5 +1,6 @@
 import 'dart:async' show unawaited;
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:dorm_chef/widget/text.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -164,19 +165,4 @@ class _ProfileScreenState extends State<ProfileScreen> {
 String _emailLocalPart(String? email) {
   if (email == null || !email.contains('@')) return 'Chef';
   return email.split('@').first;
-}
-
-String capFirstTr(String s) {
-  final t = s.trim();
-  if (t.isEmpty) return t;
-  final runes = t.runes.toList();
-  final first = String.fromCharCode(runes.first);
-  final rest = String.fromCharCodes(runes.skip(1));
-  final upperFirst =
-      first == 'i'
-          ? 'İ'
-          : first == 'ı'
-          ? 'I'
-          : first.toUpperCase();
-  return '$upperFirst$rest';
 }

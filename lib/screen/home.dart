@@ -1,9 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-
-import '../provider/ingredient.dart'; 
 import 'client/inventory.dart';
 import 'client/recipes.dart';
 import 'client/scan.dart';
@@ -52,10 +49,6 @@ class _HomeScreenState extends State<HomeScreen> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       final u = FirebaseAuth.instance.currentUser;
       if (!mounted) return;
-      if (u != null) {
-        context.read<PantryStore>().bind(u.uid);
-      } else {
-      }
     });
   }
   int _navToStack(int nav) => (nav < _groceryNav) ? nav : nav + 1;

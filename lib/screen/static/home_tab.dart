@@ -2,36 +2,13 @@ import 'package:dorm_chef/screen/static/settings.dart';
 import 'package:dorm_chef/widget/favorite/favorite_stripe.dart';
 import 'package:dorm_chef/widget/home_tab/daily_carrousel.dart';
 import 'package:dorm_chef/widget/home_tab/title.dart';
+import 'package:dorm_chef/widget/text.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class HomeTabScreen extends StatelessWidget {
   const HomeTabScreen({super.key});
-
-  String capFirstTr(String s) {
-    final t = s.trim();
-    if (t.isEmpty) return t;
-
-    // İlk karakteri al (Unicode-güvenli)
-    final runes = t.runes.toList();
-    final first = String.fromCharCode(runes.first);
-    final rest = String.fromCharCodes(runes.skip(1));
-
-    // TR-özel büyük harf
-    String upperFirst;
-    switch (first) {
-      case 'i':
-        upperFirst = 'İ';
-        break;
-      case 'ı':
-        upperFirst = 'I';
-        break;
-      default:
-        upperFirst = first.toUpperCase();
-    }
-    return '$upperFirst$rest';
-  }
 
   String bestDisplayName(User? user, {String fallback = 'Chef'}) {
     if (user == null) return fallback;
