@@ -1009,5 +1009,1210 @@
     "cookMinutes": 0,
     "image": "",
     "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Tabbouleh"
+  },
+  {
+    "id": "core-013",
+    "title": "Kung Pao Chicken (Gong Bao)",
+    "cuisine": "çin mutfağı",
+    "tags": [
+      "ana yemek",
+      "wok",
+      "acılı"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kuşbaşı)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "yer fıstığı (kavrulmuş)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "kurutulmuş kırmızı biber",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "zencefil",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil soğan",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "pirinç sirkesi",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "şeker",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "mısır nişastası",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "susam yağı (isteğe bağlı)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu 1 yemek kaşığı soya sosu ve 1 çay kaşığı nişastayla karıştırıp 10 dk beklet.",
+        "minutes": 11
+      },
+      {
+        "order": 2,
+        "text": "Sos için kalan soya sosu, sirke, şeker ve 1 çay kaşığı nişastayı küçük bir kasede çöz.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Wok’u kuvvetli ısıt; yağı ekle.",
+        "minutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Kurutulmuş biberleri kısa süre kızdır; tavukları ekleyip renk aldır.",
+        "minutes": 7
+      },
+      {
+        "order": 5,
+        "text": "Sarımsak ve zencefili ekle; kokusu çıkana dek çevir.",
+        "minutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Sosu dök; koyulaşmaya başlayınca yer fıstığı ve yeşil soğanı ekle.",
+        "minutes": 4
+      },
+      {
+        "order": 7,
+        "text": "Ocaktan almadan susam yağı gezdir; hemen servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Kung_Pao_chicken"
+  },
+  {
+    "id": "core-014",
+    "title": "Pad Thai (Karidesli)",
+    "cuisine": "tay mutfağı",
+    "tags": [
+      "ana yemek",
+      "wok"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç eriştesi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "karides (ayıklanmış)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soya filizi",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "taze soğan",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "tamrind ezmesi",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "balık sosu",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "şeker",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "fıstık (iri kırık)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "limon",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Erişteleri ılık suda pakete göre ıslat; süz.",
+        "minutes": 11
+      },
+      {
+        "order": 2,
+        "text": "Sos için tamrind, balık sosu ve şekeri karıştır.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Wok’u ısıt; yağ ekleyip sarımsağı sotele.",
+        "minutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Karidesleri ekle; pembeleşince kenara it.",
+        "minutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Yumurtaları kır; hızlıca karıştırarak pişir.",
+        "minutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Erişteleri ve sosu ekle; homojen olana dek çevir.",
+        "minutes": 6
+      },
+      {
+        "order": 7,
+        "text": "Taze soğan ve soya filizini ekle; 1 dk çevir.",
+        "minutes": 1
+      },
+      {
+        "order": 8,
+        "text": "Üstüne fıstık serp; limonla servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Pad_Thai"
+  },
+  {
+    "id": "core-015",
+    "title": "Bibimbap",
+    "cuisine": "kore mutfağı",
+    "tags": [
+      "ana yemek",
+      "pirinç",
+      "karışık tabak"
+    ],
+    "ingredients": [
+      {
+        "name": "pişmiş pirinç",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ıspanak",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "havuç",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "kabak",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "mantar",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "dana kıyma",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "gochujang (acı biber ezmesi)",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "susam yağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sebzeleri jülyen doğra; ıspanağı 1 dk haşlayıp süz.",
+        "minutes": 9
+      },
+      {
+        "order": 2,
+        "text": "Tavada az yağla havuç, kabak ve mantarı ayrı ayrı kısa süre sotele; tuzla.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Kıymayı soya sosu ve sarımsakla kavur.",
+        "minutes": 9
+      },
+      {
+        "order": 4,
+        "text": "Ayrı tavada yumurtaları göz olacak şekilde pişir.",
+        "minutes": 6
+      },
+      {
+        "order": 5,
+        "text": "Kaselere sıcak pirinci paylaştır; sebzeleri ve kıymayı düzenle.",
+        "minutes": 7
+      },
+      {
+        "order": 6,
+        "text": "Gochujang ve susam yağıyla servis et; karıştırarak ye.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Bibimbap"
+  },
+  {
+    "id": "core-016",
+    "title": "Ratatouille",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "patlıcan",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "kabak",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "kapya biber",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "soğan",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "domates",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kekik",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Fırını 190 °C’ye ısıt.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Soğan ve sarımsağı zeytinyağında yumuşat; doğranmış domatesi ekleyip 10 dk pişir (taban sos).",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Patlıcan, kabak ve biberi ince dilimle.",
+        "minutes": 8
+      },
+      {
+        "order": 4,
+        "text": "Sosu fırın kabına yayıp sebze dilimlerini üzerine sırala.",
+        "minutes": 6
+      },
+      {
+        "order": 5,
+        "text": "Tuz ve kekikle tatlandır; zeytinyağı gezdir.",
+        "minutes": 3
+      },
+      {
+        "order": 6,
+        "text": "Fırında sebzeler yumuşayana dek pişir.",
+        "minutes": 26
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Ratatouille"
+  },
+  {
+    "id": "core-017",
+    "title": "Yunan Salatası (Horiatiki)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "salata",
+      "vejetaryen",
+      "soğuk"
+    ],
+    "ingredients": [
+      {
+        "name": "domates",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "salatalık",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı soğan",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil biber",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "kalamata zeytin",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "beyaz peynir (feta)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "şarap sirkesi",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "kekik",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Domates ve salatalığı iri doğra.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Soğanı ince piyazlık; biberi halka doğra.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Zeytinleri ekle; zeytinyağı ve sirkeyi gezdir.",
+        "minutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Tuz ve kekikle tatlandır; üstüne kalıp halinde feta koy.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Greek_salad"
+  },
+  {
+    "id": "core-018",
+    "title": "Shakshuka",
+    "cuisine": "kuzey afrika mutfağı",
+    "tags": [
+      "kahvaltı",
+      "ana yemek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil biber",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "soğan",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "kimyon",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tatlı toz biber",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan ve biberi zeytinyağında yumuşat.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Sarımsağı ekle; 1 dk çevir.",
+        "minutes": 1
+      },
+      {
+        "order": 3,
+        "text": "Domates, kimyon ve toz biberi ekle; sos koyulaşana dek pişir.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "Yumurtalar için kaşıkla gözler aç; yumurtaları kır.",
+        "minutes": 2
+      },
+      {
+        "order": 5,
+        "text": "Kapağı kapat; beyazlar pişip sarılar akışkan kalana dek pişir.",
+        "minutes": 9
+      },
+      {
+        "order": 6,
+        "text": "Tuzunu ayarla; sıcak servis et.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Shakshouka"
+  },
+  {
+    "id": "core-019",
+    "title": "Limonlu-Zeytinli Tavuk Tajin",
+    "cuisine": "fas mutfağı",
+    "tags": [
+      "ana yemek",
+      "güveç"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kemikli)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "soğan",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil zeytin",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "tuzlu limon (koruklu limon)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "zencefil (toz)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kimyon",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kişniş yaprağı",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu zeytinyağı, zencefil, zerdeçal ve kimyonla ov.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Geniş bir tencerede soğanı pembeleştir; tavuğu ekleyip mühürle.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Sarımsak ve suyu ekle; kapağı kapatıp kısık ateşte pişir.",
+        "minutes": 24
+      },
+      {
+        "order": 4,
+        "text": "Zeytin ve doğranmış tuzlu limonu ekle; sos koyulaşana dek pişir.",
+        "minutes": 14
+      },
+      {
+        "order": 5,
+        "text": "Kıyılmış kişniş ve maydanozla bitir.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Tagine"
+  },
+  {
+    "id": "core-020",
+    "title": "Jollof Rice",
+    "cuisine": "batı afrika mutfağı",
+    "tags": [
+      "ana yemek",
+      "pilav",
+      "acılı"
+    ],
+    "ingredients": [
+      {
+        "name": "uzun taneli pirinç",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "domates salçası",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soğan",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı biber",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "acı biber (scotch bonnet)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tavuk suyu",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "kuru kekik",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "defne yaprağı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "köri tozu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan, kırmızı biber ve acı biberi püre hâline çek.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Yağda soğan-biber püresini kavur; salçayı ekle.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Domates püresi ve baharatları ekle; sosu 10 dk pişir.",
+        "minutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Yıkanmış pirinci ekleyip kısa süre kavur.",
+        "minutes": 3
+      },
+      {
+        "order": 5,
+        "text": "Tavuk suyunu dök; kısık ateşte kapağı kapalı pişir.",
+        "minutes": 22
+      },
+      {
+        "order": 6,
+        "text": "Dinlendirip karıştır; servis et.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Jollof_rice"
+  },
+  {
+    "id": "core-021",
+    "title": "Feijoada (Siyah Fasulye Güveci)",
+    "cuisine": "brezilya mutfağı",
+    "tags": [
+      "ana yemek",
+      "güveç"
+    ],
+    "ingredients": [
+      {
+        "name": "siyah fasulye (ıslatılmış)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sucuk/linguiça",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "domuz eti (kemiksiz)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "soğan",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "defne yaprağı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Fasulyeyi bir gece ıslat; süz.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Tencerede yağı ısıt; soğan ve sarımsağı sotele.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Doğranmış etleri ekle; renk aldır.",
+        "minutes": 9
+      },
+      {
+        "order": 4,
+        "text": "Fasulye ve üzerini geçecek kadar suyu ekle; defne yaprağını koy.",
+        "minutes": 6
+      },
+      {
+        "order": 5,
+        "text": "Kısık ateşte fasulyeler yumuşayana kadar pişir.",
+        "minutes": 66
+      },
+      {
+        "order": 6,
+        "text": "Tuzunu ayarla; sos yoğunlaşana dek 10–15 dk daha pişir.",
+        "minutes": 16
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 90,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Feijoada"
+  },
+  {
+    "id": "core-022",
+    "title": "Nasi Goreng (Endonezya Usulü Kavrulmuş Pilav)",
+    "cuisine": "endonezya mutfağı",
+    "tags": [
+      "ana yemek",
+      "wok"
+    ],
+    "ingredients": [
+      {
+        "name": "bir gün önceden pişmiş pirinç",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "tavuk göğüs (ince)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "şalot (veya kuru soğan)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "acı biber",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kecap manis (tatlı soya sosu)",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "taze soğan",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wok’u ısıt; yağ ekleyip çırpılmış yumurtayı ince omlet gibi pişir, şerit doğra.",
+        "minutes": 7
+      },
+      {
+        "order": 2,
+        "text": "Yağa şalot ve sarımsağı ekleyip sotele; tavuk parçalarını renk aldır.",
+        "minutes": 9
+      },
+      {
+        "order": 3,
+        "text": "Pirinç ve doğranmış acı biberi ekle; yüksek ateşte kavur.",
+        "minutes": 7
+      },
+      {
+        "order": 4,
+        "text": "Kecap manis ile tatlandır; omlet şeritleri ve taze soğanı ekleyip karıştır.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Nasi_goreng"
+  },
+  {
+    "id": "core-023",
+    "title": "Borscht (Pancar Çorbası)",
+    "cuisine": "ukrayna mutfağı",
+    "tags": [
+      "çorba",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "pancar",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "lahana",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "patates",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "havuç",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "soğan",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "domates salçası",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sebze suyu (veya et suyu)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "dereotu",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "ekşi krema (servis)",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pancar, havuç ve soğanı rende veya jülyen doğra; lahanayı ince kıy; patatesi küp doğra.",
+        "minutes": 9
+      },
+      {
+        "order": 2,
+        "text": "Tencerede yağla soğan ve havucu sotele; salçayı ekle.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Pancarı ekle; kısa süre çevir.",
+        "minutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Sebze suyunu dök; patates ve lahanayı ekleyip kaynat.",
+        "minutes": 12
+      },
+      {
+        "order": 5,
+        "text": "Kısık ateşte sebzeler yumuşayana kadar pişir.",
+        "minutes": 20
+      },
+      {
+        "order": 6,
+        "text": "Tuzunu ayarla; dereotuyla ve ekşi kremayla servis et.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Borscht"
+  },
+  {
+    "id": "core-024",
+    "title": "Phở Bò (Etli Vietnam Erişte Çorbası)",
+    "cuisine": "vietnam mutfağı",
+    "tags": [
+      "çorba",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "et suyu (sığır kemiklerinden)",
+        "qty": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "pirinç eriştesi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yağsız dana eti (çok ince dilim)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "taze zencefil",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "yıldız anason",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "balık sosu",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "şeker",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "taze soğan",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "kişniş",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "lime",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan ve zencefili ocakta hafifçe karart; et suyuna ekle.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Yıldız anason ve tarçını ekle; kısık ateşte aromalar çıkana dek kaynat.",
+        "minutes": 150
+      },
+      {
+        "order": 3,
+        "text": "Balık sosu ve şekeri ekle; 10 dk daha pişir, süz.",
+        "minutes": 19
+      },
+      {
+        "order": 4,
+        "text": "Erişteleri pakete göre haşla ve süz.",
+        "minutes": 10
+      },
+      {
+        "order": 5,
+        "text": "Kaseye erişteyi koy; üstüne çiğ ince dilimli eti yerleştir.",
+        "minutes": 4
+      },
+      {
+        "order": 6,
+        "text": "Kaynar durumda olan suyu kaselere dök; et hafifçe pişsin.",
+        "minutes": 5
+      },
+      {
+        "order": 7,
+        "text": "Taze soğan, kişniş ve lime ile servis et.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 180,
+    "image": "",
+    "notes": "Genel bilgi: https://en.wikipedia.org/wiki/Pho"
   }
 ]
