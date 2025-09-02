@@ -18820,5 +18820,3248 @@
     "cookMinutes": 6,
     "image": "",
     "notes": "Üstüne kuromitsu (şeker şurubu) veya azan fasulye ile servis edilebilir."
+  },
+  {
+    "id": "core-245",
+    "title": "Murgh Makhani (Butter Chicken)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kuşbaşı)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "yoğurt",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "garam masala",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soğan (ince doğranmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "toz kırmızı biber (Kashmiri/paprika)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "şeker",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "krema",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "kasuri methi (kurutulmuş çemen yaprağı)",
+        "qty": 1,
+        "unit": "çay kaşığı",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "su/tavuk suyu",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu yoğurt, limon, sarımsak-zencefil, garam masala ve tuzla 30–60 dk marine et.",
+        "minutes": 40
+      },
+      {
+        "order": 2,
+        "text": "Geniş tavada yağın yarısıyla tavuğu yüksek ısıda renk aldırıp çıkar.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Aynı tavada tereyağı ve kalan yağla soğanı sotele; domates püresi, kırmızı biber, şeker ve suyu ekleyip 10 dk pişir.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "Tavuğu ekle, kısıkta 10 dk pişir; krema ve (varsa) kasuri methi ile 3 dk daha kaynat.",
+        "minutes": 13
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Tandırlama etkisi için tavukları fırında 220 °C’de 10 dk önceden kızartabilirsin."
+  },
+  {
+    "id": "core-246",
+    "title": "Chana Masala (Nohut Köri, Vegan)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "nohut (haşlanmış, süzülmüş)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince doğranmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kişniş tozu",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "garam masala",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "acı pul biber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yağda kimyonu kokut; soğanı altın rengi olana dek sotele.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Sarımsak-zencefili 1 dk çevir; domates ve baharatları ekleyip 5–6 dk pişir.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Nohut ve suyu ekle; kısıkta 12–15 dk kaynat, tuzu ayarla.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Sonunda limon suyu serpiştirmek tadı açar."
+  },
+  {
+    "id": "core-247",
+    "title": "Palak Paneer (Ispanaklı Paneer)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "vejetaryen",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "ıspanak (taze)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "paneer (küp)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "garam masala",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "krema/yoğurt",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ispanağı 1–2 dk kaynar suda haşla; soğuk suya al, süz ve blenderdan geçir.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Yağda kimyonu kokut; soğanı sotele, sarımsak-zencefili ekle. Domatesle 4–5 dk pişir.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Ispanak püresini, garam masalayı ve tuzu ekle; 4 dk kısıkta pişir, paneer ve kremayı katıp 3 dk daha ısıt.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": "Paneer küplerini önceden hafif kızartırsan dağılmaz."
+  },
+  {
+    "id": "core-248",
+    "title": "Dal Tadka (Sarı Mercimekli, Vegan)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "çorba",
+      "vegan",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "sarı mercimek/toor dal",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ince dilim)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "acı pul biber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mercimeği yıka; su ve zerdeçalla yumuşayana dek kaynat (gerekirse köpüğü al).",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Ayrı tavada yağda kimyonu kokut; soğan ve sarımsağı kızart; domates ve pul biberi ekleyip 3–4 dk pişir.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Bu yağı (tadka) mercimeğe dök; 5 dk kısıkta birlikte kaynat, tuzu ayarla.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Geleneksel olarak ghee kullanılır; vegan tutmak için zeytinyağı uygun."
+  },
+  {
+    "id": "core-249",
+    "title": "Sebzeli Basmati Biryani (Dum Usulü)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "pilav",
+      "vejetaryen",
+      "fırın/tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "basmati pirinç",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "karışık sebze (havuç, bezelye, patates, karnabahar)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince jülyen)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "yoğurt",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "taze nane",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "taze kişniş",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "bütün baharat (kakule 4, karanfil 4, tarçın 1 çubuk, defne 1)",
+        "qty": 1,
+        "unit": "set"
+      },
+      {
+        "name": "safran (ılık süt içinde)",
+        "qty": 0.25,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "zeytinyağı/ghee",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pirinci yıka; 20–30 dk ılık suda bekletip süz. Bol tuzlu suda %70 pişir, süz.",
+        "minutes": 30
+      },
+      {
+        "order": 2,
+        "text": "Geniş tencerede yağla soğanı karamelize et; yarısını üst süsleme için ayır. Bütün baharatları kokut; sebzeleri 4–5 dk çevir, yoğurt ve ezmeyi ekle, tuzla.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Tencerede tabana sebze, üstüne pirincin yarısı; nane, kişniş, safran sütü ve kızarmış soğan; kalan sebze ve pirinci katmanla. Sıkı kapatıp çok kısıkta 20 dk dum pişir.",
+        "minutes": 22
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Fırında 170 °C’de 20 dk da dum yapılabilir."
+  },
+  {
+    "id": "core-250",
+    "title": "Aloo Gobi (Patatesli Karnabahar, Vegan)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (küp)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "karnabahar (çiçek)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kişniş tozu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "garam masala",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "acı pul biber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yağda kimyonu kokut; soğanı sotele. Patatesi ekleyip 5 dk çevir.",
+        "minutes": 7
+      },
+      {
+        "order": 2,
+        "text": "Karnabahar, zerdeçal, kişniş tozu ve pul biberi ekle; 3–4 dk karıştır.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Domatesi kat; kapağı kapalı kısık ateşte sebzeler yumuşayana dek pişir, tuzu ve garam masalayı ekleyip 2 dk daha çevir.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 23,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-251",
+    "title": "Chicken Tikka (Fırın/Izgara)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "ızgara",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kemiksiz, iri küp)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "yoğurt",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 25,
+        "unit": "g"
+      },
+      {
+        "name": "kimyon tozu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kişniş tozu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "toz kırmızı biber",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "garam masala",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "şiş (suya batırılmış)",
+        "qty": 8,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm marinade malzemelerini karıştır; tavuğu ekleyip 2–4 saat beklet.",
+        "minutes": 180
+      },
+      {
+        "order": 2,
+        "text": "Şişe diz; 230–240 °C fırın/ızgarada 12–15 dk, arada çevirerek pişir.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Serviste limon ve soğan halkaları ekleyin."
+  },
+  {
+    "id": "core-252",
+    "title": "Naan (Tavada/Fırında)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "hamurişi",
+      "tava",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "instant maya",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "şeker",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "yoğurt",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "ılık süt/su",
+        "qty": 180,
+        "unit": "ml"
+      },
+      {
+        "name": "ayçiçek yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tereyağı (üzeri)",
+        "qty": 30,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kuru malzemeleri karıştır; yoğurt, ılık süt/su ve yağı ekleyip yumuşak hamur yoğur. 60 dk mayalandır.",
+        "minutes": 70
+      },
+      {
+        "order": 2,
+        "text": "Bezeler alıp damla şekli aç; döküm tavayı çok ısıt, tek yüzünü büyük kabarcıklar oluşana dek pişir, çevir.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Tereyağı sürerek servis et.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Fırında 250 °C taş/tepsi üzerinde 3–4 dk da pişer."
+  },
+  {
+    "id": "core-253",
+    "title": "Salatalıklı Raita",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "meze",
+      "soğuk servis",
+      "vejetaryen",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "yoğurt (katı)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "salatalık (rendelenmiş, suyu sıkılmış)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kimyon tozu (kavrulmuş)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "taze nane/koriander (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm malzemeyi bir kapta karıştır; 10 dk buzdolabında dinlendirip servis et.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Acı için bir tutam pul biber eklenebilir."
+  },
+  {
+    "id": "core-254",
+    "title": "Patatesli Samosa",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "kızartma",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ayçiçek yağı (hamura)",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su (yaklaşık)",
+        "qty": 130,
+        "unit": "ml"
+      },
+      {
+        "name": "patates (haşlanıp ezilmiş)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "bezelye (haşlanmış)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kişniş tohumu (dövülmüş)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "garam masala",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 1000,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, tuz ve yağı ov; su ekleyerek sertçe bir hamur yoğur, 20 dk dinlendir.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "İç için 1 yemek kaşığı yağda kimyon ve kişnişi kokut; patates, bezelye, zerdeçal ve garam masalayı ekleyip 3–4 dk çevir, limon suyu kat ve soğut.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Hamuru bezelere ayır; oval açıp ikiye kes. Her yarımı külah yap, içle doldurup kenarı sıkıca kapat.",
+        "minutes": 15
+      },
+      {
+        "order": 4,
+        "text": "160–170 °C yağda altın rengi olana dek 12–15 dk kızart.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 30,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Düşük ısıda kızartmak kabarmayı ve katmanları artırır."
+  },
+  {
+    "id": "core-255",
+    "title": "Gulab Jamun (Şerbetli Sütlü Tatlı)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "tatlı",
+      "kızartma",
+      "şerbet"
+    ],
+    "ingredients": [
+      {
+        "name": "süt tozu",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "irmik (ince)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı (eritilmiş)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "süt (oda ısısı, hamur için)",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker (şerbet)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "su (şerbet)",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "kakule (toz)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "gül suyu/itriye (isteğe bağlı)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 800,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Şerbet için su-şekeri 8–10 dk kaynat; kakule ve gül suyunu ekle, sıcak tut.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Kuru malzemeleri karıştır; tereyağı ve sütle yumuşak, hafif yapışkan hamur yap. 10 dk dinlendir.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Cevizden küçük toplar yap; 140–150 °C yağda yavaşça kızart, koyu altın olunca çıkar.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "Sıcakken ılık şerbete at; en az 30 dk bekletip servis et.",
+        "minutes": 35
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Hızlı kızartma içi hamur bırakır; düşük ısı şart."
+  },
+  {
+    "id": "core-256",
+    "title": "Kheer (Pirinç Pudingi, Cardamomlu)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "süt",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "kakule (toz)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuzsuz kaju/badem (kavrulmuş, doğranmış)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "kuru üzüm (isteğe bağlı)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "ghee/tereyağı (isteğe bağlı)",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sütü tencerede kaynama noktasına getir; yıkanmış pirinci ekle, kısık ateşte sık karıştırarak koyulaştır.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Şeker ve kakuleyi ekle; 5–7 dk daha pişir.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Kaju/badem ve (varsa) üzümü ekle; ılınınca servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Kıvam soğudukça koyulaşır; sütle açılabilir."
+  },
+  {
+    "id": "core-257",
+    "title": "Rogan Josh (Keşmir Usulü Kuzu Yahni)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "kuzu budu/kol (iri küp)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "yoğurt (oda ısısı, çırpılmış)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "ghee/tereyağı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Kashmiri kırmızı biber (toz)",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "rezene (toz)",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kuru zencefil (toz, sonth)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "asarot (hing, asafoetida)",
+        "qty": 1,
+        "unit": "çimdik"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "karanfil",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "kakule (yeşil)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "kakule (siyah)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "defne yaprağı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "su",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tencerede ghee’yi ısıt; tarçın, karanfil, kakuleler ve defneyi 30 sn kokut.",
+        "minutes": 1
+      },
+      {
+        "order": 2,
+        "text": "Kuzuyu ekleyip yüksek ısıda her yeri renk alıncaya dek mühürle.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Ayrı kapta yoğurda kırmızı biber, rezene ve zencefili karıştır; tencereye eklerken kesilmemesi için azar azar sıcak suyla ılıt.",
+        "minutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Asafoetida ve suyu ekle; kısık ateşte kapaklı 60–70 dk et yumuşayana dek pişir, tuzu ayarla.",
+        "minutes": 70
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 85,
+    "image": "",
+    "notes": "Geleneksel sürümde soğan-sarımsak yoktur; rengi Kashmiri biber verir."
+  },
+  {
+    "id": "core-258",
+    "title": "Vindaloo (Goa Usulü Domuz Yahni)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere",
+      "ekşi-acı"
+    ],
+    "ingredients": [
+      {
+        "name": "domuz omuz (iri küp)",
+        "qty": 1200,
+        "unit": "g",
+        "note": "alternatif: kuzu veya tavuk but"
+      },
+      {
+        "name": "palmiye/üzüm sirkesi",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "kuru kırmızı biber (ısıtılıp ıslatılmış)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "taze zencefil",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "hardal tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber (toz)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karanfil",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Biber, sarımsak, zencefil, sirke ve baharatlarla macun çek; eti bu macunla kaplayıp 4–12 saat buzdolabında beklet.",
+        "minutes": 240
+      },
+      {
+        "order": 2,
+        "text": "Tencerede yağı ısıt; eti yüksek ısıda mühürle.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Su (ve tuz) ekleyip kısık ateşte kapaklı 60–75 dk yumuşayana dek pişir.",
+        "minutes": 70
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 80,
+    "image": "",
+    "notes": "Ertesi gün lezzeti artar; sirke ekşiliği dengesi için bir tutam şeker kullanılır."
+  },
+  {
+    "id": "core-259",
+    "title": "Dal Makhani (Siyah Mercimek & Barbunya)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "urad dal (siyah bütün mercimek)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "rajma (kırmızı barbunya)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı/ghee",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "krem a",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "garam masala",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kasuri methi",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mercimek ve barbunyayı geceden ıslat.",
+        "minutes": 480
+      },
+      {
+        "order": 2,
+        "text": "Suyu süzüp tencerede üzerini 3 parmak geçecek suyla yumuşayana dek haşla (düdüklüde 25–30 dk).",
+        "minutes": 35
+      },
+      {
+        "order": 3,
+        "text": "Tencerede tereyağında sarımsak-zencefili 1 dk çevir; domates püresi, garam masala ve tuzu ekleyip 5 dk pişir.",
+        "minutes": 7
+      },
+      {
+        "order": 4,
+        "text": "Haşlanmış bakliyatı ve suyu ekle; kısık ateşte 30–40 dk ağır ağır kaynat. Son 5 dk kala kasuri methi ve kremayı ekle.",
+        "minutes": 40
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 85,
+    "image": "",
+    "notes": "Uzun pişirme kremamsı doku için önemlidir."
+  },
+  {
+    "id": "core-260",
+    "title": "Rajma Masala (Kuzey Hindistan Usulü)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "rajma (kırmızı barbunya, geceden ıslatılmış)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kişniş tozu",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "Kashmiri kırmızı biber",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "garam masala",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Islatılmış barbunyayı süzüp yeni suda yumuşayana dek haşla (düdüklüde 25–30 dk).",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Tencerede yağda kimyonu kokut; soğanı iyi karamelleştir.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Sarımsak-zencefili 1 dk çevir; domates ve baharatları ekleyip 6–7 dk pişir.",
+        "minutes": 8
+      },
+      {
+        "order": 4,
+        "text": "Haşlanmış barbunya ve suyu ekle; kısıkta 20 dk kaynat, tuzu ayarla.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "image": "",
+    "notes": "Buharda pirinç (jeera rice) ile servis önerilir."
+  },
+  {
+    "id": "core-261",
+    "title": "Moong Dal Khichdi (Yulaf Kıvamlı Pirinç-Mercimek)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "diyet",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "moong dal (sarısı, yarma)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zencefil (rendelenmiş)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "bezelye (isteğe bağlı)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "bitkisel yağ/ghee",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pirinç ve dalı yıka; tencerede yağla kimyonu kokut, zencefil ve zerdeçalı ekle.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Pirinç ve dalı 1 dk çevir; suyu ve tuzu ekleyip kapağı kapalı kısıkta yumuşayana dek pişir.",
+        "minutes": 22
+      },
+      {
+        "order": 3,
+        "text": "Bezelyeyi son 5 dk kala ekle; kıvamı suyla ayarla.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Kıvamı çorba gibi ya da daha koyu tercihine göre suyla ayarlanır."
+  },
+  {
+    "id": "core-262",
+    "title": "Baingan Bharta (Köz Patlıcan Ezmesi, Kuzey Hindistan)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "patlıcan (büyük)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil biber (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ince doğranmış)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kişniş tozu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patlıcanları ocakta/fırında tamamen közleyip kabuklarını soy; içini bıçakla kıy.",
+        "minutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Tavada yağ ısıt; kimyonu kokut, soğanı pembeleştir. Sarımsak ve yeşil biber ekle.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Domates, kişniş ve zerdeçalı kat; suyunu çektir. Köz patlıcanı ekleyip 5 dk sotele, tuzu ayarla.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Üstüne taze kişniş ve limon suyu serpiştir."
+  },
+  {
+    "id": "core-263",
+    "title": "Bhindi Masala (Bamyalı Kuru Sebze Sotesi)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "bamya (kurulanmış, 2–3 cm dilim)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kişniş tozu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "amchur (mango tozu)",
+        "qty": 0.5,
+        "unit": "çay kaşığı",
+        "note": "yoksa limon suyu"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bamyayı geniş tavada yağın yarısıyla tek sıra yayarak 6–7 dk sotele; tabağa al.",
+        "minutes": 7
+      },
+      {
+        "order": 2,
+        "text": "Kalan yağda kimyonu kokut; soğanı sotele, domates ve baharatları ekleyip suyunu çektir.",
+        "minutes": 9
+      },
+      {
+        "order": 3,
+        "text": "Bamyayı geri ekleyip 3–4 dk harmanla; amchur/limonla bitir.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Bamyayı yıkadıktan sonra iyice kurutmak sümüksü dokuyu azaltır."
+  },
+  {
+    "id": "core-264",
+    "title": "Aloo Paratha (Patatesli Doldurulmuş Yassı Ekmek)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "hamurişi",
+      "tava",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "su (ılık, yaklaşık)",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz (hamur)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "yağ/ghee (tava)",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "patates (haşlanıp ezilmiş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil soğan/koriander (kıyım)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil biber (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kimyon (toz)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "amchur",
+        "qty": 0.5,
+        "unit": "çay kaşığı",
+        "note": "yoksa limon suyu"
+      },
+      {
+        "name": "tuz (iç)",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, tuz ve ılık suyla yumuşak hamur yoğur; 20 dk dinlendir.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Patatesi baharat, biber ve yeşillerle karıştır.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Hamurdan bezeler al; içle doldurup kapat. Hafif unlayıp 18–20 cm aç.",
+        "minutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Kızgın tavada az yağla iki yüzünü de kahverengi lekeler oluşana dek pişir.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Yanında tereyağı, yoğurt veya turşu ile servis edilir."
+  },
+  {
+    "id": "core-265",
+    "title": "Paneer Tikka Masala",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın/tava",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "paneer (küp)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "yoğurt",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "kimyon tozu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kişniş tozu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "Kashmiri biber",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soğan (püre veya çok ince doğranmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "krema",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "garam masala",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kasuri methi",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Paneeri yoğurt, ezme, baharat ve limonla 30–60 dk marine et.",
+        "minutes": 45
+      },
+      {
+        "order": 2,
+        "text": "Şişe dizip 220 °C fırında 8–10 dk veya tavada kızart.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Tencerede yağla soğanı pişir; domatesi ekleyip 8 dk kaynat. Krema, garam masala ve kasuri methi ekle.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "Paneeri sosa alıp 2–3 dk birlikte pişir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Kömürle dumanlama (dhungar) aromayı artırır."
+  },
+  {
+    "id": "core-266",
+    "title": "Malai Kofta (Paneer & Patates Köfteli)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "kızartma",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (haşlanmış, ezilmiş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "paneer (rendelenmiş)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "mısır nişastası/mahlep unu",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "yağ (kızartma)",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "kaju (toz/püre)",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "krema",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "garam masala",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "şeker",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patates, paneer, nişasta ve tuzla köfte harcı yap; ceviz boyu yuvarla.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "170–175 °C yağda altın rengi olana dek kızartıp kağıda al.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Tencerede az yağla soğanı sotele; ezmeyi 1 dk çevir. Domates, kaju ve şekeri ekleyip 8–10 dk pişir.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "Kremayı ve garam masalayı ekle; koftaları servisten hemen önce sosa yatır.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Köfteler sosta uzun beklerse yumuşar; servisten önce ekleyin."
+  },
+  {
+    "id": "core-267",
+    "title": "Kadai Paneer (Biberli, Kuru Baharatlı)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "vejetaryen",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "paneer (şerit/küp)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil biber (şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kapya biber (şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (piyazlık)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "kişniş tohumu (kavrulup dövülmüş)",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kuru kırmızı biber (dövülmüş)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "kasuri methi",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yağda soğanı sotele; sarımsak-zencefili 30 sn çevir.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Domatesi ekle; kişniş ve kırmızı biberi katıp 6–7 dk pişir.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Biberler ve paneeri ekleyip 3–4 dk yüksek ısıda çevir; kasuri methi ve tuzla bitir.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": "Kuru baharatı servis öncesi serpmek aromayı canlı tutar."
+  },
+  {
+    "id": "core-268",
+    "title": "Goa Balık Körisi (Hindistancevizli, Tamarindli)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "balık",
+      "tencere",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "beyaz etli balık fileto (iri parça)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "hindistancevizi sütü",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "tamarind (ezme/su)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kişniş tozu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "Kashmiri biber",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "hardal tohumu",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "köri yaprağı",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yağda hardal tohumlarını çıtlatarak aç; soğanı sotele, sarımsağı ekle.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Baharatları ve tamarindi ekleyip 1 dk çevir; hindistancevizi sütünü kat.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Balığı ekleyip kısık ateşte 8–10 dk nazikçe pişir; tuzu ayarla, köri yapraklarını ekle.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 16,
+    "image": "",
+    "notes": "Asidite için tamarind, renk için Kashmiri biber kullanılır."
+  },
+  {
+    "id": "core-269",
+    "title": "Chingri Malai Curry (Bengal Usulü Hindistancevizli Karides)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "deniz ürünleri",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "karides (ayıklanmış)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "hardal yağı/bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soğan (püre)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "Kashmiri biber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "hindistancevizi sütü",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "şeker",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Karidesi tuz ve zerdeçalla 10 dk beklet; tavada yağ ısıtıp her yüzünü 1 dk mühürleyip çıkar.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Aynı tavada soğan püresini 5 dk pişir; ezmeyi, biberi ve defneyi ekleyip 1 dk çevir.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Hindistancevizi sütünü ekle; 3–4 dk kaynat. Karidesi geri koyup 2 dk daha pişir; şeker ve tuzu ayarla.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Hardal yağı otantik aroma verir; yoksa nötr yağ kullan."
+  },
+  {
+    "id": "core-270",
+    "title": "Chicken Chettinad (Baharat Kavurmalı, Güney)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere",
+      "acı"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kemiksiz, iri küp)",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "susam/bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "taze rendelenmiş hindistancevizi",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "kurutulmuş kırmızı biber",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "kişniş tohumu",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "rezene tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber taneleri",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kakule",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "karanfil",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "tarçın (küçük parça)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "köri yaprağı",
+        "qty": 10,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kuru baharat ve kırmızı biberi kokutup kavur; hindistancevizini ekleyip 1 dk çevir, ardından püre çek.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Yağda soğanı kızart; tavuk ekleyip 4–5 dk mühürle.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Domates ve baharat püresini kat; köri yaprağı ve tuzla birlikte 15–20 dk kısık ateşte pişir.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 28,
+    "image": "",
+    "notes": "Baharat karışımı taze kavrulmalı; aroması belirleyicidir."
+  },
+  {
+    "id": "core-271",
+    "title": "Chicken Korma (Yoğurt & Bademli)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kuşbaşı)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "yoğurt (çırpılmış)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "badem/kaju (ıslatılıp püre)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "ghee/yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kakule",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "karanfil",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "safran (ılık sütte)",
+        "qty": 0.25,
+        "unit": "çay kaşığı",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ghee’de bütün baharatları kokut; soğanı altın rengi olana dek pişir.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Ezmeyi ekle; tavuğu katıp 5 dk mühürle.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Yoğurdu kesilmemesi için azar azar karıştır; badem püresi, tuz ve (varsa) safranı kat. Kısıkta 15 dk pişir.",
+        "minutes": 17
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 33,
+    "image": "",
+    "notes": "Yoğurt sıcak sosla azar azar buluşturulmalı; kesilmemesi için."
+  },
+  {
+    "id": "core-272",
+    "title": "Sambar (Güney Hindistan Mercimekli Sebze Yemeği)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "toor dal (arhar, sarı mercimek)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "havuç (büyük parça)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "patlıcan (iri küp)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "bamya (bütün)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "domates (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tamarind suyu",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "sambar masala (toz)",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "hardal tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kurutulmuş kırmızı biber",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "köri yaprağı",
+        "qty": 10,
+        "unit": "adet"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dal’ı 600 ml suyla yumuşayana dek haşla ve püre gibi ez.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Ayrı tencerede sebzeleri sambar tozu ve 300 ml suyla 10–12 dk pişir; domatesi ekle.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Dal’ı ve tamarind suyunu sebzelere ekle; 5 dk kaynat, tuzu ayarla.",
+        "minutes": 6
+      },
+      {
+        "order": 4,
+        "text": "Tavada yağ ısıt; hardal tohumunu çıtlat, kimyon, kırmızı biber ve köri yaprağını ekle. Bu tadkayı sambarın üzerine dök.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Dosa, idli veya pirinçle servis edilir."
+  },
+  {
+    "id": "core-273",
+    "title": "Rasam (Tamarindli, Kimyon-Karabiberli Çorba)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "çorba",
+      "vegan",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "tamarind (ılık suda açılmış)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kimyon tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber (tane veya iri kırık)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "hardal tohumu",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kurutulmuş kırmızı biber",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "köri yaprağı",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "kişniş (taze, kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Domates ve suyu tencerede 5 dk kaynat; tamarindi ekle.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Havanda kimyon, karabiber ve sarımsağı döv; tencereye ekle ve 5 dk daha kaynat.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Küçük tavada yağ ısıt; hardal tohumunu çıtlat, kırmızı biber ve köri yaprağını ekle. Tencer eye dök, tuzu ayarla, kişnişle servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Rasam hafif ve akışkan bir çorbadır; fazla kaynatmayın."
+  },
+  {
+    "id": "core-274",
+    "title": "Masala Dosa (Fermente Hamurlu, Patatesli İç)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "hamurişi",
+      "fermantasyon",
+      "vegan",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "urad dal (kabuksuz)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "çemen tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su (öğütme için, yaklaşık)",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "patates (haşlanıp iri ezilmiş)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "hardal tohumu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zerdeçal",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "yeşil biber (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "köri yaprağı",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pirinç ve urad dalı çemenle 4–6 saat ıslat; süzüp pürüzsüz çek, karıştırıp 8–12 saat ılık yerde fermente et.",
+        "minutes": 720
+      },
+      {
+        "order": 2,
+        "text": "İç için yağda hardal tohumlarını çıtlat; soğan, yeşil biber, zerdeçal ve köri yaprağını sotele. Patatesi ekleyip tuzla.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Saca/tavaya az yağ sür; hamuru ince yay. Yüzeyi kuruyunca kenarlara yağ gezdir, altı kızarınca patatesi koyup sar.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 30,
+    "cookMinutes": 16,
+    "image": "",
+    "notes": "Fermantasyon süresi ortam ısısına göre değişir."
+  },
+  {
+    "id": "core-275",
+    "title": "Idli (Fermente Hamurla Buharda Kek)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "buharda",
+      "fermantasyon",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "dosa/idli hamuru (fermente, core-274)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "su (buhar için)",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "yağ (kalıpları yağlamak)",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Idli kalıplarını yağla; hamuru %80 doldur.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Kaynayan su üzerinde 10–12 dk buharda pişir; 2 dk dinlendirip çıkar.",
+        "minutes": 14
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 14,
+    "image": "",
+    "notes": "Hindistancevizli chutney (core-276) ve sambar (core-272) ile servis."
+  },
+  {
+    "id": "core-276",
+    "title": "Hindistancevizli Chutney (Güney Tarzı)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "meze",
+      "vegan",
+      "soğuk servis"
+    ],
+    "ingredients": [
+      {
+        "name": "taze rendelenmiş hindistancevizi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kavrulmuş chana dal/yer fıstığı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "yeşil biber",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zencefil",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su (kıvam için)",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "hardal tohumu (tadka)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kurutulmuş kırmızı biber (tadka)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "köri yaprağı (tadka)",
+        "qty": 6,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Hindistancevizi, chana dal, yeşil biber, zencefil, tuz ve suyu pürüzsüz çek.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Küçük tavada yağı ısıt; hardalı çıtlat, kırmızı biber ve köri yaprağını ekle. Chutney’nin üzerine dök.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 2,
+    "image": "",
+    "notes": "Kıvamı suyla ayarlayın; buzdolabında 2–3 gün saklanır."
+  },
+  {
+    "id": "core-277",
+    "title": "Nane-Kişniş Chutney (Yeşil Chutney)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "meze",
+      "vegan",
+      "soğuk servis"
+    ],
+    "ingredients": [
+      {
+        "name": "taze kişniş",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "taze nane",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil biber",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zencefil",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "kavrulmuş kimyon (toz)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "şeker",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su (kıvam için)",
+        "qty": 50,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm malzemeyi pürüzsüz olacak şekilde blenderda çek; kıvamı suyla ayarla.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 7,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "İster sandviç sosu ister chaat’lerde kullan."
+  },
+  {
+    "id": "core-278",
+    "title": "Pav Bhaji (Baharatlı Tereyağlı Sebze Ezmesi)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "ana yemek",
+      "vejetaryen",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (haşlanmış)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "karnabahar (küçük çiçek)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bezelye",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "kapya biber (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (küp)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak-zencefil ezmesi",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "pav bhaji masala",
+        "qty": 2,
+        "unit": "yemek kaşığı",
+        "note": "yoksa garam masala+kırmızı biber+kimyon"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "bitkisel yağ",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "pav ekmeği (veya sade hamburger ekmeği)",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "limon",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Geniş tavada yağ+tereyağını ısıt; soğanı sotele, ezmeyi ekle. Biber ve domatesi katıp 6–7 dk pişir.",
+        "minutes": 9
+      },
+      {
+        "order": 2,
+        "text": "Haşlanmış patates, karnabahar ve bezelyeyi ekle; masalayı katıp ezerek 10–12 dk pişir, tuzu ayarla.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Pav ekmeklerini tereyağında kızart; bhaji ile limonla servis et.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Üstüne ekstra tereyağı parçası konur (makhan mark)."
+  },
+  {
+    "id": "core-279",
+    "title": "Pani Puri / Golgappa (Baharatlı Su & Dolgu ile)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "puri (hazır küçük, boş kabarı k)",
+        "qty": 40,
+        "unit": "adet"
+      },
+      {
+        "name": "patates (haşlanmış, küp)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "nohut (haşlanmış)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "tamarind ezmesi",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "taze kişniş",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "taze nane",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil biber",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kala namak (siyah tuz)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kimyon (kavrulmuş, toz)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "acı toz biber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "şeker/jaggery",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "su (pani için)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tamarind-hurma chutney (isteğe bağlı)",
+        "qty": 100,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kişniş, nane, yeşil biber, tamarind, kimyon, siyah tuz, acı biber, şeker ve suyun bir kısmını blenderda çek; kalan suyla açıp buzdolabında soğut.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Patates ve nohutu tuzla karıştır; purinin ağzını delip içi ni doldur, paniye batır (veya chutney ile).",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Pani iyi soğuk olmalı; baharatı damak zevkine göre artır."
+  },
+  {
+    "id": "core-280",
+    "title": "Jalebi (Şerbetli Spiral Tatlı)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "tatlı",
+      "kızartma",
+      "şerbet"
+    ],
+    "ingredients": [
+      {
+        "name": "un (maida)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "mısır nişastası",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "yoğurt",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "su (hamur için, yaklaşık)",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 2,
+        "unit": "g"
+      },
+      {
+        "name": "şeker (şerbet)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "su (şerbet)",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu (şerbet)",
+        "qty": 5,
+        "unit": "ml"
+      },
+      {
+        "name": "kakule (şerbet)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "safran (isteğe bağlı)",
+        "qty": 1,
+        "unit": "tutam"
+      },
+      {
+        "name": "ghee/ayçiçek yağı (kızartma)",
+        "qty": 800,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Şerbeti 10 dk kaynat; limon suyu ve kakuleyi ekleyip sıcak tut.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Un, nişasta, yoğurt ve suyla akışkan hamur yap; kabartmayı ekle, 60 dk dinlendir.",
+        "minutes": 60
+      },
+      {
+        "order": 3,
+        "text": "Sıkma şişesi/poşete doldur; 160–170 °C yağda spiral halkalar çizip kızart, çıkar çıkmaz ılık şerbete atıp 1–2 dk beklet.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 22,
+    "image": "",
+    "notes": "Klasik sürüm fermente hamurludur; bu hızlı sürüm pratik bir alternatiftir."
+  },
+  {
+    "id": "core-281",
+    "title": "Gajar ka Halwa (Havuç Helvası, Kuzey Hindistan)",
+    "cuisine": "hint mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "havuç (rendelenmiş)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "süt",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "ghee/tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "kakule (toz)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kaju/badem (kavrulmuş, doğranmış)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "kuru üzüm (isteğe bağlı)",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Geniş tencerede havuç ve sütü orta ateşte kaynatarak süt çoğunlukla çekene dek pişir, sık sık karıştır.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Ghee ve şekeri ekle; kıvam alana dek 10–12 dk daha pişir.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Kakule, kuruyemiş ve (varsa) üzümü ekleyip 1–2 dk çevir; ılık servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "image": "",
+    "notes": "Daha zengin tat için son dakikalarda bir kaşık kaymak eklenebilir."
   }
 ]
