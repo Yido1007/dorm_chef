@@ -12400,5 +12400,3774 @@
     "cookMinutes": 14,
     "image": "",
     "notes": ""
+  },
+  {
+    "id": "core-159",
+    "title": "Tacos al Pastor (Tavukla Pratik)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "derisiz tavuk but (jülyen)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "mısır tortilla",
+        "qty": 12,
+        "unit": "adet"
+      },
+      {
+        "name": "ananas (küçük küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (piyazlık)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "limon (servis)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "taze kişniş",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "acı toz biber/guajillo",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "toz kimyon",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kurutulmuş kekik",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "achiote ezmesi (yoksa biber-salça karışımı)",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "elma sirkesi",
+        "qty": 1.5,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "portakal suyu",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuk için biber, kimyon, kekik, achiote, sarımsak, sirke, portakal suyu, tuz ve yağı karıştırıp marine et.",
+        "minutes": 120
+      },
+      {
+        "order": 2,
+        "text": "Kalın tabanlı tavayı ısıt; tavuğu yüksek ateşte renk alana dek sotele.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Tortillaları ısıt; tavuğu, ananas, soğan ve kişnişle doldur. Limonla servis et.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-160",
+    "title": "Guacamole Klasik",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "meze",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "olgun avokado",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "kırmızı soğan (ince kıyılmış)",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "jalapeño/acı biber (ince kıyılmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (çekirdeği çıkarılıp küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "limon/lime suyu",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "taze kişniş",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Avokadoyu ezin; soğan, biber, domates, kişniş ve limon suyunu ekleyin.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Tuzla tatlandırın; üstünü kapatıp 10 dk dinlendirin.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-161",
+    "title": "Salsa Roja Asada (Köz Tadında Kırmızı Sos)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "sos",
+      "vegan",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "domates (orta boy)",
+        "qty": 5,
+        "unit": "adet"
+      },
+      {
+        "name": "jalapeño/serrano",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan",
+        "qty": 0.5,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (kabuklu)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "lime suyu",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Döküm tava/saçta domates, biber, soğan ve sarımsağı karartarak közle.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Sarımsak kabuğunu soy; hepsini tuz ve lime ile robottan geçir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-162",
+    "title": "Enchiladas Verdes (Tavuklu)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "fırın",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "mısır tortilla",
+        "qty": 12,
+        "unit": "adet"
+      },
+      {
+        "name": "haşlanmış didiklenmiş tavuk",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatillo (yeşil domates)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "jalapeño/serrano",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "taze kişniş",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk suyu",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "kaşar/mozzarella (rendelenmiş)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "krema/ekşi krema (servis)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tomatillo, biber, soğan ve sarımsağı haşla/ızgara yap; kişniş, tuz ve tavuk suyuyla çekip salsa verde yap.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Tortillaları yağda ısıt, salsa ile hafifçe ıslat; tavukla doldurup rulo sar tepsiye diz.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Üstüne salsa ve peynir ser; 180 °C’de peynir eriyene dek pişir.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Tomatillo bulamazsan yeşil domates + biraz lime suyu kullan."
+  },
+  {
+    "id": "core-163",
+    "title": "Elote (Sokak Usulü Mısır)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "ızgara",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "mısır koçanı",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "mayonez",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "ekşi krema/yoğurt",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "lime",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "cotija/beyaz peynir (ufalanmış)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "acı toz biber/paprika",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tereyağı (isteğe bağlı)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mısırları ızgarada çevirerek kızart; istersen tereyağı sür.",
+        "minutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Mayonez+yoğurdu karıştır; koçanlara sür, peynir ve acı biber serpiştir. Lime ile servis et.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-164",
+    "title": "Pozole Rojo (Tavuklu)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "çorba",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kemikli)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "hominy (haşlanmış mısır, konserve)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "kurutulmuş guajillo/ancho biber",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "defne yaprağı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su/tavuk suyu",
+        "qty": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "marul (ince kıyım, servis)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "turp (dilim, servis)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "lime (servis)",
+        "qty": 2,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu soğan, sarımsak, defne ve tuzla 30 dk kaynat; eti ayır, suyu tencerede kalsın.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Kuru biberleri sıcak suda 10 dk beklet; az pişirme suyuyla çekip kırmızı sos yap.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Tencereye hominy ve kırmızı sosu ekle; 15 dk kaynat. Didiklenmiş tavuğu katıp 5 dk daha pişir.",
+        "minutes": 22
+      },
+      {
+        "order": 4,
+        "text": "Marul, turp ve lime ile servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-165",
+    "title": "Chiles Rellenos de Queso",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "kızartma",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "poblano biber (büyük)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "kaşar/mozzarella (çubuk)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "un (hafif kaplama)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta (ayrı çırpılmış beyaz+sarı)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "salsa roja (servis)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Biberleri ocakta közle; poşette 10 dk beklet. Kabuk ve çekirdekleri temizleyip yırtmadan yarık aç.",
+        "minutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Peynirle doldur; una bulayıp çırpılmış yumurtaya batır.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Kızgın yağda altın rengi kızart; salsa ile servis et.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-166",
+    "title": "Arroz Rojo (Meksika Usulü Kırmızı Pilav)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "pilav",
+      "garnitür",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "uzun taneli pirinç",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk/sebze suyu",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "soğan (ince doğranmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "bezelye (isteğe bağlı)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "ayçiçek yağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pirinci yıka ve süz; yağda soğan-sarımsakla birlikte hafifçe kavur.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Domates püresi ve suyu ekle; tuz ayarla. Kısıkta kapağı kapalı 15–18 dk pişir.",
+        "minutes": 18
+      },
+      {
+        "order": 3,
+        "text": "Bezelyeyi ekleyip 2 dk ısıt; 5 dk demlendir.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-167",
+    "title": "Frijoles de la Olla (Tencerede Kuru Fasulye)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "zeytinyağlı",
+      "vegan",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "kuru pinto/siyah fasulye",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "soğan (ikiye bölünmüş)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "defne yaprağı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz (pişmeye yakın)",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Fasulyeyi 8 saat suda beklet; süz.",
+        "minutes": 480
+      },
+      {
+        "order": 2,
+        "text": "Tencereye fasulye, su, soğan, sarımsak ve defneyi al; orta-kısık ateşte yumuşayana dek pişir.",
+        "minutes": 90
+      },
+      {
+        "order": 3,
+        "text": "Tuzu sona doğru ekle; sıcak veya oda ısısında servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 90,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-168",
+    "title": "Churros con Chocolate",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "tatlı",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "su",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 160,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker (üstü)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tarçın (üstü)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "bitter çikolata",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "süt/krema (sos)",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Su ve tereyağını kaynat; unu ekleyip 1–2 dk karıştırarak hamur yap. Ilıyınca yumurtaları teker teker yedir.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Tırtıklı uçla şerit sık; kızgın yağda altın rengi kızart. Şeker-tarçına bulayın.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Sos için süt/krema ile çikolatayı eritin; sıcak servis edin.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-169",
+    "title": "Pastel de Tres Leches",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "toz şeker (kek)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "evaporated milk",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "condensed milk",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "süt",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "krema (üstü)",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker (üstü)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "çilek (servis, isteğe bağlı)",
+        "qty": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yumurta ve şekeri hacimlenene dek çırp; un ve kabartmayı ekle, 170 °C’de 25–30 dk pişir.",
+        "minutes": 30
+      },
+      {
+        "order": 2,
+        "text": "Evaporated+condensed milk ve sütü karıştır; soğuyan keki çatalla delip karışımı dök.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Kremayı şekerle çırp; üstüne yay. En az 2 saat soğut, dilimle.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-170",
+    "title": "Tortillas de Maíz (Ev Yapımı)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "hamurişi",
+      "tava",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "masa harina (mısır unu, nixtamalize)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ılık su",
+        "qty": 550,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Masa harina, tuz ve suyu karıştır; ele yapışmayan yumuşak hamur yoğur. 20 dk dinlendir.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Cevizden büyük parçalar al; presle iki yağlı kağıt arasında ince aç.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Döküm tavayı ısıt; her yüzünü 45–60 sn pişir. Temiz bezde sıcak tut.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-171",
+    "title": "Pollo con Mole Poblano",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kemikli)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "kuru ancho biber",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "kuru mulato biber",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kuru pasilla biber",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "susam",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "yer fıstığı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "kabak çekirdeği",
+        "qty": 30,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "tortilla (bayat, parça)",
+        "qty": 1,
+        "unit": "adet",
+        "note": "yakl. 30 g"
+      },
+      {
+        "name": "domates",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "kuru üzüm",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "tarçın",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karanfil",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "bitter çikolata (şekersiz tercihen)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk suyu",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Biberlerin sap-çekirdeğini çıkar; kuru tavada kokut, sıcak suda 20 dk ıslat.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Susam, fıstık ve kabak çekirdeğini, küçük parça tortilla ile kuru tavada kavur; domates, soğan ve sarımsağı közle/çevir.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Şişen biberleri süz; kavrulanlar, közlenmiş sebzeler, üzüm, baharatlar ve 300 ml tavuk suyuyla pürüzsüz çek.",
+        "minutes": 8
+      },
+      {
+        "order": 4,
+        "text": "Tencerede yağı ısıt; sosu 5 dk kavur, kalan su ve çikolatayı ekleyip kısıkta 30 dk pişir, tuzu ayarla.",
+        "minutes": 35
+      },
+      {
+        "order": 5,
+        "text": "Tavuk butları ayrı tencerede tuzlu suda 20 dk haşla veya fırında pişir; sosla 5 dk kaynatıp servis et.",
+        "minutes": 25
+      }
+    ],
+    "prepMinutes": 30,
+    "cookMinutes": 60,
+    "image": "",
+    "notes": "Meksika çikolatası yoksa kaliteli bitter çikolata kullan."
+  },
+  {
+    "id": "core-172",
+    "title": "Cochinita Pibil (Fırında, Ekşi Soğanlı)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "domuz but (iri küp)",
+        "qty": 1200,
+        "unit": "g",
+        "note": "alternatif: hindi but"
+      },
+      {
+        "name": "achiote ezmesi",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "ekşi portakal suyu",
+        "qty": 150,
+        "unit": "ml",
+        "note": "yoksa 120 ml portakal + 30 ml lime + 1 yemek kaşığı sirke"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "kimyon",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kekik",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "muz yaprağı/folyo",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kırmızı soğan (ince dilim)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "lime suyu (soğan için)",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "elma sirkesi (soğan için)",
+        "qty": 30,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Achiote, narenciye suyu, ezilmiş sarımsak, kimyon, kekik ve tuzu karıştır; eti bu marine ile kaplayıp tercihen buzdolabında 4–12 saat beklet.",
+        "minutes": 240
+      },
+      {
+        "order": 2,
+        "text": "Fırın kabına muz yaprağı/folyo ser; eti ve marinayı ekle, kapat. 160 °C’de 3 saat düşük ısıda pişir.",
+        "minutes": 180
+      },
+      {
+        "order": 3,
+        "text": "Soğanı lime ve sirkeyle 20 dk bekleterek ekşit.",
+        "minutes": 20
+      },
+      {
+        "order": 4,
+        "text": "Eti didikle; kendi suyuyla karıştır. Ekşi soğan ve sıcak tortillalarla servis et.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 180,
+    "image": "",
+    "notes": "Muz yaprağı aroma verir; yoksa folyo ile sıkıca kapat."
+  },
+  {
+    "id": "core-173",
+    "title": "Tinga de Pollo (Chipotle Soslu Didik Tavuk)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk göğüs/but",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince piyazlık)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chipotle biberi (adobo içinde)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk suyu",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kekik",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu 20 dk kaynat; didikle ve kenara al.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Soğanı yağda yumuşat; sarımsağı ekle, kokusu çıkınca domates, chipotle, defne, kekik ve suyu kat.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "10 dk pişir; didik tavuğu ekleyip 5 dk daha kaynat. Tuzunu ayarla.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Tortilla arasında veya tostada üstünde servis edilir."
+  },
+  {
+    "id": "core-174",
+    "title": "Sopa de Lima (Yucatán Limonlu Tavuk Çorbası)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "çorba",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk suyu",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "tavuk göğüs",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "domates (küçük küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (yemeklik)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "lime suyu",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "kuru kekik",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "jalapeño (ince doğranmış)",
+        "qty": 1,
+        "unit": "adet",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "mısır tortilla (şerit)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "taze kişniş",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tortilla şeritlerini kızgın yağda çıtırlaştır veya fırında kurut; kenara al.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Tavuk suyuna domates, soğan, sarımsak, kekik (ve biber) ekleyip 15 dk kaynat; tavuğu katıp 10 dk pişir.",
+        "minutes": 25
+      },
+      {
+        "order": 3,
+        "text": "Tavuğu didikleyip geri koy; lime suyu ve tuzu ekle. Çıtır tortilla ve kişnişle servis et.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-175",
+    "title": "Chilaquiles Verdes",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "kahvaltı",
+      "vejetaryen",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "tortilla cipsi (gün bayatı tercih)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "salsa verde",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "yumurta (isteğe bağlı)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "queso fresco/beyaz peynir (ufalanmış)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "krema/yoğurt",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı soğan (ince)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "taze kişniş",
+        "qty": 8,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Geniş tavada yağı ısıt, salsa verdeyi ekleyip 1–2 dk fokurdat.",
+        "minutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Tortilla cipslerini sosa karıştır; 2–3 dk yumuşat.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "İstersen başka tavada yumurta pişir; peynir, krema, soğan ve kişnişle servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 6,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-176",
+    "title": "Huevos Rancheros",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "kahvaltı",
+      "vejetaryen",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "mısır tortilla",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "salsa roja",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "frijoles refritos (sürülmüş fasulye)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı/ayçiçek yağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tortillaları az yağda iki yüzünü de ısıt.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Yumurtaları göz yumurta pişir.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Tortillalara fasulye sür; üstüne yumurta ve sıcak salsa koy, hemen servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 7,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-177",
+    "title": "Quesadillas de Flor de Calabaza",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "vejetaryen",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "mısır tortilla",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "kabak çiçeği (temizlenmiş)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince doğranmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "poblano biber (şerit)",
+        "qty": 1,
+        "unit": "adet",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "Oaxaca/mozzarella (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğanı (ve varsa poblano şeritlerini) sotele; kabak çiçeğini ekleyip 1–2 dk söndür, tuzla.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Tortillanın yarısına peynir ve iç harcı koy; kapat ve tavada iki yüzünü peynir eriyene dek pişir.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": "Kabak çiçeği yoksa mantar dilimleriyle yapılabilir."
+  },
+  {
+    "id": "core-178",
+    "title": "Frijoles Refritos (Vegan)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "meze",
+      "vegan",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "haşlanmış pinto/siyah fasulye",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (kıyım)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "fasulye suyu/su",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "kimyon",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan ve sarımsağı yağda yumuşat.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Fasulye ve sıvıyı ekle; ezerek karıştır, koyulaşana dek pişir. Kimyon ve tuzla tatlandır.",
+        "minutes": 11
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "İstersen domuz yağı yerine tamamen zeytinyağıyla vegan tut."
+  },
+  {
+    "id": "core-179",
+    "title": "Esquites (Bardakta Mısır)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "vejetaryen",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "mısır tanesi",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı/zeytinyağı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "mayonez",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "cotija/beyaz peynir (ufalanmış)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "lime",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "acı toz biber",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Mısırı yağla tavada sotele; su ekleyip 8 dk yumuşat.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Bardaklara paylaştır; mayonez, peynir, lime suyu ve acı biberle tamamla.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Vegan için bitkisel mayonez ve peynir kullan."
+  },
+  {
+    "id": "core-180",
+    "title": "Pico de Gallo (Salsa Fresca)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "sos",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "olgun domates (küçük küp)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı soğan (ince kıyım)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "jalapeño (çekirdeksiz, ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "taze kişniş (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "lime suyu",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm malzemeyi karıştır; 10 dk dinlendirip servis et.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-181",
+    "title": "Arroz con Leche (Tarçınlı Sütlaç, Meksika Usulü)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "süt",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "limon kabuğu rendesi",
+        "qty": 1,
+        "unit": "çay kaşığı",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "vanilin",
+        "qty": 0.5,
+        "unit": "çay kaşığı",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "tarçın (serpme)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pirinci suyla 5 dk kaynat; süt, tarçın çubuğu (ve kabuk rendesi) ekleyip kısıkta karıştırarak koyulaştır.",
+        "minutes": 30
+      },
+      {
+        "order": 2,
+        "text": "Şekeri (ve vanilini) ekleyip 5 dk daha pişir; kaselere al, tarçın serpip servis et.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-182",
+    "title": "Flan Napolitano (Karamelli Sütlü Tatlı)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "toz şeker (karamel)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "su (karamel)",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "condensed milk",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "evaporated milk",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "vanilin",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "krem peynir",
+        "qty": 150,
+        "unit": "g",
+        "note": "isteğe bağlı; daha kremamsı doku"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Şeker ve suyu kalıpta amber renk alıncaya dek karamelize et; kalıbı çevirerek tabanı-kenerları kapla.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Sütler, yumurta, vanilin (ve krem peyniri) pürüzsüz olana dek çek; kalıba dök.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "160 °C fırında benmari usulü 50–60 dk pişir; oda ısısında dinlendirip en az 3 saat buzdolabında soğut, ters çevirip servis et.",
+        "minutes": 60
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "image": "",
+    "notes": "Üstü hafifçe sallandığında ortası jölemsi kalmalı; soğudukça koyulaşır."
+  },
+  {
+    "id": "core-183",
+    "title": "Mole Verde de Pollo (Yeşil Mole, Tavuklu)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kemikli)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "tomatillo/yeşil domates",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "poblano biber",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "jalapeño",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "kabak çekirdeği (çiğ, pepita)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "kişniş (taze)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "ıspanak",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk suyu",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "kimyon",
+        "qty": 0.5,
+        "unit": "çay kaşığı",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Poblano ve jalapeñoyu ocakta/ fırında közleyip kabuklarını soy; tomatilloları ikiye kes.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Kabak çekirdeğini kuru tavada 3–4 dk kokusu çıkana dek kavur.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Közlenmiş biberler, tomatillo, soğan, sarımsak, kişniş, maydanoz, ıspanak ve kabak çekirdeğini 300 ml tavuk suyuyla pürüzsüz çek.",
+        "minutes": 6
+      },
+      {
+        "order": 4,
+        "text": "Tencerede yağı ısıt; sosu 5 dk kavur, kalan suyu ekle. Tuz (ve kimyon)la tatlandır.",
+        "minutes": 8
+      },
+      {
+        "order": 5,
+        "text": "Tavuğu sosa yerleştir; kısık ateşte kapalı 25–30 dk pişir, yumuşayınca servis et.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-184",
+    "title": "Carne Asada (Izgarada Lime Soslu Dana)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "ızgara",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "dana flank/skirt steak",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "lime suyu",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "portakal suyu",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "jalapeño (ince kıyım)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kişniş (kıyım)",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "kimyon",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sos malzemelerini karıştır; eti 60 dk marine et.",
+        "minutes": 60
+      },
+      {
+        "order": 2,
+        "text": "Izgarayı çok iyi ısıt; etin her yüzünü 3–4 dk pişir (istenen pişme).",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "5 dk dinlendir; lifine çapraz ince dilimle, servis et.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-185",
+    "title": "Sopes (Masa Kaseleri, Karışık Üstlü)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "vegan",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "masa harina (mısır unu, nixtamalize)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ılık su",
+        "qty": 520,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "frijoles refritos (fasulye ezmesi)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "marul (ince kıyım)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "queso fresco/beyaz peynir",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "krema/yoğurt",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "salsa roja",
+        "qty": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Masa harina, tuz ve suyla yumuşak hamur yoğur; üzerini örtüp 20 dk dinlendir.",
+        "minutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Cevizden iri parçaları 8–9 cm disk yap; döküm tavada her yüzünü 1–2 dk pişir.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Kenarlarını parmakla yükselt; kızgın yağda kısa kızartıp çıkar.",
+        "minutes": 6
+      },
+      {
+        "order": 4,
+        "text": "Üstüne fasulye sür; marul, peynir, krema ve salsa ile tamamla.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Vegan için krema ve peyniri bitkisel kullan."
+  },
+  {
+    "id": "core-186",
+    "title": "Tamales de Pollo en Salsa Roja",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "buharda",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "mısır koçanı yaprağı (ıslatılmış)",
+        "qty": 20,
+        "unit": "adet"
+      },
+      {
+        "name": "masa harina",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı/yağ (tercihen içyağı)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk suyu",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "didiklenmiş tavuk",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "salsa roja",
+        "qty": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yaprakları ılık suda 30 dk beklet.",
+        "minutes": 30
+      },
+      {
+        "order": 2,
+        "text": "Yağı kabarana dek çırp; masa harina, kabartma, tuz ve tavuk suyunu ekleyip sürülebilir harç yap.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Tavuğu salsa ile karıştır.",
+        "minutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Yaprağa harç yay; ortaya tavuk koyup sar. Dikey buharda 75–90 dk pişir.",
+        "minutes": 80
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 80,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-187",
+    "title": "Tamales de Elote (Tatlı Mısır Tamalesi)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "tatlı",
+      "buharda",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "tatlı mısır tanesi (taze)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "süt",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "mısır yaprağı (ıslatılmış)",
+        "qty": 16,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yaprakları ılık suda 20 dk beklet.",
+        "minutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Mısır, süt, tereyağı, şeker ve tuzu blenderda çek; kabartmayı ekle.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Yapraklara karışımdan sür; sar ve dik şekilde buharda 60–70 dk pişir.",
+        "minutes": 65
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 65,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-188",
+    "title": "Ceviche de Camarón (Karides Ceviche)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "meze",
+      "deniz ürünleri",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "çiğ karides (ayıklı)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "lime suyu",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "kırmızı soğan (ince)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "domates (küçük küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "salatalık (küçük küp)",
+        "qty": 150,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "jalapeño (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kişniş (kıyım)",
+        "qty": 12,
+        "unit": "g"
+      },
+      {
+        "name": "avokado (küçük küp)",
+        "qty": 1,
+        "unit": "adet",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Karidesi lime suyunda opaklaşana dek beklet (20–30 dk).",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Suyun bir kısmını süz; sebzeler ve kişnişle karıştır, tuzla tatlandır. Soğuk servis et.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Taze ve güvenilir deniz ürünü kullan."
+  },
+  {
+    "id": "core-189",
+    "title": "Camarones al Mojo de Ajo (Sarımsaklı Karides)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava",
+      "deniz ürünleri",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "karides (ayıklı)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sarımsak (ince dilim)",
+        "qty": 5,
+        "unit": "adet"
+      },
+      {
+        "name": "pul biber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "lime suyu",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sarımsağı yağ-tereyağında rengi dönmeden çevir.",
+        "minutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Karides ve pul biberi ekle; renk değişene dek sotele.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Lime suyu ve maydanozla bitir; hemen servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 7,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-190",
+    "title": "Fajitas de Res (Biberli Dana)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "dana antrikot/flank (şerit)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "kapya biber (şerit)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil biber (şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "lime suyu",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "kimyon",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "toz paprika",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "mısır tortilla",
+        "qty": 8,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Et, lime, yağ ve baharatlarla 30 dk marine et.",
+        "minutes": 30
+      },
+      {
+        "order": 2,
+        "text": "Döküm tavayı çok ısıt; eti parti parti yüksek ateşte sotele, alıp dinlendir.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Aynı tavada biber ve soğanı 5–6 dk çevir; eti geri ekleyerek kısa karıştır. Sıcak tortillayla servis et.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-191",
+    "title": "Tostadas de Pollo",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "vejetaryen değil"
+    ],
+    "ingredients": [
+      {
+        "name": "tostada tabanı (fırınlanmış/kızarmış tortilla)",
+        "qty": 12,
+        "unit": "adet"
+      },
+      {
+        "name": "frijoles refritos",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "didiklenmiş tavuk",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "marul (ince kıyım)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "krema/yoğurt",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "queso fresco/beyaz peynir",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "salsa",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "avokado",
+        "qty": 1,
+        "unit": "adet",
+        "note": "isteğe bağlı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tostadalara fasulye sür; tavuk, marul, krema, salsa ve peyniri sırayla ekle.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Avokado ekleyip hemen servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 5,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-192",
+    "title": "Queso Fundido con Chorizo",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "meze",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "taze chorizo (kabuksuz)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "Oaxaca/mozarella-jack karışık (rendelenmiş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "mısır tortilla",
+        "qty": 8,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Chorizo (ve soğanı) tavada kavur.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Döküm tavaya al; üstüne peyniri yay. 200 °C fırında 8–10 dk eriyene kadar pişir.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Sıcak tortillalarla hemen servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-193",
+    "title": "Albóndigas en Chipotle (Acılı Domatesli Köfte)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "dana kıyma",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ekmek içi (sütle ıslatılmış)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (kıyım)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "chipotle (adobo içinde)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "et/ sebze suyu",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "kimyon",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kıyma, ekmek içi, yumurta, soğanın yarısı, kimyon ve tuzla harç yap; ceviz boyu yuvarla.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Tencerede köfteleri hafif kızart.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Chipotle, domates, kalan soğan-sarımsak ve suyu blenderda çek; tencereye ekleyip köftelerle 15–20 dk pişir.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-194",
+    "title": "Birria de Res (Klasik Konsomeli)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "dana döş/gerdan (iri parça)",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "kuru guajillo biber",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "kuru ancho biber",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 5,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "elma sirkesi",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "defne",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kimyon",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karanfil",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kuru kekik",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "et suyu",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Biberleri kokut, 20 dk sıcak suda beklet.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Biberler, soğan, sarımsak, sirke ve baharatları 200 ml suyla çek.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Eti tencerede mühürle; sos ve et suyunu ekleyip kapaklı, kısıkta 3 saat pişir.",
+        "minutes": 180
+      },
+      {
+        "order": 4,
+        "text": "Eti didikle; konsome ile, yanında tortilla ile servis et.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 30,
+    "cookMinutes": 180,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-195",
+    "title": "Sopa Azteca (Tortilla Çorbası)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "çorba",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "mısır tortilla (şerit)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pasilla biber (kuru)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "tavuk/sebze suyu",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "avokado",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "beyaz peynir/queso fresco",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "krema/yoğurt",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tortilla şeritlerini kızartıp kenara al.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Pasillayı kısa kızdır; domates, soğan ve sarımsakla çek. Tencerede 15–20 dk kaynat.",
+        "minutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Kaseye çıtır tortilla koy; çorbayı dök, avokado, peynir ve krema ile servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-196",
+    "title": "Ensalada de Nopal (Kaktüs Salatası)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "salata",
+      "vegan",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "nopal/kaktüs yaprağı (temizlenmiş, küp)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "domates",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı soğan",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "jalapeño",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kişniş",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "lime suyu",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "queso fresco (isteğe bağlı)",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Nopal parçalarını tuzlu suda 10–12 dk haşla; süzüp soğuk sudan geçir.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Sebzeler ve lime ile karıştır; gerekirse peyniri ekleyip soğuk servis et.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-197",
+    "title": "Rajas con Crema (Poblano Şeritleri Kremalı)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "yan yemek",
+      "vejetaryen",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "poblano biber",
+        "qty": 5,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "mısır tanesi",
+        "qty": 150,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "krema",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Oaxaca/mozzarella (rendelenmiş)",
+        "qty": 100,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Poblanoları közle, soy; şerit doğra.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Soğanı yağda sotele; rajas (ve mısır) ekle. Krema ve tuzu katıp 5 dk kısıkta pişir; peynir ekleyeceksen eritip servis et.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-198",
+    "title": "Chilaquiles Rojos",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "kahvaltı",
+      "vejetaryen",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "tortilla cipsi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "salsa roja",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "beyaz peynir/queso fresco",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "krema/yoğurt",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı soğan (ince)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "kişniş",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta (isteğe bağlı)",
+        "qty": 2,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tencerede salsa roja’yı 2–3 dk ısıt.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Cipsleri ekleyip 2–3 dk yumuşat.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Peynir, krema, soğan ve kişnişle tamamla; istersen göz yumurta ekle.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 6,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-199",
+    "title": "Enchiladas Suizas (Kremalı Yeşil Soslu)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "fırın",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "mısır tortilla",
+        "qty": 12,
+        "unit": "adet"
+      },
+      {
+        "name": "didiklenmiş tavuk",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomatillo",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "serrano/jalapeño",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "krema",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "tavuk suyu",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "rendelenmiş peynir",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tomatillo, biber, soğan ve sarımsağı haşla/ızgara; krema ve tavuk suyuyla çek, tuzla.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Tortillaları hafif yağda ısıt; tavukla doldurup rulo yap, tepsiye diz.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Üstüne sosu ve peyniri ekle; 190 °C’de 12–15 dk pişir.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-200",
+    "title": "Pescado a la Veracruzana (Zeytinli-Kapari Soslu Balık)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "balık",
+      "tencere",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "beyaz etli balık fileto",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil zeytin (dilim)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "kapari",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "jalapeño (turşu, dilim)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 100,
+        "unit": "ml",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan ve sarımsağı yağda sotele; domates, zeytin, kapari, jalapeño ve defneyi ekle (ve şarap).",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Sosu 6–7 dk kaynat; balık filetolarını ekleyip 8–10 dk kısık ateşte pişir.",
+        "minutes": 16
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-201",
+    "title": "Carnitas (Fırında Narenciye Aromalı)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "domuz döş/omuz (iri küp)",
+        "qty": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "portakal suyu",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "içyağı/tereyağı/yağ",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kuru kekik",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm malzemeyi derin fırın kabına al; 160 °C’de 2–2.5 saat sıvı çoğunu çekene ve et yumuşayana dek pişir.",
+        "minutes": 120
+      },
+      {
+        "order": 2,
+        "text": "Fırın ızgarasını aç; 10–12 dk arada karıştırarak yüzeyleri çıtırlaştır.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 132,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-202",
+    "title": "Barbacoa de Res (Fırında/ Muz Yapraklı)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "dana döş (iri parça)",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "guajillo biber (kuru)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "ancho biber (kuru)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 5,
+        "unit": "adet"
+      },
+      {
+        "name": "elma sirkesi",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "kimyon",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kuru kekik",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karanfil",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "defne",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "et suyu",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "muz yaprağı/folyo",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Biberleri kokutup 20 dk sıcak suda beklet; sarımsak, sirke, baharat ve 150 ml suyla çek.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Eti sosla kapla; muz yaprağına sarıp fırın kabına yerleştir, et suyunu kenara dök.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "160 °C fırında 3.5 saat pişir; didikle ve kendi suyuyla servis et.",
+        "minutes": 210
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 210,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-203",
+    "title": "Gorditas Rellenas (Dolgulu Masa Cepleri)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "vejetaryen",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "masa harina",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ılık su",
+        "qty": 520,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı (tava)",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "frijoles refritos",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "rendelenmiş peynir",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "salsa",
+        "qty": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Hamuru yoğurup 10 dk dinlendir; 8–10 cm’lik kalın diskler yap.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Döküm tavada her yüzünü 3–4 dk pişir; 2 dk dinlendirip kenarından kesip cep aç.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Fasulye ve peynirle doldur; salsa ile servis et.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 14,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-204",
+    "title": "Huaraches (Oval Masa Taban, Üstü Fasulye & Salsa)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "vejetaryen",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "masa harina",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ılık su",
+        "qty": 520,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "frijoles refritos",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "salsa",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "marul (ince)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "beyaz peynir/queso fresco",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "krema/yoğurt",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Hamuru yoğur; 15–20 cm oval tabanlar aç.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Döküm tavada az yağla her yüzünü 4–5 dk pişir.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Üste fasulye, salsa, marul, peynir ve krema ekle.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-205",
+    "title": "Sopa Tarasca (Michoacán Fasulye Çorbası)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "çorba",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "haşlanmış barbunya/pinto",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pasilla biber (kuru)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "sebze/tavuk suyu",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tortilla şeridi (servis)",
+        "qty": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pasillayı kısa kokut; domates, soğan, sarımsak ve fasulyeyle çek.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Tencerede yağla 2–3 dk çevir; suyu ekleyip 20 dk kaynat, tuzu ayarla.",
+        "minutes": 23
+      },
+      {
+        "order": 3,
+        "text": "Üste çıtır tortilla ve peynir/krema ile servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-206",
+    "title": "Arroz Verde (Kişnişli-Yeşil Pirinç)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "pilav",
+      "garnitür",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "uzun taneli pirinç",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "kişniş (taze)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "ıspanak",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "jalapeño",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan",
+        "qty": 0.5,
+        "unit": "adet"
+      },
+      {
+        "name": "sebze/tavuk suyu",
+        "qty": 650,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yeşillikleri, jalapeño ve 150 ml suyu blenderda çek.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Pirinci soğanla yağda 2–3 dk kavur; yeşil karışım ve kalan suyu ekle.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Kısık ateşte 15–18 dk pişir; 5 dk demlendir.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-207",
+    "title": "Cajeta (Keçi Sütü Karameli)",
+    "cuisine": "meksika mutfağı",
+    "tags": [
+      "tatlı",
+      "tencerede"
+    ],
+    "ingredients": [
+      {
+        "name": "keçi sütü",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "karbonat (1 yemek kaşığı suda çözülmüş)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "vanilin",
+        "qty": 1,
+        "unit": "çay kaşığı",
+        "note": "isteğe bağlı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Süt, şeker ve tarçını tencerede ısıt; kaynama başlayınca karbonatı ekle (kabarmaya dikkat).",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Kısık ateşte karıştırarak 60–80 dk koyulaşıp amber renk alıncaya dek pişir.",
+        "minutes": 75
+      },
+      {
+        "order": 3,
+        "text": "Vanilini ekle; ılınınca kavanoza al.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 75,
+    "image": "",
+    "notes": "Kıvam soğudukça koyulaşır; çok koyuysa ısıtıp az sütle açılabilir."
   }
 ]
