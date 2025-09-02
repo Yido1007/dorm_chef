@@ -16169,5 +16169,2656 @@
     "cookMinutes": 75,
     "image": "",
     "notes": "Kıvam soğudukça koyulaşır; çok koyuysa ısıtıp az sütle açılabilir."
+  },
+  {
+    "id": "core-208",
+    "title": "Katsu Curry (Tavuk Katsu ile Japon Köri Pilavı)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk göğüs (düzleştirilmiş)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "un (pane)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta (çırpılmış, pane)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "panko galeta unu (pane)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "patates (iri küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "taze zencefil (rendelenmiş)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "un (köri ru)",
+        "qty": 25,
+        "unit": "g"
+      },
+      {
+        "name": "köri tozu",
+        "qty": 16,
+        "unit": "g"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "rendelenmiş elma",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk suyu/su",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "pirinç pilavı (servis)",
+        "qty": 600,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğanı yağda 8 dk sotele; havuç ve patatesi ekleyip 4 dk daha çevir.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Tereyağı, sarımsak ve zencefili ekle; un ve köri tozunu 2 dk kavur. Suyu yavaşça ekleyip topaksız karıştır; soya sosu ve elmayı katıp 15 dk kısıkta pişir.",
+        "minutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Tavuğu tuzla; un-yumurta-panko sırasıyla panele. 170–175 °C yağda altın rengi olana dek kızartıp süzdür.",
+        "minutes": 8
+      },
+      {
+        "order": 4,
+        "text": "Tavukları dilimle; pilav üstüne köri sosuyla birlikte servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Köri ru için hazır blok da kullanılabilir."
+  },
+  {
+    "id": "core-209",
+    "title": "Miso Çorbası (Kombu-Şiitake Dashi, Vegan)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "çorba",
+      "vegan",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "su",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "kombu (kurutulmuş deniz yosunu)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "kurutulmuş şiitake",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "miso ezmesi (beyaz veya kırmızı)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "ipek tofu (küçük küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kurutulmuş wakame",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "taze soğan (ince)",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kombu ve şiitakeyi soğuk suda 30 dk beklet; orta ateşte ısındığında kombuyu çıkar.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Wakame ve tofu ekleyip 2 dk ısıt; ocaktan alıp misoyu kepçede suda açarak çorbaya karıştır. Kaynatma.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Taze soğan serpip servis et.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Klasik dashi balıklı olur; bu sürüm vegandır."
+  },
+  {
+    "id": "core-210",
+    "title": "Somon Teriyaki (Sake/Tavada)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "balık",
+      "ana yemek",
+      "diyet",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "somon fileto (4 parça)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "sake (yoksa su)",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "zencefil (rendelenmiş)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "ayçiçek yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "susam (servis)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soya, mirin, sake ve şekeri karıştır; somonu 10–15 dk beklet.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Tavayı yağla ısıt; somonu iki yüzü renk alana dek pişir.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Marinayı ekleyip koyulaştır; sosu somonun üzerine gezdirip servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 9,
+    "image": "",
+    "notes": "Mirin yoksa 1 kısım sirke + 1 kısım su + bir tutam şeker kullanılabilir."
+  },
+  {
+    "id": "core-211",
+    "title": "Yasai Itame (Sebze Sote, Vegan)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tava",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "beyaz lahana (ince şerit)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "havuç (ince şerit)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "kapya biber (şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kültür mantarı/şiitake (dilim)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "soya filizi",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "susam yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "ayçiçek yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wok’u çok ısıt; ayçiçek yağında sarımsağı kısa çevir.",
+        "minutes": 1
+      },
+      {
+        "order": 2,
+        "text": "Lahana, havuç, biber ve mantarı yüksek ısıda 4–5 dk sotele.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Soya sosu ve susam yağını ekle; filizi katıp 1 dk çevir, sıcak servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": "Yanında buharda pirinçle servis edilebilir."
+  },
+  {
+    "id": "core-212",
+    "title": "Shoyu Ramen (Hızlı Ev Usulü)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "çorba",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk suyu",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "zencefil (dilim)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "ramen eriştesi (taze/kuru)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk but (derisiz, şerit)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pak choi/ıspanak",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "haşlanmış yumurta (yarım)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil soğan (ince)",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuk suyunu soya, mirin, zencefil ve sarımsakla 10 dk kaynat; süz.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Tavuk şeritlerini 5 dk suda haşla; sebzeyi 1 dk blanşe et.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Erişteyi pakete göre haşla; kaselere paylaştır. Üzerine sıcak suyu, tavuk, sebze ve yumurtayı ekle; yeşil soğanla bitir.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Taré için ayrı bir sos hazırlanıyorsa soya/mirin oranı damak zevkine göre ayarlanır."
+  },
+  {
+    "id": "core-213",
+    "title": "Okonomiyaki (Osaka Usulü)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "beyaz lahana (ince kıyım)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "dashi/ su",
+        "qty": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil soğan (ince)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "tenkasu (tempura kırıntısı, isteğe bağlı)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "sıvı yağ (tava)",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "okonomiyaki sosu",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "mayonez",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "aonori (toz yosun, isteğe bağlı)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "katsuobushi (isteğe bağlı)",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Unu dashi/suyla karıştır; yumurta, lahana, yeşil soğan (ve tenkasu) ekle.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Yağlı tavada 2–3 cm kalın dök; orta ateşte kapakla her yüzünü 5–6 dk pişir.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Üstüne okonomiyaki sosu ve mayonez gezdir; aonori/katsuobushi serpip servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 16,
+    "image": "",
+    "notes": "İstersen ince dilim pastırma/bacon üstten pişirilir (vejetaryen olmaz)."
+  },
+  {
+    "id": "core-214",
+    "title": "Gyoza (Domuzlu Japon Mantısı, Tavada-Buhar)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "tava",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "gyoza yufkası",
+        "qty": 30,
+        "unit": "adet"
+      },
+      {
+        "name": "domuz kıyma",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Çin lahanası (ince kıyım, tuzlanıp suyu sıkılmış)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zencefil (rendelenmiş)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "susam yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "ayçiçek yağı (tava)",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "su (buhar için)",
+        "qty": 120,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kıyma, lahana, sarımsak, zencefil, soya ve susam yağını karıştır.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Yufkalara 1 tatlı kaşığı iç koy; kenarlarını suyla nemlendirip yarım ay kapat, pile yap.",
+        "minutes": 18
+      },
+      {
+        "order": 3,
+        "text": "Tavayı yağla; gyozaları tabanı kızarana dek pişir. Su ekleyip kapakla 3–4 dk buharla; kapağı açıp tabanı tekrar çıtırlaştır.",
+        "minutes": 9
+      }
+    ],
+    "prepMinutes": 30,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Soya+pirinç sirkesi+acı yağ ile servis edilebilir."
+  },
+  {
+    "id": "core-215",
+    "title": "Tempura (Karışık Deniz Ürünleri & Sebze)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "kızartma",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "karides (ayıklı)",
+        "qty": 12,
+        "unit": "adet"
+      },
+      {
+        "name": "tatlı patates (ince dilim)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kabak/balkabağı (ince dilim)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil fasulye",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "un (çok soğuk)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "buz gibi su",
+        "qty": 220,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "dashi (tentsuyu sosu)",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "soya sosu (tentsuyu)",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin (tentsuyu)",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "rendelenmiş daikon (servis)",
+        "qty": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sos için dashi, soya ve mirini 1–2 dk ısıt.",
+        "minutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Hamur için su ve yumurtayı çırp; unun çoğunu ekleyip KISMEN karıştır (pütürlü kalsın).",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "170–180 °C yağda malzemeleri parti parti kısa sürede kızart; peçeteye al.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Hamuru soğuk tut; fazla karıştırma ki çıtır kalsın."
+  },
+  {
+    "id": "core-216",
+    "title": "Tamagoyaki (Japon Rulo Omlet)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "kahvaltı",
+      "tava",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "yumurta",
+        "qty": 5,
+        "unit": "adet"
+      },
+      {
+        "name": "şeker",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "mirin",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "ayçiçek yağı (tava)",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yumurtaları şeker, soya ve mirinle homojen çırp.",
+        "minutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Dikdörtgen tavayı yağla; ince tabaka yumurta dök. Yarı pişince rulo yap, kenara çek.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Boşluğa tekrar yumurta dök; önceki rulonun altına yayılsın. Rulo yapmayı tekrarla; tüm harç bitince dışını kızart.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": "Yuvarlak tavada da yapılabilir; dilimleyip servis et."
+  },
+  {
+    "id": "core-217",
+    "title": "Dorayaki (Anko Dolgulu Pancake)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "tatlı",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "bal",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 140,
+        "unit": "g"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "su/süt",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "anko (tatlı kırmızı fasulye ezmesi)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "sıvı yağ (tava için)",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yumurta, şeker ve balı çırp; un ve kabartmayı ekle, su/sütle akışkanlaştır.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Yağlanmış ısıtılmış tavaya küçük yuvarlaklar dök; kabarcıklar çıkınca çevir, hafif pişir.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "İki pancake arasına anko sürerek sandviç yap.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Pişirme ısısı orta-düşük olmalı; hızlı kararmasın."
+  },
+  {
+    "id": "core-218",
+    "title": "Daifuku Mochi (Anko Dolgulu, Mikrodalga Yöntemi)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "tatlı",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "tatlı pirinç unu (mochiko)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "mısır nişastası/patates nişastası (serpme)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "anko (8 top, ~30 g)",
+        "qty": 240,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Anko’yu 8 küçük top yapıp buzdolabında dinlendir.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Mochiko, şeker ve suyu cam kapta karıştır; mikrodalgada 2 dk ısıt, karıştır; 1–2 dk daha şeffaflaşıp yapışkan olana dek pişir.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Tezgâha nişasta ser; hamurdan parçalar koparıp yassıla, anko topunu sarıp kapat.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": "Mikrodalga yoksa buharda 18–20 dk pişirilir."
+  },
+  {
+    "id": "core-219",
+    "title": "Yakitori (Tare Soslu Tavuk Şiş)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "ızgara",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kuşbaşı)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "pırasa/yeşil soğan (3–4 cm parça)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "şiş (suya bastırılmış)",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "soya sosu (tare)",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin (tare)",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "sake (tare, yoksa su)",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker (tare)",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tare için soya, mirin, sake ve şekeri 6–8 dk orta ateşte koyulaştır.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Tavuk ve pırasayı sırayla şişe diz; ızgarayı ısıt.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Şişleri ızgarada çevirerek pişir; son dakikalarda tare ile fırçala, karamelize et.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Tuzlu sürüm (shio) için sadece tuzla ızgaralanır."
+  },
+  {
+    "id": "core-220",
+    "title": "Sushi Pirinci (Sumeshi)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "temel",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "Japon pirinci (kısa taneli)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "pirinç sirkesi",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "kombu (isteğe bağlı)",
+        "qty": 5,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pirinci su berrak akana dek yıka; 30 dk suda bekletip süz.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Tencereye pirinç, su (ve kombu) koy; kapağı kapalı orta-düşük ısıda suyunu çekene dek pişir, 10 dk demlendir.",
+        "minutes": 25
+      },
+      {
+        "order": 3,
+        "text": "Sirke, şeker ve tuzu karıştırarak çöz; sıcak pirinci geniş kaba alıp sirkeli karışımı yedirerek havalandır, soğut.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Oran yaklaşık 1 ölçü pirince 1.2 ölçü su."
+  },
+  {
+    "id": "core-221",
+    "title": "Chirashi-zushi (Dağınık Sushi Kasesi)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "deniz ürünleri"
+    ],
+    "ingredients": [
+      {
+        "name": "sushi pirinci (hazır)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "somon (sashimi, küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "ton balığı (sashimi, küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "haşlanmış karides (dilim)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "tamagoyaki (şerit)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "salatalık (küp)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "edamame (haşlanmış)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "nori (şerit)",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "soya sosu (servis)",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "wasabi (servis)",
+        "qty": 5,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sushi pirincini kaselere paylaştır.",
+        "minutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Balıklar, karides, tamagoyaki, salatalık ve edamameyi renkli şekilde üzerine dağıt.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Nori, soya ve wasabi ile servis et.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Çiğ balık için yalnızca sashimi sınıfı taze ürün kullan."
+  },
+  {
+    "id": "core-222",
+    "title": "Karaage (Japon Usulü Tavuk Kızartma)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kuşbaşı)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "sake",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "zencefil (rendelenmiş)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (rendelenmiş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "patates nişastası",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 900,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu soya, sake, zencefil ve sarımsakla 20–30 dk marine et.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Parçaları patates nişastasına bulayıp silkele.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "170 °C yağda 4–5 dk kızart; çıkarıp 1 dk dinlendir, 190 °C’de 1–2 dk ikinci kızartma yap.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Limon ve mayonezle servis edilir."
+  },
+  {
+    "id": "core-223",
+    "title": "Tonkatsu (Panko Kaplı Domuz Şnitzel)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "domuz bonfile/kotelet (ince dövülmüş)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "un",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta (çırpılmış)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "panko",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "lahana (ince kıyım, servis)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tonkatsu sosu (servis)",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti tuz-biberle tatlandır; un, yumurta ve panko sırasıyla panele.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "170–175 °C yağda altın rengi olana dek 5–6 dk kızart, dinlendir.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Dilimle; lahana ve sosla servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 7,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-224",
+    "title": "Katsudon (Tonkatsu Yumurta Soslu Pilav Üstü)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "pirinç"
+    ],
+    "ingredients": [
+      {
+        "name": "tonkatsu (dilimlenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "dashi",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta (hafif çırpılmış)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "pirinç pilavı (sıcak)",
+        "qty": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavada dashi, soya, mirin ve şekerde soğanı 3–4 dk pişir.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Tonkatsuyu ekle; yumurtayı çevreye gezdirip kapağı kapat, 1–2 dk hafifçe pişir.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Pilav üstünde servis et.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 6,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-225",
+    "title": "Gyudon (Dana Etli Pirinç Kasesi)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "pirinç"
+    ],
+    "ingredients": [
+      {
+        "name": "dana eti (çok ince dilim)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "dashi",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "taze zencefil (ince)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "pirinç pilavı (sıcak)",
+        "qty": 600,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dashi, soya, mirin, şeker ve zencefili kaynat; soğanı 3 dk pişir.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "İnce dilim eti ekleyip 3–4 dk pişir.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Pilav kaselerine paylaştırıp etli sosu üzerine koy.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": "Beni shoga (turşu zencefil) ile servis edilir."
+  },
+  {
+    "id": "core-226",
+    "title": "Oyakodon (Tavuk-Yumurta Kase)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "pirinç"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (şerit)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "dashi",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta (hafif çırpılmış)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "pirinç pilavı",
+        "qty": 500,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dashi, soya, mirin ve şekerde soğanı 2 dk pişir.",
+        "minutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Tavuğu ekleyip 5–6 dk pişir.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Yumurta karışımını gezdir; kapağı kapatıp 1–2 dk hafif sulu kalacak şekilde pişir, pilav üzerine al.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 9,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-227",
+    "title": "Sukiyaki (Tavada Sulu Japon Fondü)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "dana eti (çok ince dilim)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "warishita (soya+mirin+şeker+sake+su)",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "şirataki erişte",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "tof u (sert, küp)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Çin lahanası",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pırasa/yeşil soğan",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "shiitake mantar",
+        "qty": 6,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavayı ısıt; biraz yağla eti kısaca çevir.",
+        "minutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Warishita’yı ekleyip sebzeler, shirataki ve tofuyu yerleştir; orta ateşte sebzeler yumuşayana dek pişir.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Et dilimlerini servis esnasında kısa kısa pişir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Geleneksel olarak çiğ yumurtaya bandırılarak yenir."
+  },
+  {
+    "id": "core-228",
+    "title": "Shabu Shabu (Kombu Dashili)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "fondü",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "kombu",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "dana eti (çok ince dilim)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Çin lahanası",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "enoki/shiitake",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tofu (sert)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pirinç/udon (servis)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ponzu sos",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "susam sosu (goma-dare)",
+        "qty": 120,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kombuyu suyla 20 dk beklet; kaynama noktasına gelmeden çıkar.",
+        "minutes": 22
+      },
+      {
+        "order": 2,
+        "text": "Sebze ve tofuyu tencereye ekleyip 5–6 dk pişir.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Et dilimlerini çorbada birkaç saniye sallayıp soslara bandır.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-229",
+    "title": "Nikujaga (Etli Patates Yahni)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "dana/ domuz (ince dilim)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "patates (iri küp)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "havuç (büyük parçalar)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "su/dashi",
+        "qty": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Et ve soğanı kısa sotele.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Patates ve havucu ekle; su/dashi, soya, mirin ve şekeri katıp kapağı kapalı kısıkta yumuşayana dek pişir.",
+        "minutes": 22
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 22,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-230",
+    "title": "Yakisoba (Worcestershire Soslu Noodle)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "yakisoba noodle (taze/kuru)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "lahana (şerit)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "havuç (şerit)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil biber (şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domuz eti (şerit)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yakisoba sosu",
+        "qty": 80,
+        "unit": "ml",
+        "note": "yoksa Worcestershire+soya+ketçap"
+      },
+      {
+        "name": "ayçiçek yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti yüksek ısıda sotele; sebzeleri ekleyip diri kalacak şekilde pişir.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Haşlanmış noodle’ı ekle; sosla harmanlayıp 1–2 dk daha çevir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 9,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-231",
+    "title": "Yaki Udon (Sebzeli Udon Sote)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "udon (taze, haşlanmış)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mantar (dilim)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "lahana (şerit)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pırasa/yeşil soğan (parça)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "susam yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "ayçiçek yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Wok’u ısıt; ayçiçek yağında mantarı ve sebzeleri 3–4 dk sotele.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Udon ve sosları ekle; 2–3 dk yüksek ısıda çevir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 7,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-232",
+    "title": "Takoyaki (Ahtapotlu Topçuklar)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "tava",
+      "deniz ürünleri"
+    ],
+    "ingredients": [
+      {
+        "name": "takoyaki unu (yoksa un+dashi+kabartma)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "su/dashi",
+        "qty": 450,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "haşlanmış ahtapot (küçük küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil soğan (ince)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "beni shoga (ince)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "tenkasu (tempura kırıntısı)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "okonomiyaki sosu",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "mayonez",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "aonori",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "katsuobushi",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, su/dashi ve yumurtayı çırp; yağlanmış takoyaki tavasına hamuru dök.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Ahtapot, soğan, shoga ve tenkasuyu çukurlara pay et; çevire çevire küre yap.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Sosu ve mayoyu gezdir; aonori ve katsuobushi serpip servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Takoyaki tavası yoksa mini pankek kalıbı kullanılabilir."
+  },
+  {
+    "id": "core-233",
+    "title": "Nasu Dengaku (Miso Sırlı Patlıcan)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "vegan",
+      "fırın",
+      "meze"
+    ],
+    "ingredients": [
+      {
+        "name": "patlıcan (boyuna ikiye)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "miso",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "mirin",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "sake/su",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "susam (üzeri)",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patlıcanların yüzeyine çapraz kesikler at; 200 °C fırında 15–18 dk yumuşat.",
+        "minutes": 18
+      },
+      {
+        "order": 2,
+        "text": "Miso, mirin, sake/su ve şekeri karıştır; patlıcanlara sür.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Fırının ızgarasında 2–3 dk karamelize et; susam ser.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-234",
+    "title": "Agedashi Tofu (Soslu Kızarmış Tofu)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "vejetaryen",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "ipek tofu (küp)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "patates nişastası",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "dashi",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "rendelenmiş daikon",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "taze soğan (ince)",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tofuyu kağıt havluda 10 dk süzdür; nişastaya bulayıp 170 °C yağda dışı çıtır olana dek kızart.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Dashi, soya ve mirini 1–2 dk ısıt; kızarmış tofunun üzerine dök, daikon ve soğanla servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 7,
+    "image": "",
+    "notes": "Vegan için kombu-şiitake dashi kullan."
+  },
+  {
+    "id": "core-235",
+    "title": "Kinpira Gobo (Burdock & Havuç Sote)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "vegan",
+      "tava",
+      "meze"
+    ],
+    "ingredients": [
+      {
+        "name": "gobo (yer elması kökü/burdock, şerit)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "havuç (şerit)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "susam yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "susam (üzeri)",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Susam yağında gobo ve havucu yüksek ısıda 3–4 dk sotele.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Soya, mirin ve şekeri ekleyip 2–3 dk daha çevir; susam ser.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 7,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-236",
+    "title": "Ispanak Goma-ae (Susam Soslu)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "vegan",
+      "salata",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "ıspanak",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "kavrulmuş susam",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "mirin",
+        "qty": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ispanağı 40–60 sn kaynar suda haşla; soğuk suda şokla, sıkıp 4–5 cm kes.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Susamı havanda ezip şeker, soya ve mirinle sos yap; ıspanakla karıştır.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 3,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-237",
+    "title": "Hijiki no Nimono (Hijiki Yosunu Yahnisi)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "vegan",
+      "tencere",
+      "meze"
+    ],
+    "ingredients": [
+      {
+        "name": "kurutulmuş hijiki",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "havuç (ince şerit)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "aburaage (kızarmış tofu, şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "dashi (vegan)",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Hijikiyi 20 dk suda bekletip süz; durula.",
+        "minutes": 22
+      },
+      {
+        "order": 2,
+        "text": "Tencerede havuç ve hijikiyi 1–2 dk çevir; dashi, soya, mirin ve şekeri ekleyip 12–15 dk kısık ateşte pişir.",
+        "minutes": 16
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-238",
+    "title": "Onigiri (Üçgen Pirinç Topları, Çeşitli İçler)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "pirinç",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "sıcak pirinç pilavı",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "nori yaprağı",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuzlu somon (iç)",
+        "qty": 100,
+        "unit": "g",
+        "note": "alternatif: ton balığı-mayo, umeboshi"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ellerini suyla ıslatıp hafif tuzla; pirinçten avuç içi kadar al, ortasına iç malzemesi koy.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Üçgen şekil ver; noriyle sar.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-239",
+    "title": "Tsukemen (Daldırmalı Ramen, Hızlı Sos)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "çorba"
+    ],
+    "ingredients": [
+      {
+        "name": "ramen eriştesi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "dashi/tavuk suyu",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "pirinç sirkesi",
+        "qty": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "susam yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil soğan",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Daldırma sosu için dashi, soya, mirin, sirke, susam yağı ve sarımsağı 3–4 dk ısıtıp kaselere böl.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Erişteyi pakete göre haşla; soğuk sudan geçirip süz, servis tabağına al.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Yeşil soğanla servis et; erişteyi sosa daldırarak ye.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "İstersen susam ezmesi ve chili yağı ekleyerek zenginleştir."
+  },
+  {
+    "id": "core-240",
+    "title": "Miso Ramen (Hızlı Ev Usulü)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "çorba"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk suyu",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "miso (kırmızı/beyaz karışık)",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "susam yağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sarımsak (rendelenmiş)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zencefil (rendelenmiş)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "mısır (haşlanmış)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı (üstüne)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "ramen eriştesi",
+        "qty": 400,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tencerede susam yağında sarımsak-zencefili 30 sn çevir; suyu ekle ve 5 dk ısıt.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Misonun bir kısmını kepçede az suyla açıp tencereye karıştır; soya sosunu ekle.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Erişteyi haşla; kaselere paylaştır. Üzerine miso suyu, mısır ve bir parça tereyağı koy.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "İlave topping: haşlanmış yumurta, menma, yeşil soğan."
+  },
+  {
+    "id": "core-241",
+    "title": "Zaru Soba (Soğuk Soba ve Tsuyu)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "vegan",
+      "diyet",
+      "makarna"
+    ],
+    "ingredients": [
+      {
+        "name": "soba eriştesi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "dashi (vegan olabilir)",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "nori (şerit)",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil soğan",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "wasabi",
+        "qty": 5,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tsuyu için dashi, soya, mirin ve şekeri 1–2 dk ısıtıp soğut.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Soba eriştesini haşla; soğuk sudan geçirip süz, tabakta noriyle sun.",
+        "minutes": 9
+      },
+      {
+        "order": 3,
+        "text": "Tsuyu, yeşil soğan ve wasabi ile daldırarak ye.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-242",
+    "title": "Tempura Udon (Sıcak Udon ve Tentsuyu)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "ana yemek",
+      "çorba"
+    ],
+    "ingredients": [
+      {
+        "name": "udon eriştesi",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "dashi",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "soya sosu",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "mirin",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "tempura (sebze/karides)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil soğan",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Dashi, soya, mirin ve şekeri kaynatıp kakejiru suyunu hazırla.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Udonu haşla ve kaselere pay et; üzerine sıcak suyu dök.",
+        "minutes": 9
+      },
+      {
+        "order": 3,
+        "text": "Üstüne tempura ve yeşil soğan ekleyip hemen servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-243",
+    "title": "Asazuke (Hızlı Japon Turşusu)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "vegan",
+      "salata",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "salatalık (ince dilim)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Çin lahanası (şerit)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "pirinç sirkesi",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "taze zencefil (ince)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "kombu (şerit, isteğe bağlı)",
+        "qty": 5,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sebzeleri tuzla ovup 10 dk beklet; suyunu sık.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Sirke, şeker, zencefil (ve kombu) ile karıştırıp 20–30 dk buzdolabında dinlendir.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Ertesi güne daha lezzetli olur."
+  },
+  {
+    "id": "core-244",
+    "title": "Matcha Purin (Japon Çaylı Puding)",
+    "cuisine": "japon mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü",
+      "buzdolabı"
+    ],
+    "ingredients": [
+      {
+        "name": "süt",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "krema",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "matcha tozu",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "toz jelatin",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "su (jelatin için)",
+        "qty": 40,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Jelatini suyla şişir.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Süt, krema, şeker ve matchayı çırparak ısıt; kaynatmadan ocaktan al, jelatini ekleyip çöz.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Süzüp kaplara paylaştır; en az 3 saat buzdolabında beklet.",
+        "minutes": 180
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 6,
+    "image": "",
+    "notes": "Üstüne kuromitsu (şeker şurubu) veya azan fasulye ile servis edilebilir."
   }
 ]
