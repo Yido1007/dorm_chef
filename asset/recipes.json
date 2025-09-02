@@ -8052,5 +8052,4353 @@
     "cookMinutes": 20,
     "image": "",
     "notes": ""
+  },
+  {
+    "id": "core-099",
+    "title": "Spagetti Carbonara (Kremasız, Klasik)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "spagetti",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "guanciale/pancetta",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta (tam)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "yumurta sarısı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "pecorino romano (ince rendelenmiş)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "taze çekilmiş karabiber",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Spagettiyi bol tuzlu suda al dente haşla; süzmeden önce 150 ml makarna suyu ayır.",
+        "minutes": 9
+      },
+      {
+        "order": 2,
+        "text": "Guanciale’yi jülyen doğra; tavada yağını bırakana dek orta ateşte çıtırlaştır.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Bir kapta yumurta, sarılar, pecorino ve bol karabiberi çırp.",
+        "minutes": 2
+      },
+      {
+        "order": 4,
+        "text": "Makarnayı tavaya al; ocaktan uzaklaştır. Yumurta-peynir karışımını ekle, ayırdığın sudan az az ekleyerek kremamsı kıvam yakala.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Geleneksel tarifte krema yoktur."
+  },
+  {
+    "id": "core-100",
+    "title": "Penne all’Arrabbiata",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "ana yemek",
+      "acı"
+    ],
+    "ingredients": [
+      {
+        "name": "penne",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "pul biber (acı)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "domates (rendelenmiş) veya konserve",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Penneyi al dente haşla.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağında sarımsak ve pul biberi kısa süre çevir; domates ve tuzu ekleyip 8–10 dk pişir.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Makarnayı sosla karıştır; maydanozla bitir.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-101",
+    "title": "Pizza Margherita (Ev Fırını)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "pizza",
+      "fırın",
+      "ana yemek",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ılık su",
+        "qty": 320,
+        "unit": "ml"
+      },
+      {
+        "name": "instant maya",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "mozzarella",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "taze fesleğen",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, maya, su ve tuzu yoğur; zeytinyağını ekleyip pürüzsüz hamur elde et. 60–90 dk mayalandır.",
+        "minutes": 75
+      },
+      {
+        "order": 2,
+        "text": "Fırını ve tepside/taşta ısıyı 250 °C’ye getir.",
+        "minutes": 15
+      },
+      {
+        "order": 3,
+        "text": "Hamuru iki bezeye ayır; elde aç, sosu yay, mozzarella serpiştir.",
+        "minutes": 8
+      },
+      {
+        "order": 4,
+        "text": "10–12 dk pişir; çıkarınca fesleğen ekle.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-102",
+    "title": "Lazanya alla Bolognese",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "fırın",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "lazanya yaprağı",
+        "qty": 12,
+        "unit": "adet"
+      },
+      {
+        "name": "dana kıyma",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kereviz sapı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "süt (ragù için)",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tereyağı (beşamel)",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "un (beşamel)",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "süt (beşamel)",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "parmesan (rendelenmiş)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında soğan-havuç-kerevizi sotele; kıymayı ekleyip kavur, domates ve sütle kısıkta 30–40 dk pişir.",
+        "minutes": 40
+      },
+      {
+        "order": 2,
+        "text": "Beşamel için tereyağı-unu kavur; sütü azar azar ekleyip koyulaştır, tuz-biber ayarla.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Tepside sırayla: yaprak, ragù, beşamel ve parmesan; katları tekrarla.",
+        "minutes": 8
+      },
+      {
+        "order": 4,
+        "text": "180 °C fırında 35–40 dk pişir; 10 dk dinlendirip servis et.",
+        "minutes": 40
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 55,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-103",
+    "title": "Mantar Risotto (Risotto ai Funghi)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "pilav",
+      "ana yemek",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "arborio/carnaroli pirinci",
+        "qty": 320,
+        "unit": "g"
+      },
+      {
+        "name": "mantar (dilimlenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "şalot/soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "beyaz şarap (isteğe bağlı)",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "sebze suyu (sıcak)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan (rendelenmiş)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğanı yağda sotele; pirinci ekleyip saydamlaşana dek kavur, şarapla deglaze et.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Sıcak suyu birer kepçe ekleyerek karıştır; 15–17 dk’da al dente kıvamı yakala.",
+        "minutes": 17
+      },
+      {
+        "order": 3,
+        "text": "Ayrı tavada mantarı sotele; risottoya kat. Tereyağı ve parmesanla bağla.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 23,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-104",
+    "title": "Minestrone Çorbası",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "çorba",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kereviz sapı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "patates",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kabak",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil fasulye",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "barbunya/fasulye (haşlanmış)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sebze suyu",
+        "qty": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "küçük makarna (ditalini)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan, havuç, kerevizi sotele; patates, kabak ve fasulyeyi ekle.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Domates, bakliyat ve sebze suyunu kat; sebzeler yumuşayana dek pişir.",
+        "minutes": 18
+      },
+      {
+        "order": 3,
+        "text": "Makarna ekleyip 7–8 dk pişir; tuzu ayarla.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 28,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-105",
+    "title": "Panzanella (Toskana Ekmek Salatası)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "salata",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "bayat ekmek (küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "domates",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "salatalık",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı soğan",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "kırmızı şarap sirkesi",
+        "qty": 1.5,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "taze fesleğen",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ekmekleri fırında hafif kurut veya domates sularıyla ıslatıp sık.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Sebzeleri doğra; zeytinyağı ve sirkeyle harmanla, fesleğen ekle.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-106",
+    "title": "Bruschetta al Pomodoro",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "vegan",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "ekmek dilimi (rustik)",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (küçük küp)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "taze fesleğen",
+        "qty": 8,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ekmek dilimlerini fırında/kızartıcıda kızart; yüzeyini kesik sarımsakla ov.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Domates, yağ, tuz ve fesleğeni karıştır; ekmeklerin üzerine paylaştır.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 6,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-107",
+    "title": "Pollo alla Cacciatora (Avcı Usulü Tavuk)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but/kalça (kemikli)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "siyah zeytin (çekirdeksiz)",
+        "qty": 60,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "biberiye/defne",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu yağda kızartarak mühürle; alın.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Aynı tencerede soğan, havuç ve sarımsağı sotele; şarapla deglaze et.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Domates, otlar ve tuzu ekleyip tavuğu geri koy; kısıkta yumuşayana dek pişir.",
+        "minutes": 30
+      },
+      {
+        "order": 4,
+        "text": "Zeytin ekle ve 5 dk daha pişir.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-108",
+    "title": "Parmigiana di Melanzane (Patlıcan Parmigiana)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "fırın",
+      "ana yemek",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "patlıcan",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "domates sosu",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "mozzarella",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan (rendelenmiş)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 4,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "taze fesleğen",
+        "qty": 8,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patlıcanları dilimle, tuzlayıp 15 dk beklet; kurulayıp yağda hafif kızart (veya fırında fırçayla yağla).",
+        "minutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Fırın kabında kat kat: sos, patlıcan, mozzarella-parmesan, fesleğen; tekrarla.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "180 °C’de 30–35 dk pişir; 10 dk dinlendir.",
+        "minutes": 35
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-109",
+    "title": "Tiramisu (Klasik)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "mascarpone",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta (sarısı)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "kedi dili bisküvi",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "espresso (soğumuş)",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "kakao (elekten geçmiş)",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "marsala/rom",
+        "qty": 30,
+        "unit": "ml",
+        "note": "isteğe bağlı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yumurta sarısı ve şekeri benmari üstünde koyulaşana dek çırp; ılıtıp mascarpone ile birleştir.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Bisküvileri espressoya batırıp çıkar; kalıba bir sıra diz, kremadan sür, katları tekrarla.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Üstünü kakao ile kapla; 4 saat soğut.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-110",
+    "title": "Panna Cotta (Vanilyalı)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "krema",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "süt",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "vanilin/vanilya çubuğu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "yaprak jelatin",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı meyve sosu (servis)",
+        "qty": 200,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Jelatini soğuk suda 5 dk beklet.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Krema, süt, şeker ve vanilyayı ısıt (kaynatma); ocaktan alıp jelatini erit.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Kalıplara dök; en az 4 saat soğut, sosla servis et.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-111",
+    "title": "Gnocchi al Pesto (Patates Gnokki, Fesleğen Pestolu)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "ana yemek",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (unlu cins)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "taze fesleğen",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "çam fıstığı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan (ince rendelenmiş)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz (pesto)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patatesleri kabuklu haşla; sıcakken soyup püre yap ve 10 dk ılındır.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Un, yumurta ve tuzu ekleyip fazla yoğurmadan hamur yap; rulo yapıp 2 cm parçalar kes, çatal/süngü ile iz ver.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Tuzlu kaynar suda gnocchileri yüzeye çıkana dek haşla; 1 dk daha pişirip süz.",
+        "minutes": 7
+      },
+      {
+        "order": 4,
+        "text": "Pesto için fesleğen, çam fıstığı, sarımsak ve parmesanı çektirirken yağı ince akışla ekle; gnocchi ile karıştırıp sıcak servis et.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-112",
+    "title": "Osso Buco alla Milanese (Gremolatalı Dana İncik)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "dana incik (kemikli, dilimli)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "un (hafif kaplamak için)",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kereviz sapı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "et suyu",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "maydanoz (gremolata)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "limon kabuğu rendesi (gremolata)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "sarımsak (gremolata)",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "İncikleri tuzlayıp unla hafifçe kapla; yağda her iki yüzünü de kızartarak mühürle, al.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Aynı tencerede doğranmış soğan, havuç, kereviz ve sarımsağı sotele; şarapla deglaze et.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Domates ve et suyunu ekle; incikleri geri koy. Kısık ateşte kapaklı 90–100 dk yumuşayana dek pişir.",
+        "minutes": 95
+      },
+      {
+        "order": 4,
+        "text": "Maydanoz, limon kabuğu ve ezilmiş sarımsakla gremolata yap; serviste etin üzerine serpiştir.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 105,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-113",
+    "title": "Focaccia Genovese",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "hamurişi",
+      "fırın",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ılık su",
+        "qty": 350,
+        "unit": "ml"
+      },
+      {
+        "name": "instant maya",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı (hamur)",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı (üstü)",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "iri tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "biberiye (taze)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuzlu su (40 ml su + 0.5 çay kaşığı tuz)",
+        "qty": 40,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, su, maya ve tuzu yoğur; zeytinyağı ekleyip pürüzsüz hamur yap. 60 dk mayalandır.",
+        "minutes": 70
+      },
+      {
+        "order": 2,
+        "text": "Tepsiyi yağla; hamuru yay. Parmak uçlarınla gözenekler oluştur; tuzlu suyu ve yağı gezdir, biberiye serpiştir.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "220 °C fırında altın renk olana dek pişir.",
+        "minutes": 22
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 22,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-114",
+    "title": "Insalata Caprese (Domates-Mozzarella)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "salata",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "domates (olgun)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "mozzarella",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "taze fesleğen",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Domates ve mozzarellayı dilimle; sırayla diz.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Fesleğen serpiştir; zeytinyağı ve tuzla tatlandır.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 7,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-115",
+    "title": "Arancini al Ragù (İçi Soslu Pirinç Topları)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "arborio pirinç",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sebze/tavuk suyu (sıcak)",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan (rendelenmiş)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "mozzarella (küçük küp)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "dana kıyma (iç sos)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (iç sos)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş, iç sos)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bezelye (haşlanmış, iç sos)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "un (pane)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta (çırpılmış, pane)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "galeta unu (pane)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pirinci sıcak suyu kepçe kepçe ekleyerek risotto gibi pişir; tereyağı ve parmesanla bağla, tamamen soğut.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "İç sos için kıyma ve soğanı sotele; domates ve bezelyeyi ekleyip koyulaştır.",
+        "minutes": 15
+      },
+      {
+        "order": 3,
+        "text": "Pirinçten avuç içi kadar al; ortasına iç sos ve mozzarella koyup kapat, top/koni yap.",
+        "minutes": 15
+      },
+      {
+        "order": 4,
+        "text": "Un, yumurta ve galeta ile pane yap; kızgın yağda altın rengi kızart.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 30,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-116",
+    "title": "Cannoli Siciliani (Ricottalı)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "marsala/şarap sirkesi",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "tutam"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "ricotta",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pudra şekeri",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "vanilin",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "portakal kabuğu rendesi",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "çikolata parçacıkları (içi)",
+        "qty": 50,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, şeker, tuz, tereyağı, yumurta ve marsala ile elastik hamur yoğur; streçleyip 30 dk dinlendir.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Hamuru ince aç; oval parçalar kes, metal kalıplara sar ve uçlarını kapat.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Kızgın yağda kabukları kızart; kağıt havluya al, kalıplardan çıkar.",
+        "minutes": 8
+      },
+      {
+        "order": 4,
+        "text": "Ricotta, pudra şekeri, vanilin ve kabuk rendesini karıştır; soğuyan kabukları servis öncesi doldur.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-117",
+    "title": "Spaghetti alle Vongole (Midyeli Spagetti)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "deniz ürünleri",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "spagetti",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "kum midyesi (vongole, temizlenmiş)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "pul biber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Midyeleri tuzlu suda 20 dk bekletip kumunu atmasını sağla; durula.",
+        "minutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Spagettiyi al dente haşla; 150 ml makarna suyu ayır.",
+        "minutes": 9
+      },
+      {
+        "order": 3,
+        "text": "Zeytinyağında sarımsak ve pul biberi çevir; midyeleri ekleyip şarapla kapağı kapalı 2–3 dk açılana dek pişir.",
+        "minutes": 6
+      },
+      {
+        "order": 4,
+        "text": "Makarnayı tencereye al; ayırdığın sudan ekleyerek sosla bağla, maydanozla bitir.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-118",
+    "title": "Saltimbocca alla Romana",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "dana bonfile (ince dövülmüş dilim)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "prosciutto (ince dilim)",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "adaçayı (taze yaprak)",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "un (hafif kaplamak için)",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Her et dilimine bir dilim prosciutto ve bir adaçayı yaprağı yerleştirip kürdanla tuttur; tuz-biberle hafifçe tatlandır.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Unlayıp fazla unu silk; tavada tereyağı-yağ karışımında her yüzünü kısa süre pişir.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Tavayı şarapla deglaze edip 1–2 dk sosu çektir; etin üzerinde gezdirerek servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-119",
+    "title": "Ribollita (Toskana Ekmekli Fasulye Çorbası)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "çorba",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "zeytinyağı",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kereviz sapı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "kara lahana/ıspanak",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "cannellini/beyaz fasulye (haşlanmış)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sebze suyu",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "bayat ekmek (küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan, havuç ve kerevizi yağda yumuşat; domatesi ekleyip 5 dk pişir.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Sebze suyu, fasulye ve doğranmış yeşillikleri ekle; kısıkta sebzeler yumuşayana dek pişir.",
+        "minutes": 25
+      },
+      {
+        "order": 3,
+        "text": "Bayat ekmek küplerini çorbaya karıştır; 5 dk daha kaynatıp dinlendir.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-120",
+    "title": "Kremalı Polenta (Parmesanlı)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "garnitür",
+      "vejetaryen",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "ince taneli polenta/mısır unu",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan (rendelenmiş)",
+        "qty": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Suyu kaynatıp tuzla; polentayı yavaş yavaş ekleyip sürekli karıştır.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Kısık ateşte yapışmaması için karıştırarak 30–35 dk pişir.",
+        "minutes": 35
+      },
+      {
+        "order": 3,
+        "text": "Tereyağı ve parmesanı ekleyip karıştır; sıcak servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-121",
+    "title": "Caponata Siciliana (Ekşili Tatlı Patlıcan Mezesi)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "meze",
+      "vegan",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "patlıcan",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kereviz sapı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil zeytin (dilimlenmiş)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "kapari",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "üzüm sirkesi",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 6,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patlıcanı küp doğra; bol yağda hafif kızartıp kağıt havluya al.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Az yağda soğan ve kerevizi sotele; domates, zeytin ve kapariyi ekle.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Sirke ve şekeri ekleyip 2–3 dk kaynat; patlıcanla birleştirip tuz ayarla. Oda sıcaklığında dinlendir.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-122",
+    "title": "Torta Caprese (Bademli Çikolatalı Kek, Glütensiz)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "badem unu",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bitter çikolata",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "kakao",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "pudra şekeri (üstüne)",
+        "qty": 1,
+        "unit": "yemek kaşığı",
+        "note": "isteğe bağlı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Çikolatayı tereyağıyla birlikte benmari usulü eritip ılıt.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Yumurta ve şekeri hacimlenene dek çırp; kakao ve badem ununu ekle, eritilmiş çikolatayla birleştir.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Yağlanmış kalıba dök; 170 °C’de içi hafif nemli kalacak şekilde pişir.",
+        "minutes": 38
+      },
+      {
+        "order": 4,
+        "text": "Soğuyunca pudra şekeri serpip dilimle.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 38,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-123",
+    "title": "Pasta e Ceci (Nohutlu Makarna Güveci)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "ana yemek",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "ditalini/spagetti (kırılmış)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "haşlanmış nohut",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sebze suyu",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "biberiye (taze)",
+        "qty": 1,
+        "unit": "dal"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında ezilmiş sarımsak ve biberiyeyi kokusu çıkana dek çevir; domatesi ekleyip 5 dk pişir.",
+        "minutes": 7
+      },
+      {
+        "order": 2,
+        "text": "Sebze suyu ve nohutu ekle; kaynat.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Makarnayı tencereye al; al dente olana dek kısık ateşte pişir, tuz-biber ayarla.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-124",
+    "title": "Pollo al Limone (Limonlu Tavuk Tava)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk göğüs (ince dilim)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "un (hafif kaplamak için)",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "su/et suyu",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "kapari",
+        "qty": 1,
+        "unit": "yemek kaşığı",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuk dilimlerini tuzlayıp hafifçe unla; zeytinyağında iki yüzünü de kısa süre sotele.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Limon suyu ve suyu ekleyip 3–4 dk sosu çektir; kapari ve maydanozla bitir.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-125",
+    "title": "Affogato al Caffè",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "espresso (sıcak)",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "vanilyalı dondurma/gelato",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "çikolata rendesi",
+        "qty": 10,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kaselere dondurmayı paylaştır.",
+        "minutes": 1
+      },
+      {
+        "order": 2,
+        "text": "Üzerine sıcak espressoyu dök; arzuya göre çikolata serpip hemen servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-126",
+    "title": "Insalata di Farro (Farro Salatası)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "salata",
+      "vegan",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "farro (akıtarak haşlanmış)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "çeri domates",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "salatalık",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı soğan",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "zeytin (dilimli)",
+        "qty": 50,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "taze fesleğen",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "kırmızı şarap sirkesi",
+        "qty": 1.5,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sebzeleri doğra; fesleğeni kıy.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Farro ile birleştir; yağ, sirke ve tuzla harmanla.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-127",
+    "title": "Ortaggi al Forno (Fırında Akdeniz Sebzeleri)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "garnitür",
+      "vegan",
+      "fırın",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "kabak",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "patlıcan",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "kapya biber",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kuru soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "biberiye/ kekik",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sebzeleri iri doğra; yağ, otlar ve tuzla harmanla.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "200 °C fırında kenarlar karamelleşene dek pişir.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-128",
+    "title": "Spaghetti all’Amatriciana",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "spagetti",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "guanciale/pancetta",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "domates (konserve/püre)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pul biber (acı)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "pecorino romano (rendelenmiş)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Guanciale’yi tencerede yağını bırakana dek kızart; bir kısmını servis için ayır.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Domates ve acı biberi ekleyip 8–10 dk pişir; tuzu ayarla.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Spagettiyi al dente haşla; sosla karıştırıp pecorino ve ayrılan guanciale ile tamamla.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-129",
+    "title": "Branzino al Forno (Fırında Levrek, Otlu-Limonlu)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "balık",
+      "fırın",
+      "diyet",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "levrek (temizlenmiş, bütün)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "limon",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Balığın yanlarına çizik at; tuz-biber ve yağla ov.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "İçine limon dilimi, sarımsak ve maydanoz koy; 200 °C fırında pişir.",
+        "minutes": 22
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 22,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-130",
+    "title": "Cantuccini (Bademli Biscotti)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 160,
+        "unit": "g"
+      },
+      {
+        "name": "badem (bütün, kavrulmamış)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "portakal kabuğu rendesi",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, şeker, kabartma ve kabuk rendesini karıştır; yumurta ekleyip hamur yap, bademi kat.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "İki rulo yapıp tepsiye al; 170 °C’de 25 dk pişir.",
+        "minutes": 25
+      },
+      {
+        "order": 3,
+        "text": "Ilıyınca dilimle; tekrar fırına verip 10–12 dk kurut.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 37,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-131",
+    "title": "Pesto Rosso Trapanese (Bademli Domates Pestosu)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "sos",
+      "vegan",
+      "makarna"
+    ],
+    "ingredients": [
+      {
+        "name": "domates (olgun, kabuğu soyulmuş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "badem (kavrulmuş, kabuksuz)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "taze fesleğen",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Domates, badem, sarımsak ve fesleğeni mutfak robotunda çek; yağı ince akışla ekle.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Tuzunu ayarla; haşlanmış makarnayla ve bir kepçe makarna suyuyla bağlayıp servis et.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-132",
+    "title": "Zucchine alla Scapece (Sirkeli Naneli Kabak)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "meze",
+      "vegan",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "kabak",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı (kızartma için)",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "beyaz şarap sirkesi",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "taze nane",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kabakları kalın halkalar kes; zeytinyağında iki yüzünü de altın rengi kızartıp peçeteye al.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Sarımsak, sirke, tuz ve kıyılmış nane ile sos yap; sıcak kabakla karıştırıp 15 dk dinlendir.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Daha hafif için fırında 200 °C’de 18–20 dk pişirebilirsin."
+  },
+  {
+    "id": "core-133",
+    "title": "Crostata di Marmellata (Reçelli Tart)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı (soğuk küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yumurta sarısı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "limon kabuğu rendesi",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kayısı/çilek reçeli",
+        "qty": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, şeker, kabartma ve kabuk rendesini karıştır; tereyağını ufalayarak kumlu kıvam yap.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Yumurta ve sarıyı ekleyip kısa yoğur; hamurun 2/3’ünü kalıba bastır, reçeli yay.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Kalan hamurdan şeritler yapıp üstüne kafes ör; 180 °C’de kızarana dek pişir.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-134",
+    "title": "Sorbetto al Limone (Limon Sorbe, Makinesiz)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "vegan",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "su",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "limon suyu (taze)",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "limon kabuğu rendesi",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Su ve şekeri 2–3 dk ısıtarak çözdür; tamamen soğut.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Limon suyu ve kabuk rendesini ekle; sığ bir kaba dök.",
+        "minutes": 2
+      },
+      {
+        "order": 3,
+        "text": "Dondurucuda 30’ar dakikada bir çatalla karıştırarak 3–4 kez kristalleri kır; servis öncesi 5 dk oda sıcaklığında beklet.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 3,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-135",
+    "title": "Spaghetti Aglio e Olio (Vegan)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "ana yemek",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "spagetti",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak (ince dilim)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "pul biber (acı)",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Spagettiyi bol tuzlu suda al dente haşla; 150 ml makarna suyu ayır.",
+        "minutes": 9
+      },
+      {
+        "order": 2,
+        "text": "Geniş tavada zeytinyağında sarımsağı rengi dönmeden çevir; pul biber ekle.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Makarnayı ve bir miktar makarna suyunu tavaya al; maydanoz ve tuzla bağla.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-136",
+    "title": "Pesce all’Acqua Pazza (Hafif Balık Tencere)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "balık",
+      "ana yemek",
+      "diyet",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "çipura/levrek (bütün, temizlenmiş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "çeri domates",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "kapari",
+        "qty": 1,
+        "unit": "yemek kaşığı",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Geniş tavada domatesleri, ezilmiş sarımsağı ve yağı 2–3 dk çevir.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Balıkları yerleştir; şarap ve suyu ekle, tuzla. Kapak kapalı orta ateşte pişir.",
+        "minutes": 14
+      },
+      {
+        "order": 3,
+        "text": "Kapari ve maydanozla bitir; sosuyla servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 16,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-137",
+    "title": "Pappa al Pomodoro (Domates-Ekmek Çorbası)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "çorba",
+      "vegan",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "olgun domates (rendelenmiş) veya püre",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "bayat ekmek (kabuksuz, küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sebze suyu",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "taze fesleğen",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında sarımsağı kokusu çıkana dek çevir; domatesi ekleyip 10 dk pişir.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Sebze suyunu ekleyip kaynat; ekmekleri katıp kısık ateşte koyulaştır.",
+        "minutes": 15
+      },
+      {
+        "order": 3,
+        "text": "Tuz ve fesleğenle tamamla; 5 dk dinlendir.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-138",
+    "title": "Frittata di Verdure al Forno (Fırında Sebzeli Omlet)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın",
+      "vejetaryen",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "yumurta",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "kabak (küp)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ıspanak (doğranmış)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "kuru soğan (yemeklik)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan ve kabağı yağda yumuşat; ıspanak ekleyip söndür.",
+        "minutes": 7
+      },
+      {
+        "order": 2,
+        "text": "Çırpılmış yumurtayı tuz-biberle karıştır; sebzelerle buluşturup kalıba dök.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "180 °C fırında orta rafta pişir; dilimleyip servis et.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-139",
+    "title": "Cannelloni Ricotta e Spinaci",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "fırın",
+      "ana yemek",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "cannelloni makarna tüpü",
+        "qty": 14,
+        "unit": "adet"
+      },
+      {
+        "name": "ricotta",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ıspanak (sote, suyu sıkılmış)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan (rendelenmiş)",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "muskat rendesi",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "domates sosu",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "mozzarella (rendelenmiş)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ricotta, ıspanak, parmesan, yumurta, muskat ve tuzu karıştır.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Kıvamı torbaya al; cannelloni tüplerini doldur.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Tepsiye domates sosunun yarısını yay; tüpleri diz, kalan sosu ve mozzarellayı ekle.",
+        "minutes": 5
+      },
+      {
+        "order": 4,
+        "text": "180 °C fırında üstü kızarana dek pişir.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-140",
+    "title": "Spaghetti alla Puttanesca",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "spagetti",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "ançuez fileto",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "kapari",
+        "qty": 1.5,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "siyah zeytin (çekirdeksiz, doğranmış)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "domates (konserve/püre)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pul biber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında sarımsak ve ançuezi ezerek çevir; domates, kapari, zeytin ve pul biberi ekle.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Sosu 8–10 dk pişir; tuzu ayarla.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Spagettiyi al dente haşla; sosla karıştırıp maydanozla bitir.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-141",
+    "title": "Insalata di Finocchi e Arance (Rezene-Portakal)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "salata",
+      "vegan",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "rezene (ince dilim)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "portakal (dilim)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "siyah zeytin (çekirdeksiz)",
+        "qty": 40,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Rezene dilimlerini soğuk suda 5 dk bekletip kurula.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Portakal ve zeytinle birleştir; zeytinyağı, limon ve tuzla harmanla.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-142",
+    "title": "Zabaglione (Marsalalı Krem)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "yumurta sarısı",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "marsala şarabı",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "vanilin",
+        "qty": 0.5,
+        "unit": "çay kaşığı",
+        "note": "isteğe bağlı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bain-marie üzerinde sarı, şeker ve marsalayı sürekli çırparak kabart.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Kaşıkla iz bırakacak kıvama gelince kaselere al; ılık/sıcak servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-143",
+    "title": "Semifreddo al Pistacchio",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "krema (soğuk)",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta sarısı",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "pistachio (ezme/püre)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "antep fıstığı (kıyılmış)",
+        "qty": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yumurta sarısı ve şekeri benmari üstünde koyulaştırıp ılıt.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Kremayı ayrı kapta hacimlenene dek çırp; pistachio ezmesini ve sarılı karışımı katla.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Kalıba dök; üstüne fıstık serpip en az 6 saat dondur.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 6,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-144",
+    "title": "Ricciarelli di Siena (Bademli Kurabiye)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "badem unu",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta beyazı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "pudra şekeri (üstü ve harç)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "limon kabuğu rendesi",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "vanilin",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Beyazları hafif köpürt; badem unu, toz/pudra şeker, kabuk ve vanilinle hamur yap.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Pudra şekeri serili tepside oval şekil ver; 160 °C’de çatlayana dek pişir.",
+        "minutes": 16
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 16,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-145",
+    "title": "Tagliata di Manzo (Rokalı-Parmesanlı)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "dana kontrafile (bütün, 3–4 cm kalınlık)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "roka",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan (parça, tıraşlanmış)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "balsamik sirke",
+        "qty": 1,
+        "unit": "yemek kaşığı",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti oda ısısına getir; tuz-biberle tatlandırıp yağla ov.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Döküm tavada yüksek ısıda her yüzünü 3–4 dk mühürle; 5 dk dinlendir.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "İnce dilimle; roka yatağına yerleştir, parmesan ve balsamikle tamamla.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-146",
+    "title": "Risotto al Limone (Limonlu Risotto)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "pilav",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "arborio/carnaroli pirinci",
+        "qty": 320,
+        "unit": "g"
+      },
+      {
+        "name": "şalot/soğan (ince doğranmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "sebze suyu (sıcak)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "limon kabuğu rendesi",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "parmesan (rendelenmiş)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yağda soğanı saydamlaştır; pirinci ekleyip 1–2 dk kavur, şarapla deglaze et.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Sıcak suyu kepçe kepçe eklerken karıştır; 15–17 dk al dente kıvamı yakala.",
+        "minutes": 17
+      },
+      {
+        "order": 3,
+        "text": "Ocaktan al; limon kabuğu-suyu, tereyağı ve parmesanı ekleyip 1–2 dk dinlendir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 22,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-147",
+    "title": "Pasta alla Norma (Patlıcanlı-Ricotta Salata)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "ana yemek",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "rigatoni/spagetti",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "patlıcan",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı (pişirme+patlıcan)",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "ricotta salata (rendelenmiş)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "taze fesleğen",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patlıcanı iri küp/doğrayıp tuzla 15 dk beklet; durula, kurula.",
+        "minutes": 18
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağında patlıcanları parti parti kızart ya da 220 °C’de fırınla.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Tavada zeytinyağında sarımsağı kokut; domatesi ekleyip 8–10 dk pişir, tuzla.",
+        "minutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Makarnayı al dente haşla; sos ve patlıcanla birleştir. Üstüne ricotta salata ve fesleğen serip servis et.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-148",
+    "title": "Vitello Tonnato",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "soğuk servis",
+      "meze",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "dana nuar (bütün parça)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kereviz sapı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "ton balığı (yağlı konserve, süzülmüş)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "anchovy (fileto)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "kapari",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "mayonez",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti sebzeler, defne ve tuzla üstünü örtecek kadar suda 60–70 dk yumuşayana dek pişir; tamamen soğutup buzdolabında dinlendir.",
+        "minutes": 75
+      },
+      {
+        "order": 2,
+        "text": "Ton balığı, anchovy, kapari, mayonez, limon ve yağı pürüzsüz sos olana dek çek.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Eti ince dilimle; servis tabağında tonnato sosla kapla, kapari serpiştir.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 70,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-149",
+    "title": "Carciofi alla Romana (Roma Usulü Enginar)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "zeytinyağlı",
+      "vegan",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "enginar (bütün, yaprakları ayıklanmış)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "taze nane/mentuccia",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Enginarları limonlu suda beklet; ortalarını hafif açıp ince doğranmış sarımsak ve otlarla doldur.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Tencereye sıkı yerleştir; zeytinyağı ve su ekleyip kapakla kısık ateşte yumuşayana dek pişir.",
+        "minutes": 35
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-150",
+    "title": "Bistecca alla Fiorentina",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "ana yemek",
+      "ızgara",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "T-bone/dana kemikli antrikot (4–5 cm kalınlık)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "biberiye (isteğe bağlı)",
+        "qty": 1,
+        "unit": "dal"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti oda ısısına getir; çok hafif yağla sil.",
+        "minutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Çok sıcak döküm tavada/ızgarada her yüzünü 4–5 dk, kenarlarını da mühürle.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Tuz-biberle tatlandır; 5–8 dk dinlendirip dilimleyerek servis et.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-151",
+    "title": "Risotto ai Frutti di Mare (Deniz Mahsullü)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "pilav",
+      "ana yemek",
+      "deniz ürünleri"
+    ],
+    "ingredients": [
+      {
+        "name": "arborio/carnaroli pirinci",
+        "qty": 320,
+        "unit": "g"
+      },
+      {
+        "name": "karışık deniz ürünleri (midye, kalamar, karides)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soğan/şalot",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "balık/deniz suyu (sıcak)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan ve sarımsağı yağda sotele; pirinci ekleyip 1–2 dk kavur, şarapla deglaze et.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Sıcak suyu kepçe kepçe ekleyip karıştırarak 12–14 dk pişir.",
+        "minutes": 14
+      },
+      {
+        "order": 3,
+        "text": "Temizlenmiş deniz ürünlerini ekleyip 3–4 dk daha pişir; maydanozla bitir.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-152",
+    "title": "Gnocchi al Gorgonzola (Cevizli)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "ana yemek",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "taze gnocchi",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "gorgonzola dolce",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "krema/süt",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "ceviz (iri kırık)",
+        "qty": 40,
+        "unit": "g",
+        "note": "isteğe bağlı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Gnocchiyi tuzlu suda yüzeye çıkana dek haşla; süz.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Tencerede krema ve gorgonzolayı eritin; tereyağıyla bağlayın.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Gnocchiyi sosa karıştır; üstüne ceviz serpip servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-153",
+    "title": "Polpette al Sugo (Soslu Köfte)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "dana-kuzu kıyma karışımı",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "bayat ekmek içi (sütle ıslatılmış)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "parmesan (rendelenmiş)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (ince kıyılmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "domates püresi (sos)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Köfte harcını yoğur; ceviz boyu şekil ver.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Tencerede az yağla tüm yüzleri renk alana dek çevir.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Domates püresini ekleyip kısıkta 15–18 dk pişir.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 24,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-154",
+    "title": "Pasta alla Gricia",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "makarna",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "rigatoni/spagetti",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "guanciale",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "pecorino romano (rendelenmiş)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "karabiber (taze çekilmiş)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Guanciale’yi şerit doğrayıp tavada yağı çıkana dek kızart; bir kısmını ayır.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Makarnayı al dente haşla; 150 ml su ayır.",
+        "minutes": 9
+      },
+      {
+        "order": 3,
+        "text": "Makarnayı guanciale yağıyla buluştur; suyu ve pecorinoyu ekleyerek emülsiyon oluştur, karabiberle bitir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-155",
+    "title": "Torta della Nonna (Çam Fıstıklı Krema Tart)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı (soğuk küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yumurta sarısı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "limon kabuğu rendesi",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "süt (krema)",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta sarısı (krema)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "toz şeker (krema)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "mısır nişastası (krema)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "çam fıstığı (üstü)",
+        "qty": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Krema için süt, sarılar, şeker ve nişastayla muhallebi pişir; soğut.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Un, şeker, kabartma ve kabukla tereyağını kum kıvamına getir; yumurta+sarısıyla hamur yap, 20 dk dinlendir.",
+        "minutes": 25
+      },
+      {
+        "order": 3,
+        "text": "Hamuru kalıba ser; kremayı doldur, kalan hamurla kapat veya kafes yap, çam fıstığı ser.",
+        "minutes": 8
+      },
+      {
+        "order": 4,
+        "text": "180 °C’de 35–40 dk pişir; soğutup pudra şekeri ser.",
+        "minutes": 38
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-156",
+    "title": "Cassata Siciliana (Ev Usulü)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "buzdolabı"
+    ],
+    "ingredients": [
+      {
+        "name": "pandispanya (dilim)",
+        "qty": 2,
+        "unit": "adet",
+        "note": "24 cm kalıp için 2 disk"
+      },
+      {
+        "name": "ricotta",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "şekerlenmiş meyve (küçük doğranmış)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "çikolata parçacıkları",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "şekerli şurup (su+şeker 1:1)",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "badem ezmesi (isteğe bağlı kaplama)",
+        "qty": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ricotta ve şekeri pürüzsüz çırp; meyve ve çikolatayı ekle.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Kalıbı streçle; tabanı ve kenarları pandispanya ile döşe, şurupla hafif ıslat.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Ricotta kremasını doldur; üstünü ikinci diskle kapat, bastır.",
+        "minutes": 5
+      },
+      {
+        "order": 4,
+        "text": "En az 4 saat soğut; istersen badem ezmesiyle kapla ve dilimle.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-157",
+    "title": "Granita al Caffè (Pannalı/İsteğe Bağlı)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "tatlı",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "espresso/koyu demlenmiş kahve",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "krema (servis, isteğe bağlı)",
+        "qty": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sıcak kahvede şekeri çözdür; oda ısısına getirip sığ kaba dök.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Dondurucuda 30’ar dakikada bir çatalla kazıyarak kristalleri kır; 3–4 tur yap.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Kaseye al; arzuya göre krema ile servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Kremasız servis vegan olur."
+  },
+  {
+    "id": "core-158",
+    "title": "Carciofi alla Giudia (Yahudi Usulü Kızarmış Enginar)",
+    "cuisine": "italyan mutfağı",
+    "tags": [
+      "meze",
+      "vegan",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "enginar (küçük boy, temizlenmiş)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "limon suyu (bekletme için)",
+        "qty": 2,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "zeytinyağı (kızartma)",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Enginarları limonlu suda beklet; iyice kurula.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "İlk kızartma: 140–150 °C yağda 8–10 dk yumuşayana dek pişir, çıkar.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Dış yaprakları çiçek gibi aç; ikinci kızartma: 180 °C’de dışı çıtır olana dek 2–3 dk kızart. Tuzlayıp sıcak servis et.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 14,
+    "image": "",
+    "notes": ""
   }
 ]
