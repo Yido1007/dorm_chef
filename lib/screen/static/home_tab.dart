@@ -1,11 +1,14 @@
 import 'package:dorm_chef/screen/static/settings.dart';
+import 'package:dorm_chef/service/avatar.dart';
 import 'package:dorm_chef/widget/favorite/favorite_stripe.dart';
 import 'package:dorm_chef/widget/home_tab/daily_carrousel.dart';
 import 'package:dorm_chef/widget/home_tab/title.dart';
+import 'package:dorm_chef/widget/settings/avatar_image.dart';
 import 'package:dorm_chef/widget/text.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class HomeTabScreen extends StatelessWidget {
   const HomeTabScreen({super.key});
@@ -45,33 +48,32 @@ class HomeTabScreen extends StatelessWidget {
       builder: (context, snap) {
         final user = snap.data;
         final name = capFirstTr(firstName(bestDisplayName(user)));
+        final url = context.select<ProfileStore, String?>(
+          (s) => s.resolvedPhotoUrl,
+        );
+
+        // Baş harf için ad/e-posta
+        final u = FirebaseAuth.instance.currentUser;
+        final displayName =
+            (u?.displayName?.trim().isNotEmpty == true)
+                ? u!.displayName!
+                : (u?.email ?? '');
         return Scaffold(
           appBar: AppBar(
             title: Text('hi'.tr(namedArgs: {'name': safeName})),
             actions: [
               Padding(
                 padding: const EdgeInsets.only(right: 12),
-                child: Container(
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    border: Border.all(
-                      color: Theme.of(context).colorScheme.outline,
-                      width: 1.2,
-                    ),
-                  ),
-                  child: IconButton(
-                    onPressed: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (_) => const SettingScreen(),
-                        ),
-                      );
-                    },
-                    icon: const Icon(Icons.person),
-                    iconSize: 20,
-                    padding: const EdgeInsets.all(8),
-                    constraints: const BoxConstraints(),
-                    splashRadius: 22,
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const SettingScreen()),
+                    );
+                  },
+                  child: ProfileAvatar(
+                    photoUrl: url, // foto varsa göster
+                    displayName: displayName, // yoksa baş harf
+                    size: 32, // AppBar için kompakt
                   ),
                 ),
               ),
