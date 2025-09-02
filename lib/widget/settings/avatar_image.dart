@@ -7,7 +7,7 @@ class ProfileAvatar extends StatelessWidget {
     super.key,
     this.photoUrl,
     this.displayName,
-    this.size = 88,
+    this.size = 100,
     this.onTap,
   });
 

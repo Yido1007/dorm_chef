@@ -182,7 +182,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       ProfileAvatar(
                         photoUrl: url,
                         displayName: _nameCtrl.text,
-                        size: 96,
+                        size: 250,
                         onTap: _openPhotoSheet,
                       ),
                       const SizedBox(height: 24),
