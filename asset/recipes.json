@@ -22063,5 +22063,3486 @@
     "cookMinutes": 50,
     "image": "",
     "notes": "Daha zengin tat için son dakikalarda bir kaşık kaymak eklenebilir."
+  },
+  {
+    "id": "core-282",
+    "title": "Paella Valenciana (Tavuklu & Fasulyeli)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "pirinç"
+    ],
+    "ingredients": [
+      {
+        "name": "bomba pirinci",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk (kemikli parça)",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil yassı fasulye (parça)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "lima/garrofó fasulyesi (haşlanmış)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "oliva yağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "domates rendesi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk suyu/su (sıcak)",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "toz tatlı biber (pimentón)",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "safran",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "biberiye dalı (isteğe bağlı)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Geniş paella tavasında yağı ısıt; tavukları yüksek ısıda kızart.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Fasulyeleri ekleyip kısa sotele; pimentón ve domates rendesini katıp 2 dk çevir.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Sıcak su/et suyunu, safranı (ezilmiş) ve tuzu ekle; kaynayınca pirinci eşit yayıp KARIŞTIRMADAN orta-düşükte suyunu çekene dek pişir.",
+        "minutes": 18
+      },
+      {
+        "order": 4,
+        "text": "Altını yükseltip 1–2 dk socarrat (taban karamelizasyonu) oluştur; 5 dk dinlendirip biberiyeyle servis et.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Deniz ürünlü paella farklı bir stildir; bu Valencia klasiğidir."
+  },
+  {
+    "id": "core-283",
+    "title": "Tortilla Española (Patatesli Omlet)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (ince dilim)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patates ve soğanı zeytinyağında kısık-orta ateşte yumuşayana dek confit pişir; süz.",
+        "minutes": 18
+      },
+      {
+        "order": 2,
+        "text": "Yumurtaları tuzla çırp; patates-soğanı karıştır.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Yapışmaz 20–24 cm tavayı yağla ısıt; karışımı dök. Kenarlar tutunca kapağa/tepsiye çevir, diğer yüzünü pişir.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 22,
+    "image": "",
+    "notes": "İçi hafif sulu (jugosa) bırakmak makbuldür."
+  },
+  {
+    "id": "core-284",
+    "title": "Gazpacho Andaluz (Soğuk Domates Çorbası, Vegan)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "çorba",
+      "soğuk servis",
+      "vegan",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "domates (olgun)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "salatalık (soyulmuş)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yeşil biber",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "ekmek içi (bayat, ıslatılmış)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 70,
+        "unit": "ml"
+      },
+      {
+        "name": "şarap sirkesi",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "su (kıvam için)",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm malzemeyi blenderda pürüzsüz çek; kıvamı suyla ayarla.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "En az 2 saat soğut; zeytinyağı gezdirerek servis et.",
+        "minutes": 120
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Üzeri için minik doğranmış sebze küpleri eklenebilir."
+  },
+  {
+    "id": "core-285",
+    "title": "Salmorejo Cordobés (Yoğun Domates & Ekmek)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "soğuk servis",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "domates (olgun)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "ekmek içi (bayat)",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "şarap sirkesi",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "haşlanmış yumurta (üzeri)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "jamón serrano (üzeri, isteğe bağlı)",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Domatesi, ekmeği, sarımsağı ve sirkeyi blenderda çek; zeytinyağını ince akıtarak emülsiyon yap.",
+        "minutes": 7
+      },
+      {
+        "order": 2,
+        "text": "Soğutup kaselere koy; üstüne yumurta (ve istenirse jamón) serpin.",
+        "minutes": 60
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Gazpacho’dan daha koyudur, içecek değil kaşıkla yenir."
+  },
+  {
+    "id": "core-286",
+    "title": "Patatas Bravas (Kızarmış Patates & Bravas Sos)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "kızartma",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (küp)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı (sos)",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "soğan (ince, sos)",
+        "qty": 0.5,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (sos)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi (sos)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "tatlı+acı pimentón",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "şeker (sos)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bravas sos: zeytinyağında soğan-sarımsağı sotele; pimentón, domates ve şekeri ekleyip koyulaştır.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Patatesleri 150–160 °C’de 6–7 dk ön kızart; süzüp 190 °C’de tekrar çıtırlaştır.",
+        "minutes": 14
+      },
+      {
+        "order": 3,
+        "text": "Patatesleri tuzla; sıcak sosla servis et (istersen aioli ekle).",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-287",
+    "title": "Pan con Tomate (Pa amb Tomàquet)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "vegan",
+      "soğuk servis"
+    ],
+    "ingredients": [
+      {
+        "name": "ekşi maya/çıtır ekmek dilimi",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "olgun domates",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ikiye kesilmiş)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ekmekleri kızart; yüzeyine sarımsak sürt.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Domatesi rendele veya ikiye kesip ekmeğe sür; zeytinyağı ve tuzla bitir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 4,
+    "image": "",
+    "notes": "Katalan usulü; jamón veya peynirle zenginleştirilebilir."
+  },
+  {
+    "id": "core-288",
+    "title": "Gambas al Ajillo (Sarımsaklı Karides)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "deniz ürünleri",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "karides (ayıklanmış)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak (ince dilim)",
+        "qty": 5,
+        "unit": "adet"
+      },
+      {
+        "name": "acı biber (kurutulmuş)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "maydanoz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağını tavada ısıt; sarımsak ve acı biberi hafif altın olana dek çevir.",
+        "minutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Karidesleri ekleyip yüksek ısıda 2–3 dk pişir; tuz ve maydanozla bitir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "image": "",
+    "notes": "Toprak güveçte servis edilirse sıcaklığını korur."
+  },
+  {
+    "id": "core-289",
+    "title": "Pulpo a la Gallega (Ahtapot & Patates, Pimentónlu)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "deniz ürünleri",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "ahtapot (temizlenmiş)",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "patates (haşlamak için)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "pimentón (tatlı/füme)",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "iri tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ahtapotu kaynar suya 3 kez batır-çıkar; sonra 40–45 dk yumuşayana dek haşla.",
+        "minutes": 45
+      },
+      {
+        "order": 2,
+        "text": "Patatesleri ayrı tencerede haşla, dilimle.",
+        "minutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Ahtapotu dilimleyip patates üstüne yerleştir; pimentón, iri tuz ve zeytinyağı gezdir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "image": "",
+    "notes": "Haşlama süresi ahtapotun büyüklüğüne göre değişir."
+  },
+  {
+    "id": "core-290",
+    "title": "Croquetas de Jamón (Beşamel Kroket)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "tereyağı",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "süt (ılık)",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "jamón serrano (ince doğranmış)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "muskat",
+        "qty": 1,
+        "unit": "çimdik"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1,
+        "unit": "tutam"
+      },
+      {
+        "name": "yumurta (pane)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "un (pane)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "galeta unu (pane)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 900,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tereyağında unu 2 dk kavur; ılık sütü ekleyip koyu beşamel yap, jamón ve baharatları kat.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Karışımı soğutup 2 saat buzdolabında sertleştir; silindir/top şekillendir.",
+        "minutes": 140
+      },
+      {
+        "order": 3,
+        "text": "Un-yumurta-galetayla panele; 175–180 °C yağda altın rengi olana dek kızart.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "İç harç bir gece dinlenirse şekil vermesi kolaylaşır."
+  },
+  {
+    "id": "core-291",
+    "title": "Albóndigas en Salsa de Tomate (İspanyol Köfte)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "dana-kuzu kıyma karışık",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "ekmek içi (sütte ıslatılmış)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "maydanoz (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "un (köfteleri kaplamak için)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "soğan (sos için)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "beyaz şarap (isteğe bağlı)",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kıyma, ekmek, yumurta, sarımsak ve maydanozu yoğur; ceviz boyu köfteler yapıp una bulayıp kızart.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Ayrı tencerede soğanı sotele; şarap ekleyip uçur; domatesi kat. Köfteleri sosa alıp 12–15 dk pişir.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 22,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-292",
+    "title": "Bacalao al Pil Pil (Tuzlu Morina, Sarımsak-Yağ Emülsiyonu)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "balık",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "tuzlu morina (suda tuzu alınmış, porsiyon)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak (dilim)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "acı biber (guindilla)",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında sarımsak ve biberi hafif kızartıp çıkar; aromalı yağı ılıt.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Balığı derisi altta kalacak şekilde yağa koy; çok kısıkta pişirirken tava/yağ hafifçe sallanarak jelatinle emülsiyon oluştur.",
+        "minutes": 15
+      },
+      {
+        "order": 3,
+        "text": "Sarımsak ve biberi geri ekleyip servis et.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 16,
+    "image": "",
+    "notes": "Tuz alma için balığı 24–36 saat buzdolabında suda bekletip suyu birkaç kez değiştir."
+  },
+  {
+    "id": "core-293",
+    "title": "Pisto Manchego (İspanyol Ratatouille, Vegan)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "kabak",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "patlıcan",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "kapya biber",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil biber",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (doğranmış)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında soğan ve biberleri sotele; patlıcan ve kabağı ekleyip yumuşat.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Domatesi katıp kısıkta suyunu çekene dek pişir; tuz-biber ekle.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Üstüne kızarmış yumurta ile de servis edilir."
+  },
+  {
+    "id": "core-294",
+    "title": "Fabada Asturiana (Fasulyeli Etli Güveç)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "büyük beyaz fasulye (geceden ıslatılmış)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chorizo sosis",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kan sosisi (morcilla)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pastırma/pancetta",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "defne yaprağı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "pimentón",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Islatılmış fasulyeyi süz; tencereye etlerle birlikte al, su ve defneyi ekle.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Kısık ateşte taşırmadan 2 saat pişir; köpüğü al, pimentón ve tuzla bitir.",
+        "minutes": 120
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 120,
+    "image": "",
+    "notes": "Fasulyeler kırılmaması için kaynatmadan, nazikçe pişirilir."
+  },
+  {
+    "id": "core-295",
+    "title": "Cocido Madrileño (Nohutlu Etli Haşlama, Üç Servis)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "nohut (geceden ıslatılmış)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sığır eti (kemikli)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk (kemikli)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "pastırma/kemiğe yakın yağlı et",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "chorizo",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "patates",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "havuç",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "lahana (büyük parça)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 2000,
+        "unit": "ml"
+      },
+      {
+        "name": "erişte (servis için)",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Etleri nohudla tencereye alıp su ekle; köpüğü alarak 1 saat kısık ateşte pişir.",
+        "minutes": 60
+      },
+      {
+        "order": 2,
+        "text": "Patates, havuç ve lahanayı ekleyip 45–60 dk daha pişir; tuz ayarla.",
+        "minutes": 55
+      },
+      {
+        "order": 3,
+        "text": "Suyu süzüp bir kısmında erişteyi haşla (çorba); ardından nohut-sebze ve etler ayrı servis edilir.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 125,
+    "image": "",
+    "notes": "Geleneksel olarak önce çorba, sonra nohut-sebze, en son etler servis edilir."
+  },
+  {
+    "id": "core-296",
+    "title": "Empanada Gallega (Ton Balıklı Biberli Börek)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "hamurişi",
+      "fırın",
+      "balık"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "instant maya",
+        "qty": 7,
+        "unit": "g"
+      },
+      {
+        "name": "tuz (hamur)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kapya biber (şerit)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates rendesi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "ton balığı (konserve, süzülmüş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1,
+        "unit": "tutam"
+      },
+      {
+        "name": "yumurta (üstüne)",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Hamuru yoğurup 60 dk mayalandır.",
+        "minutes": 70
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağında soğan ve biberi sotele; domates ekleyip suyunu çektir. Ton balığıyla karıştır, soğut.",
+        "minutes": 18
+      },
+      {
+        "order": 3,
+        "text": "Hamuru ikiye böl; tabanı tepsiye ser, içi yay, üst hamurla kapat. Üstünü yumurtala; 190 °C fırında pişir.",
+        "minutes": 35
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-297",
+    "title": "Calamares a la Romana (Çıtır Mücver Halka Kalamar)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "kızartma",
+      "deniz ürünleri"
+    ],
+    "ingredients": [
+      {
+        "name": "kalamar (halka)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "mısır nişastası",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "soğuk maden suyu",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 900,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, nişasta, kabartma ve tuzu karıştır; maden suyunu ekleyip akışkan hamur yap.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Kalamarı hamura bulayıp 180 °C yağda 2–3 dk kızart; kağıda al.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": "Yanında limon ve aioli ile servis edilir."
+  },
+  {
+    "id": "core-298",
+    "title": "Ensaladilla Rusa (İspanyol Usulü Rus Salatası)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "salata",
+      "soğuk servis"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (küp)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "havuç (küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "bezelye",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "ton balığı (isteğe bağlı)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "turşu/kornişon (küp)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "mayonez",
+        "qty": 220,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patates ve havucu tuzlu suda dişe gelir haşla; bezelyeyi son 2 dk ekle, süz ve soğut.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Mayonez, yağ ve tuzla bağla; turşu ve (kullanıyorsan) ton balığını ekle, soğuk servis et.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Üstünü pişmiş yumurta ve zeytinle süsleyebilirsin."
+  },
+  {
+    "id": "core-299",
+    "title": "Migas (Ekmek Kırıntılı Sote, Chorizolu)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "bayat ekmek (ufalanmış)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "chorizo (dilim)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pastırma/pancetta (şerit)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (bütün, ezilmiş)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "su (ekmek ıslatma)",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-paprika",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ekmek kırıntılarını suyla hafif nemlendir; dinlendir.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağında sarımsakları, chorizo ve pastırmayı sotele; ekmekleri ekleyip sürekli çevirerek altın-kıtır olana dek pişir.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Üzüm veya kavrulmuş biberle de servis edilir."
+  },
+  {
+    "id": "core-300",
+    "title": "Rabo de Toro (Boğa/Kuyruk Yahni, Kırmızı Şaraplı)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "sığır kuyruğu (parça)",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kereviz sapı (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı şarap",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "et suyu/su",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "un (hafif unlamak için)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kuyruk parçalarını hafifçe unla; zeytinyağında mühürle ve kenara al.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Sebzeleri sotele; domatesi ekle. Şarapla tavanın dibini çöz, et suyu ve defneyi ekleyip etleri geri koy.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Kısık ateşte kapalı 2.5–3 saat et kemikten ayrılana dek pişir; tuzu ayarla.",
+        "minutes": 165
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 180,
+    "image": "",
+    "notes": "Ertesi gün ısıtılarak servis edildiğinde lezzeti artar."
+  },
+  {
+    "id": "core-301",
+    "title": "Callos a la Madrileña (İşkembe Yahni, Nohutlu)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "işkembe (temizlenmiş, parça)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "nohut (haşlanmış)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "chorizo (dilim)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "morcilla (parça)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "pimentón (füme)",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "et suyu/su",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "İşkembe önceden 1–1.5 saat haşlanır; süzülüp doğranır.",
+        "minutes": 90
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağında soğan-sarımsağı sotele; pimentón ve domatesi ekle. İşkembe, chorizo, morcilla, defne ve suyu katıp 60 dk pişir.",
+        "minutes": 70
+      },
+      {
+        "order": 3,
+        "text": "Nohutu ekleyip 10–15 dk daha kaynat; tuzu ayarla.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 95,
+    "image": "",
+    "notes": "Jelatinli, yoğun bir yahni olmalıdır."
+  },
+  {
+    "id": "core-302",
+    "title": "Escalivada (Közlenmiş Biber-Patlıcan, Katalan)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "meze",
+      "vegan",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "kapya biber (bütün)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "patlıcan (bütün)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (bütün)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "200–220 °C fırında sebzeleri tamamen közle; kabuklarını soy.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Şerit/küp doğra; zeytinyağı ve tuzla karıştır. Ilık/soğuk servis et.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Üstüne ançuez eklenerek de servis edilir (vegan olmaz)."
+  },
+  {
+    "id": "core-303",
+    "title": "Tarta de Santiago (Bademli Kek, Glütensiz)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "badem unu (ince)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "limon kabuğu rendesi",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tarçın (toz)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "pudra şekeri (üzeri)",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yumurta ve şekeri sadece birleşene dek çırp; badem unu, limon ve tarçını kat.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Kalıba dök; 175 °C fırında 28–32 dk pişir. Soğutup pudra şekeri ser.",
+        "minutes": 32
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 32,
+    "image": "",
+    "notes": "Sembol şablonu ile pudra serpilerek servis edilir."
+  },
+  {
+    "id": "core-304",
+    "title": "Churros con Chocolate",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "tatlı",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "su",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "un",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker (üzeri)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "bitter çikolata",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "süt",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "mısır nişastası (içecek için)",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Su ve tuzu kaynat; unu bir kerede ekleyip spatulayla toparla. Ilıyınca sıkma torbasına al.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "180 °C yağda şeritler sıkıp kızart; şekere bulayarak çıkar.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Süt ve nişastayı ısıt; çikolatayı eriterek koyulaştır, sıcak servis et.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Hamur yumurtasız klasik sokak stili verildi."
+  },
+  {
+    "id": "core-305",
+    "title": "Crema Catalana (Portakallı-Tarçınlı Krem Brûlée Kuzeni)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "süt",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta sarısı",
+        "qty": 5,
+        "unit": "adet"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "mısır nişastası",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "portakal kabuğu şeridi",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "şeker (üst karamelize için)",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sütü portakal kabuğu ve tarçınla ısıtıp demle; ayrı kapta sarı, şeker ve nişastayı çırp.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Sütü yumurtalı karışıma azar azar ekleyip tencereye al; kısık ateşte koyulaştır, kaselere dök ve soğut.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Üstüne şeker serpip pürmüzle karamelize et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Fırın yerine ocakta pişirilir; pürmüz yoksa fırın ızgarasında kısa karamelize edilebilir."
+  },
+  {
+    "id": "core-306",
+    "title": "Flan de Huevo (Karamelli Sütlü Tatlı)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "toz şeker (karamel)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "su (karamel)",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "süt",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "yumurta sarısı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "vanilya",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Şeker ve suyu karamel yap; kalıplara paylaştır.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Sütü ısıt; yumurta, sarı ve şekeri çırpıp ılık sütle temperle, vanilya ekle; kalıplara dök.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Bain-marie tepsisinde 160 °C fırında 35–40 dk pişir; soğutup ters çevir.",
+        "minutes": 40
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Kıvam için hafif jiggly iken fırından çıkar."
+  },
+  {
+    "id": "core-307",
+    "title": "Paella de Marisco (Deniz Ürünlü Paella)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "pirinç",
+      "deniz ürünleri"
+    ],
+    "ingredients": [
+      {
+        "name": "bomba/kalıp tutan pirinç",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "balık-kabuklu suyu (sıcak)",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "kalamar (halka)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "karides (bütün)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "midye (ayıklanmış)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "domates rendesi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "pimentón (tatlı)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "safran",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "limon (servis)",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Paella tavasında yağı ısıt; kalamarı 2–3 dk sotele, sarımsak ve domatesi ekleyip kısa bir sofrito yap.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Pimentón, safran ve pirinci ekleyip 1 dk çevir; sıcak suyu ve tuzu kat.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Orta ateşte KARIŞTIRMADAN 16–18 dk pişir; son 8 dk kala midye ve karidesleri yerleştir.",
+        "minutes": 18
+      },
+      {
+        "order": 4,
+        "text": "Altı hafif kızarsın diye 1–2 dk ısıyı artır (socarrat); 5 dk dinlendir, limonla servis et.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 32,
+    "image": "",
+    "notes": "Deniz ürünleri önceden fazla pişirilmez; pirinç su-çekim oranı 1:2.3 civarı."
+  },
+  {
+    "id": "core-308",
+    "title": "Arroz Negro (Mürekkep Soslu Kalamarlı Pirinç)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "pirinç",
+      "deniz ürünleri"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç (bomba/kalıp tutan)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "kalamar/mürekkep balığı (küp)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "balık suyu (sıcak)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "mürekkep (poşet)",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates rendesi",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "pimentón (füme tercihen)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğanı zeytinyağında yumuşat; sarımsak ve kalamarı 2–3 dk sotele.",
+        "minutes": 7
+      },
+      {
+        "order": 2,
+        "text": "Domates ve pimentónu ekle; pirinci katıp 1 dk çevir.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Mürekkebi sıcak balık suyunda aç; tencereye ekle. KARIŞTIRMADAN 16–18 dk pişir, tuzu ayarla.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Yanında sarımsaklı alioli ile servis edilir."
+  },
+  {
+    "id": "core-309",
+    "title": "Fideuà de Gandía (Deniz Ürünlü İnce Noodle)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "makarna",
+      "deniz ürünleri"
+    ],
+    "ingredients": [
+      {
+        "name": "fideuà eriştesi (ince, kavrulmuş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "balık suyu (sıcak)",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "karides",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "kalamar (küp)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "midye",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "domates rendesi",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "pimentón",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Geniş tavada yağı ısıt; kalamarı sotele. Sarımsak, domates ve pimentón ile kısa bir sofrito yap.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Erişteyi ekleyip 1–2 dk kavur; sıcak suyu dök, tuzla.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Orta ateşte KARIŞTIRMADAN pişir; son 8 dk kala midye ve karidesleri yerleştir, suyunu çekince 5 dk dinlendir.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 27,
+    "image": "",
+    "notes": "Alioli ile servis edilir."
+  },
+  {
+    "id": "core-310",
+    "title": "Arroz al Horno Valenciano (Fırın Pirinci)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın",
+      "pirinç"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç (kısa taneli)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "domuz kaburga (parça)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "chorizo",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "morcilla",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "nohut (haşlanmış)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "domates rendesi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "patates (dilim)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (baş, bütün)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "et suyu (sıcak)",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "pimentón",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "safran",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tencerede yağla kaburga ve chorizoyu kızart; domates ve pimentónu ekle.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Fırın kabına pirinci yayıp etleri, nohutu ve patatesleri yerleştir; ortasına bütün sarımsak başı koy.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Sıcak et suyu, safran ve tuzu ekle; 200 °C fırında 22–25 dk pişir, 5 dk dinlendir.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Geleneksel olarak toprak güveçte yapılır."
+  },
+  {
+    "id": "core-311",
+    "title": "Patatas a la Riojana (Patates & Chorizo Yahnisi)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (iri parça)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "chorizo (dilim)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil biber (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "pimentón",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "su",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan ve biberi yağda sotele; chorizoyu ekleyip 1–2 dk çevir.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Patatesi pimentón ve defneyle ekle; suyu katıp kısık ateşte 25–30 dk pişir.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Patatesi 'çatlatıp' kesmek nişastayı salarak kıvam verir."
+  },
+  {
+    "id": "core-312",
+    "title": "Sopa de Ajo Castellana (Sarımsak Çorbası, Yumurtalı)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "çorba",
+      "ekmekli"
+    ],
+    "ingredients": [
+      {
+        "name": "bayat ekmek dilimi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (dilim)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "pimentón",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tavuk/sebze suyu",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sarımsağı zeytinyağında hafif altın rengi olana dek çevir; pimentón ekle.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Ekmek dilimlerini ekleyip 1–2 dk çevir; sıcak suyu ekle ve 10 dk kaynat.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Kaselere alın; her kaseye bir yumurta kırıp 2–3 dk daha kısık ateşte pişir.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": "İstenirse yumurta çırpılıp çorbanın içine ince şerit halinde akıtılır."
+  },
+  {
+    "id": "core-313",
+    "title": "Caldo Gallego (Galiçya Çorbası)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "çorba",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "beyaz fasulye (geceden ıslatılmış)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "patates (küp)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "lahana/kara lahana (şerit)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "chorizo (isteğe bağlı)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Fasulyeyi tencerede yumuşayana dek haşla (gerekirse su ekle).",
+        "minutes": 45
+      },
+      {
+        "order": 2,
+        "text": "Patates, lahana ve (kullanıyorsan) chorizoyu ekleyip 20–25 dk pişir; yağ ve tuzla bitir.",
+        "minutes": 25
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 55,
+    "image": "",
+    "notes": "Klasik sürümde 'grelos' (şalgam yaprağı) kullanılır."
+  },
+  {
+    "id": "core-314",
+    "title": "Marmitako (Bask Usulü Ton Balıklı Yahni)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere",
+      "deniz ürünleri"
+    ],
+    "ingredients": [
+      {
+        "name": "ton balığı (taze, iri küp)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "patates (iri parça)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil biber (şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "balık suyu",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "pimentón",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan ve biberi yağda sotele; domates ve pimentónu ekle.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Patatesi ve balık suyunu ekleyip 20 dk pişir.",
+        "minutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Tonu ekleyip 3–4 dk nazikçe pişir, tuzu ayarla.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 28,
+    "image": "",
+    "notes": "Ton fazla pişirilmez; sulu ve parlak kalmalı."
+  },
+  {
+    "id": "core-315",
+    "title": "Bacalao a la Vizcaína (Bask Usulü Biber Soslu Morina)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "balık",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "tuzlu morina (tuzu alınmış, porsiyon)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (çok ince doğranmış)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "choricero biber püresi (veya köz kırmızı biber püre)",
+        "qty": 3,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "domates rendesi",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğanı zeytinyağında kısık ateşte 20 dk şeffaf-kıvamlı pişir; sarımsak, biber püresi ve domatesi ekleyip 8–10 dk çevir.",
+        "minutes": 30
+      },
+      {
+        "order": 2,
+        "text": "Morinayı derisi altta kalacak şekilde sosa yatır; kısık ateşte 8–10 dk pişir, tavanın yağını balığın üzerine kaşıkla gezdir.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Tuz alma işlemi 24–36 saat suda bekletme ve suyu birkaç kez değiştirmeyi gerektirir."
+  },
+  {
+    "id": "core-316",
+    "title": "Almejas a la Marinera (Şaraplı İstiridye Sosu)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "deniz ürünleri",
+      "tava",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "kum midyesi/istiridye (iyi temizlenmiş)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "balık suyu",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "maydanoz (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "un (isteğe bağlı sos bağlama)",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında sarımsağı 30 sn çevir; un kullanacaksan hızlıca kavur.",
+        "minutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Şarap ve balık suyunu ekle; istiridyeleri katıp kapakla 3–4 dk açılana dek pişir.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Maydanozla bitir; açılmayanları at.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": "Kumdan arındırmak için tuzlu suda 1–2 saat beklet."
+  },
+  {
+    "id": "core-317",
+    "title": "Mejillones a la Marinera (Soslu Midye)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "deniz ürünleri",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "midye (temizlenmiş)",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates rendesi",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "pimentón",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında soğan ve sarımsağı sotele; pimentón ve domatesi ekleyip koyulaştır.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Şarap ve midyeyi ekle; kapakla 4–5 dk pişir, açılmayanları at.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-318",
+    "title": "Boquerones en Vinagre (Sirkede Marine Hamsi)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "meze",
+      "soğuk servis",
+      "deniz ürünleri"
+    ],
+    "ingredients": [
+      {
+        "name": "taze hamsi (fileto)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "üzüm sirkesi",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "maydanoz (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı (servis)",
+        "qty": 80,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Hamsi filetolarını dondurucuda -20 °C’de en az 24 saat beklet (parazit riski için); buzdolabında çözdür.",
+        "minutes": 1440
+      },
+      {
+        "order": 2,
+        "text": "Sirke, su ve tuzu karıştır; hamsileri 2–3 saat bu karışımda marine et, süz.",
+        "minutes": 180
+      },
+      {
+        "order": 3,
+        "text": "Sarımsak, maydanoz ve zeytinyağıyla servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Çiğ tüketime uygun güvenlik için dondurma şarttır."
+  },
+  {
+    "id": "core-319",
+    "title": "Huevos Rotos con Jamón (Kırık Yumurta & Patates)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (parmak dilim)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı/ayçiçek yağı (kızartma)",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "jamón serrano (şerit)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patatesleri orta ısıda yumuşayana dek kızart, süz; ardından 190 °C’de kısa çıtırlaştır.",
+        "minutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Tavada az yağla yumurtaları akı pişmiş, sarısı akışkan kalacak şekilde pişir.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Patatesin üzerine yumurtaları al; jamón ekle, sarıları patlatıp karıştırarak servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": "Chistorra sosisle de yapılır."
+  },
+  {
+    "id": "core-320",
+    "title": "Pimientos de Padrón (Kızarmış Küçük Biberler)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "vegan",
+      "tava",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "Padrón biberi",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "iri deniz tuzu",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Geniş tavayı ısıt; zeytinyağıyla biberleri yüksek ısıda kabuk kabarana dek çevir.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Tuz serpip sıcak servis et.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 3,
+    "cookMinutes": 6,
+    "image": "",
+    "notes": "Bazıları acı çıkabilir—sürprizin parçası :)"
+  },
+  {
+    "id": "core-321",
+    "title": "Coca de Recapte (Köz Sebzeli İnce Ekmek)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "hamurişi",
+      "fırın",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "su (ılık)",
+        "qty": 180,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "instant maya",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "kapya biber (közlenmiş, şerit)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "patlıcan (közlenmiş, şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (yarım ay, karamelize)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "ançuez (isteğe bağlı)",
+        "qty": 8,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Hamuru yoğurup 60 dk mayalandır; ince dikdörtgen aç.",
+        "minutes": 70
+      },
+      {
+        "order": 2,
+        "text": "Üzerine köz sebzeler ve soğanı yay; 220 °C fırında 15–18 dk pişir.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": "Vegan tutmak için ançüezi atla."
+  },
+  {
+    "id": "core-322",
+    "title": "Empanadillas de Atún (Ton Balıklı Minik Börek)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "fırın",
+      "kızartma",
+      "balık"
+    ],
+    "ingredients": [
+      {
+        "name": "empanadilla hamuru veya milföy",
+        "qty": 20,
+        "unit": "adet"
+      },
+      {
+        "name": "ton balığı (konserve, süzülmüş)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 0.5,
+        "unit": "adet"
+      },
+      {
+        "name": "domates sosu",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "zeytin (dilim, isteğe bağlı)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğanı yağda sotele; domates sosu ekleyip kısaca pişir, tonla karıştır.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Hamurları doldurup kapat; 200 °C fırında 15–18 dk pişir veya 175 °C yağda kızart.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-323",
+    "title": "Pinchos Morunos (Baharatlı Domuz Şiş)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ızgara",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "domuz eti (kuşbaşı)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "pimentón",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kimyon",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kekik/mercanköşk",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm marinade malzemeleriyle eti karıştır; 2–4 saat buzdolabında beklet.",
+        "minutes": 180
+      },
+      {
+        "order": 2,
+        "text": "Şişe dizip yüksek ısıda 8–10 dk çevirerek pişir.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Tavukla da yapılabilir."
+  },
+  {
+    "id": "core-324",
+    "title": "Pollo al Ajillo (Sarımsaklı Tavuk)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk (kemikli parça)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (bütün, kabuklu)",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu yağda yüksek ısıda renk aldır; sarımsak ve defneyi ekle.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Şarabı ekleyip kapağı yarı kapalı 20 dk kısıkta pişir; tuzu ayarla.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-325",
+    "title": "Solomillo al Whisky (Andaluz Usulü Fileto)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "domuz bonfile (medalyon)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "whisky",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "et suyu/su",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bonfile dilimlerini yağda hızlıca mühürle, kenara al.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Aynı tavada sarımsağı sotele; whisky ile alevlendir veya uçur, et suyu ve limonu ekle.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Etleri geri koyup 3–4 dk sosla kaynat.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 13,
+    "image": "",
+    "notes": "Tereyağı ile bitirmek sosu parlak yapar (isteğe bağlı)."
+  },
+  {
+    "id": "core-326",
+    "title": "Zarangollo Murciano (Kabak-Soğanlı Yumurta)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava",
+      "vejetaryen",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "kabak (yarım ay)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğanı yağda yumuşat; kabağı ekleyip suyunu çekene dek pişir.",
+        "minutes": 14
+      },
+      {
+        "order": 2,
+        "text": "Yumurtaları ekleyip hafif sulu-scramble kıvamında çevir, tuzla.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Patatesli varyasyonları da vardır."
+  },
+  {
+    "id": "core-327",
+    "title": "Piquillos Rellenos de Bacalao (Morinalı Piquillo Dolması)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "meze",
+      "fırın/tava",
+      "balık"
+    ],
+    "ingredients": [
+      {
+        "name": "piquillo biber (konserve, bütün)",
+        "qty": 12,
+        "unit": "adet"
+      },
+      {
+        "name": "tuzsuz morina (didiklenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 0.5,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "un",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "süt",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "muskat/tuz-biber",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğan-sarımsağı yağda sotele; unu ekleyip 1 dk kavur, sütle koyuca beşamel yap.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Morinayı ekleyip 2–3 dk pişir; karışımla biberleri doldur.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Isıtarak servis et; istersen domatesli bir sos üzerinde sun.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-328",
+    "title": "Caldereta de Cordero (Kuzu Yahnisi)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "kuzu (kemikli iri parça)",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "et suyu/su",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kuzuyu yağda mühürle; soğan ve sarımsağı ekleyip sotele.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Domates, şarap ve suyu ekleyip kısık ateşte 90 dk pişir; tuzu ayarla.",
+        "minutes": 95
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 95,
+    "image": "",
+    "notes": "Patates ilavesiyle de yapılır; pişirme süresi yaşa-parçaya göre değişir."
+  },
+  {
+    "id": "core-329",
+    "title": "Salpicón de Marisco (Limonlu Deniz Ürünleri Salatası)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "salata",
+      "soğuk servis",
+      "deniz ürünleri",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "karides (haşlanmış)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "ahtapot (haşlanmış, dilim)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "midye (haşlanmış, ayıklanmış)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "kapya biber (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil biber (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (küçük, küp)",
+        "qty": 0.5,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "şarap sirkesi",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Deniz ürünlerini doğranmış sebzelerle karıştır.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağı, sirke, limon ve tuzla soslayıp 30 dk buzdolabında dinlendir.",
+        "minutes": 35
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Taze maydanoz ekleyebilirsin."
+  },
+  {
+    "id": "core-330",
+    "title": "Torrijas (İspanyol Ramazan/Paskalya Tatlısı)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "tatlı",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "kalın dilim bayat ekmek",
+        "qty": 12,
+        "unit": "adet"
+      },
+      {
+        "name": "süt",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "limon kabuğu şeridi",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yumurta (çırpılmış)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker + tarçın (kaplama)",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sütü şeker, tarçın ve limonla ısıtıp demle; ılındır.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Ekmek dilimlerini süte batır, sonra yumurtaya bulayıp 170–175 °C yağda kızart.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Şeker-tarçın karışımına bulayıp ılık servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 14,
+    "image": "",
+    "notes": "Fırında da 200 °C’de 10–12 dk pişirilebilir."
+  },
+  {
+    "id": "core-331",
+    "title": "Arroz con Leche (Tarçınlı Sütlü Pirinç)",
+    "cuisine": "ispanyol mutfağı",
+    "tags": [
+      "tatlı",
+      "tencere",
+      "sütlü",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç (yuvarlak taneli)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "süt",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "limon kabuğu şeridi",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sütü tarçın ve limonla ısıt; pirinci ekleyip kısık ateşte sık karıştırarak kremamsı olana dek pişir.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Şekeri ekleyip 5 dk daha pişir; kaselere al, tarçın serpip servis et.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Kıvam soğudukça koyulaşır; sütle açılabilir."
   }
 ]
