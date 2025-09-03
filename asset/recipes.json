@@ -25544,5 +25544,3646 @@
     "cookMinutes": 40,
     "image": "",
     "notes": "Kıvam soğudukça koyulaşır; sütle açılabilir."
+  },
+  {
+    "id": "core-332",
+    "title": "Moussaka (Patlıcanlı Beşamel, Kıymalı)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "patlıcan (uzun, 1 cm dilim)",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "patates (0.5 cm dilim, isteğe bağlı)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "kıyma (dana-kuzu karışık)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "kuru beyaz şarap (isteğe bağlı)",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "tarçın (toz)",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber-tuz",
+        "qty": 1,
+        "unit": "tutam"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "tereyağı (beşamel)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "un (beşamel)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "süt (ılık, beşamel)",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "rendelenmiş sert peynir (keçi/graviera, beşamel)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta sarısı (beşamel)",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patlıcanları tuzlayıp 20 dk beklet; kurula. Dilimleri fırça ile yağlayıp 220 °C fırında 15 dk kızart (veya tavada hafif kızart). Patates dilimlerini de 10 dk ön pişir.",
+        "minutes": 30
+      },
+      {
+        "order": 2,
+        "text": "Tencerede zeytinyağında soğanı sotele; kıymayı ekleyip renk aldır. Sarımsak, şarap, domates, tarçın, tuz-biber ekleyip kısıkta 15 dk kaynat.",
+        "minutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Beşamel: Tereyağıyla unu 2 dk kavur; ılık sütü azar azar tel çırpıcıyla ekleyip koyulaştır. Ocaktan alınca peynir ve yumurta sarısını hızla karıştır.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "Tepsiye patates (isteğe bağlı), patlıcan, kıyma, tekrar patlıcan yay; beşameli üstüne dök. 190 °C fırında 35–40 dk pişir; 15 dk dinlendirip servis et.",
+        "minutes": 50
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 75,
+    "image": "",
+    "notes": "Dinlendirme dilimlerin düzgün çıkmasını sağlar."
+  },
+  {
+    "id": "core-333",
+    "title": "Pastitsio (Beşamel Soslu Kıymalı Fırın Makarna)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın",
+      "makarna"
+    ],
+    "ingredients": [
+      {
+        "name": "uzun tüp makarna (bucatini/penne)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "kıyma (dana-kuzu)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tarçın",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kuru beyaz şarap",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "rendelenmiş kefalotyri/kaşar",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "beşamel için süt",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "beşamel için tereyağı",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "beşamel için un",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta sarısı (beşamel)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Makarna tuzlu suda 2 dk eksik haşlanır, süzülür; yarım peynirle karıştır.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağında soğanı sotele; kıymayı ekleyip kavur. Şarap, domates ve tarçınla 12–15 dk pişir; tuz-biber ayarla.",
+        "minutes": 18
+      },
+      {
+        "order": 3,
+        "text": "Beşamel: Tereyağı+un kavur; ılık sütü ekleyip koyulaştır. Ocaktan alınca yumurta sarıları ve kalan peyniri ekle.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "Tepsiye makarna yarısı, kıyma sosu, kalan makarna; üstüne beşamel dök. 190 °C’de 35 dk pişir, 10 dk dinlendir.",
+        "minutes": 45
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 55,
+    "image": "",
+    "notes": "Üstü hafif kızarıp kabuk bağlamalı."
+  },
+  {
+    "id": "core-334",
+    "title": "Tavuk Souvlaki (Limon-Kekik Marineli Şiş)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ızgara",
+      "ana yemek",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kemiksiz, iri küp)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "kuru kekik",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "şiş (ıslatılmış)",
+        "qty": 8,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm marinade malzemelerini karıştır; tavuğu ekleyip 1–3 saat buzdolabında beklet.",
+        "minutes": 90
+      },
+      {
+        "order": 2,
+        "text": "Şişe diz; 230–240 °C ızgarada/fırında 12–14 dk, arada çevirerek pişir.",
+        "minutes": 14
+      },
+      {
+        "order": 3,
+        "text": "Limon ve tzatziki ile servis et.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 14,
+    "image": "",
+    "notes": "Göğüs yerine but daha sulu sonuç verir."
+  },
+  {
+    "id": "core-335",
+    "title": "Kleftiko (Kağıtta Yavaş Fırın Kuzu)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "kuzu kol/bud (kemikli, iri parça)",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "patates (iri parça)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak dişi (bütün)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "kekik/dağ kekiği",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "yağlı kağıt ve folyo",
+        "qty": 2,
+        "unit": "parça"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kuzu ve sebzeleri zeytinyağı, limon, kekik, tuz-biberle harmanla.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Fırın kabına yağlı kağıt ser; karışımı koyup defneyi ekle. Kağıt ve folyo ile sıkıca paketle.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "160 °C fırında 2.5–3 saat yumuşayana dek pişir; son 10–15 dk paketi açıp üzerini kızart.",
+        "minutes": 185
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 185,
+    "image": "",
+    "notes": "Düşük ısı ve kapalı ortam kuzuya lokum kıvamı verir."
+  },
+  {
+    "id": "core-336",
+    "title": "Stifado (Arpacık Soğanlı Sığır Yahni)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "sığır eti (iri küp)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "arpacık soğan (soyulmuş)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı şarap veya sirke",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tarçın çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "karanfil",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti parti parti kızart, çıkar. Aynı tencerede arpacık soğanları hafif renk aldır.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Sarımsak, şarap/sirke, domates, tarçın, karanfil ve defneyi ekle; eti geri koy.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Kısık ateşte kapaklı 1.5–2 saat yumuşayana dek pişir; tuzu ayarla.",
+        "minutes": 110
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 130,
+    "image": "",
+    "notes": "Tarçın aroması stifado’nun karakteristik dokunuşudur."
+  },
+  {
+    "id": "core-337",
+    "title": "Youvetsi (Orzolu Et Güveç, Fırın)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "kuzu/dana (iri küp)",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "arpa şehriye (orzo/kritharaki)",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "et suyu (sıcak)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "tarçın",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti tencerede kızart; soğanı ekleyip sotele. Domates ve tarçınla 10 dk kaynat.",
+        "minutes": 18
+      },
+      {
+        "order": 2,
+        "text": "Güvece aktar; sıcak suyu ekleyip 180 °C fırında 40 dk pişir.",
+        "minutes": 40
+      },
+      {
+        "order": 3,
+        "text": "Orzoyu ekleyip 15–18 dk daha pişir; suyunu çekince 10 dk dinlendir.",
+        "minutes": 28
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 70,
+    "image": "",
+    "notes": "Üstüne rendelenmiş kefalotyri serpilerek servis edilir."
+  },
+  {
+    "id": "core-338",
+    "title": "Gemista (Pirinçli Fırın Dolma – Domates & Biber)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "büyük domates (kapaklı oyulmuş)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "dolmalık biber (kapaklı)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "pirinç",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "maydanoz-nane (kıyım)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "domatesin içi (püre)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında soğanı sotele; pirinci ekleyip 1–2 dk çevir. Domates içi, otlar, tuz-biberi katıp 3–4 dk pişir.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Sebzeleri içle %80 doldur; kapaklarını kapat. Tepsiye diz, üstüne zeytinyağı gezdir.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "190 °C fırında 55–65 dk pişir; ilk 30 dk folyo kapat, sonrasında açıp kızart.",
+        "minutes": 60
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "image": "",
+    "notes": "Patates dilimleriyle tepsi tabanı desteklenebilir."
+  },
+  {
+    "id": "core-339",
+    "title": "Dolmades (Asma Yaprağında Pirinçli Sarma)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "meze",
+      "tencere",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "asma yaprağı (tuzlu salamuradan yıkanmış)",
+        "qty": 40,
+        "unit": "adet"
+      },
+      {
+        "name": "pirinç",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "taze soğan",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "dereotu-nane (kıyım)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su",
+        "qty": 400,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğanı yarım yağda sotele; pirinç, otlar, tuz-biberle 2–3 dk çevir. 100 ml su ekleyip 3–4 dk şişir, soğut.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Yapraklara 1 tatlı kaşığı iç koyup sıkı sar; tencereye diz, üstüne tabak kapat.",
+        "minutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Kalan zeytinyağı, limon ve suyu ekle; kısık ateşte 40–45 dk pişir. Dinlendirip servis et.",
+        "minutes": 45
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Avgolemono sosla da servis edilebilir."
+  },
+  {
+    "id": "core-340",
+    "title": "Briam (Zeytinyağlı Fırın Sebzeleri)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "fırın",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "kabak (0.7 cm dilim)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "patlıcan (dilim)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "patates (dilim)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "domates (dilim)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (dilim)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "maydanoz (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm sebzeleri geniş tepside karıştır; zeytinyağı, sarımsak, tuz-biber ekle.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "200 °C fırında 45–55 dk, arada karıştırarak yumuşayıp kızarana dek pişir.",
+        "minutes": 50
+      },
+      {
+        "order": 3,
+        "text": "Maydanozla bitir; ılık/soğuk servis.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "image": "",
+    "notes": "Sebzeler kendi suyunda hafifçe pişmelidir; gerekirse az su eklenebilir."
+  },
+  {
+    "id": "core-341",
+    "title": "Horiatiki (Yunan Köy Salatası)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "salata",
+      "soğuk servis",
+      "glütensiz",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "domates (iri parça)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "salatalık (yarım ay)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "kırmızı soğan (ince)",
+        "qty": 0.5,
+        "unit": "adet"
+      },
+      {
+        "name": "yeşil biber (şerit)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kalamata zeytin",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "beyaz peynir/feta (blok)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "kırmızı şarap sirkesi",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "kekik (kurutulmuş)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sebzeleri kaseye al; zeytin ekle.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağı, sirke ve tuzla sosla; üstüne feta bloğunu koyup kekik ser.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Salatalık çekirdekleri çok suluysa çıkarılabilir."
+  },
+  {
+    "id": "core-342",
+    "title": "Tzatziki (Yoğurtlu Salatalık Mezesi)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "meze",
+      "soğuk servis",
+      "diyet",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "süzme yoğurt",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "salatalık (rendelenmiş, suyu sıkılmış)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "sirke/limon suyu",
+        "qty": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "taze dereotu (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yoğurt, salatalık, sarımsak, yağ, asit, dereotu ve tuzu karıştır.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "15–20 dk buzdolabında dinlendirip servis et.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Sarımsağı az ekleyip tadına göre artır."
+  },
+  {
+    "id": "core-343",
+    "title": "Spanakopita (Ispanaklı Filo Böreği, Fırın)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "hamurişi",
+      "fırın",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "filo yufka",
+        "qty": 10,
+        "unit": "yaprak"
+      },
+      {
+        "name": "ıspanak (kıyım, suyunu sık)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "taze soğan (ince)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "dilimlenmiş dereotu",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "feta/lor (ufalanmış)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı/tereyağı (eritilmiş, kat kat için)",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "karabiber-tuz",
+        "qty": 1,
+        "unit": "tutam"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ispanağı taze soğan ve dereotuyla karıştır; feta ve yumurtayı ekle, tuz-biber ayarla.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Tepsiye 5 filo yaprağını yağlayarak ser; içi yay; kalan 5 yaprağı da aralarını yağlayarak kapat.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Üstünü yağla; 180 °C fırında 35–40 dk kızarana dek pişir.",
+        "minutes": 40
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Keskin bir bıçakla karelere kesip servis et."
+  },
+  {
+    "id": "core-344",
+    "title": "Tiropita (Peynirli Filo Böreği, Üçgen)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "hamurişi",
+      "fırın",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "filo yufka",
+        "qty": 8,
+        "unit": "yaprak"
+      },
+      {
+        "name": "feta (ufalanmış)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yoğurt (isteğe bağlı, içi kremamsı yapmak için)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı/yağ (eritilmiş)",
+        "qty": 70,
+        "unit": "g"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Feta, yumurta (ve yoğurdu) karıştır.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Filo şeritlerine yağ sür; içten koyup üçgen sar.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "180 °C’de 20–25 dk kızarana dek pişir.",
+        "minutes": 25
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-345",
+    "title": "Fasolada (Beyaz Fasulye Çorbası, Zeytinyağlı)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "çorba",
+      "vegan",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "beyaz fasulye (geceden ıslatılmış)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kereviz sapı (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Islatılmış fasulyeyi süz; tencerede yeni suyla 40–50 dk yumuşat.",
+        "minutes": 50
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağında soğan, havuç, kerevizi sotele; domatesi ekle.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Fasulyeyi ve suyu ekle; kısıkta 25–30 dk daha pişir, tuzu ayarla.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 75,
+    "image": "",
+    "notes": "Üzerine çiğ sızma zeytinyağı gezdirilir."
+  },
+  {
+    "id": "core-346",
+    "title": "Revithada (Nohut Güveç – Sifnos Tarzı)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "fırın/tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "nohut (geceden ıslatılmış)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-biber",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Islatılmış nohutu süz; toprak güvece nohut, soğan, sarımsak, defne, yağ, tuz-biber ve suyu ekle.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Kapaklı olarak 160–170 °C fırında 2–2.5 saat pişir; limon suyuyla bitir.",
+        "minutes": 140
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 140,
+    "image": "",
+    "notes": "Düdüklüde ön haşlayıp süre kısaltılabilir."
+  },
+  {
+    "id": "core-347",
+    "title": "Fava Santorini (Bakla Püresi, Soğanlı)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "meze",
+      "vegan",
+      "diyet",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "sarıkız bakla (kırık bezelye benzeri, yoksa sarı bezelye)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (kaba doğranmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Baklayı soğan ve suyla kısık ateşte 35–40 dk yumuşayana dek pişir; köpüğü alın.",
+        "minutes": 40
+      },
+      {
+        "order": 2,
+        "text": "Tuz, limon ve zeytinyağı ekleyip pürüzsüz olana dek blenderdan geçir; üstüne karamelize soğanla servis edebilirsin.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Zeytinyağı üstte ince bir göl oluşturacak şekilde gezdirilir."
+  },
+  {
+    "id": "core-348",
+    "title": "Skordalia (Sarımsaklı Patates/Ekmek Ezmesi)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "meze",
+      "vegan",
+      "soğuk servis"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (haşlanmış)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "bayat ekmek içi (ıslatılıp sıkılmış, isteğe bağlı)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "beyaz şarap sirkesi",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patatesleri ez; sarımsak ve ekmek içini ekleyip karıştır.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağını ince akıtarak yedir; sirke ve tuzu ekleyip pürüzsüzleştir.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Cevizli varyasyonları da yaygındır."
+  },
+  {
+    "id": "core-349",
+    "title": "Psari Plaki (Fırında Domates-Soğanlı Balık)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "balık",
+      "fırın",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "beyaz etli balık fileto",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yarım ay)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (dilim)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (dilim)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "beyaz şarap",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "maydanoz (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tepside soğan, domates ve sarımsağı zeytinyağıyla harmanlayıp 200 °C fırında 10 dk önden pişir.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Üstüne balığı yerleştir; şarap ve tuzu ekle. 12–15 dk daha pişir.",
+        "minutes": 15
+      },
+      {
+        "order": 3,
+        "text": "Maydanozla bitir.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 28,
+    "image": "",
+    "notes": ""
+  },
+  {
+    "id": "core-350",
+    "title": "Saganaki (Kızarmış Peynir – Kefalotyri/Hellim)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "tava",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "kefalotyri/hellim (2 cm kalın dilim)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "limon dilimi",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Peyniri hafifçe una bulayın, fazlasını silk.",
+        "minutes": 2
+      },
+      {
+        "order": 2,
+        "text": "Sıcak tavada zeytinyağıyla iki yüzünü altın rengi olana dek kızart.",
+        "minutes": 4
+      },
+      {
+        "order": 3,
+        "text": "Limonla servis et.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "image": "",
+    "notes": "Peynir çok tuzluysa 10 dk suda beklet."
+  },
+  {
+    "id": "core-351",
+    "title": "Avgolemono Çorbası (Tavuklu-Limonlu Terbiyeli)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "çorba",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kemikli)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "pirinç veya orzo",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu su ve tuzla 30–35 dk kaynat; etini didikle, suyu süz.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Süzülen suya pirinç/orzoyu ekleyip yumuşayana dek pişir; tavuk etlerini geri koy.",
+        "minutes": 14
+      },
+      {
+        "order": 3,
+        "text": "Yumurta ve limon suyunu çırp; kaynar çorbadan kepçe kepçe ekleyerek ılıt (temperle). Karışımı tencereye ince akıt, kısıkta 1–2 dk çevir; kaynatma.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Avgolemono kesilmemesi için kaynatılmaz; en fazla buhar üzerinde ısıtılır."
+  },
+  {
+    "id": "core-352",
+    "title": "Soutzoukakia Smyrneika (Kimyonlu Köfte, Domates Sos)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava/tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "dana kıyma",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "bayat ekmek içi (sütte ıslatılmış)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kimyon (toz)",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "domates püresi (sos)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "kuru beyaz şarap (sos)",
+        "qty": 60,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kıyma, ekmek, yumurta, kimyon, sarımsak ve tuzu yoğur; uzun köfteler yap.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Köfteleri zeytinyağında yüzeyleri renk alana dek kızart; alın.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Aynı tavada şarapla tavanın dibini çöz; domates püresi ve az su ekleyip 5 dk kaynat. Köfteleri sosla 10 dk pişir.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Tarçın ve kimyon birlikteliği İzmir köklerine işaret eder."
+  },
+  {
+    "id": "core-353",
+    "title": "Gigantes Plaki (Fırında Büyük Fasulye, Domatesli)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "büyük lima fasulyesi (geceden ıslatılmış)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kereviz sapı (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Fasulyeyi tencerede yumuşayana dek haşla (45–60 dk), süz.",
+        "minutes": 60
+      },
+      {
+        "order": 2,
+        "text": "Fırın kabında fasulye, sebzeler, domates, zeytinyağı, su ve tuzu karıştır.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "180 °C fırında 50–60 dk pişir, üstü hafif karamelize olsun.",
+        "minutes": 60
+      }
+    ],
+    "prepMinutes": 12,
+    "cookMinutes": 120,
+    "image": "",
+    "notes": "Üstüne maydanoz ve feta ile servis popülerdir (vegan değil)."
+  },
+  {
+    "id": "core-354",
+    "title": "Galaktoboureko (Şerbetli Sütlü İrmik Tatlısı, Filo)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "şerbet"
+    ],
+    "ingredients": [
+      {
+        "name": "filo yufka",
+        "qty": 10,
+        "unit": "yaprak"
+      },
+      {
+        "name": "tereyağı (eritilmiş)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "süt",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "irmik (ince)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "limon kabuğu şeridi (krema)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "şerbet için su",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "şerbet için şeker",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "limon suyu (şerbet)",
+        "qty": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Süt, şeker ve limon kabuğunu ısıt; irmiği yağmur gibi ekleyip koyulaştır. Ilıyınca çırpılmış yumurtaları hızla yedir.",
+        "minutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Tepsiye 5 filo yaprağını yağlayarak ser; kremayı dök; kalan 5 yaprakla kapat, üstünü yağla.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "180 °C fırında 35–40 dk pişir. Şerbeti 7–8 dk kaynat; fırından çıkan tatlıya ılık-ılık dök.",
+        "minutes": 48
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Sıcak tatlı + ılık şerbet dengesi önemli."
+  },
+  {
+    "id": "core-355",
+    "title": "Loukoumades (Ballı Lokma, Tarçınlı)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "tatlı",
+      "kızartma"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "instant maya",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "şeker",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "ılık su/süt",
+        "qty": 260,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çimdik"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "bal (servis)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "tarçın (servis)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, maya, şeker ve tuzu karıştır; ılık sıvıyla akışkan hamur yap. 45–60 dk kabart.",
+        "minutes": 60
+      },
+      {
+        "order": 2,
+        "text": "Hamurdan yağlı kaşıkla toplar alıp 175–180 °C yağda altın rengi olana dek kızart.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Bal ve tarçınla sıcak servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Susam veya kıyılmış cevizle de servis edilir."
+  },
+  {
+    "id": "core-356",
+    "title": "Portokalopita (Portakallı Şerbetli Yoğurtlu Tatlı)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "şerbet"
+    ],
+    "ingredients": [
+      {
+        "name": "yufka (kurutulmuş, kırpılmış)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "yoğurt",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "ayçiçek yağı",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "portakal kabuğu rendesi",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "şerbet için su",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "şerbet için şeker",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "portakal suyu (şerbet)",
+        "qty": 120,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yufkayı fırında kısa kurutup elde ufala. Yoğurt, yumurta, şeker, yağ ve portakal kabuğunu çırp.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Kırpık yufkayı karışıma ekleyip tepsiye yay; 170 °C fırında 35–40 dk pişir.",
+        "minutes": 40
+      },
+      {
+        "order": 3,
+        "text": "Şerbeti 6–7 dk kaynat; ılıkken sıcak tatlının üzerine dök. Soğutup servis et.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Yufkanın kurutulması iç karışımın sulanmasını engeller."
+  },
+  {
+    "id": "core-357",
+    "title": "Spanakorizo (Ispanaklı Zeytinyağlı Pirinç)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tencere",
+      "diyet"
+    ],
+    "ingredients": [
+      {
+        "name": "ıspanak (kıyım)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "pirinç (yuvarlak taneli)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "taze soğan (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "dereotu (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "domates salçası (isteğe bağlı)",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "su/sebze suyu (sıcak)",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tencerede zeytinyağında soğan ve taze soğanı yumuşat; salçayı ekleyip 1 dk kavur.",
+        "minutes": 7
+      },
+      {
+        "order": 2,
+        "text": "Pirinç ve ıspanağı ilave et; ıspanak sönünce sıcak suyu ve tuzu ekle.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Kısık ateşte kapağı yarı kapalı 18–20 dk pirinç yumuşayana dek pişir; dereotu ve limon suyuyla bitir, 5 dk demlendir.",
+        "minutes": 25
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Kıvam hafif sulu ve kremamsı olmalı; gerekirse 50–100 ml sıcak su ekle."
+  },
+  {
+    "id": "core-358",
+    "title": "Fasolakia Lathera (Zeytinyağlı Taze Fasulye)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "taze fasulye (kırpılmış)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "patates (küp, isteğe bağlı)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (dilim)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı (cömert)",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-şeker",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında soğan ve sarımsağı 5–6 dk sotele.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Fasulye, domates, patates, su ve tuzu ekle; kaynat.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Kısık ateşte kapağı yarı kapalı 45–55 dk fasulye yumuşayana dek pişir; 15 dk dinlendir.",
+        "minutes": 60
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "image": "",
+    "notes": "Serviste bol sızma yağ ve limon yakışır."
+  },
+  {
+    "id": "core-359",
+    "title": "Bamies Latheres (Zeytinyağlı Bamya)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "vegan",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "bamya (uçları konik kesilmiş)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "sirke (ön işlem)",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 90,
+        "unit": "ml"
+      },
+      {
+        "name": "su",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker (domates asidi dengeleme)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 15,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bamyayı 10 dk sirkeyle harmanlayıp süz; sümüksü sıvıyı azaltmak için kurula.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Soğanı yağda sotele; bamya ve domatesi ekle, su ve tuzla kaynat.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Kısık ateşte 35–40 dk karıştırmadan pişir; şeker ve limonla tadını ayarla.",
+        "minutes": 40
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Karıştırmak bamyanın yapısını bozabilir; tencereyi sallayarak hareket ettirin."
+  },
+  {
+    "id": "core-360",
+    "title": "Lahanodolmades Avgolemono (Lahana Sarması, Limonlu Terbiyeli)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "lahana (bütün)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kıyma (dana-kuzu karışık)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "pirinç",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "su/et suyu",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber-kekik",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Lahananın kök kısmını çıkar; yaprakları 5–6 dk kaynar suda haşla, soğuk suya al.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Kıyma, pirinç, soğan, 1 yumurta, 1 yemek kaşığı limon ve baharatları yoğur; yapraklara sar.",
+        "minutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Tencereye sıkı diz; su/et suyu ve zeytinyağı ekle. Üstüne tabak kapatıp kısık ateşte 45 dk pişir.",
+        "minutes": 45
+      },
+      {
+        "order": 4,
+        "text": "Avgolemono: Kalan yumurta ve limon suyunu çırp; tencereden sıcak sudan kepçe kepçe ekleyerek ılıtıp tencereye dök, 2 dk kısıkta çevir (kaynatma).",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 30,
+    "cookMinutes": 55,
+    "image": "",
+    "notes": "Avgolemono kesilmemesi için ocak en kısıkta ve kaynama yok."
+  },
+  {
+    "id": "core-361",
+    "title": "Bakaliaros me Skordalia (Kızarmış Tuzlu Morina + Sarımsak Ezmeli)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "balık",
+      "kızartma",
+      "meze"
+    ],
+    "ingredients": [
+      {
+        "name": "tuzlu morina (tuzu alınmış)",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "mısır nişastası",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 4,
+        "unit": "g"
+      },
+      {
+        "name": "soğuk soda/şişe bira",
+        "qty": 220,
+        "unit": "ml"
+      },
+      {
+        "name": "ayçiçek yağı (kızartma)",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "patates (haşlanmış, skordalia için)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (skordalia)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı (skordalia)",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "sirke",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Morinayı 24–36 saat suda bekletip tuzunu çıkar; suyunu birkaç kez değiştir.",
+        "minutes": 1440
+      },
+      {
+        "order": 2,
+        "text": "Un, nişasta, kabartma ve içecekle akışkan bir kaplama hamuru hazırla.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Balık parçalarını hamura bulayıp 180 °C yağda 4–5 dk kızart, kağıda al.",
+        "minutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Skordalia: Patatesi ez; sarımsak, zeytinyağı ve sirkeyi ince akıtarak yedir, tuzu ayarla.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Geleneksel olarak 25 Mart’ta servis edilir."
+  },
+  {
+    "id": "core-362",
+    "title": "Garides Saganaki (Feta’lı Domatesli Karides)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "deniz ürünleri",
+      "tava",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "karides (ayıklanmış, kuyruklu olabilir)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (ince)",
+        "qty": 0.5,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş)",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "ouzo/beyaz şarap (isteğe bağlı)",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "feta (küçük küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "pul biber",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Zeytinyağında soğan ve sarımsağı sotele; ouzo/şarapla tavanın dibini çöz.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Domates ve tuzu ekleyip 8–10 dk koyulaştır; karidesleri katıp 2–3 dk pişir.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Üstüne feta serpip fırın ızgarasında 2–3 dk kızart; pul biberle servis et.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Taze fesleğen veya maydanoz serpebilirsin."
+  },
+  {
+    "id": "core-363",
+    "title": "Htapodi sta Karvouna (Izgara Ahtapot, Oregano-Limon)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "deniz ürünleri",
+      "ızgara"
+    ],
+    "ingredients": [
+      {
+        "name": "ahtapot (temizlenmiş)",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "defne",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sirke (haşlama suyuna)",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "kuru kekik/oregano",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Ahtapotu defne ve bir tutam sirkeyle kapaklı tencerede kendi suyunda 40–50 dk yumuşayana dek pişir; soğut.",
+        "minutes": 50
+      },
+      {
+        "order": 2,
+        "text": "Zeytinyağı, limon, oregano ve tuzla karıştır.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Çok sıcak ızgarada her yüzünü 2–3 dk kızart; dilimleyip sosla servis et.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "image": "",
+    "notes": "Haşlama sonrası ızgarada karamelizasyon için yüzey tamamen kuru olmalı."
+  },
+  {
+    "id": "core-364",
+    "title": "Psarosoupa Avgolemono (Limon Terbiyeli Balık Çorbası)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "çorba",
+      "deniz ürünleri",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "beyaz etli bütün balık (temizlenmiş)",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "havuç (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "pırasa/soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "patates (küp)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "pirinç",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Balığı sebzeler, zeytinyağı ve 1.5 L suyla 20 dk nazikçe kaynat; balığı çıkar, suyunu süz.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Süzülen suya pirinç ve patatesi ekleyip yumuşayana dek pişir; balık etini didikle, tencereye geri koy.",
+        "minutes": 15
+      },
+      {
+        "order": 3,
+        "text": "Avgolemono: Yumurta ve limonu çırp; sıcak çorbadan kepçe kepçe ekleyerek ılıt ve tencereye dök. Kaynatmadan 1–2 dk çevir.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Balığı fazla kaynatma; et dağılır ve su bulanır."
+  },
+  {
+    "id": "core-365",
+    "title": "Trahanosoupa (Trahana Çorbası)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "çorba",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "kuru trahana (ekşi veya tatlı)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "süt (veya su/sebze suyu)",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "tereyağı/zeytinyağı",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.75,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "karabiber",
+        "qty": 0.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sütü kaynama noktasına getir; trahanayı yağmur gibi ekle, karıştır.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Kısık ateşte 12–15 dk şişene dek pişir; tereyağı/yağ ve tuz-biberle bitir.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 3,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Üstüne ezilmiş feta serpip servis etmek yaygın."
+  },
+  {
+    "id": "core-366",
+    "title": "Hilopites me Kotopoulo (Tavuklu Ev Eriştesi)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere",
+      "makarna"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kemikli)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "hilopites (yumurtalı erişte)",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates püresi",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk suyu",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "tarçın (uç)",
+        "qty": 0.1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu yağda kızart; soğanı ekleyip sotele. Domates ve tarçını ekle.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Tavuk suyunu ekleyip 25 dk kısıkta pişir, tavuğu çıkar didikle.",
+        "minutes": 27
+      },
+      {
+        "order": 3,
+        "text": "Erişteyi tencereye ekle; 8–10 dk pişir. Tavuğu geri koy, tuzu ayarla.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Serviste rendelenmiş kefalotyri veya parmesan benzeri peynir serpilebilir."
+  },
+  {
+    "id": "core-367",
+    "title": "Biftekia (Yunan Köftesi, Izgara)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ızgara",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "dana kıyma",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "bayat ekmek içi (sütte ıslatılmış, sıkılmış)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (rendelenmiş)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "kuru kekik",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "taze nane/maydanoz (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm malzemeyi nazikçe yoğur; 30 dk buzdolabında dinlendir.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Oval köfteler şekillendir; ızgarada veya döküm tavada her yüzünü 3–4 dk pişir.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "İçine az sirke eklemek yumuşaklık verir."
+  },
+  {
+    "id": "core-368",
+    "title": "Hirino Souvlaki (Domuz Şiş, Limon-Kekik Marineli)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ızgara",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "domuz eti (but/bonfile, küp)",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "kekik/oregano",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "şiş",
+        "qty": 8,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti marinadla karıştır; 2–4 saat buzdolabında beklet.",
+        "minutes": 180
+      },
+      {
+        "order": 2,
+        "text": "Şişe diz; çok sıcak ızgarada 8–10 dk çevirerek pişir.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Pide, soğan-domates ve tzatziki ile servis et."
+  },
+  {
+    "id": "core-369",
+    "title": "Kotopoulo Lemonato (Limonlu Fırın Tavuk)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "tavuk but (kemikli)",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "kekik/oregano",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "patates (iri parça, isteğe bağlı)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu limon, yağ, sarımsak ve baharatla harmanla; patatesle birlikte tepsiye yay.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "200 °C fırında 45–55 dk, derisi çıtır olana dek pişir; arada tepsi suyuyla üstünü ıslat.",
+        "minutes": 55
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 55,
+    "image": "",
+    "notes": "Son 5 dk ızgara açık kahverengi bir kabuk sağlar."
+  },
+  {
+    "id": "core-370",
+    "title": "Patates Lemonates (Limonlu Fırın Patates)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "yan yemek",
+      "fırın",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "patates (kalın dilim veya bıçakla çatlatılmış)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "sarımsak (ezilmiş)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "su/et suyu",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "kekik/oregano",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm malzemeyi tepside karıştır; patatesleri tek kat yay.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "200 °C fırında 50–60 dk, yarısında çevirerek, köşeleri karamelize olana dek pişir.",
+        "minutes": 60
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "image": "",
+    "notes": "Suyun buharlaşıp patateslerin yağda kızarması önemli."
+  },
+  {
+    "id": "core-371",
+    "title": "Dakos (Girit Arpa Peksimetli Salata)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "salata",
+      "soğuk servis",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "arpa peksimeti (dakos)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (rendelenmiş veya küp)",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "mizithra/feta (ufalanmış)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı (sızma)",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "kekik (kurutulmuş)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "kapari (isteğe bağlı)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Peksimetleri hafifçe suyla ıslat; domates, tuz ve zeytinyağıyla sosla.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Üstüne peynir, kekik ve (varsa) kapari ekleyip bekletmeden servis et.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Peksimet fazla ıslanırsa yumuşar; dikkatli ol."
+  },
+  {
+    "id": "core-372",
+    "title": "Tirokafteri (Acılı Feta Ezmesi)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "meze",
+      "soğuk servis",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "feta",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "yoğurt (süzme)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "közlenmiş kırmızı biber",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "sirke/limon suyu",
+        "qty": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "acı pul biber",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Feta ve yoğurdu ez; zeytinyağı ve asidi ekle.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Köz biber ve pul biberi karıştır; 15 dk buzdolabında dinlendir.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Biber acılığını damak tadına göre ayarla."
+  },
+  {
+    "id": "core-373",
+    "title": "Taramasalata (Balık Havyarı Ezmesi)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "meze",
+      "soğuk servis",
+      "deniz ürünleri"
+    ],
+    "ingredients": [
+      {
+        "name": "taram (tuzlu balık havyarı)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "bayat ekmek içi (ıslatılıp sıkılmış)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (rendesi veya suyu)",
+        "qty": 1,
+        "unit": "yemek kaşığı"
+      },
+      {
+        "name": "limon suyu",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "su (kıvam)",
+        "qty": 30,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Havyarı limon suyu ve soğanla çırp; ekmeği ekle.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "El blenderıyla çekerken zeytinyağını ince akıtarak emülsiyon oluştur; kıvamı suyla ayarla.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Patatesle de yapılır; ekmek yerine haşlanmış patates kullanabilirsin."
+  },
+  {
+    "id": "core-374",
+    "title": "Koulouri Thessalonikis (Susamlı Halkalı Ekmek)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ekmek",
+      "fırın",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "un (ekmeklik)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "ılık su",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "instant maya",
+        "qty": 7,
+        "unit": "g"
+      },
+      {
+        "name": "şeker",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "pekmez + su (1:1 kaplama)",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "susam",
+        "qty": 120,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, maya, su, şeker, tuz ve yağı yoğur; 60 dk mayalandır.",
+        "minutes": 70
+      },
+      {
+        "order": 2,
+        "text": "Hamuru 8 şerit yapıp halka birleştir; pekmezli suya batır, susama bulayıp tepsiye diz.",
+        "minutes": 15
+      },
+      {
+        "order": 3,
+        "text": "200 °C fırında 15–18 dk pişir.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": "Fırın tabanına bir kap su, parlak kabuk için buhar sağlar."
+  },
+  {
+    "id": "core-375",
+    "title": "Pita (Yunan Pidesi, Cezvede/Tavada)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "ekmek",
+      "tava",
+      "vegan"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "ılık su",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "instant maya",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "şeker",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 20,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Malzemeleri yoğur; 45–60 dk mayalandır.",
+        "minutes": 60
+      },
+      {
+        "order": 2,
+        "text": "8 bezeye böl; 18–20 cm aç.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Döküm tavayı çok ısıt; her pita’yı 1–2 dk/yanı kabarıp beneklenene dek pişir.",
+        "minutes": 16
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 16,
+    "image": "",
+    "notes": "Pişen pideleri temiz bezde üst üste koy, yumuşak kalsın."
+  },
+  {
+    "id": "core-376",
+    "title": "Bougatsa (Kremalı Filo Pastası)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "filo yufka",
+        "qty": 8,
+        "unit": "yaprak"
+      },
+      {
+        "name": "tereyağı (eritilmiş)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "süt",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "irmik (ince)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "vanilya",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "pudra şekeri + tarçın (servis)",
+        "qty": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Süt ve şekeri ısıt; irmiği ekleyip koyulaştır, ocaktan alınca yumurta ve vanilyayı hızlıca karıştır.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "4 filo yaprağını yağlayarak üst üste ser; kremayı yay; üzerine 4 yaprak daha serip kenarları kapat.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "180 °C fırında 30–35 dk pişir; pudra-tarçınla servis et.",
+        "minutes": 35
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Dilimlemeden önce 10 dk dinlendir."
+  },
+  {
+    "id": "core-377",
+    "title": "Kataifi (Tel Kadayıflı Şerbetli Tatlı – Yunan Usulü)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "şerbet"
+    ],
+    "ingredients": [
+      {
+        "name": "kataifi (tel kadayıf)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı (eritilmiş)",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "ceviz/iç fındık (kıyım)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "tarçın (toz)",
+        "qty": 0.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "şeker (şerbet)",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "su (şerbet)",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "bal (şerbet)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "limon suyu (şerbet)",
+        "qty": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Cevizi tarçınla karıştır. Tel kadayıfı tel tel aç; içten koyup rulo sar, tepsiye diz.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Üstüne eritilmiş tereyağı gezdir; 180 °C fırında 40–45 dk kızart.",
+        "minutes": 45
+      },
+      {
+        "order": 3,
+        "text": "Şerbeti 8–10 dk kaynat; ılıkken sıcak tatlının üzerine dök, çekmesini bekle.",
+        "minutes": 15
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Bal şerbeti kapatırken eklenirse aroması korunur."
+  },
+  {
+    "id": "core-378",
+    "title": "Karydopita (Cevizli Şerbetli Kek)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "şerbet"
+    ],
+    "ingredients": [
+      {
+        "name": "ceviz (ince kıyım)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "un",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "irmik (ince)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "yoğurt",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı (eritilmiş)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "tarçın + karanfil (toz)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "su (şerbet)",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker (şerbet)",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "limon suyu (şerbet)",
+        "qty": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yumurta ve şekeri çırp; yoğurt ve tereyağını ekle. Kuru malzemeleri katıp spatulayla homojenleştir.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Karışımı kalıba dök; 170 °C fırında 35–40 dk pişir.",
+        "minutes": 40
+      },
+      {
+        "order": 3,
+        "text": "Şerbeti 7–8 dk kaynat; fırından çıkan keke ılık şerbeti dök.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Kek sıcak, şerbet ılık olmalı."
+  },
+  {
+    "id": "core-379",
+    "title": "Rizogalo (Yunan Sütlaç, Tarçınlı)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "tatlı",
+      "tencere",
+      "sütlü",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç (kısa taneli)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "süt",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "mısır nişastası (kıvam için)",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "vanilya",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "tarçın (servis)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pirinci 10 dk suda kaynatıp süz; nişastayı az sütle aç.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Süt ve şekeri tencereye al; pirinci ekleyip kısıkta sık karıştırarak 25–30 dk pişir.",
+        "minutes": 30
+      },
+      {
+        "order": 3,
+        "text": "Nişasta karışımını ve vanilyayı ekleyip 2–3 dk koyulaştır; kaselere pay edip tarçın ser.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Soğudukça koyulaşır; çok yoğun ise biraz sütle açılabilir."
+  },
+  {
+    "id": "core-380",
+    "title": "Melomakarona (Ballı Portakallı Kurabiye)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "un",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "irmik (ince)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "portakal suyu",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "toz şeker",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "kabartma tozu",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "tarçın + karanfil (toz)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "bal (şerbet)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "su (şerbet)",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "şeker (şerbet)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "ceviz (üzeri, kıyım)",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sıvıları ve şekeri karıştır; un, irmik ve kabartmayı ekleyip yoğur, oval kurabiyeler yap.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "180 °C fırında 22–25 dk pişir.",
+        "minutes": 25
+      },
+      {
+        "order": 3,
+        "text": "Şerbet malzemelerini 3–4 dk kaynat; ılık şerbette sıcak kurabiyeleri 20–30 sn tut; üzerini cevizle süsle.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Balı uzun kaynatma; aroması kaybolur."
+  },
+  {
+    "id": "core-381",
+    "title": "Kourabiedes (Bademli Pudra Şekerli Kurabiye)",
+    "cuisine": "yunan mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "tereyağı (oda sıcaklığında)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "pudra şekeri",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta sarısı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "un",
+        "qty": 320,
+        "unit": "g"
+      },
+      {
+        "name": "badem (kavrulmuş, kıyım)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "vanilya",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "pudra şekeri (kaplama)",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tereyağı ve pudra şekerini beyazlayana dek çırp; yumurta sarısı ve vanilyayı ekle.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Unu ve bademi ekleyip hamuru topla; hilal/yuvarlak şekil ver.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "170 °C fırında 18–20 dk pişir; ılıkken pudra şekerine bulayarak kapla.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Kurabiyeler tamamen soğuyunca ikinci kez pudra şekeri serpilebilir."
   }
 ]
