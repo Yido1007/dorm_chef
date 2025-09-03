@@ -33361,5 +33361,816 @@
     "cookMinutes": 10,
     "image": "",
     "notes": "Taze meyve ve pudra şekeriyle tamamlayın."
+  },
+  {
+    "id": "core-431",
+    "title": "Hünkar Beğendi (Kuzu Sote Üzerine Beğendi)",
+    "cuisine": "türk mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın+tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "kuzu kuşbaşı",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "sarımsak (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "domates salçası",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "su/et suyu (sıcak)",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "patlıcan (bütün)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "un (beğendi)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "süt (ılık, beğendi)",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "kaşar/erzincan tulum (rendelenmiş)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "muskat (uç)",
+        "qty": 0.1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patlıcanları çatal ile del; 240 °C fırında ya da ocak alevinde közle. Kabuklarını soyup bıçakla çok ince kıy.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Geniş tencerede zeytinyağıyla kuzu etini yüksek ısıda mühürle. Soğan ve sarımsağı ekleyip 3–4 dk sotele; salçayı kavur.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Sıcak su/et suyunu, tuz ve karabiberi ekle; kapağı yarı kapalı kısıkta et yumuşayana dek pişir.",
+        "minutes": 45
+      },
+      {
+        "order": 4,
+        "text": "Beğendi: Tencerede tereyağını erit; unu 2 dk kavur. Ilık sütü azar azar ekleyip pürüzsüzleştir. Köz patlıcan, peynir ve muskatı kat; tuzu ayarla.",
+        "minutes": 10
+      },
+      {
+        "order": 5,
+        "text": "Beğendiyi tabağa yayın; üzerine kuzu soteyi ve sosunu gezdirerek servis edin.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 70,
+    "image": "",
+    "notes": "Etin çok yumuşaması için pişme süresini parça büyüklüğüne göre 10–15 dk uzatabilirsiniz."
+  },
+  {
+    "id": "core-432",
+    "title": "Alinazik Kebabı (Yoğurtlu Köz Patlıcan Üzerine Kıymalı)",
+    "cuisine": "türk mutfağı",
+    "tags": [
+      "ana yemek",
+      "tava",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "patlıcan (bütün)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "süzme yoğurt",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "sarımsak (dövülmüş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "kıyma (dana-kuzu karışık)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "domates salçası",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "biber salçası",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tuz-karabiber-kırmızı toz biber",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patlıcanları közleyip soyun; bıçakla kıyın. Yoğurdu sarımsak ve tuzla karıştırıp patlıcanla birleştirin.",
+        "minutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Tavada kıymayı yağsız kavurun; tereyağı, salçalar ve baharatları ekleyip 3–4 dk daha pişirin.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Yoğurtlu patlıcanı tabağa yayın; üzerine kıymalı sosu gezdirip sıcak servis edin.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Üzerine tereyağında yakılmış pul biber gezdirmek lezzeti artırır."
+  },
+  {
+    "id": "core-433",
+    "title": "Tas Kebabı (Patatesli Dana Yahni)",
+    "cuisine": "türk mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "dana kuşbaşı",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (yemeklik)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "havuç (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "patates (küp)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "domates salçası",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "su (sıcak)",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber-kekik",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti zeytinyağında yüksek ateşte mühürleyin; rengi dönünce alın.",
+        "minutes": 7
+      },
+      {
+        "order": 2,
+        "text": "Aynı tencerede tereyağıyla soğan ve havucu soteleyin; salçayı kavurun.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Eti geri koyup sıcak suyu ekleyin; kısık ateşte 40 dk pişirin. Patates ve baharatları ekleyip 20 dk daha pişirin.",
+        "minutes": 60
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "image": "",
+    "notes": "Pişirme sonunda sosun parlak olması için 1 çay kaşığı tereyağı ekleyebilirsiniz."
+  },
+  {
+    "id": "core-434",
+    "title": "Orman Kebabı (Bezelyeli Sebzeli Et Yemeği)",
+    "cuisine": "türk mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "dana kuşbaşı",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "patates (küp)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "havuç (küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "bezelye (haşlanmış/dondurulmuş)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "biber salçası",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "domates (küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "su/et suyu",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber-kekik",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti yağda mühürleyin, soğanı ekleyip soteleyin; salçayı kavurun.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Domates ve suyu ekleyin; 35–40 dk kısıkta pişirin.",
+        "minutes": 40
+      },
+      {
+        "order": 3,
+        "text": "Patates, havuç ve bezelyeyi ekleyip sebzeler yumuşayana dek pişirin.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "image": "",
+    "notes": "Döküm tencerede pişirmek ısıyı eşit dağıtır."
+  },
+  {
+    "id": "core-435",
+    "title": "İzmir Köfte (Fırında Patatesli Domates Soslu)",
+    "cuisine": "türk mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "dana kıyma",
+        "qty": 700,
+        "unit": "g"
+      },
+      {
+        "name": "bayat ekmek içi (ıslatılıp sıkılmış)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (rendelenmiş)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "yumurta",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "kimyon-karabiber-tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "patates (kalın dilim)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "domates salçası",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "domates (dilim)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "biber (sivri, bütün)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "su",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Köfte harcını yoğurun; uzun köfteler yapın. Patatesleri 200 °C fırında 10 dk ön pişirin.",
+        "minutes": 18
+      },
+      {
+        "order": 2,
+        "text": "Tepsiye patates, köfte, biber ve domatesi dizin. Salçayı suyla açıp zeytinyağı ekleyin; tepsiye dökün.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "200 °C fırında 30–35 dk pişirin; sosu koyulaşınca çıkarın.",
+        "minutes": 35
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Patatesleri hafif kızartıp eklemek de olur; süreyi kısaltır."
+  },
+  {
+    "id": "core-436",
+    "title": "Perde Pilavı (Siirt Usulü)",
+    "cuisine": "türk mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın",
+      "pirinç"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç (baldo)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk (haşlanmış, didiklenmiş)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "badem (blanşe)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "kuş üzümü",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı (pilav)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tavuk suyu (sıcak)",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber-tarçın (uç)",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "un (hamur)",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "yoğurt (hamur)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "yumurta (hamur)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "tereyağı (hamur)",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Hamur malzemelerini yoğurun; 20 dk dinlendirin. Bademleri tereyağında kızartıp kalıbın tabanına serpin.",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Pilav: Pirinci yıkayıp süzün; tereyağında kavurun. Sıcak tavuk suyunu ekleyip kuş üzümü ve baharatlarla demleyin.",
+        "minutes": 25
+      },
+      {
+        "order": 3,
+        "text": "Hamuru merdaneyle ince açın; yağlanmış derin kalıba yerleştirin. Pilav ve tavuğu yerleştirip hamurla kapatın.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "180 °C fırında 35–40 dk pişirin; 10 dk dinlendirip ters çevirerek servis edin.",
+        "minutes": 45
+      }
+    ],
+    "prepMinutes": 30,
+    "cookMinutes": 60,
+    "image": "",
+    "notes": "Kalıbı iyi yağlamak ve bademleri sabitlemek sunumu güzelleştirir."
+  },
+  {
+    "id": "core-437",
+    "title": "Keşkek (Ege/İç Anadolu)",
+    "cuisine": "türk mutfağı",
+    "tags": [
+      "ana yemek",
+      "tencere",
+      "glütensiz"
+    ],
+    "ingredients": [
+      {
+        "name": "dövme buğday (aşurelik)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "kuzu/kümes hayvanı eti (kemikli)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 2500,
+        "unit": "ml"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "pul biber (üstü için)",
+        "qty": 1,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Buğdayı gece ıslatın. Etle birlikte geniş tencerede suyla kaynatın, üzerinde biriken köpüğü alın.",
+        "minutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Kısık ateşte ara ara ezerek 2–2.5 saat pişirin; et kemikten ayrılınca didikleyip tencereye geri koyun.",
+        "minutes": 150
+      },
+      {
+        "order": 3,
+        "text": "Tuzunu ayarlayıp tereyağını ekleyin. Serviste eritilmiş tereyağı ve pul biber gezdirin.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 160,
+    "image": "",
+    "notes": "Düdüklü tencerede toplam süre ciddi kısalır (yaklaşık 60–70 dk)."
+  },
+  {
+    "id": "core-438",
+    "title": "Tantuni (Mersin Usulü Et Dürüm)",
+    "cuisine": "türk mutfağı",
+    "tags": [
+      "sokak lezzeti",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "dana antrikot/kontrfile (çok ince şerit)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "su",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "kuyruk yağı (kıyak, isteğe bağlı)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "toz kırmızı biber-kimyon-tuz",
+        "qty": 2,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "lavaş",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "soğan (ince piyaz)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "domates (küp)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "maydanoz (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "limon",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Geniş sac/tavaya et, su ve tuzu alın; su çekene dek yüksek ısıda karıştırarak pişirin.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Kuyruk yağı (veya az sıvı yağ) ve baharatları ekleyip 2–3 dk çevirin.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Lavaşları tavada ısıtıp yağlayın; eti, soğan, domates ve maydanozla sarın. Limon sıkıp servis edin.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Tavayı aşırı doldurmayın; et buharlaşmasın, sote kalsın."
+  },
+  {
+    "id": "core-439",
+    "title": "Hamsili Pilav (Karadeniz)",
+    "cuisine": "türk mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın",
+      "balık"
+    ],
+    "ingredients": [
+      {
+        "name": "hamsi (ayıklanmış fileto)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "pirinç (baldo)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "dolmalık fıstık",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "kuş üzümü",
+        "qty": 25,
+        "unit": "g"
+      },
+      {
+        "name": "taze soğan (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "dereotu (kıyım)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı + zeytinyağı",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "tuz-karabiber-yenibahar",
+        "qty": 1.5,
+        "unit": "çay kaşığı"
+      },
+      {
+        "name": "limon",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pirinçi 20 dk ılık suda bekletip süzün. Soğanı yağla soteleyin; fıstık-kuş üzümünü ekleyip kavurun, pirinci katın.",
+        "minutes": 15
+      },
+      {
+        "order": 2,
+        "text": "1:1.5 oranında sıcak su ve baharatları ekleyin; suyunu hafif çektirip taze soğan-dereotunu karıştırın.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Yağlanmış tepsiye hamsileri derileri dışa bakacak şekilde döşeyin; pilavı yayıp üstünü yine hamsiyle kapatın.",
+        "minutes": 10
+      },
+      {
+        "order": 4,
+        "text": "200 °C fırında 18–20 dk pişirin; limonla servis edin.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Pilavı fırında aşırı kurutmamak için iç harcı hafif sulu bırakın."
+  },
+  {
+    "id": "core-440",
+    "title": "Bolu Mengen Pilavı (Mantarlı-Etli)",
+    "cuisine": "türk mutfağı",
+    "tags": [
+      "ana yemek",
+      "pirinç",
+      "tava+tencere"
+    ],
+    "ingredients": [
+      {
+        "name": "pirinç (baldo)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "sığır/kuzu kuşbaşı (minik)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "kültür mantarı (dilim)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "tereyağı",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "et suyu (sıcak)",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "tuz-karabiber",
+        "qty": 1.25,
+        "unit": "çay kaşığı"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pirinçi ılık suda 20 dk bekletip süzün. Eti tereyağında kavurun; mantarı ekleyip suyunu çektirin.",
+        "minutes": 18
+      },
+      {
+        "order": 2,
+        "text": "Pirinçi ekleyip 2–3 dk çevirin; sıcak et suyu ve tuzu katıp kapağı kapatın.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Kısık ateşte suyunu çekene dek pişirin; 15 dk demlendirip servis edin.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Demleme esnasında kapağın altına havlu peçete koymak buharı dengeler."
   }
 ]
