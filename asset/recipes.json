@@ -29185,5 +29185,4181 @@
     "cookMinutes": 20,
     "image": "",
     "notes": "Kurabiyeler tamamen soğuyunca ikinci kez pudra şekeri serpilebilir."
+  },
+  {
+    "id": "382",
+    "title": "Tartiflette (Reblochonlu Patates Graten)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın",
+      "peynirli"
+    ],
+    "ingredients": [
+      {
+        "name": "Patates (iri dilim)",
+        "qty": 1200,
+        "unit": "g"
+      },
+      {
+        "name": "Reblochon peyniri (ikiye kesilmiş)",
+        "qty": 450,
+        "unit": "g"
+      },
+      {
+        "name": "Bacon/lardon (küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Soğan (yarım ay)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Sarımsak (ezilmiş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Kuru beyaz şarap",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Krema (crème fraîche)",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patatesleri tuzlu suda 10–12 dk haşlayıp süzün; kalın dilimleyin.",
+        "minutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Tavada bacon’u kızartın; soğan ve sarımsağı ekleyip yumuşatın.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Şarapla deglaze edin; krema, tuz ve biber ekleyip 2 dk kaynatın.",
+        "minutes": 4
+      },
+      {
+        "order": 4,
+        "text": "Yağlanmış fırın kabına patates–soğan karışımını kat kat yerleştirin.",
+        "minutes": 4
+      },
+      {
+        "order": 5,
+        "text": "Üste Reblochon’un kabuklu yüzü yukarı bakacak şekilde yerleştirip 200°C’de kızarana dek pişirin.",
+        "minutes": 25
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Reblochon bulamazsanız yumuşak kabuklu, iyi eriyen peynirlerle (taleggio, brie) deneyebilirsiniz."
+  },
+  {
+    "id": "383",
+    "title": "Steak Frites (Café de Paris Tereyağlı)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "ızgara",
+      "patates"
+    ],
+    "ingredients": [
+      {
+        "name": "Antrikot (2 adet, 3–4 cm)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Patates (ince şerit)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Ayçiçek yağı (kızartma)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "Tuz (pul ve iri taneli)",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber (taze çekilmiş)",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı (oda ısısı)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Maydanoz (ince kıyılmış)",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Sarımsak (rendelenmiş)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Dijon hardalı",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Limon suyu",
+        "qty": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Kapari (kıyılmış)",
+        "qty": 10,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tereyağına maydanoz, sarımsak, hardal, limon ve kapariyi karıştırıp rulo yaparak buzdolabında sertleştirin.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Patatesleri 10 dk soğuk suda bekletip kurulayın; 140°C yağda 5–6 dk ön kızartma yapın.",
+        "minutes": 20
+      },
+      {
+        "order": 3,
+        "text": "Steak’leri tuzlayıp çok sıcak döküm tavada her yüzünü 2–3 dk mühürleyin; 180°C fırında istenen pişmeye getirin.",
+        "minutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Patatesleri 190°C yağda tekrar kızartıp çıtırlaştırın; tuzlayın.",
+        "minutes": 6
+      },
+      {
+        "order": 5,
+        "text": "Steak’in üstüne Café de Paris tereyağı dilimi koyup frites ile servis edin.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Etinizi pişirmeden önce 30 dk oda ısısında bekletmek daha homojen sonuç verir."
+  },
+  {
+    "id": "384",
+    "title": "Poulet Rôti (Fırında Otlu Bütün Tavuk)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın",
+      "tavuk"
+    ],
+    "ingredients": [
+      {
+        "name": "Bütün tavuk",
+        "qty": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı (yumuşak)",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Sarımsak (bütün dişler, ezilmiş)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Limon (ikiye)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Taze kekik/rozmarin",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Patates (iri parça)",
+        "qty": 600,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Fırını 200°C’ye ısıtın. Tavuğun derisinin altına tereyağı sürün; içini tuzlayıp limon ve sarımsağı doldurun.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Dışını yağlayıp tuz-biber ve otlarla kaplayın; isterseniz patatesleri tepsiye yayın.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Tavuğu 200°C’de 15 dk kızartın, sonra 180°C’ye düşürüp 45–50 dk pişirin (suyu berrak akmalı).",
+        "minutes": 65
+      },
+      {
+        "order": 4,
+        "text": "Kesmeden önce 10 dk dinlendirin; akışkan sosunu patateslere gezdirin.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 70,
+    "image": "",
+    "notes": "But iç sıcaklığı 74°C’ye ulaşmalı; çıtırlık için son 5 dk ızgara açılabilir."
+  },
+  {
+    "id": "385",
+    "title": "Canard à l’Orange (Portakallı Ördek But)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "ördek",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "Ördek but",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 12,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Portakal suyu (taze sıkım)",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Portakal kabuğu rendesi",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Tavuk suyu",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Toz şeker",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Beyaz şarap sirkesi",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Mısır nişastası",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Grand Marnier/Brandy",
+        "qty": 30,
+        "unit": "ml",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Butları tuz-biberleyin; derili yüzü alta gelecek şekilde tavada kızartıp yağını çıkarın.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "180°C fırında 35–40 dk pişirin.",
+        "minutes": 40
+      },
+      {
+        "order": 3,
+        "text": "Sos: Şekeri hafif karamelize edin; sirke ile çözdürün. Portakal suyu, kabuk ve tavuk suyunu ekleyip 10 dk kaynatın.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "Nişastayı az suyla açıp sosa ekleyin; kıvam alınca (isteğe bağlı likörle) parlatın.",
+        "minutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Butları sosla buluşturup 5 dk dinlendirin; kabuk şeritleriyle servis edin.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 55,
+    "image": "",
+    "notes": "Deri çıtırlığı için fırının son 3 dakikasında ızgara modu açılabilir."
+  },
+  {
+    "id": "386",
+    "title": "Moules Marinières (Beyaz Şaraplı Midye)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "deniz ürünleri",
+      "çorba"
+    ],
+    "ingredients": [
+      {
+        "name": "Midye (temizlenmiş)",
+        "qty": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "Arpacık soğan (ince doğranmış)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Sarımsak (dilim)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Beyaz şarap (kuru)",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Krema",
+        "qty": 100,
+        "unit": "ml",
+        "optional": true
+      },
+      {
+        "name": "Maydanoz (kıyılmış)",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tencerede tereyağında arpacık ve sarımsağı soteleyin.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Midyeleri ve şarabı ekleyip kapağı kapatın; midyeler açılana dek pişirin.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "İsteğe bağlı krema ekleyip 1–2 dk kaynatın; biber ve maydanozla tatlandırın.",
+        "minutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Açılmayan midyeleri atın; sıcak ekmekle servis edin.",
+        "minutes": 1
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Patates kızartmasıyla ‘moules-frites’ olarak servis etmek klasik bir eşleşmedir."
+  },
+  {
+    "id": "387",
+    "title": "Hachis Parmentier (Fransız Etli Püre Graten)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "fırın",
+      "kırmızı et"
+    ],
+    "ingredients": [
+      {
+        "name": "Dana kıyma",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Havuç (küp)",
+        "qty": 1,
+        "unit": "adet",
+        "optional": true
+      },
+      {
+        "name": "Domates salçası",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Et suyu",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Süt",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Patates",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Muskat",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Gruyère (rendelenmiş)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patatesleri haşlayıp süzün; tereyağı ve sütle pürüzsüz püre yapın, muskat ekleyin.",
+        "minutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Soğan (ve havuç) soteleyin; kıymayı ekleyip kavurun, salça ve et suyuyla 5–6 dk pişirin.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Fırın kabına et harcını yayın; üstüne püreyi sürün ve çatalla desen verin.",
+        "minutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Peynir serpip 200°C’de üstü kızarana dek pişirin.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Et harcına az taze kekik eklemek aromayı yükseltir."
+  },
+  {
+    "id": "388",
+    "title": "Gnocchis à la Parisienne (Fırınlanmış Paris Gnokisi)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "fırın",
+      "vejetaryen",
+      "peynirli"
+    ],
+    "ingredients": [
+      {
+        "name": "Süt",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Su",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Muskat",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Süt (beşamel için)",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Un (beşamel için)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı (beşamel için)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Comté/Gruyère (rendelenmiş)",
+        "qty": 120,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Süt+su+tereyağını kaynatın; un ve tuzu ekleyip spatulayla toparlanana dek çevirin.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Ocaktan alın; teker teker yumurtaları yedirip pürüzsüz pâte à choux elde edin.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Hamuru kalın torbaya alıp kaynayan tuzlu suya 3–4 cm parçalar sıkın; yüzeye çıkınca alın.",
+        "minutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Beşamel hazırlayıp gnokileri fırın kabına alın; peynir serpin.",
+        "minutes": 10
+      },
+      {
+        "order": 5,
+        "text": "200°C’de üstü altın rengi olana dek gratine edin.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Gnokileri kızartarak da servis edebilirsiniz; dışı çıtır olur."
+  },
+  {
+    "id": "389",
+    "title": "Pissaladière (Nice Usulü Soğanlı Tart)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "tart",
+      "vejetaryen",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "Ekmek hamuru (pizza tipi)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Soğan (ince dilim)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "Ançuez fileto",
+        "qty": 12,
+        "unit": "adet"
+      },
+      {
+        "name": "Siyah zeytin (çekirdeksiz)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Taze kekik",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Şeker (bir tutam)",
+        "qty": 2,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "Tuz",
+        "qty": 6,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğanları yağda çok kısık ateşte yumuşak ve hafif altın rengi olana dek pişirin (karamelize etmeyin).",
+        "minutes": 25
+      },
+      {
+        "order": 2,
+        "text": "Hamuru tepsiye açın; soğanı yayıp kekik serpin.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Ançuezleri baklava dilimi gibi kafes oluşturacak şekilde dizin; zeytinleri yerleştirin.",
+        "minutes": 5
+      },
+      {
+        "order": 4,
+        "text": "200°C’de taban çıtır olana dek pişirin.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Pissalat (ançuez ezmesi) bulursanız soğan altına çok ince sürülebilir."
+  },
+  {
+    "id": "390",
+    "title": "Croissant (Kat Kat Tereyağlı Ay Çöreği)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "hamurişi",
+      "kahvaltı",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "Un (ekmeklik)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Süt (ılık)",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Toz şeker",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Kuru maya",
+        "qty": 7,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı (hamura 50 g, blok 250 g)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta (üzeri için)",
+        "qty": 1,
+        "unit": "adet"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, süt, şeker, maya, tuz ve 50 g tereyağı ile hamuru yoğurun; 30 dk dinlendirin.",
+        "minutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Hamuru açıp 250 g soğuk tereyağı bloğunu yerleştirerek üç kat laminasyon yapın; her tur arasında 30 dk soğutun.",
+        "minutes": 30
+      },
+      {
+        "order": 3,
+        "text": "Hamuru 3–4 mm açın; üçgenler kesip sıkıca sarın.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "Tepside 26–28°C’de 1,5–2 saat mayalandırın.",
+        "minutes": 90
+      },
+      {
+        "order": 5,
+        "text": "Üstünü yumurta ile parlatıp 200°C’de 8 dk, sonra 180°C’de 10–12 dk pişirin.",
+        "minutes": 22
+      }
+    ],
+    "prepMinutes": 40,
+    "cookMinutes": 22,
+    "image": "",
+    "notes": "Kat aralarını korumak için tüm işlem boyunca hamuru soğuk tutun."
+  },
+  {
+    "id": "391",
+    "title": "Crème Brûlée (Karamelli Fransız Kreması)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "sütlü"
+    ],
+    "ingredients": [
+      {
+        "name": "Krema",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Vanilya çubuğu (yarılmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Yumurta sarısı",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "Toz şeker",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Üst için şeker",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kremayı vanilya ile ısıtın (kaynatmayın); 10 dk demleyin.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Yumurta sarıları ve şekeri çırpın; kremayı temperleyerek ekleyin.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Karışımı süzüp ramekinlere dökün; tepside su banyosuna yerleştirin.",
+        "minutes": 5
+      },
+      {
+        "order": 4,
+        "text": "150°C fırında hafif sallanınca ortası titreyen kıvama gelene dek pişirin.",
+        "minutes": 35
+      },
+      {
+        "order": 5,
+        "text": "Soğutup buzdolabında dinlendirin; üstüne şeker serpip pürmüzle karamelize edin.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Pürmüz yoksa üst ızgarada kısa süre kızartabilirsiniz."
+  },
+  {
+    "id": "392",
+    "title": "Tarte Tatin (Ters Yüz Elmalı Tart)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "meyveli"
+    ],
+    "ingredients": [
+      {
+        "name": "Elma (sert, dilim)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Toz şeker",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Limon suyu",
+        "qty": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Vanilya",
+        "qty": 1,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "Kısa hamur (pâte brisée)",
+        "qty": 250,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Döküm tavada tereyağı ve şekeri karamelize edin; limon suyu ekleyin.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Elma dilimlerini sıkıca dizip 10 dk kısıkta pişirin.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Hamuru üstüne kaplayıp kenarlarını içe doğru sıkıştırın.",
+        "minutes": 3
+      },
+      {
+        "order": 4,
+        "text": "190°C’de hamur altın rengi olana dek pişirin; 5 dk sonra servis tabağına ters çevirin.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Elmalar karamel içinde boşluk kalmayacak biçimde sıkı dizilirse daha iyi sonuç verir."
+  },
+  {
+    "id": "393",
+    "title": "Madeleines au Citron (Limonlu Madlen)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "tatlı",
+      "çay saati",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "Yumurta",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "Toz şeker",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 130,
+        "unit": "g"
+      },
+      {
+        "name": "Kabartma tozu",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı (eritilmiş)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Limon kabuğu rendesi",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Vanilya",
+        "qty": 1,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Yumurta ve şekeri kabarana dek çırpın; un ve kabartma tozunu eleyin.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Eritilmiş ılık tereyağını, limon kabuğunu ekleyin; hamuru 1 saat dinlendirin.",
+        "minutes": 70
+      },
+      {
+        "order": 3,
+        "text": "Kalpleri yağlayıp doldurun; 200°C’de 4 dk, sonra 180°C’de 6–7 dk pişirin.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Hafif kabarık ‘göbek’ için hamur mutlaka soğuk olmalı."
+  },
+  {
+    "id": "394",
+    "title": "Clafoutis aux Cerises (Vişneli Fırın Tatlısı)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "meyveli"
+    ],
+    "ingredients": [
+      {
+        "name": "Vişne (çekirdekli, saplı)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "Süt",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Krema",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Un",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Toz şeker",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Vanilya",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı (kalıp için)",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tereyağlı kalıba vişneleri yayıp hafif şeker serpin.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Yumurta, şeker, un, süt, krema ve vanilyayı pürüzsüz çırpın.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Karışımı meyvenin üzerine dökün; 180°C’de kenarlar kabarana dek pişirin.",
+        "minutes": 35
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Geleneksel tarifte çekirdek çıkarılmaz; bademsi aroma verir."
+  },
+  {
+    "id": "395",
+    "title": "Soufflé au Fromage (Peynirli Sufle)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "fırın",
+      "peynirli",
+      "başlangıç"
+    ],
+    "ingredients": [
+      {
+        "name": "Tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Süt",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Gruyère (rendelenmiş)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta (sarısı ve beyazı ayrılmış)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Muskat",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tereyağı ve unla roux yapın; sütü azar azar ekleyip koyulaştırın.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Ocaktan alıp peynir ve yumurta sarılarını karıştırın; tuz, biber, muskat ekleyin.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Yumurta beyazlarını sert tepe olana dek çırpıp 2 aşamada nazikçe katlayın.",
+        "minutes": 6
+      },
+      {
+        "order": 4,
+        "text": "Yağlanmış ve şeker/un ile kaplanmış kalıplara doldurun; 190°C’de kabarıp altın olana dek pişirin.",
+        "minutes": 18
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 18,
+    "image": "",
+    "notes": "Fırın kapağını pişirme bitene kadar açmayın; sufle sönebilir."
+  },
+  {
+    "id": "396",
+    "title": "Pommes Anna (Tereyağlı Patates Keki)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "yan yemek",
+      "fırın",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "Patates (çok ince dilim)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı (eritilmiş)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Fırına dayanıklı tavayı tereyağıyla yağlayın; tabana dairesel olarak patates dizin.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Her katı tereyağı ile fırçalayarak 5–6 kat oluşturun; tuz-biber serpin.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Ocakta orta ateşte tabanı kızartın; sonra 190°C fırında içi yumuşayana dek pişirin.",
+        "minutes": 30
+      },
+      {
+        "order": 4,
+        "text": "Ters çevirip tekrar 5 dk fırınlayın; dilimleyerek servis edin.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Dilimler ne kadar ince ve eşit olursa katmanlar o kadar güzel olur."
+  },
+  {
+    "id": "397",
+    "title": "Gratin Dauphinois (Kremalı Patates Graten)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "yan yemek",
+      "fırın",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "Patates (ince dilim)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Krema",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Süt",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Sarımsak (ezilmiş)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Muskat",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Gruyère (üst için)",
+        "qty": 100,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Krema ve sütü sarımsakla ısıtın; tuz, biber, muskat ekleyin.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Patates dilimlerini karışıma atıp 5 dk yumuşatın.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Karışımı fırın kabına dökün; isterseniz üstüne peynir serpin.",
+        "minutes": 4
+      },
+      {
+        "order": 4,
+        "text": "180°C’de üstü kızarana ve içi yumuşayana dek pişirin.",
+        "minutes": 40
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Klasik versiyonda peynir yoktur; tercihen son 10 dk eklenebilir."
+  },
+  {
+    "id": "398",
+    "title": "Salade Lyonnaise (Poşe Yumurtalı Frisée Salata)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "salata",
+      "brunch",
+      "domuz eti içerir"
+    ],
+    "ingredients": [
+      {
+        "name": "Frisée/karışık yeşillik",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Lardon/bacon",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Kruton",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta (poşe için)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Beyaz şarap sirkesi",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Dijon hardalı",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "Şalot (ince)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bacon’u çıtırlaştırın; biriken yağı sos için saklayın.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Sos: Sirke, hardal, şalot ve zeytinyağını (az bacon yağı ile) çırpın.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Yumurtaları sirke eklenmiş kaynar suya kırıp 2,5–3 dk poşe edin.",
+        "minutes": 4
+      },
+      {
+        "order": 4,
+        "text": "Yeşilliği sosla karıştırın; üstüne kruton, bacon ve poşe yumurta ekleyin.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Yumurtayı kağıt havluda 10 sn bekletmek fazla suyu alır."
+  },
+  {
+    "id": "399",
+    "title": "Brandade de Morue (Tuzlu Balık Ezmesi)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "meze",
+      "deniz ürünleri",
+      "sürmelik"
+    ],
+    "ingredients": [
+      {
+        "name": "Tuzlu morina (suda bekletilmiş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Patates (haşlanmış)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Süt",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "Sarımsak",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Maydanoz (kıyılmış)",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Morinayı 24 saat boyunca birkaç kez suyunu değiştirerek tuzundan arındırın.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Sütte 10 dk hafif kaynatın; derisini ve kılçıklarını ayıklayın.",
+        "minutes": 15
+      },
+      {
+        "order": 3,
+        "text": "Patates, sarımsak ve balığı ezip zeytinyağını ip gibi ekleyerek emülsiyon oluşturun.",
+        "minutes": 8
+      },
+      {
+        "order": 4,
+        "text": "Karabiber ve maydanozla tatlandırın; sıcak kızarmış ekmekle servis edin.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Balığın tuzu değişebileceği için işlem sonunda ilave tuza çoğu zaman gerek kalmaz."
+  },
+  {
+    "id": "400",
+    "title": "Navarin d’Agneau (Kuzu Yahni, İlkbahar Sebzeli)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "yahni",
+      "kuzu"
+    ],
+    "ingredients": [
+      {
+        "name": "Kuzu kuşbaşı (omuz)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Un (eti unlamak için)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Arpacık soğan",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Havuç (büyük parça)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Patates (iri)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Şalgam (iri)",
+        "qty": 200,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "Domates salçası",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Et suyu",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "Defne yaprağı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Taze kekik",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 12,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti tuzlayıp hafifçe unlayın; tencerede parti parti kızartın.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Soğan ve havucu ekleyip soteleyin; salçayı katın.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Et suyu, defne, kekik ekleyin; kapağı kapalı 45 dk kısıkta pişirin.",
+        "minutes": 45
+      },
+      {
+        "order": 4,
+        "text": "Patates (ve şalgam) ekleyip 25–30 dk yumuşayana dek pişirin.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 90,
+    "image": "",
+    "notes": "Son 10 dakikada taze bezelye eklemek ilkbahar versiyonunu tamamlar."
+  },
+  {
+    "id": "401",
+    "title": "Rillettes de Thon (Ton Balığı Rillettes)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "meze",
+      "soğuk",
+      "sürmelik"
+    ],
+    "ingredients": [
+      {
+        "name": "Ton balığı (zeytinyağında, süzülmüş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Krema peyniri (veya crème fraîche)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı (yumuşak)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Limon suyu",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Dijon hardalı",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Kapari (kıyılmış)",
+        "qty": 20,
+        "unit": "g",
+        "optional": true
+      },
+      {
+        "name": "Maydanoz (kıyılmış)",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm malzemeleri bir kasede ezerek pürüzsüz ve sürülebilir kıvam alın.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Tatları bütünleşmesi için buzdolabında en az 30 dk dinlendirin.",
+        "minutes": 30
+      },
+      {
+        "order": 3,
+        "text": "Kızarmış ekmek ve kornişonla servis edin.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Daha klasik bir tat için tereyağ miktarını artırıp krem peyniri azaltabilirsiniz."
+  },
+  {
+    "id": "402",
+    "title": "Bisque de Crevettes (Karides Bisk)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "çorba",
+      "deniz ürünleri",
+      "püreli"
+    ],
+    "ingredients": [
+      {
+        "name": "Karides (baş-kabuk ayrı, etleri saklı)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Havuç (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Kereviz sapı (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Domates salçası",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Beyaz şarap",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Balık suyu",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "Konyak/Brandy",
+        "qty": 30,
+        "unit": "ml",
+        "optional": true
+      },
+      {
+        "name": "Krema",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Kabuk ve başları yağda kavurun; salçayı ekleyip 2 dk daha çevirin.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Sebzeleri ekleyip soteleyin; şarap ve (isteğe bağlı) konyakla deglaze edin.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Balık suyunu ekleyip 25 dk kaynatın; blenderdan geçirip ince süzgeçten geçirin.",
+        "minutes": 30
+      },
+      {
+        "order": 4,
+        "text": "Kremayı ekleyip tuz-biber ayarlayın; karides etlerini 2–3 dk içinde pişirip servis edin.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Daha ipeksi kıvam için bir kez daha süzebilirsiniz."
+  },
+  {
+    "id": "403",
+    "title": "Galette Complète (Karabuğday Krep, Yumurta-Jambon-Peynir)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "karabuğday",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "Karabuğday unu",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Su",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Yumurta (hamur için)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı (pişirme için)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta (iç için)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Jambon",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Gruyère (rendelenmiş)",
+        "qty": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Un, su, yumurta ve tuzu çırpın; 1 saat buzdolabında dinlendirin.",
+        "minutes": 65
+      },
+      {
+        "order": 2,
+        "text": "Tavayı tereyağıyla yağlayıp ince bir kepçe hamur dökün; altı kızarınca çevirin.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Ortaya bir yumurta kırın; kenarlara jambon ve peynir yerleştirin.",
+        "minutes": 3
+      },
+      {
+        "order": 4,
+        "text": "Kenarları içe katlayıp peynir eriyene dek pişirin.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Glütensiz bir ana yemek; iç dolguları mantar veya ıspanakla çeşitlendirebilirsiniz."
+  },
+  {
+    "id": "404",
+    "title": "Steak Tartare (Çiğ Dana, Klasik Garnitürlü)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "çiğ",
+      "hızlı"
+    ],
+    "ingredients": [
+      {
+        "name": "Dana kontrfile (bıçakla kıyılmış)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta sarısı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Arpacık soğan (çok ince)",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Kornişon turşu (kıyılmış)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Kapari (kıyılmış)",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Dijon hardalı",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Worcestershire sosu",
+        "qty": 5,
+        "unit": "ml",
+        "optional": true
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Maydanoz (kıyılmış)",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tüm malzemeleri soğuk bir kasede nazikçe birleştirin; tadını ayarlayın.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Hızla şekil verip kızarmış ekmek ve salata ile hemen servis edin.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "image": "",
+    "notes": "Gıda güvenliği için taze ve güvenilir et kullanın; hazırladıktan sonra bekletmeyin."
+  },
+  {
+    "id": "405",
+    "title": "Coquilles Saint-Jacques Gratinées (Fırında Deniz Tarağı)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "başlangıç",
+      "deniz ürünleri",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "Deniz tarağı (scallop, iri)",
+        "qty": 12,
+        "unit": "adet"
+      },
+      {
+        "name": "Mantar (ince dilim)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Arpacık soğan (ince doğranmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Beyaz şarap",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Krema",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Gruyère (rendelenmiş)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Ekmek kırığı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tereyağında arpacık ve mantarı soteleyin; şarapla kısaca kaynatın.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Un ekleyip 1 dk kavurun; krema ile koyulaştırın.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Tarağı çok kızgın tavada her yüzünü 30–40 sn mühürleyin; tuz-biberleyin.",
+        "minutes": 4
+      },
+      {
+        "order": 4,
+        "text": "Karışımı kabuk/ramekinlere paylaştırın; üstüne peynir ve ekmek kırığı serpip 220°C ızgarada kızartın.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Tarağı fazla pişirmemek ipeksi dokunun anahtarıdır."
+  },
+  {
+    "id": "406",
+    "title": "Gougères au Comté (Peynirli Choux Topları)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "atıştırmalık",
+      "fırın",
+      "peynirli"
+    ],
+    "ingredients": [
+      {
+        "name": "Su",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Comté/Gruyère (rendelenmiş)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Muskat",
+        "qty": 1,
+        "unit": "g",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Su ve tereyağını kaynatın; un ve tuzu ekleyip hamur toplanana dek karıştırın.",
+        "minutes": 4
+      },
+      {
+        "order": 2,
+        "text": "Hamuru 2–3 dk karıştırarak ılıtın; yumurtaları teker teker yedirin.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Peyniri ve baharatı ekleyin; tepsiye küçük toplar sıkın.",
+        "minutes": 5
+      },
+      {
+        "order": 4,
+        "text": "200°C’de 10 dk, sonra 180°C’de 12–14 dk kabarıp kızarana dek pişirin.",
+        "minutes": 24
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 24,
+    "image": "",
+    "notes": "Hamur çok akışkan olmamalı; kaşıktan ağır dökülür kıvam idealdir."
+  },
+  {
+    "id": "407",
+    "title": "Boeuf Bourguignon",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "kırmızı et",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "Dana kuşbaşı (omuz)",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "Lardon/bacon (küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Havuç (iri doğranmış)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Soğan (iri doğranmış)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Sarımsak (ezilmiş)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Mantar (ikiye bölünmüş)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Kırmızı şarap (kuru)",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Et suyu",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Domates salçası",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Defne yaprağı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Taze kekik",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 20,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Fırını 160°C’ye ısıtın. Tencerede bacon’u kızartıp alın.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Tuz-biberlediğiniz eti parti parti yüksek ısıda mühürleyin.",
+        "minutes": 15
+      },
+      {
+        "order": 3,
+        "text": "Soğan, havuç, sarımsağı soteleyin; un ve salçayı ekleyip 1 dk kavurun.",
+        "minutes": 6
+      },
+      {
+        "order": 4,
+        "text": "Şarapla deglaze edin; et suyu, kekik, defne, bacon ve eti ekleyip kapakla fırına verin.",
+        "minutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Son 20 dk kala mantarı tereyağında soteleyip ekleyin; et yumuşayınca kıvamı ayarlayın.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 170,
+    "image": "",
+    "notes": "Kıvam çok yoğun ise az su, suluysa 10 dk kapağı açık kaynatın."
+  },
+  {
+    "id": "408",
+    "title": "Coq au Vin",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "tavuk",
+      "güveç"
+    ],
+    "ingredients": [
+      {
+        "name": "Tavuk (8 parça)",
+        "qty": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "Bacon (küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Arpacık soğan",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Mantar",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Sarımsak (ezilmiş)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Kırmızı şarap",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Tavuk suyu",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Domates salçası",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Defne yaprağı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Taze kekik",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Bacon’u kızartıp alın; tavukları tuz-biberleyip aynı tencerede kızartın.",
+        "minutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Arpacık ve sarımsağı ekleyip soteleyin; un ve salçayı kısa kavurun.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Şarapla tavanın dibini çözün; tavuk suyu, defne ve kekiği ekleyip kısıkta pişirin.",
+        "minutes": 5
+      },
+      {
+        "order": 4,
+        "text": "30. dakikada mantar ve bacon’u ekleyin; tavuk yumuşayana dek sürdürün.",
+        "minutes": 5
+      },
+      {
+        "order": 5,
+        "text": "Tereyağı ile parlatın; kıvam gerekirse kapağı açık 10 dk kaynatın.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 70,
+    "image": "",
+    "notes": "Bourgogne tipi şarap veya yerel Pinot Noir uygundur."
+  },
+  {
+    "id": "409",
+    "title": "Ratatouille",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "vegan",
+      "sebze",
+      "ana yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "Patlıcan (yarım ay)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Kabak (yarım ay)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Kırmızı biber (şerit)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Domates (küp)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Soğan (piyazlık)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Sarımsak (dilim)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "Taze kekik",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Fesleğen",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patlıcan ve kabağı tuzlayıp 10 dk bekletin, kurulayın.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Soğan ve sarımsağı zeytinyağında soteleyin.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Patlıcan, kabak ve biberi ekleyip yumuşayana dek pişirin.",
+        "minutes": 12
+      },
+      {
+        "order": 4,
+        "text": "Domates, kekik, tuz-biber ekleyip kısıkta suyunu çektirin.",
+        "minutes": 20
+      },
+      {
+        "order": 5,
+        "text": "Ocaktan alınca fesleğenle karıştırın; ılık servis edin.",
+        "minutes": 2
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "image": "",
+    "notes": "Ertesi gün lezzeti artar; ızgara etle iyi gider."
+  },
+  {
+    "id": "410",
+    "title": "Quiche Lorraine",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "fırın",
+      "tuzlu tart",
+      "brunch"
+    ],
+    "ingredients": [
+      {
+        "name": "Pâte brisée (kısa hamur)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Bacon (küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Krema",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Süt",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Gruyère (rendelenmiş)",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Muskat",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "190°C’de hamuru kalıpta 10 dk kör pişirin.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Bacon’u yağını salana dek pişirip süzdürün.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Yumurta, krema, süt, muskat ve baharatı çırpın.",
+        "minutes": 5
+      },
+      {
+        "order": 4,
+        "text": "Tabana bacon ve peynir serip karışımı dökün.",
+        "minutes": 3
+      },
+      {
+        "order": 5,
+        "text": "180°C’de kenarlar altın olana dek pişirin.",
+        "minutes": 30
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "İç dolgunun oturması için 10 dk dinlendirip ılık servis edin."
+  },
+  {
+    "id": "411",
+    "title": "Soupe à l’Oignon Gratinée (Fransız Soğan Çorbası)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "çorba",
+      "gratin",
+      "vejetaryen"
+    ],
+    "ingredients": [
+      {
+        "name": "Soğan (ince dilim)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Un",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Beyaz şarap",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Et suyu (veya kuvvetli sebze suyu)",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "Defne yaprağı",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Baget dilimi (tostlanmış)",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "Gruyère (rendelenmiş)",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Soğanları yağ+tereyağında çok kısıkta koyu altın kahverengi olana dek karamelleyin.",
+        "minutes": 35
+      },
+      {
+        "order": 2,
+        "text": "Unu ekleyip 1 dk kavurun; şarapla deglaze edin.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Et suyu ve defneyi ekleyip 15 dk kaynatın.",
+        "minutes": 15
+      },
+      {
+        "order": 4,
+        "text": "Kaselere alın; üstüne baget ve Gruyère koyup 220°C ızgarada kızartın.",
+        "minutes": 6
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 65,
+    "image": "",
+    "notes": "Soğanı yakmadan sabırla karamelleştirmek anahtardır."
+  },
+  {
+    "id": "412",
+    "title": "Cassoulet",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "güveç",
+      "bakliyat"
+    ],
+    "ingredients": [
+      {
+        "name": "Kuru beyaz fasulye (geceden ıslatılmış)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Konfi ördek but",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Kalın sosis (Toulouse tipi)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Domates (küp)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Domates salçası",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Soğan (küp)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Sarımsak (ezilmiş)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Et suyu",
+        "qty": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "Ördek yağı/tereyağı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Ekmek kırığı",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Defne yaprağı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Fasulyeyi taze suda yumuşayana dek haşlayıp süzün.",
+        "minutes": 50
+      },
+      {
+        "order": 2,
+        "text": "Soğan ve sarımsağı yağda soteleyin; domates ve salçayı ekleyin.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Güvece fasulye, et suyu, defne, parçalanmış ördek ve kızartılmış sosisleri yerleştirin.",
+        "minutes": 10
+      },
+      {
+        "order": 4,
+        "text": "180°C’de 45 dk pişirin; üstüne ekmek kırığı serpip 20 dk daha kızartın.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 120,
+    "image": "",
+    "notes": "Servisten önce 10 dk dinlendirildiğinde kıvam oturur."
+  },
+  {
+    "id": "413",
+    "title": "Confit de Canard",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "ördek",
+      "düşük ısı"
+    ],
+    "ingredients": [
+      {
+        "name": "Ördek but",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Sarımsak (ezilmiş)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Taze kekik",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Defne yaprağı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Ördek yağı",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Butları tuz, sarımsak ve otlarla ovup 12 saat buzdolabında bekletin.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Tuzları silip butları yağla tamamen kaplayın; 120–130°C fırında 2,5–3 saat pişirin.",
+        "minutes": 180
+      },
+      {
+        "order": 3,
+        "text": "Servisten önce tavada derisini çıtırlaştırın; tuz-biber ayarlayın.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 190,
+    "image": "",
+    "notes": "Yağ içinde buzdolabında haftalarca saklanabilir."
+  },
+  {
+    "id": "414",
+    "title": "Blanquette de Veau",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "beyaz et",
+      "yahni"
+    ],
+    "ingredients": [
+      {
+        "name": "Dana kuşbaşı (göğüs/omuz)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Havuç (dilim)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Soğan (karanfil saplı)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Kereviz sapı",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Mantar (dilim)",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Et suyu (açık renk)",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "Krema",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Yumurta sarısı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Defne, kekik",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti sebzeler ve otlarla et suyunda kısık ateşte yumuşayana dek pişirin; süzün.",
+        "minutes": 80
+      },
+      {
+        "order": 2,
+        "text": "Tereyağı+unla beyaz roux yapıp süzdüğünüz suyla bağlayın.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Mantarları soteleyip ekleyin; krema ve yumurta sarısını temperleyerek karıştırın (kaynatmayın).",
+        "minutes": 10
+      },
+      {
+        "order": 4,
+        "text": "Et ve havuçları sosa geri koyup 2–3 dk ısıtın.",
+        "minutes": 5
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 110,
+    "image": "",
+    "notes": "Pirinç pilavı veya tereyağlı makarna ile servis."
+  },
+  {
+    "id": "415",
+    "title": "Sole Meunière",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "balık",
+      "tava",
+      "hızlı"
+    ],
+    "ingredients": [
+      {
+        "name": "Dil balığı fileto",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Limon suyu",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Maydanoz (kıyılmış)",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Balığı tuz-biberleyip una bulayın; fazlasını silkelen.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Yağ+tereyağında her yüzünü 2–3 dk kızartın.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Tereyağını tavada hafif kahverengileştirip limon ve maydanoz ekleyin; balığın üzerine gezdirin.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Tereyağı rengi fındık kahvesi olmalı, yanmamalı."
+  },
+  {
+    "id": "416",
+    "title": "Salade Niçoise",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "salata",
+      "deniz ürünleri",
+      "soğuk"
+    ],
+    "ingredients": [
+      {
+        "name": "Karışık yeşillik",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Domates (dilim)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Haşlanmış patates (dilim)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Haşlanmış yeşil fasulye",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta (7–8 dk haşlanmış, ikiye)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Ton balığı (zeytinyağında)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Siyah zeytin (Niçoise)",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Ançuez fileto",
+        "qty": 8,
+        "unit": "adet"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "Şarap sirkesi",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Dijon hardalı",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patates ve fasulyeyi haşlayıp soğuk sudan geçirerek diri kıvamı koruyun.",
+        "minutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Vinaigrette için yağ, sirke ve hardalı çırpın.",
+        "minutes": 3
+      },
+      {
+        "order": 3,
+        "text": "Tabağa yeşillik, domates, patates, fasulye, ton, zeytin ve ançüezi yerleştirip soslayın; yumurtayı ekleyin.",
+        "minutes": 7
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Mayonez ve mısır klasik tarifte yoktur."
+  },
+  {
+    "id": "417",
+    "title": "Bouillabaisse",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "deniz ürünleri",
+      "çorba"
+    ],
+    "ingredients": [
+      {
+        "name": "Beyaz etli balık (küp)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Midye (ayıklanmış)",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Karides (kabuklu)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Balık suyu",
+        "qty": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "Domates (rendelenmiş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Pırasa (ince)",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Rezene (ince)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Sarımsak (ezilmiş)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Safran",
+        "qty": 0.5,
+        "unit": "g"
+      },
+      {
+        "name": "Portakal kabuğu şeridi",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Pırasa, rezene ve sarımsağı zeytinyağında soteleyin; domatesi ekleyip suyunu çektirin.",
+        "minutes": 18
+      },
+      {
+        "order": 2,
+        "text": "Balık suyu, safran ve portakal kabuğunu ekleyip 10 dk kaynatın.",
+        "minutes": 12
+      },
+      {
+        "order": 3,
+        "text": "Balık parçalarını ekleyin; 5 dk sonra karides ve midyeyi koyun. Midyeler açılınca ateşi kapatın.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "image": "",
+    "notes": "Kızarmış ekmek ve rouille ile servis edilir."
+  },
+  {
+    "id": "418",
+    "title": "Poule au Pot",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "tavuk",
+      "haşlama"
+    ],
+    "ingredients": [
+      {
+        "name": "Bütün köy tavuğu",
+        "qty": 1500,
+        "unit": "g"
+      },
+      {
+        "name": "Pırasa (parça)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Havuç (parça)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "Kereviz sapı",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Soğan (kabuklu, yarım)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Sarımsak",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "Defne, kekik",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 12,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber taneleri",
+        "qty": 5,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tavuğu büyük tencereye sebzeler ve otlarla birlikte yerleştirip üzerini geçecek kadar su ekleyin.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Kaynama noktasına gelince köpüğü alın; kısıkta 60–70 dk pişirin.",
+        "minutes": 70
+      },
+      {
+        "order": 3,
+        "text": "Tavuğu çıkarıp dinlendirin; sebzeleri dilimleyip etle birlikte sıcak suyu eşliğinde servis edin.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 75,
+    "image": "",
+    "notes": "Et suyunu ertesi gün çorba olarak kullanabilirsiniz."
+  },
+  {
+    "id": "419",
+    "title": "Daube Provençale (Provence Usulü Dana Yahni)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "kırmızı et",
+      "yavaş pişirme"
+    ],
+    "ingredients": [
+      {
+        "name": "Dana kuşbaşı (but/omuz)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Kırmızı şarap",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Portakal kabuğu şeridi",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Soğan (küp)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Havuç (dilim)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Sarımsak (ezilmiş)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Domates salçası",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Siyah zeytin",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Et suyu",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Buket garni (kekik, defne, biberiye)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Eti zeytinyağında parti parti kızartın; alın.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Soğan, havuç, sarımsağı soteleyin; salça ekleyin.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Şarap, et suyu, portakal kabuğu ve buket garniyi ekleyip etle birleştirin.",
+        "minutes": 5
+      },
+      {
+        "order": 4,
+        "text": "160°C fırında 2–2,5 saat pişirin; son 15 dk kala zeytin ekleyin.",
+        "minutes": 150
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 180,
+    "image": "",
+    "notes": "Ertesi gün ısıtılarak servis edildiğinde aroması derinleşir."
+  },
+  {
+    "id": "420",
+    "title": "Magret de Canard (Ördek Göğsü, Çıtır Deri)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "ördek",
+      "tava"
+    ],
+    "ingredients": [
+      {
+        "name": "Ördek göğsü (derili)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Balzamik sirke veya portakal suyu",
+        "qty": 20,
+        "unit": "ml",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Deriyi çapraz çizikler atarak kesin; tuz-biberleyin.",
+        "minutes": 5
+      },
+      {
+        "order": 2,
+        "text": "Soğuk tavaya deri aşağı gelecek şekilde koyun; yağ yavaşça çıkarken orta ısıda 6–8 dk pişirin.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Çevirip 3–4 dk daha pişirin; 5 dk dinlendirin.",
+        "minutes": 9
+      },
+      {
+        "order": 4,
+        "text": "Tavadaki yağa az balzamik/portakal suyu ekleyip kısa sos yapın, dilimleyip gezdirin.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 5,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "İç ısısı medium-rare için ~57°C."
+  },
+  {
+    "id": "421",
+    "title": "Entrecôte à la Bordelaise (İlikli Kırmızı Şarap Soslu Antrikot)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "ızgara",
+      "soslu"
+    ],
+    "ingredients": [
+      {
+        "name": "Antrikot (kalın dilim)",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Kırmızı şarap",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Arpacık soğan (ince)",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Sığır iliği (küpler)",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 3,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Şarabı arpacıkla yarıya düşün; tereyağı ile bağlayın.",
+        "minutes": 12
+      },
+      {
+        "order": 2,
+        "text": "Eti tuzlayıp çok sıcak tavada her yüzü 2–3 dk mühürleyin; dinlendirin.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "İlik küplerini kısa süre tavada çevirin; sos ve eti birleştirerek servis edin.",
+        "minutes": 3
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "image": "",
+    "notes": "Sos çok koyuysa az et suyu ile açın."
+  },
+  {
+    "id": "422",
+    "title": "Poulet Basquaise (Bask Usulü Tavuk)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "tavuk",
+      "biberli"
+    ],
+    "ingredients": [
+      {
+        "name": "Tavuk but (kemikli)",
+        "qty": 6,
+        "unit": "adet"
+      },
+      {
+        "name": "Soğan (yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Kırmızı ve yeşil biber (şerit)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Domates (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Sarımsak (ezilmiş)",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "Beyaz şarap",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Zeytinyağı",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Espelette biberi/pul biber",
+        "qty": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Butları tuzlayıp kızartın; alın.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Soğan, biber ve sarımsağı soteleyin; domates ve şarabı ekleyip 5 dk pişirin.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Tavuğu geri koyup kısıkta kapakla 30–35 dk pişirin; biberle tatlandırın.",
+        "minutes": 35
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "image": "",
+    "notes": "Son dokunuş olarak maydanoz serpilebilir."
+  },
+  {
+    "id": "423",
+    "title": "Quenelles de Brochet, Sauce Nantua",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "ana yemek",
+      "balık",
+      "fırın"
+    ],
+    "ingredients": [
+      {
+        "name": "Pike/morina fileto (çekilmiş)",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Süt",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Su",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Muskat",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Karides baş-kabuk (sos için)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Krema (sos)",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Domates salçası (sos)",
+        "qty": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Süt+su+tereyağını kaynatıp unu ekleyin; toparlanan hamura balığı ve yumurtaları ekleyin.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Kaşıkla şekil verip tuzlu kaynar suda yüzeye çıkana dek pişirin.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Nantua sos için kabukları kavurup salça ekleyin; suyla kaynatın, süzüp kremayla bağlayın.",
+        "minutes": 20
+      },
+      {
+        "order": 4,
+        "text": "Quenelle’leri sosla fırın kabına alıp 200°C’de kısa gratin yapın.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 25,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Pike bulamazsanız beyaz etli sağlam bir balık kullanın."
+  },
+  {
+    "id": "424",
+    "title": "Gratin de Chou-fleur (Karnabahar Graten)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "fırın",
+      "vejetaryen",
+      "yan yemek"
+    ],
+    "ingredients": [
+      {
+        "name": "Karnabahar (çiçeklerine ayrılmış)",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Süt",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Gruyère (rendelenmiş)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Muskat",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Karnabaharı tuzlu suda 5–6 dk haşlayın; süzün.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Tereyağı+unla roux yapıp sütle beşamel hazırlayın; muskat ve tuz-biber ekleyin.",
+        "minutes": 8
+      },
+      {
+        "order": 3,
+        "text": "Karnabaharı kaba alıp beşamel ve peynirle kaplayın; 200°C’de kızartın.",
+        "minutes": 20
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "image": "",
+    "notes": "Üste ekmek kırığı serpmek ekstra çıtırlık verir."
+  },
+  {
+    "id": "425",
+    "title": "Tarte Flambée (Flammekueche)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "fırın",
+      "ince hamur",
+      "bacon"
+    ],
+    "ingredients": [
+      {
+        "name": "İnce pizza hamuru",
+        "qty": 280,
+        "unit": "g"
+      },
+      {
+        "name": "Crème fraîche",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Soğan (ince yarım ay)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Bacon/lardon (ince şerit)",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Fırını 250°C’ye ısıtın. Hamuru çok ince açın.",
+        "minutes": 8
+      },
+      {
+        "order": 2,
+        "text": "Üzerine crème fraîche sürün; soğan ve bacon’u serpiştirin.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Kenarlar kızarana dek çok sıcak fırında pişirin.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "image": "",
+    "notes": "Kenarlar neredeyse çıtır kıvamda olmalı."
+  },
+  {
+    "id": "426",
+    "title": "Aligot (Peynirli Patates Püresi)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "yan yemek",
+      "peynirli",
+      "püre"
+    ],
+    "ingredients": [
+      {
+        "name": "Patates (nişastalı)",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Süt (sıcak)",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Sarımsak (ezilmiş)",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Tomme/Cantal (rendelenmiş)",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz",
+        "qty": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Karabiber",
+        "qty": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Patatesleri haşlayıp süzün; ezip tereyağı ve sütle pürüzsüz püre yapın.",
+        "minutes": 20
+      },
+      {
+        "order": 2,
+        "text": "Sarımsak ve peyniri parti parti ekleyip tahta kaşıkla çevirerek uzayan elastik kıvam alın.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Peynir tam eriyene kadar karıştırmayı sürdürün."
+  },
+  {
+    "id": "427",
+    "title": "Soufflé au Chocolat",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "sufle"
+    ],
+    "ingredients": [
+      {
+        "name": "Bitter çikolata",
+        "qty": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Süt",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Un",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Toz şeker",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta (sarısı-beyazı ayrı)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz (bir tutam)",
+        "qty": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Tereyağı ve unla kısa bir roux yapıp sütle bağlayın; ocaktan alınca çikolatayı eritip sarıları ekleyin.",
+        "minutes": 10
+      },
+      {
+        "order": 2,
+        "text": "Beyazları tuzla sert tepeler olana dek çırpın; 2 aşamada karışıma katlayın.",
+        "minutes": 7
+      },
+      {
+        "order": 3,
+        "text": "Kalıpları yağlayıp şekerleyin; 200°C’de kabarıp üstü çatlayana dek pişirin.",
+        "minutes": 12
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "image": "",
+    "notes": "Fırın kapağını açmayın; hemen servis edin."
+  },
+  {
+    "id": "428",
+    "title": "Île Flottante (Yüzen Ada)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "tatlı",
+      "sütlü",
+      "soğuk"
+    ],
+    "ingredients": [
+      {
+        "name": "Süt",
+        "qty": 700,
+        "unit": "ml"
+      },
+      {
+        "name": "Yumurta (beyaz 4, sarı 4)",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Toz şeker",
+        "qty": 140,
+        "unit": "g"
+      },
+      {
+        "name": "Vanilya çubuğu",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz (bir tutam)",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Karamel için şeker",
+        "qty": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Sütü vanilya ile ısıtın. Sarıları 60 g şekerle çırpıp sıcak sütle temperleyin; düşük ısıda koyulaştırıp crème anglaise hazırlayın, soğutun.",
+        "minutes": 15
+      },
+      {
+        "order": 2,
+        "text": "Beyazları bir tutam tuz ve 60 g şekerle sert tepe olana dek çırpın; kaşıkla şekil verip vanilyalı sütte 2 dk poşe edin.",
+        "minutes": 10
+      },
+      {
+        "order": 3,
+        "text": "Karameli hazırlayın. Kaselere sosu döküp üzerine beze adalarını yerleştirin; karamel gezdirin.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "image": "",
+    "notes": "Sosu çok ısıtıp pişirmeyin; kesilmemeli."
+  },
+  {
+    "id": "429",
+    "title": "Profiteroles au Chocolat",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "tatlı",
+      "fırın",
+      "choux"
+    ],
+    "ingredients": [
+      {
+        "name": "Su",
+        "qty": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Un",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Yumurta",
+        "qty": 4,
+        "unit": "adet"
+      },
+      {
+        "name": "Tuz",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Krema (çırpılmış, iç için)",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Bitter çikolata (sos)",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Süt (sos)",
+        "qty": 120,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Su+tereyağını kaynatın; un ve tuzu ekleyip hamur toplanana dek karıştırın, 2–3 dk çevirerek ılıtın.",
+        "minutes": 6
+      },
+      {
+        "order": 2,
+        "text": "Yumurtaları teker teker yedirin; tepsiye küçük toplar sıkıp 200°C’de 10 dk, 180°C’de 12 dk pişirin.",
+        "minutes": 25
+      },
+      {
+        "order": 3,
+        "text": "Soğuyan topları çırpılmış krema ile doldurun; sütle eritilmiş çikolata sosla kaplayın.",
+        "minutes": 10
+      }
+    ],
+    "prepMinutes": 20,
+    "cookMinutes": 22,
+    "image": "",
+    "notes": "İçi boş ve kuru kabuk için fırın kapağını ilk 15 dk açmayın."
+  },
+  {
+    "id": "430",
+    "title": "Crêpes Suzette",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "tatlı",
+      "tava",
+      "portakallı"
+    ],
+    "ingredients": [
+      {
+        "name": "Un",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Süt",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Yumurta",
+        "qty": 2,
+        "unit": "adet"
+      },
+      {
+        "name": "Tereyağı (eritilmiş)",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Toz şeker",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz (bir tutam)",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Portakal suyu",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Portakal kabuğu rendesi",
+        "qty": 1,
+        "unit": "adet"
+      },
+      {
+        "name": "Tereyağı (sos)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Şeker (sos)",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Grand Marnier/brendi",
+        "qty": 30,
+        "unit": "ml",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Krep hamurunu pürüzsüz çırpıp 30 dk dinlendirin; ince krepler pişirin.",
+        "minutes": 40
+      },
+      {
+        "order": 2,
+        "text": "Sos için tereyağı ve şekeri eritin; portakal suyu ve kabuğunu ekleyin.",
+        "minutes": 6
+      },
+      {
+        "order": 3,
+        "text": "Krepleri sos içinde katlayıp kısa ısıtın; isteğe bağlı likörle flambe yapın.",
+        "minutes": 4
+      }
+    ],
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "image": "",
+    "notes": "Krep ne kadar inceyse o kadar zarif olur."
+  },
+  {
+    "id": "431",
+    "title": "Pain Perdu (Fransız Usulü Ekmek Tatlısı)",
+    "cuisine": "fransız mutfağı",
+    "tags": [
+      "tatlı",
+      "tava",
+      "kahvaltı"
+    ],
+    "ingredients": [
+      {
+        "name": "Bayat brioche/tost ekmeği (kalın dilim)",
+        "qty": 8,
+        "unit": "dilim"
+      },
+      {
+        "name": "Süt",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Yumurta",
+        "qty": 3,
+        "unit": "adet"
+      },
+      {
+        "name": "Toz şeker",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Vanilya",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Tereyağı",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Tarçın (isteğe bağlı)",
+        "qty": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Tuz (bir tutam)",
+        "qty": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "text": "Süt, yumurta, şeker, vanilya ve (isteğe bağlı) tarçını çırpın.",
+        "minutes": 3
+      },
+      {
+        "order": 2,
+        "text": "Ekmek dilimlerini karışıma batırıp her iki tarafını 30–40 sn bekletin.",
+        "minutes": 5
+      },
+      {
+        "order": 3,
+        "text": "Tereyağında altın rengi olana dek kızartın; sıcak servis edin.",
+        "minutes": 8
+      }
+    ],
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "image": "",
+    "notes": "Taze meyve ve pudra şekeriyle tamamlayın."
   }
 ]
