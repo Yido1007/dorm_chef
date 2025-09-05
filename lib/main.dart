@@ -33,7 +33,7 @@ Future<void> main() async {
           ChangeNotifierProvider(create: (_) => GroceryBag()),
           ChangeNotifierProvider(create: (_) => ThemeController()..load()),
           ChangeNotifierProvider(create: (_) => FavoriteStore()),
-          ChangeNotifierProvider(create: (_) => ProfileStore()),
+          ChangeNotifierProvider(create: (_) => ProfileStore()..bindAuth()),
         ],
         child: const DormChefApp(),
       ),
