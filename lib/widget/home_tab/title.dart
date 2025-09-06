@@ -8,11 +8,7 @@ class HomeTabTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.only(left: 16, bottom: 8, top: 16),
-      child: Text(
-        overflow: TextOverflow.ellipsis,
-        text,
-        style: Theme.of(context).textTheme.titleLarge,
-      ),
+      child: Text(text, style: Theme.of(context).textTheme.titleLarge),
     );
   }
 }
