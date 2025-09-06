@@ -387,7 +387,7 @@ class _AuthScreenState extends State<AuthScreen> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Image.asset(
-                                'assets/brands/google_g.png',
+                                'assets/brand/google_g.png',
                                 width: 18,
                                 height: 18,
                                 fit: BoxFit.contain,

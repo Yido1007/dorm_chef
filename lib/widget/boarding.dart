@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class BoardingScreen extends StatefulWidget {
@@ -51,7 +52,7 @@ class _BoardingScreenState extends State<BoardingScreen> {
                   ),
                   TextButton(
                     onPressed: widget.onFinished,
-                    child: const Text('Atla'),
+                    child: Text('skip'.tr()),
                   ),
                 ],
               ),
@@ -60,24 +61,21 @@ class _BoardingScreenState extends State<BoardingScreen> {
               child: PageView(
                 controller: _page,
                 onPageChanged: (i) => setState(() => _index = i),
-                children: const [
+                children: [
                   _BoardPage(
                     icon: Icons.qr_code_scanner,
-                    title: 'Hızlı Barkod Tarama',
-                    desc:
-                        'Ürünleri barkod ile anında tara ve envanterine ekle.',
+                    title: 'boarding_main_1'.tr(),
+                    desc: 'boarding_alt_1'.tr(),
                   ),
                   _BoardPage(
                     icon: Icons.inventory_2,
-                    title: 'Envanter & Sepet',
-                    desc:
-                        'Dolabındaki ürünleri ve alışveriş sepetini tek yerden yönet.',
+                    title: 'boarding_main_2'.tr(),
+                    desc: 'boarding_alt_2'.tr(),
                   ),
                   _BoardPage(
                     icon: Icons.restaurant_menu,
-                    title: 'Tarifleri Keşfet',
-                    desc:
-                        'Günlük öneriler ve filtrelerle yüzlerce tarife ulaş.',
+                    title: 'boarding_main_3'.tr(),
+                    desc: 'boarding_alt_3'.tr(),
                   ),
                 ],
               ),
@@ -110,7 +108,7 @@ class _BoardingScreenState extends State<BoardingScreen> {
                     width: double.infinity,
                     child: FilledButton(
                       onPressed: _next,
-                      child: Text(_index < 2 ? 'İleri' : 'Başla'),
+                      child: Text(_index < 2 ? 'next'.tr() : 'start'.tr()),
                     ),
                   ),
                 ],

@@ -13,7 +13,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
 
   final _langs = <_Lang>[
     _Lang(flag: '🇹🇷', name: 'Türkçe', locale: const Locale('tr')),
-    _Lang(flag: '🇺🇸', name: 'English', locale: const Locale('en')),
+    _Lang(flag: '🇬🇧', name: 'English', locale: const Locale('en')),
     _Lang(flag: '🇫🇷', name: 'Français', locale: const Locale('fr')),
     _Lang(flag: '🇷🇺', name: 'Русский', locale: const Locale('ru')),
     _Lang(flag: '🇩🇪', name: 'Deutsch', locale: const Locale('de')),
