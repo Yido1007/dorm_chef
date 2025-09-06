@@ -15,11 +15,9 @@ class _LanguageScreenState extends State<LanguageScreen> {
     _Lang(flag: '🇹🇷', name: 'Türkçe', locale: const Locale('tr')),
     _Lang(flag: '🇬🇧', name: 'English', locale: const Locale('en')),
     _Lang(flag: '🇫🇷', name: 'Français', locale: const Locale('fr')),
-    _Lang(flag: '🇷🇺', name: 'Русский', locale: const Locale('ru')),
     _Lang(flag: '🇩🇪', name: 'Deutsch', locale: const Locale('de')),
     _Lang(flag: '🇪🇸', name: 'Español', locale: const Locale('es')),
     _Lang(flag: '🇮🇹', name: 'Italiano', locale: const Locale('it')),
-    _Lang(flag: '🇵🇹', name: 'Português', locale: const Locale('pt')),
   ];
 
   @override
