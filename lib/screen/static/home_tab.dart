@@ -60,7 +60,10 @@ class HomeTabScreen extends StatelessWidget {
                 : (u?.email ?? '');
         return Scaffold(
           appBar: AppBar(
-            title: Text('hi'.tr(namedArgs: {'name': safeName})),
+            title: Text(
+              'hi'.tr(namedArgs: {'name': (name.isEmpty ? 'Chef' : name)}),
+            ),
+
             actions: [
               Padding(
                 padding: const EdgeInsets.only(right: 12),
