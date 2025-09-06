@@ -53,8 +53,10 @@ class DailyRecipeCarousel extends StatelessWidget {
               child: InkWell(
                 borderRadius: BorderRadius.circular(20),
                 onTap: () {
-                  MaterialPageRoute(
-                    builder: (_) => RecipeDetailScreen(recipe: r),
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => RecipeDetailScreen(recipe: r),
+                    ),
                   );
                 },
                 child: Padding(
