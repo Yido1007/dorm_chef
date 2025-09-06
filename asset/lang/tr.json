@@ -163,5 +163,13 @@
   "boarding_alt_3": "Günlük öneriler ve filtrelerle yüzlerce tarife ulaş.",
   "next": "İleri",
   "start": "Başla",
-  "ok": "Onayla"
+  "ok": "Onayla",
+  "light": "Açık Tema",
+  "dark": "Koyu Tema",
+  "theme_selection": "Tema Seçimi",
+  "theme_text": "Görsellerden birini seçerek temayı uygulayın",
+  "by_device": "Cihaza göre",
+  "apply_light": "Açık tema uygulandı",
+  "apply_dark": "Koyu tema uygulandı",
+  "apply_device": "Cihaz ayarına göre tema uygulandı"
 }

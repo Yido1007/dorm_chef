@@ -163,5 +163,13 @@
   "boarding_alt_3": "Mit täglichen Vorschlägen und Filtern auf Hunderte Rezepte zugreifen.",
   "next": "Weiter",
   "start": "Start",
-  "ok": "OK"
+  "ok": "OK",
+  "light": "Helles Design",
+  "dark": "Dunkles Design",
+  "theme_selection": "Designauswahl",
+  "theme_text": "Wähle eines der Bilder, um das Design anzuwenden",
+  "by_device": "Systemeinstellung verwenden",
+  "apply_light": "Helles Design angewendet",
+  "apply_dark": "Dunkles Design angewendet",
+  "apply_device": "Design gemäß Systemeinstellungen angewendet"
 }

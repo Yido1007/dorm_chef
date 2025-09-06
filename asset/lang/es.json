@@ -163,5 +163,13 @@
   "boarding_alt_3": "Accede a cientos de recetas con sugerencias diarias y filtros.",
   "next": "Siguiente",
   "start": "Comenzar",
-  "ok": "OK"
+  "ok": "OK",
+  "light": "Tema claro",
+  "dark": "Tema oscuro",
+  "theme_selection": "Selección de tema",
+  "theme_text": "Selecciona una de las imágenes para aplicar el tema",
+  "by_device": "Usar la configuración del dispositivo",
+  "apply_light": "Tema claro aplicado",
+  "apply_dark": "Tema oscuro aplicado",
+  "apply_device": "Tema aplicado según la configuración del dispositivo"
 }

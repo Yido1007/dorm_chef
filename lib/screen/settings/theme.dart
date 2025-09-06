@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:dorm_chef/provider/theme.dart';
@@ -22,7 +23,7 @@ class ThemeChangeScreen extends StatelessWidget {
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                'Görsellerden birini seçerek temayı uygulayın',
+                'theme_text'.tr(),
                 style: Theme.of(
                   context,
                 ).textTheme.titleMedium?.copyWith(color: cs.onSurfaceVariant),
@@ -33,8 +34,8 @@ class ThemeChangeScreen extends StatelessWidget {
               children: [
                 Expanded(
                   child: _ThemeOptionCard(
-                    title: 'Açık Tema',
-                    assetPath: 'asset/theme/light.png', // <- kendi görselin
+                    title: 'light'.tr(),
+                    assetPath: 'asset/theme/light.png',
                     selected: isLight,
                     onTap: () => _apply(context, ThemeMode.light),
                   ),
@@ -42,8 +43,8 @@ class ThemeChangeScreen extends StatelessWidget {
                 const SizedBox(width: 16),
                 Expanded(
                   child: _ThemeOptionCard(
-                    title: 'Koyu Tema',
-                    assetPath: 'asset/theme/dark.png', // <- kendi görselin
+                    title: 'dark'.tr(),
+                    assetPath: 'asset/theme/dark.png',
                     selected: isDark,
                     onTap: () => _apply(context, ThemeMode.dark),
                   ),
@@ -51,11 +52,10 @@ class ThemeChangeScreen extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 16),
-            // İstersen "Cihaz ayarı" butonu (opsiyonel):
             FilledButton.icon(
               onPressed: () => _apply(context, ThemeMode.system),
               icon: const Icon(Icons.phone_android),
-              label: const Text('Cihaza göre'),
+              label: Text('by_device'.tr()),
             ),
           ],
         ),
@@ -69,10 +69,10 @@ class ThemeChangeScreen extends StatelessWidget {
       SnackBar(
         content: Text(
           m == ThemeMode.light
-              ? 'Açık tema uygulandı'
+              ? 'apply_light'.tr()
               : m == ThemeMode.dark
-              ? 'Koyu tema uygulandı'
-              : 'Cihaz ayarına göre tema',
+              ? 'apply_dark'.tr()
+              : 'apply_device'.tr(),
         ),
         behavior: SnackBarBehavior.floating,
         duration: const Duration(milliseconds: 1200),
@@ -100,7 +100,6 @@ class _ThemeOptionCard extends StatelessWidget {
 
     return Semantics(
       button: true,
-      label: '$title temasını seç',
       selected: selected,
       child: InkWell(
         borderRadius: BorderRadius.circular(16),
